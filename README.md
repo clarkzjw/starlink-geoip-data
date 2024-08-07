@@ -30,16 +30,51 @@ We only started checking DNS PTR records automatically and generate this report 
 
 **Note that**: It is only meaningful to check the corresponding DNS PTR records for the GeoIP feed at the time of the original data collections. The DNS PTR records for a given subnet may change over time.
 
+The structure of the `geoip-{date}.json` file is as follows:
+
+```json
+{
+  "valid": {
+    "Two letter country code": {
+      "Region or state code": {
+        "City": {
+          "ips": [
+            [
+              "subnet CIDR",
+              "DNS PTR record of the first resolvable IP, usually the first IP in the subnet"
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "nxdomain": [
+    "list of GeoIP entries with NXDOMAIN response",
+  ],
+  "servfail": [
+    "list of GeoIP entries with SERVFAIL response",
+  ],
+  "pop_subnet_count": {
+    [
+      "DNS PTR record for a PoP",
+      "the number of subnets associated with this PoP"
+    ]
+  }
+}
+```
+
 ### [Raw Data for Starlink Latency Map](./latency/)
 
 Snapshots of raw JSON metrics for https://www.starlink.com/map?view=latency, which contains monthly snapshots of global latency and download/upload speed released by Starlink.
 
 ## Update Frequency
 
-The GeoIP feed is checked every 1 hour by a GitHub Actions Workflow. If any new updates in the GeoIP feed are detected, the feed is downloaded and the corresponding DNS PTR records are checked by `nslookup` and the `geoip-{date}.json` file is generated.
+The GeoIP feed is checked every 6 hour by a GitHub Actions Workflow. Only if any new updates in the GeoIP feed are detected, the feed is downloaded and the corresponding DNS PTR records are checked by `nslookup` and the `geoip-{date}.json` file is generated.
+
+The raw data for the Starlink latency map is updated at the beginning of each month.
 
 ## Note
 
-1. The GeoIP feed only represents the planned naming and addressing of Starlink ISP. It does not reflect the actual deployment status of Starlink ground stations or the availability of Starlink service in a given region.
+1. The GeoIP feed only represents the planned naming and addressing of the Starlink ISP. It does not reflect the actual deployment status of Starlink ground stations or the availability of Starlink service in a given region.
 2. Some subnets listed in the GeoIP feed **may** not have been announced by BGP.
-3. Some subnets **might** been associated with outdated or inaccurate DNS PTR records, which didn't reflect the actual PoP association.
+3. Some subnets **might** been associated with outdated or inaccurate DNS PTR records, which does not reflect the actual PoP association.
