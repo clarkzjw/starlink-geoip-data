@@ -69,12 +69,12 @@ Snapshots of raw JSON metrics for https://www.starlink.com/map?view=latency, whi
 
 ## Update Frequency
 
-The GeoIP feed is checked every 6 hour by a GitHub Actions Workflow. Only if any new updates in the GeoIP feed are detected, the feed is downloaded and the corresponding DNS PTR records are checked by `nslookup` and the `geoip-{date}.json` file is generated.
+The GeoIP feed is checked every 30 minutes by a GitHub Actions Workflow. Only if any new updates in the GeoIP feed are detected, the feed is downloaded and the corresponding DNS PTR records are checked by `nslookup` and the `geoip-{date}.json` file is generated.
 
 The raw data for the Starlink latency map is updated at the beginning of each month.
 
 ## Note
 
-1. The GeoIP feed only represents the planned naming and addressing of the Starlink ISP. It does not reflect the actual deployment status of Starlink ground stations or the availability of Starlink service in a given region.
+1. The GeoIP feed only represents the planned naming and addressing scheme of the Starlink ISP. It does not reflect the actual deployment status of Starlink ground stations or the availability of Starlink service in a given region.
 2. Some subnets listed in the GeoIP feed **may** not have been announced by BGP.
-3. Some subnets **might** been associated with outdated or inaccurate DNS PTR records, which does not reflect the actual PoP association.
+3. Some subnets **might** be associated with outdated or inaccurate DNS PTR records, which does not reflect the actual PoP association.
