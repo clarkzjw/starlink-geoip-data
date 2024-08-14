@@ -67,6 +67,9 @@ The structure of the `geoip-{date}.json` file is as follows:
 
 Snapshots of raw JSON metrics for https://www.starlink.com/map?view=latency, which contains monthly snapshots of global latency and download/upload speed released by Starlink.
 
+* https://api.starlink.com/public-files/metrics_residential.json
+* https://api.starlink.com/public-files/metrics_maritime.json
+
 ## Update Frequency
 
 The GeoIP feed is checked every 30 minutes by a GitHub Actions Workflow. Only if any new updates in the GeoIP feed are detected, the feed is downloaded and the corresponding DNS PTR records are checked by `nslookup` and the `geoip-{date}.json` file is generated.
