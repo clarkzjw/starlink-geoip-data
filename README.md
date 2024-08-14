@@ -78,3 +78,7 @@ The raw data for the Starlink latency map is updated at the beginning of each mo
 1. The GeoIP feed only represents the planned naming and addressing scheme of the Starlink ISP. It does not reflect the actual deployment status of Starlink ground stations or the availability of Starlink service in a given region.
 2. Some subnets listed in the GeoIP feed **may** not have been announced by BGP.
 3. Some subnets **might** be associated with outdated or inaccurate DNS PTR records, which does not reflect the actual PoP association.
+
+## Disclaimer
+
+This repository is not affiliated with, endorsed by, or in any way connected to Starlink, SpaceX Inc., or any of their subsidiaries. All content provided here is either independently developed or obtained from publicly available sources on the Internet and is for educational and informational purposes only.
