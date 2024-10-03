@@ -103,7 +103,7 @@ The raw data for the Starlink latency map is updated at the beginning of each mo
     customer.rdmdwax3rk3.pop.starlinkisp.net.
     ```
 
-    Note that `rdmdwax3rk3` **sometimes seems to be** a placeholder for new PoPs to be launched in the future.
+    Note that `rdmdwax3` **sometimes seems to be** a placeholder for new PoPs to be launched in the future.
 
 ## TODO
 
