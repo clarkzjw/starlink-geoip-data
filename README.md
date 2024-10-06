@@ -1,8 +1,14 @@
 # Starlink GeoIP Dataset
 
+[![GeoIP Refresh](https://github.com/clarkzjw/starlink-geoip/actions/workflows/geoip_feed_refresh.yaml/badge.svg)](https://github.com/clarkzjw/starlink-geoip/actions/workflows/geoip_feed_refresh.yaml) [![Update GEOIP Map](https://github.com/clarkzjw/starlink-geoip/actions/workflows/update_map.yaml/badge.svg)](https://github.com/clarkzjw/starlink-geoip/actions/workflows/update_map.yaml)
+
+## Code
+
+The source code used to generated this repository is available at [https://github.com/clarkzjw/starlink-geoip](https://github.com/clarkzjw/starlink-geoip).
+
 ## Data
 
-This repository contains three components:
+This repository contains four components:
 
 ### [GeoIP Feed](./feed/)
 
@@ -69,6 +75,10 @@ Snapshots of raw JSON metrics for https://www.starlink.com/map?view=latency, whi
 
 * https://api.starlink.com/public-files/metrics_residential.json
 * https://api.starlink.com/public-files/metrics_maritime.json
+
+## [Data for GeoIP Map](./map/)
+
+The [`map`](./map) directory contains the data used to render the GeoIP map available at [https://pan.uvic.ca/~clarkzjw/starlink/](https://pan.uvic.ca/~clarkzjw/starlink/).
 
 ## Update Frequency
 
