@@ -20,6 +20,10 @@ GEOIP_DIR = "../geoip"
 ATLAS_DIR = "../atlas"
 
 
+def get_date():
+    return datetime.now().strftime("%Y-%m-%d %H:%M")
+
+
 def count_subnet(filename):
     with open(filename, "r") as f:
         ipv4_subnets = 0
@@ -74,6 +78,7 @@ def plot_subnet_count():
     ax.set_xlabel("Date")
     ax.set_ylabel("Subnet Count")
     plt.title("No. of IPv4 and IPv6 Subnets as Planned in Starlink GeoIP Feed")
+    plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment='right')
     plt.tight_layout()
     plt.savefig("figures/geoip-subnet-count.png")
     plt.close()
@@ -88,6 +93,7 @@ def plot_subnet_count():
     ax.set_xlabel("Date")
     ax.set_ylabel("Usable IP Address Count")
     plt.title("No. of Usable IPv4 Addresses as Planned in Starlink GeoIP Feed")
+    plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment='right')
     plt.tight_layout()
     plt.savefig("figures/geoip-subnet-ip-count.png")
     plt.close()
@@ -138,6 +144,7 @@ def plot_country_city_count():
     ax.set_xlabel("Date")
     ax.set_ylabel("Count")
     plt.title("No. of Countries, Territories and Cities as Planned in Starlink GeoIP Feed")
+    plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment='right')
     plt.tight_layout()
     plt.savefig("figures/geoip-country-city-count.png")
     plt.close()
@@ -166,6 +173,7 @@ def plot_pop_density():
         ax.set_xlabel("PoP")
         ax.set_ylabel("Subnet Count")
         plt.title("No. of Subnets Served per PoP as Planned in Starlink GeoIP Feed")
+        plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment='right')
         plt.tight_layout()
         plt.savefig("figures/geoip-pop-density.png")
         plt.close()
@@ -196,6 +204,7 @@ def plot_active_atlas_probes():
         ax.set_xlabel("Country")
         ax.set_ylabel("Probe Count")
         plt.title("No. of Active RIPE Atlas Probes per Country")
+        plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment='right')
         plt.tight_layout()
         plt.savefig("figures/atlas-active-probes.png")
         plt.close()
@@ -225,6 +234,7 @@ def plot_active_atlas_probe_per_pops():
         ax.set_xlabel("PoP")
         ax.set_ylabel("Probe Count")
         plt.title("No. of Active RIPE Atlas Probes per PoP")
+        plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment='right')
         plt.tight_layout()
         plt.savefig("figures/atlas-active-probes-per-pop.png")
         plt.close()
