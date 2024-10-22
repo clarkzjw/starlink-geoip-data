@@ -68,7 +68,7 @@ def plot_subnet_count():
     ax.set_ylabel("Subnet Count")
     plt.title("No. of IPv4 and IPv6 Subnets as Planned in Starlink GeoIP Feed")
     plt.tight_layout()
-    plt.savefig("geoip-subnet-count.png")
+    plt.savefig("figures/geoip-subnet-count.png")
     plt.close()
 
 
@@ -118,7 +118,7 @@ def plot_country_city_count():
     ax.set_ylabel("Count")
     plt.title("No. of Countries, Territories and Cities as Planned in Starlink GeoIP Feed")
     plt.tight_layout()
-    plt.savefig("geoip-country-city-count.png")
+    plt.savefig("figures/geoip-country-city-count.png")
     plt.close()
 
 
@@ -146,7 +146,7 @@ def plot_pop_density():
         ax.set_ylabel("Subnet Count")
         plt.title("No. of Subnets Served per PoP as Planned in Starlink GeoIP Feed")
         plt.tight_layout()
-        plt.savefig("geoip-pop-density.png")
+        plt.savefig("figures/geoip-pop-density.png")
         plt.close()
 
 
