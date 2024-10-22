@@ -8,7 +8,7 @@ The source code used to generated this repository is available at [https://githu
 
 ## Data
 
-This repository contains four components:
+This repository contains five components:
 
 ### [GeoIP Feed](./feed/)
 
@@ -79,6 +79,10 @@ Snapshots of raw JSON metrics for https://www.starlink.com/map?view=latency, whi
 ## [Data for GeoIP Map](./map/)
 
 The [`map`](./map) directory contains the data used to render the GeoIP map available at [https://pan.uvic.ca/~clarkzjw/starlink/](https://pan.uvic.ca/~clarkzjw/starlink/).
+
+## [RIPE Atlas Probe List](./atlas/)
+
+The [`atlas`](./atlas/) directory contains the list of RIPE Atlas probes connected to Starlink networks.
 
 ## Update Frequency
 
