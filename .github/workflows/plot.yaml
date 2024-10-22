@@ -1,0 +1,47 @@
+name: Refresh Figures
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+      id-token: write
+
+    name: Refresh Figures
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Install poetry
+        run: pipx install poetry
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'poetry'
+
+      - name: Install dependencies
+        run: poetry install
+
+      - name: Refresh figures
+        working-directory: plot
+        run: poetry run python3 geoip-feed.py
+
+      - name: Push
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: figures
+          FOLDER: plot
+          SQUASH_HISTORY: true
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          MESSAGE: "Figure updated"
+          SKIP_EMPTY_COMMITS: true
+          CLEAR_GLOBS_FILE: ".clear-target-files"
