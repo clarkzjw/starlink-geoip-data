@@ -14,7 +14,7 @@ jobs:
       id-token: write
     outputs:
       type: ${{ steps.isCIUpdated.outputs.type }}
-      ciUpdated: ${{ steps.isCIUpdated.outputs.ciUpdate }}
+      ciUpdated: ${{ steps.isCIUpdated.outputs.ciUpdated }}
 
     name: Refresh Figures
     steps:
