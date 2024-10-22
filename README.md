@@ -1,6 +1,6 @@
 # Starlink GeoIP Dataset
 
-[![GeoIP Refresh](https://github.com/clarkzjw/starlink-geoip/actions/workflows/geoip_feed_refresh.yaml/badge.svg)](https://github.com/clarkzjw/starlink-geoip/actions/workflows/geoip_feed_refresh.yaml) [![Update GEOIP Map](https://github.com/clarkzjw/starlink-geoip/actions/workflows/update_map.yaml/badge.svg)](https://github.com/clarkzjw/starlink-geoip/actions/workflows/update_map.yaml)
+[![Refresh GeoIP](https://github.com/clarkzjw/starlink-geoip/actions/workflows/geoip_feed_refresh.yaml/badge.svg)](https://github.com/clarkzjw/starlink-geoip/actions/workflows/geoip_feed_refresh.yaml) [![Update GEOIP Map](https://github.com/clarkzjw/starlink-geoip/actions/workflows/update_map.yaml/badge.svg)](https://github.com/clarkzjw/starlink-geoip/actions/workflows/update_map.yaml) [![Refresh Atlas Probe List](https://github.com/clarkzjw/starlink-geoip/actions/workflows/refresh_atlas_probe.yaml/badge.svg)](https://github.com/clarkzjw/starlink-geoip/actions/workflows/refresh_atlas_probe.yaml)
 
 ## Code
 
@@ -82,7 +82,13 @@ The [`map`](./map) directory contains the data used to render the GeoIP map avai
 
 ## [RIPE Atlas Probe List](./atlas/)
 
-The [`atlas`](./atlas/) directory contains the list of RIPE Atlas probes connected to Starlink networks.
+The [`atlas`](./atlas/) directory contains the list of [RIPE Atlas probes](https://atlas.ripe.net/probes/public) connected to Starlink networks.
+
+[`probes.json`](./atlas/probes.json) contains the list of all probes associated with Starlink networks, filtered based on `ASN 14593` and `ASN 45700` (In Indonesia).
+
+[`active_probes.csv`](./atlas/active_probes.csv) contains the list of active probes with the status of `Connected` at the time of checking.
+For active probes the corresponding DNS PTR records of the public IP is checked with `dig -x <ip> +short` to get the corresponding PoP location.
+
 
 ## Update Frequency
 
