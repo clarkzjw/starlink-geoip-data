@@ -6,6 +6,14 @@
 
 The source code used to generated this repository is available at [https://github.com/clarkzjw/starlink-geoip](https://github.com/clarkzjw/starlink-geoip).
 
+<a href="https://pan.uvic.ca/~clarkzjw/starlink" target="_blank"><img alt="Starlink GeoIP Map" src="https://github.com/clarkzjw/clarkzjw/blob/master/geoip.jpg?raw=true"></a>
+
+![](./plot/geoip-subnet-count.png)
+
+![](./plot/geoip-country-city-count.png)
+
+![](./plot/geoip-pop-density.png)
+
 ## Data
 
 This repository contains five components:
