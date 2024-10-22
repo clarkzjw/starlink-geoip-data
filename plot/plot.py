@@ -189,7 +189,7 @@ def plot_active_atlas_probes():
         x = np.arange(len(probe_count))
         ax.bar(x, probe_count.values())
         for i, v in enumerate(probe_count.values()):
-            ax.text(i, v + 0.5, str(v), ha="center")
+            ax.text(i, v + 0.1, str(v), ha="center")
 
         ax.set_xticks(x)
         ax.set_xticklabels(probe_count.keys(), rotation=45, ha="right")
@@ -201,8 +201,39 @@ def plot_active_atlas_probes():
         plt.close()
 
 
+def plot_active_atlas_probe_per_pops():
+    print("Plotting Active Atlas Probes per PoP")
+    with open(Path(ATLAS_DIR).joinpath("active_probes.csv"), "r") as f:
+        probe_count = defaultdict(int)
+        for line in f:
+            _, dns = line.split(",")
+            pop_code = dns.split('.')[1]
+            probe_count[pop_code] = probe_count[pop_code] + 1
+
+        fig = plt.figure(figsize=(10, 6))
+        ax = fig.add_subplot(111)
+
+        probe_count = dict(sorted(probe_count.items(), key=lambda x: x[1], reverse=True))
+
+        x = np.arange(len(probe_count))
+        ax.bar(x, probe_count.values())
+        for i, v in enumerate(probe_count.values()):
+            ax.text(i, v + 0.1, str(v), ha="center")
+
+        ax.set_xticks(x)
+        ax.set_xticklabels(probe_count.keys(), rotation=45, ha="right")
+        ax.set_xlabel("PoP")
+        ax.set_ylabel("Probe Count")
+        plt.title("No. of Active RIPE Atlas Probes per PoP")
+        plt.tight_layout()
+        plt.savefig("figures/atlas-active-probes-per-pop.png")
+        plt.close()
+
+
+
 if __name__ == "__main__":
     plot_subnet_count()
     plot_country_city_count()
     plot_pop_density()
     plot_active_atlas_probes()
+    plot_active_atlas_probe_per_pops()

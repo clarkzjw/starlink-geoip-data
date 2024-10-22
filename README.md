@@ -18,7 +18,9 @@ The source code used to generated this repository is available at [https://githu
 
 ![](https://raw.githubusercontent.com/clarkzjw/starlink-geoip-data/refs/heads/figures/atlas-active-probes.png)
 
-## Data
+![](https://raw.githubusercontent.com/clarkzjw/starlink-geoip-data/refs/heads/figures/atlas-active-probes-per-pop.png)
+
+## Datag
 
 This repository contains five components:
 
