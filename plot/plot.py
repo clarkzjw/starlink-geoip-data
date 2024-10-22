@@ -10,18 +10,21 @@ import numpy as np
 from pprint import pprint
 from pathlib import Path
 from datetime import datetime
+from collections import defaultdict
 
 from matplotlib import pyplot as plt
 
 
 GEOIP_FEED_DIR = "../feed"
 GEOIP_DIR = "../geoip"
+ATLAS_DIR = "../atlas"
 
 
 def count_subnet(filename):
     with open(filename, "r") as f:
         ipv4_subnets = 0
         ipv6_subnets = 0
+        ipv4_ips = 0
         for line in f:
             # 65.181.1.0/24,AU,AU-NSW,Sydney,
             subnet = line.split(",")[0]
@@ -32,9 +35,10 @@ def count_subnet(filename):
                 try:
                     subnet_ips = ipaddress.IPv4Network(subnet).hosts()
                     ipv4_subnets += 1
+                    ipv4_ips += ipaddress.IPv4Network(subnet).num_addresses
                 except:
                     continue
-    return ipv4_subnets, ipv6_subnets
+    return ipv4_subnets, ipv6_subnets, ipv4_ips
 
 
 def plot_subnet_count():
@@ -42,6 +46,7 @@ def plot_subnet_count():
     subnet_count = {
         "ipv4": {},
         "ipv6": {},
+        "ipv4_ips": {},
     }
 
     for dirpath, _, filenames in os.walk(GEOIP_FEED_DIR):
@@ -51,9 +56,11 @@ def plot_subnet_count():
                     continue
                 date_time = "-".join(filename.split(".")[0].split("-")[1:])
                 date = datetime.strptime(date_time, "%Y%m%d-%H%M")
-                v4_count, v6_count = count_subnet(Path(dirpath).joinpath(filename))
+                print(date)
+                v4_count, v6_count, v4_ips = count_subnet(Path(dirpath).joinpath(filename))
                 subnet_count["ipv4"][date] = v4_count
                 subnet_count["ipv6"][date] = v6_count
+                subnet_count["ipv4_ips"][date] = v4_ips
 
     fig = plt.figure(figsize=(8, 4))
     ax = fig.add_subplot(111)
@@ -69,6 +76,20 @@ def plot_subnet_count():
     plt.title("No. of IPv4 and IPv6 Subnets as Planned in Starlink GeoIP Feed")
     plt.tight_layout()
     plt.savefig("figures/geoip-subnet-count.png")
+    plt.close()
+
+    fig = plt.figure(figsize=(8, 4))
+    ax = fig.add_subplot(111)
+
+    subnet_count["ipv4_ips"] = dict(sorted(subnet_count["ipv4_ips"].items()))
+
+    ax.plot(subnet_count["ipv4_ips"].keys(), subnet_count["ipv4_ips"].values(), label="IPv4")
+    ax.legend()
+    ax.set_xlabel("Date")
+    ax.set_ylabel("Usable IP Address Count")
+    plt.title("No. of Usable IPv4 Addresses as Planned in Starlink GeoIP Feed")
+    plt.tight_layout()
+    plt.savefig("figures/geoip-subnet-ip-count.png")
     plt.close()
 
 
@@ -150,7 +171,38 @@ def plot_pop_density():
         plt.close()
 
 
+def plot_active_atlas_probes():
+    print("Plotting Active Atlas Probes Distribution")
+    with open(Path(ATLAS_DIR).joinpath("probes.json"), "r") as f:
+        data = json.load(f)
+        probe_count = defaultdict(int)
+        for probe in data:
+            if probe["status"]["name"] == "Connected":
+                country_name = pycountry.countries.get(alpha_2=probe["country_code"]).name
+                probe_count[country_name] += 1
+
+        fig = plt.figure(figsize=(10, 6))
+        ax = fig.add_subplot(111)
+
+        probe_count = dict(sorted(probe_count.items(), key=lambda x: x[1], reverse=True))
+
+        x = np.arange(len(probe_count))
+        ax.bar(x, probe_count.values())
+        for i, v in enumerate(probe_count.values()):
+            ax.text(i, v + 0.5, str(v), ha="center")
+
+        ax.set_xticks(x)
+        ax.set_xticklabels(probe_count.keys(), rotation=45, ha="right")
+        ax.set_xlabel("Country")
+        ax.set_ylabel("Probe Count")
+        plt.title("No. of Active RIPE Atlas Probes per Country")
+        plt.tight_layout()
+        plt.savefig("figures/atlas-active-probes.png")
+        plt.close()
+
+
 if __name__ == "__main__":
     plot_subnet_count()
     plot_country_city_count()
     plot_pop_density()
+    plot_active_atlas_probes()

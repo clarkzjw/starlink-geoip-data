@@ -32,7 +32,7 @@ jobs:
 
       - name: Refresh figures
         working-directory: plot
-        run: mkdir figures && poetry run python3 geoip-feed.py
+        run: mkdir figures && poetry run python3 plot.py
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
