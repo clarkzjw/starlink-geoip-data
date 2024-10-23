@@ -26,8 +26,10 @@ jobs:
         run: |
           commitType=$(git log -1 --pretty=%B | awk -F'-' '{print $2}' | tr -d '\n')
           if [[ $(git log -1 --pretty=%B) == *"GitHub Action Update"* ]]; then
-            echo "type=${commitType}" >> $GITHUB_OUTPUT
-            echo "ciUpdated=true" >> $GITHUB_OUTPUT
+            if [[ $commitType != "Map" ]]; then
+              echo "type=${commitType}" >> $GITHUB_OUTPUT
+              echo "ciUpdated=true" >> $GITHUB_OUTPUT
+            fi
           fi
 
       - name: Install poetry
