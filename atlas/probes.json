@@ -488,10 +488,6 @@
             {
                 "name": "system: IPv6 Capable",
                 "slug": "system-ipv6-capable"
-            },
-            {
-                "name": "system: IPv4 Stable 1d",
-                "slug": "system-ipv4-stable-1d"
             }
         ],
         "type": "Probe"
@@ -850,14 +846,6 @@
             {
                 "name": "system: IPv6 Capable",
                 "slug": "system-ipv6-capable"
-            },
-            {
-                "name": "system: Resolves A Correctly",
-                "slug": "system-resolves-a-correctly"
-            },
-            {
-                "name": "system: Resolves AAAA Correctly",
-                "slug": "system-resolves-aaaa-correctly"
             },
             {
                 "name": "system: IPv4 Capable",
@@ -1719,8 +1707,12 @@
                 "slug": "system-ipv4-rfc1918"
             },
             {
-                "name": "system: Flash drive filesystem corrupted",
-                "slug": "system-flash-drive-filesystem-corrupted"
+                "name": "system: Resolves A Correctly",
+                "slug": "system-resolves-a-correctly"
+            },
+            {
+                "name": "system: Resolves AAAA Correctly",
+                "slug": "system-resolves-aaaa-correctly"
             }
         ],
         "type": "Probe"
@@ -2017,6 +2009,10 @@
             {
                 "name": "system: IPv6 Capable",
                 "slug": "system-ipv6-capable"
+            },
+            {
+                "name": "system: IPv6 Stable 1d",
+                "slug": "system-ipv6-stable-1d"
             },
             {
                 "name": "system: IPv6 Stable 30d",
@@ -2852,9 +2848,9 @@
         "status": {
             "id": 2,
             "name": "Disconnected",
-            "since": "2024-10-23T19:55:20Z"
+            "since": "2024-10-24T00:03:15Z"
         },
-        "status_since": 1729713320,
+        "status_since": 1729728195,
         "tags": [
             {
                 "name": "Starlink",
@@ -2983,10 +2979,6 @@
         "status_since": 1729671743,
         "tags": [
             {
-                "name": "system: IPv4 Stable 30d",
-                "slug": "system-ipv4-stable-30d"
-            },
-            {
                 "name": "system: V4",
                 "slug": "system-v4"
             },
@@ -3060,10 +3052,6 @@
             {
                 "name": "IPv4",
                 "slug": "ipv4"
-            },
-            {
-                "name": "system: IPv4 Stable 1d",
-                "slug": "system-ipv4-stable-1d"
             },
             {
                 "name": "system: IPv4 Stable 30d",
@@ -3628,7 +3616,7 @@
         "type": "Probe"
     },
     {
-        "address_v4": "145.224.74.100",
+        "address_v4": "217.142.18.28",
         "address_v6": "2a0d:3344:151e:5601:da58:d7ff:fe03:268",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -3646,7 +3634,7 @@
         "id": 60323,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "145.224.72.0/21",
+        "prefix_v4": "217.142.16.0/22",
         "prefix_v6": "2a0d:3344:1400::/38",
         "status": {
             "id": 1,
@@ -4197,10 +4185,6 @@
                 "slug": "system-auto-geoip-city"
             },
             {
-                "name": "system: IPv4 Stable 1d",
-                "slug": "system-ipv4-stable-1d"
-            },
-            {
                 "name": "system: IPv4 RFC1918",
                 "slug": "system-ipv4-rfc1918"
             },
@@ -4255,9 +4239,9 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2024-10-19T11:35:19Z"
+            "since": "2024-10-23T22:53:13Z"
         },
-        "status_since": 1729337719,
+        "status_since": 1729723993,
         "tags": [
             {
                 "name": "wireless ISP",
@@ -5663,6 +5647,14 @@
                 "slug": "ipv6"
             },
             {
+                "name": "system: IPv4 Stable 1d",
+                "slug": "system-ipv4-stable-1d"
+            },
+            {
+                "name": "system: IPv6 Stable 1d",
+                "slug": "system-ipv6-stable-1d"
+            },
+            {
                 "name": "system: IPv4 Stable 30d",
                 "slug": "system-ipv4-stable-30d"
             }
@@ -5740,9 +5732,9 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2024-10-23T11:15:14Z"
+            "since": "2024-10-23T23:44:01Z"
         },
-        "status_since": 1729682114,
+        "status_since": 1729727041,
         "tags": [
             {
                 "name": "system: IPv4 Works",
@@ -5929,10 +5921,6 @@
             {
                 "name": "system: IPv6 Stable 30d",
                 "slug": "system-ipv6-stable-30d"
-            },
-            {
-                "name": "system: IPv4 Stable 1d",
-                "slug": "system-ipv4-stable-1d"
             },
             {
                 "name": "system: IPv4 Capable",
@@ -6175,10 +6163,10 @@
         "type": "Probe"
     },
     {
-        "address_v4": null,
-        "address_v6": "2605:59c8:1874:e100:da58:d7ff:fe03:7bb",
-        "asn_v4": null,
-        "asn_v6": 14593,
+        "address_v4": "98.97.4.57",
+        "address_v6": null,
+        "asn_v4": 14593,
+        "asn_v6": null,
         "country_code": "US",
         "description": "Behind a residential Starlink link",
         "firmware_version": 5080,
@@ -6193,8 +6181,8 @@
         "id": 62956,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": null,
-        "prefix_v6": "2605:59c8:1800::/38",
+        "prefix_v4": "98.97.0.0/21",
+        "prefix_v6": null,
         "status": {
             "id": 3,
             "name": "Abandoned",
@@ -6202,10 +6190,6 @@
         },
         "status_since": 1721218427,
         "tags": [
-            {
-                "name": "system: IPv6 Capable",
-                "slug": "system-ipv6-capable"
-            },
             {
                 "name": "system: IPv4 RFC1918",
                 "slug": "system-ipv4-rfc1918"
@@ -6241,6 +6225,10 @@
             {
                 "name": "system: Firewall problem suspected",
                 "slug": "system-firewall-problem-suspected"
+            },
+            {
+                "name": "system: IPv4 Capable",
+                "slug": "system-ipv4-capable"
             }
         ],
         "type": "Probe"
@@ -6548,9 +6536,9 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2024-10-23T18:18:50Z"
+            "since": "2024-10-23T23:31:04Z"
         },
-        "status_since": 1729707530,
+        "status_since": 1729726264,
         "tags": [
             {
                 "name": "system: IPv4 RFC1918",
@@ -7324,9 +7312,9 @@
         "status": {
             "id": 2,
             "name": "Disconnected",
-            "since": "2024-10-23T19:56:07Z"
+            "since": "2024-10-23T23:25:12Z"
         },
-        "status_since": 1729713367,
+        "status_since": 1729725912,
         "tags": [
             {
                 "name": "system: IPv4 Stable 1d",
@@ -7515,8 +7503,8 @@
         "prefix_v4": "98.97.16.0/21",
         "prefix_v6": null,
         "status": {
-            "id": 3,
-            "name": "Abandoned",
+            "id": 1,
+            "name": "Connected",
             "since": "2022-08-07T06:23:40Z"
         },
         "status_since": 1659853420,
@@ -7624,7 +7612,7 @@
         "type": "Probe"
     },
     {
-        "address_v4": "209.198.137.230",
+        "address_v4": "145.224.104.102",
         "address_v6": "fd7a:115c:a1e0:ab12:4843:cd96:627a:fd28",
         "asn_v4": 14593,
         "asn_v6": null,
@@ -7642,7 +7630,7 @@
         "id": 1004876,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "209.198.136.0/23",
+        "prefix_v4": "145.224.104.0/22",
         "prefix_v6": null,
         "status": {
             "id": 2,
@@ -8739,11 +8727,11 @@
         "prefix_v4": "206.83.112.0/21",
         "prefix_v6": null,
         "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2024-10-23T16:46:24Z"
+            "id": 2,
+            "name": "Disconnected",
+            "since": "2024-10-23T23:02:40.189341Z"
         },
-        "status_since": 1729701984,
+        "status_since": 1729724560,
         "tags": [
             {
                 "name": "system: IPv4 Capable",
@@ -8768,6 +8756,10 @@
             {
                 "name": "system: IPv4 Works",
                 "slug": "system-ipv4-works"
+            },
+            {
+                "name": "system: IPv4 Stable 1d",
+                "slug": "system-ipv4-stable-1d"
             }
         ],
         "type": "Probe"
@@ -9030,6 +9022,10 @@
                 "slug": "system-resolves-a-correctly"
             },
             {
+                "name": "system: IPv4 Stable 1d",
+                "slug": "system-ipv4-stable-1d"
+            },
+            {
                 "name": "system: IPv4 Works",
                 "slug": "system-ipv4-works"
             },
@@ -9265,6 +9261,14 @@
             {
                 "name": "system: IPv6 Works",
                 "slug": "system-ipv6-works"
+            },
+            {
+                "name": "system: Resolves A Correctly",
+                "slug": "system-resolves-a-correctly"
+            },
+            {
+                "name": "system: Resolves AAAA Correctly",
+                "slug": "system-resolves-aaaa-correctly"
             }
         ],
         "type": "Probe"
@@ -9374,11 +9378,11 @@
         "prefix_v4": "206.83.96.0/21",
         "prefix_v6": "2406:2d40:7000::/38",
         "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2024-10-23T12:33:48Z"
+            "id": 2,
+            "name": "Disconnected",
+            "since": "2024-10-24T00:06:57.350569Z"
         },
-        "status_since": 1729686828,
+        "status_since": 1729728417,
         "tags": [
             {
                 "name": "system: IPv4 RFC1918",
@@ -9823,11 +9827,11 @@
         "prefix_v4": "129.222.108.0/23",
         "prefix_v6": "2c0f:2a80:1000::/38",
         "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2024-10-23T15:17:12Z"
+            "id": 2,
+            "name": "Disconnected",
+            "since": "2024-10-23T22:25:53Z"
         },
-        "status_since": 1729696632,
+        "status_since": 1729722353,
         "tags": [
             {
                 "name": "system: Auto GEOIP city",
@@ -9948,16 +9952,16 @@
         "status_since": 1729032206,
         "tags": [
             {
-                "name": "system: IPv6 Stable 1d",
-                "slug": "system-ipv6-stable-1d"
-            },
-            {
                 "name": "system: IPv4 Stable 1d",
                 "slug": "system-ipv4-stable-1d"
             },
             {
                 "name": "system: Resolves A Correctly",
                 "slug": "system-resolves-a-correctly"
+            },
+            {
+                "name": "system: IPv6 Stable 1d",
+                "slug": "system-ipv6-stable-1d"
             },
             {
                 "name": "system: IPv6 Capable",
@@ -10050,9 +10054,9 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2024-10-23T18:11:29Z"
+            "since": "2024-10-23T23:44:54Z"
         },
-        "status_since": 1729707089,
+        "status_since": 1729727094,
         "tags": [
             {
                 "name": "system: IPv6 Works",
