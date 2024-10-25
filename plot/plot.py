@@ -244,8 +244,9 @@ def plot_active_atlas_probe_per_pops():
         probe_count = defaultdict(int)
         for line in f:
             _, dns, _, _ = line.split(",")
-            pop_code = dns.split('.')[1]
-            probe_count[pop_code] = probe_count[pop_code] + 1
+            if len(dns) > 0:
+                pop_code = dns.split('.')[1]
+                probe_count[pop_code] = probe_count[pop_code] + 1
 
         fig = plt.figure(figsize=(10, 6))
         ax = fig.add_subplot(111)
