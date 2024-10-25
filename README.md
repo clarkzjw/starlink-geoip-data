@@ -148,7 +148,7 @@ The repository is automatically update by GitHub Actions in https://github.com/c
 * GeoIP feed: [`"0 * * * *"`](https://crontab.guru/#0_*_*_*_*)
 * DNS PTR records: [`"15 */3 * * *"`](https://crontab.guru/#15_*/3_*_*_*)
 * GeoIP map refresh: [`"30 */6 * * *"`](https://crontab.guru/#30_*/6_*_*_*)
-* Monthly latency snapshots: [`"0 0 */7 * *"`](https://crontab.guru/#0_0_*/7_*_*)
+* Monthly latency snapshots: [`"0 0 2 * *"`](https://crontab.guru/#0_0_2_*_*)
 * RIPE Atlas probe list: [`"0 0 * * *"`](https://crontab.guru/#0_0_*_*_*)
 
 *Whenever the GeoIP feed is updated, DNS PTR records refresh is also triggered.*
