@@ -137,6 +137,12 @@ The [`atlas`](./atlas/) directory contains the list of [RIPE Atlas probes](https
 [`active_probes.csv`](./atlas/active_probes.csv) contains the list of active probes with the status of `Connected` at the time of checking.
 For active probes, the corresponding DNS PTR records of the public IP is checked with `dig -x <ip> +short` to get the corresponding PoP location.
 
+## [PeeringDB](./peeringdb/)
+
+The [`peeringdb`](./peeringdb/) directory contains the information about Starlink networks ([18747/ASN 14593](https://www.peeringdb.com/net/18747), [36005/ASN 45700](https://www.peeringdb.com/net/36005)) available from https://www.peeringdb.com.
+
+It mainly contains the lists of Public Peering Exchange Points (`netixlan`) and Interconnection Facilities (`netfac`).
+
 ## [Plot](./plot/)
 
 This directory contains the script to generate the figures in this README file as shown above. The figures are available in the [`figures`](https://github.com/clarkzjw/starlink-geoip-data/tree/figures) branch of this repository.
@@ -150,6 +156,7 @@ The repository is automatically update by GitHub Actions in https://github.com/c
 * GeoIP map refresh: [`"30 */6 * * *"`](https://crontab.guru/#30_*/6_*_*_*)
 * Monthly latency snapshots: [`"0 0 */7 * *"`](https://crontab.guru/#0_0_*/7_*_*)
 * RIPE Atlas probe list: [`"0 0 * * *"`](https://crontab.guru/#0_0_*_*_*)
+* PeeringDB info: [`"45 0 * * *"`](https://crontab.guru/#45_0_*_*_*)
 
 *Whenever the GeoIP feed is updated, DNS PTR records refresh is also triggered.*
 
