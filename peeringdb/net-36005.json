@@ -1,0 +1,126 @@
+{
+    "data": [
+        {
+            "id": 36005,
+            "org_id": 21843,
+            "org": {
+                "id": 21843,
+                "name": "SpaceX",
+                "aka": "",
+                "name_long": "",
+                "website": "http://www.spacex.com",
+                "social_media": [
+                    {
+                        "service": "website",
+                        "identifier": "http://www.spacex.com"
+                    }
+                ],
+                "notes": "",
+                "require_2fa": false,
+                "net_set": [
+                    18747,
+                    23446,
+                    36005
+                ],
+                "fac_set": [],
+                "ix_set": [],
+                "carrier_set": [],
+                "campus_set": [],
+                "address1": "1 Rocket Rd",
+                "address2": "",
+                "city": "Hawthorne",
+                "country": "US",
+                "state": "California",
+                "zipcode": "90250",
+                "floor": "",
+                "suite": "",
+                "latitude": null,
+                "longitude": null,
+                "created": "2019-01-08T00:50:56Z",
+                "updated": "2024-03-24T04:34:15Z",
+                "status": "ok"
+            },
+            "name": "PT Starlink Services Indonesia",
+            "aka": "",
+            "name_long": "PT Starlink Services Indonesia",
+            "website": "http://www.spacex.com",
+            "social_media": [
+                {
+                    "service": "website",
+                    "identifier": "http://www.spacex.com"
+                }
+            ],
+            "asn": 45700,
+            "looking_glass": "",
+            "route_server": "",
+            "irr_as_set": "",
+            "info_type": "Cable/DSL/ISP",
+            "info_types": [
+                "Cable/DSL/ISP"
+            ],
+            "info_prefixes4": 1000,
+            "info_prefixes6": 1000,
+            "info_traffic": "",
+            "info_ratio": "Not Disclosed",
+            "info_scope": "Regional",
+            "info_unicast": true,
+            "info_multicast": false,
+            "info_ipv6": true,
+            "info_never_via_route_servers": false,
+            "ix_count": 1,
+            "fac_count": 1,
+            "notes": "",
+            "netixlan_updated": "2024-10-15T00:25:24Z",
+            "netfac_updated": "2024-04-27T19:09:54Z",
+            "poc_updated": "2024-04-27T19:08:01Z",
+            "policy_url": "http://www.spacex.com",
+            "policy_general": "Open",
+            "policy_locations": "Not Required",
+            "policy_ratio": false,
+            "policy_contracts": "Not Required",
+            "netfac_set": [
+                {
+                    "id": 70178,
+                    "name": "NTT Jakarta 2 Data Center (JKT2)",
+                    "city": "Jakarta",
+                    "country": "ID",
+                    "fac_id": 5865,
+                    "local_asn": 45700,
+                    "created": "2024-04-27T19:09:55Z",
+                    "updated": "2024-04-27T19:09:55Z",
+                    "status": "ok"
+                }
+            ],
+            "netixlan_set": [
+                {
+                    "id": 91050,
+                    "ix_id": 2476,
+                    "name": "JKT-IX: Main",
+                    "ixlan_id": 2476,
+                    "notes": "",
+                    "speed": 200000,
+                    "asn": 45700,
+                    "ipaddr4": "119.11.186.140",
+                    "ipaddr6": "2404:c8:0:a:0:4:5700:1",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side": null,
+                    "ix_side": null,
+                    "created": "2024-04-19T02:41:00Z",
+                    "updated": "2024-04-27T19:08:05Z",
+                    "status": "ok"
+                }
+            ],
+            "poc_set": [],
+            "allow_ixp_update": false,
+            "status_dashboard": "",
+            "rir_status": "ok",
+            "rir_status_updated": "2024-06-26T04:47:55Z",
+            "created": "2024-04-19T17:42:53Z",
+            "updated": "2024-04-27T19:10:49Z",
+            "status": "ok"
+        }
+    ],
+    "meta": {}
+}
