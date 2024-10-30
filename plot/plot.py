@@ -72,6 +72,9 @@ def plot_subnet_count():
                     continue
                 date_time = "-".join(filename.split(".")[0].split("-")[1:])
                 date = datetime.strptime(date_time, "%Y%m%d-%H%M")
+                # skip historical data
+                if date < datetime(2024, 1, 1):
+                    continue
                 v4_count, v6_count, v4_ips, ipv6_48_subnet_count = count_subnet(Path(dirpath).joinpath(filename))
                 subnet_count["ipv4"][date] = v4_count
                 subnet_count["ipv6"][date] = v6_count
@@ -156,6 +159,9 @@ def plot_country_city_count():
                     continue
                 date_time = "-".join(filename.split(".")[0].split("-")[1:])
                 date = datetime.strptime(date_time, "%Y%m%d-%H%M")
+                # skip historical data
+                if date < datetime(2024, 1, 1):
+                    continue
                 country_count, city_count = count_country_city(Path(dirpath).joinpath(filename))
                 count["country"][date] = country_count
                 count["city"][date] = city_count

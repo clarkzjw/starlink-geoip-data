@@ -45,6 +45,8 @@ Each line in the GeoIP feed represents a subnet allocated to a region of Starlin
 
 Note that the `city` concept in the GeoIP feed does not necessarily correspond to an actual single city. For example, a Starlink dish within the Canadian Arctic circle is assigned with the public IPv4 address `170.203.201.xx`, which is associated with the Seattle PoP, belongs to `170.203.201.0/24,CA,CA-BC,Vancouver,` in the GeoIP feed.
 
+Historical GeoIP feeds earlier than `2024` were retrieved from the [Wayback Machine](https://web.archive.org/web/*/https://geoip.starlinkisp.net/feed.csv).
+
 ### [DNS PTR Records](./geoip/)
 
 This directory contains the corresponding DNS PTR records for the raw GeoIP feed.
