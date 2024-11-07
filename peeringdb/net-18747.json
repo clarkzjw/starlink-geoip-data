@@ -70,7 +70,7 @@
             "ix_count": 48,
             "fac_count": 37,
             "notes": "Recommend prefix limit 1000 for IPv4 and 1000 for IPv6\n\nSatellite based internet service provider\n\nFor SpaceX corporate see AS27277",
-            "netixlan_updated": "2024-11-04T19:40:36Z",
+            "netixlan_updated": "2024-11-06T20:27:44Z",
             "netfac_updated": "2024-10-02T19:32:48Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
@@ -546,25 +546,6 @@
                     "status": "ok"
                 },
                 {
-                    "id": 34401,
-                    "ix_id": 31,
-                    "name": "DE-CIX Frankfurt: DE-CIX Frankfurt Peering LAN",
-                    "ixlan_id": 31,
-                    "notes": "",
-                    "speed": 300000,
-                    "asn": 14593,
-                    "ipaddr4": "80.81.192.129",
-                    "ipaddr6": "2001:7f8::3901:0:1",
-                    "is_rs_peer": true,
-                    "bfd_support": false,
-                    "operational": true,
-                    "net_side": null,
-                    "ix_side": null,
-                    "created": "2017-04-27T14:55:22Z",
-                    "updated": "2023-02-28T22:42:30Z",
-                    "status": "ok"
-                },
-                {
                     "id": 35307,
                     "ix_id": 954,
                     "name": "FL-IX",
@@ -874,7 +855,7 @@
                     "name": "DE-CIX Frankfurt: DE-CIX Frankfurt Peering LAN",
                     "ixlan_id": 31,
                     "notes": "",
-                    "speed": 300000,
+                    "speed": 500000,
                     "asn": 14593,
                     "ipaddr4": "80.81.197.53",
                     "ipaddr6": "2001:7f8::3901:0:2",
@@ -884,7 +865,7 @@
                     "net_side": null,
                     "ix_side": null,
                     "created": "2022-01-19T23:11:05Z",
-                    "updated": "2023-02-28T22:42:30Z",
+                    "updated": "2024-11-06T20:27:45Z",
                     "status": "ok"
                 },
                 {
