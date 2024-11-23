@@ -16,6 +16,8 @@ The source code used to generated this repository is available at [clarkzjw/star
 
 ![](https://raw.githubusercontent.com/clarkzjw/starlink-geoip-data/refs/heads/figures/geoip-subnet-ip-count.png)
 
+![](https://raw.githubusercontent.com/clarkzjw/starlink-geoip-data/refs/heads/figures/geoip-v6_56_subnet-count.png)
+
 ![](https://raw.githubusercontent.com/clarkzjw/starlink-geoip-data/refs/heads/figures/geoip-country-city-count.png)
 
 ![](https://raw.githubusercontent.com/clarkzjw/starlink-geoip-data/refs/heads/figures/geoip-pop-density.png)

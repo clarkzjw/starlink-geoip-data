@@ -25,9 +25,9 @@ def get_date():
     return datetime.now().strftime("%Y-%m-%d %H:%M")
 
 
-def count_ipv6_48_subnets(subnet: str):
+def count_ipv6_56_subnets(subnet: str):
     net = ipaddress.IPv6Network(subnet)
-    num48subnets = 2 ** (48 - net.prefixlen)
+    num48subnets = 2 ** (56 - net.prefixlen)
     assert num48subnets >= 1
     return num48subnets
 
@@ -37,14 +37,14 @@ def count_subnet(filename):
         ipv4_subnets = 0
         ipv6_subnets = 0
         ipv4_ips = 0
-        ipv6_48_subnet_count = 0
+        ipv6_56_subnet_count = 0
         for line in f:
             # 65.181.1.0/24,AU,AU-NSW,Sydney,
             subnet = line.split(",")[0]
             try:
                 ipaddress.IPv6Network(subnet).hosts()
                 # count how many /48 subnets are available in this subnet
-                ipv6_48_subnet_count += count_ipv6_48_subnets(subnet)
+                ipv6_56_subnet_count += count_ipv6_56_subnets(subnet)
                 ipv6_subnets += 1
             except ipaddress.AddressValueError:
                 try:
@@ -53,7 +53,7 @@ def count_subnet(filename):
                     ipv4_ips += ipaddress.IPv4Network(subnet).num_addresses
                 except:
                     continue
-    return ipv4_subnets, ipv6_subnets, ipv4_ips, ipv6_48_subnet_count
+    return ipv4_subnets, ipv6_subnets, ipv4_ips, ipv6_56_subnet_count
 
 
 def plot_subnet_count():
@@ -62,7 +62,7 @@ def plot_subnet_count():
         "ipv4": {},
         "ipv6": {},
         "ipv4_ips": {},
-        "ipv6_48_subnet_count": {},
+        "ipv6_56_subnet_count": {},
     }
 
     for dirpath, _, filenames in os.walk(GEOIP_FEED_DIR):
@@ -75,11 +75,11 @@ def plot_subnet_count():
                 # skip historical data
                 if date < datetime(2024, 1, 1):
                     continue
-                v4_count, v6_count, v4_ips, ipv6_48_subnet_count = count_subnet(Path(dirpath).joinpath(filename))
+                v4_count, v6_count, v4_ips, ipv6_56_subnet_count = count_subnet(Path(dirpath).joinpath(filename))
                 subnet_count["ipv4"][date] = v4_count
                 subnet_count["ipv6"][date] = v6_count
                 subnet_count["ipv4_ips"][date] = v4_ips
-                subnet_count["ipv6_48_subnet_count"][date] = ipv6_48_subnet_count
+                subnet_count["ipv6_56_subnet_count"][date] = ipv6_56_subnet_count / 1000000
 
     fig = plt.figure(figsize=(8, 6))
     # ax = fig.add_subplot(111)
@@ -114,20 +114,20 @@ def plot_subnet_count():
     plt.savefig("figures/geoip-subnet-ip-count.png")
     plt.close()
 
-    # fig = plt.figure(figsize=(8, 4))
-    # ax = fig.add_subplot(111)
+    fig = plt.figure(figsize=(8, 4))
+    ax = fig.add_subplot(111)
 
-    # subnet_count["ipv6_48_subnet_count"] = dict(sorted(subnet_count["ipv6_48_subnet_count"].items()))
+    subnet_count["ipv6_56_subnet_count"] = dict(sorted(subnet_count["ipv6_56_subnet_count"].items()))
 
-    # ax.plot(subnet_count["ipv6_48_subnet_count"].keys(), subnet_count["ipv6_48_subnet_count"].values(), label="IPv6")
-    # ax.legend()
-    # ax.set_xlabel("Date")
-    # ax.set_ylabel("No. of /48 Subnets")
-    # plt.title("No. of /48 Subnets as Planned in Starlink GeoIP Feed")
-    # plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment='right')
-    # plt.tight_layout()
-    # plt.savefig("figures/geoip-v6_48_subnet-count.png")
-    # plt.close()
+    ax.plot(subnet_count["ipv6_56_subnet_count"].keys(), subnet_count["ipv6_56_subnet_count"].values(), label="IPv6 /56 Subnet Count")
+    ax.legend()
+    ax.set_xlabel("Date")
+    ax.set_ylabel("No. of /56 Subnets (Millions)")
+    plt.title("No. of /56 Subnets as Planned in Starlink GeoIP Feed")
+    plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment='right')
+    plt.tight_layout()
+    plt.savefig("figures/geoip-v6_56_subnet-count.png")
+    plt.close()
 
 
 def count_country_city(filename):
@@ -273,7 +273,6 @@ def plot_active_atlas_probe_per_pops():
         plt.tight_layout()
         plt.savefig("figures/atlas-active-probes-per-pop.png")
         plt.close()
-
 
 
 if __name__ == "__main__":
