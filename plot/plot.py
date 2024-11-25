@@ -78,7 +78,7 @@ def plot_subnet_count():
                 v4_count, v6_count, v4_ips, ipv6_56_subnet_count = count_subnet(Path(dirpath).joinpath(filename))
                 subnet_count["ipv4"][date] = v4_count
                 subnet_count["ipv6"][date] = v6_count
-                subnet_count["ipv4_ips"][date] = v4_ips / 1000
+                subnet_count["ipv4_ips"][date] = v4_ips
                 subnet_count["ipv6_56_subnet_count"][date] = ipv6_56_subnet_count / 1000000
 
     fig = plt.figure(figsize=(8, 6))
@@ -104,10 +104,10 @@ def plot_subnet_count():
 
     subnet_count["ipv4_ips"] = dict(sorted(subnet_count["ipv4_ips"].items()))
 
-    ax.plot(subnet_count["ipv4_ips"].keys(), subnet_count["ipv4_ips"].values(), label="IPv4 Usable IP Addresses")
+    ax.plot(subnet_count["ipv4_ips"].keys(), subnet_count["ipv4_ips"].values(), label="IPv4")
     ax.legend()
     ax.set_xlabel("Date")
-    ax.set_ylabel("Usable IP Address Count (Thousands)")
+    ax.set_ylabel("Usable IP Address Count")
     plt.title("No. of Usable IPv4 Addresses as Planned in Starlink GeoIP Feed")
     plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment='right')
     plt.tight_layout()
