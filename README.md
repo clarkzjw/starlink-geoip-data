@@ -124,6 +124,8 @@ The structure of the `geoip-{date}.json` file is as follows:
 }
 ```
 
+**Note that**: Starting from `2024-11-25`, we are checking whether the subnets in the GeoIP feed are announced in the BGP table of AS 14593/45700. The BGP data is retrieved from [BGP.tools](https://bgp.tools/). See also [#bgp](#bgp).
+
 ### [Raw Data for Starlink Latency Map](./latency/)
 
 This directory contains snapshots of raw JSON metrics for https://www.starlink.com/map?view=latency, which contains monthly snapshots of the global latency and download/upload speed released by Starlink.
@@ -153,6 +155,8 @@ It mainly contains the lists of Public Peering Exchange Points (`netixlan`) and 
 ## [BGP](./bgp/)
 
 The [`bgp`](./bgp/) directory contains the BGP announcements from Starlink ASN 14593/45700. Some subnets planned in GeoIP feed might not appear in BGP announcement yet.
+
+The BGP data is retrieved from [BGP.tools](https://bgp.tools/kb/api).
 
 ## [Plot](./plot/)
 
