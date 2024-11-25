@@ -1637,6 +1637,14 @@
               "customer.snjecax1.pop.starlinkisp.net."
             ]
           ]
+        },
+        "Hawthorne": {
+          "ips": [
+            [
+              "192.31.242.0/24",
+              "mta1.spacex.com."
+            ]
+          ]
         }
       },
       "US-IL": {
@@ -9482,7 +9490,6 @@
     "148.222.213.0/24,AR,AR-C,Buenos Aires,",
     "148.222.214.0/24,CL,CL-RM,Santiago,",
     "148.222.215.0/24,CL,CL-RM,Santiago,",
-    "192.31.242.0/24,US,US-CA,Hawthorne,",
     "212.105.146.0/24,GB,GB-EN,London,",
     "212.105.147.0/24,GB,GB-EN,London,",
     "103.184.179.128/25,ID,ID-JK,Jakarta,",
@@ -9773,6 +9780,10 @@
     [
       "customer.wrswpol1.pop.starlinkisp.net.",
       24
+    ],
+    [
+      "mta1.spacex.com.",
+      1
     ],
     [
       "undefined.hostname.localhost.",
