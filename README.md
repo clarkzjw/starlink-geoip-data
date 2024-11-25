@@ -117,7 +117,10 @@ The structure of the `geoip-{date}.json` file is as follows:
       "DNS PTR record for a PoP",
       "the number of subnets associated with this PoP"
     ]
-  }
+  },
+  "bgp_not_active": [
+    "list of GeoIP entries with no active BGP announcement in AS14593/45700",
+  ]
 }
 ```
 
