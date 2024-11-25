@@ -147,6 +147,10 @@ The [`peeringdb`](./peeringdb/) directory contains the information about Starlin
 
 It mainly contains the lists of Public Peering Exchange Points (`netixlan`) and Interconnection Facilities (`netfac`).
 
+## [BGP](./bgp/)
+
+The [`bgp`](./bgp/) directory contains the BGP announcements from Starlink ASN 14593/45700. Some subnets planned in GeoIP feed might not appear in BGP announcement yet.
+
 ## [Plot](./plot/)
 
 This directory contains the script to generate the figures in this README file as shown above. The figures are available in the [`figures`](https://github.com/clarkzjw/starlink-geoip-data/tree/figures) branch of this repository.
@@ -161,6 +165,7 @@ The repository is automatically update by GitHub Actions in https://github.com/c
 * Monthly latency snapshots: [`"0 0 */7 * *"`](https://crontab.guru/#0_0_*/7_*_*)
 * RIPE Atlas probe list: [`"0 0 * * *"`](https://crontab.guru/#0_0_*_*_*)
 * PeeringDB info: [`"45 0 * * *"`](https://crontab.guru/#45_0_*_*_*)
+* BGP: [`"50 */6 * * *"`](https://crontab.guru/#50_*/6_*_*_*)
 
 *Whenever the GeoIP feed is updated, DNS PTR records refresh is also triggered.*
 
@@ -172,7 +177,6 @@ The repository is automatically update by GitHub Actions in https://github.com/c
 
 ## TODO
 
-- [ ] Verify subnet IP allocation with BGP announcements.
 - [ ] Test subnet IP external reachability.
 
 ## Disclaimer
