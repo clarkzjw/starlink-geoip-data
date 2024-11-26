@@ -4,7 +4,7 @@
 
 📝 See the list of our related research work at https://oac.uvic.ca/starlink.
 
-📍 Checkout the GeoIP visualization map at https://pan.uvic.ca/~clarkzjw/starlink.
+📍 Check out the GeoIP visualization map at https://pan.uvic.ca/~clarkzjw/starlink.
 
 <a href="https://pan.uvic.ca/~clarkzjw/starlink" target="_blank"><img alt="Starlink GeoIP Map" src="https://github.com/clarkzjw/clarkzjw/blob/master/geoip.jpg?raw=true"></a>
 
@@ -144,7 +144,7 @@ The [`atlas`](./atlas/) directory contains the list of [RIPE Atlas probes](https
 [`probes.json`](./atlas/probes.json) contains the list of all probes associated with Starlink networks, filtered based on `ASN 14593` and `ASN 45700` (In Indonesia).
 
 [`active_probes.csv`](./atlas/active_probes.csv) contains the list of active probes with the status of `Connected` at the time of checking.
-For active probes, the corresponding DNS PTR records of the public IP is checked with `dig -x <ip> +short` to get the corresponding PoP location.
+For active probes, the corresponding DNS PTR records of the public IPs are checked with `dig -x <ip> +short` to get the corresponding PoP location.
 
 ## [PeeringDB](./peeringdb/)
 
@@ -164,7 +164,7 @@ This directory contains the script to generate the figures in this README file a
 
 ## Update Frequency
 
-The repository is automatically update by GitHub Actions in https://github.com/clarkzjw/starlink-geoip/tree/master/.github/workflows.
+The repository is automatically updated by GitHub Actions at https://github.com/clarkzjw/starlink-geoip/tree/master/.github/workflows.
 
 * GeoIP feed: [`"0 * * * *"`](https://crontab.guru/#0_*_*_*_*)
 * DNS PTR records: [`"15 */3 * * *"`](https://crontab.guru/#15_*/3_*_*_*)
@@ -181,10 +181,6 @@ The repository is automatically update by GitHub Actions in https://github.com/c
 1. The GeoIP feed only represents the planned naming and addressing scheme of the Starlink ISP. It may not reflect the actual deployment status of Starlink ground stations or the availability of Starlink service in a given region.
 2. Some subnets listed in the GeoIP feed **may** not have been announced by BGP.
 3. Some subnets **might** be associated with outdated or inaccurate DNS PTR records, which does not reflect the actual PoP association.
-
-## TODO
-
-- [ ] Test subnet IP external reachability.
 
 ## Disclaimer
 
