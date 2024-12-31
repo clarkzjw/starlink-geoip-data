@@ -16,7 +16,7 @@
                     }
                 ],
                 "notes": "",
-                "require_2fa": false,
+                "require_2fa": true,
                 "net_set": [
                     18747,
                     23446,
@@ -37,7 +37,7 @@
                 "latitude": null,
                 "longitude": null,
                 "created": "2019-01-08T00:50:56Z",
-                "updated": "2024-03-24T04:34:15Z",
+                "updated": "2024-12-30T19:03:57Z",
                 "status": "ok"
             },
             "name": "SpaceX Starlink",
@@ -67,10 +67,10 @@
             "info_multicast": false,
             "info_ipv6": true,
             "info_never_via_route_servers": false,
-            "ix_count": 51,
+            "ix_count": 50,
             "fac_count": 37,
             "notes": "Recommend prefix limit 1000 for IPv4 and 1000 for IPv6\n\nSatellite based internet service provider\n\nFor SpaceX corporate see AS27277",
-            "netixlan_updated": "2024-12-23T21:43:25Z",
+            "netixlan_updated": "2024-12-30T18:42:43Z",
             "netfac_updated": "2024-10-02T19:32:48Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
@@ -1743,25 +1743,6 @@
                     "status": "ok"
                 },
                 {
-                    "id": 94242,
-                    "ix_id": 358,
-                    "name": "GNM-IX",
-                    "ixlan_id": 358,
-                    "notes": "",
-                    "speed": 200000,
-                    "asn": 14593,
-                    "ipaddr4": "178.18.236.155",
-                    "ipaddr6": "2a03:5f80:4:2::236:155",
-                    "is_rs_peer": true,
-                    "bfd_support": false,
-                    "operational": true,
-                    "net_side_id": null,
-                    "ix_side_id": null,
-                    "created": "2024-08-23T22:05:04Z",
-                    "updated": "2024-08-23T22:05:04Z",
-                    "status": "ok"
-                },
-                {
                     "id": 95258,
                     "ix_id": 474,
                     "name": "EPIX.Warszawa",
@@ -1933,7 +1914,7 @@
             "rir_status": "ok",
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2024-12-20T20:25:00Z",
+            "updated": "2024-12-30T18:43:26Z",
             "status": "ok"
         }
     ],
