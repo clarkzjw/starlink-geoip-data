@@ -158,6 +158,10 @@ The [`bgp`](./bgp/) directory contains the BGP announcements from Starlink ASN 1
 
 The BGP data is retrieved from [BGP.tools](https://bgp.tools/kb/api).
 
+## [Availability](./availability/)
+
+See the [README](./availability/README.md) file in the [`availability`](./availability/) directory for more information.
+
 ## [Plot](./plot/)
 
 This directory contains the script to generate the figures in this README file as shown above. The figures are available in the [`figures`](https://github.com/clarkzjw/starlink-geoip-data/tree/figures) branch of this repository.
@@ -173,6 +177,7 @@ The repository is automatically updated by GitHub Actions at https://github.com/
 * RIPE Atlas probe list: [`"0 0 * * *"`](https://crontab.guru/#0_0_*_*_*)
 * PeeringDB info: [`"45 0 * * *"`](https://crontab.guru/#45_0_*_*_*)
 * BGP: [`"50 */6 * * *"`](https://crontab.guru/#50_*/6_*_*_*)
+* Availability cells: [`"0 0 * * *"`](https://crontab.guru/#0_0_*_*_*)
 
 *Whenever the GeoIP feed is updated, DNS PTR records refresh is also triggered.*
 
