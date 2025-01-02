@@ -14,3 +14,7 @@ waitlisted Expanding in 2025
 waitlisted Sold Out
 waitlisted Service date is unknown at this time
 ```
+
+The `.csv` files contains the locations of the centroid of each clustered cell region. The centroid is calculated with the `shapely.geometry` library and might not accurately reflect the shape of clustered cells when the shape is highly irregular. The `.csv` files are only meant to provide a rough estimation and help to locate small cells in the visualized GeoJSON files.
+
+The geolocation results of the coordinates is based on the [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding).
