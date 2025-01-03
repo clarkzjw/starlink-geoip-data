@@ -170,17 +170,6 @@ This directory contains the script to generate the figures in this README file a
 
 The repository is automatically updated by GitHub Actions at https://github.com/clarkzjw/starlink-geoip/tree/master/.github/workflows.
 
-* GeoIP feed: [`"0 * * * *"`](https://crontab.guru/#0_*_*_*_*)
-* DNS PTR records: [`"15 */3 * * *"`](https://crontab.guru/#15_*/3_*_*_*)
-* GeoIP map refresh: [`"30 */6 * * *"`](https://crontab.guru/#30_*/6_*_*_*)
-* Monthly latency snapshots: [`"0 0 */7 * *"`](https://crontab.guru/#0_0_*/7_*_*)
-* RIPE Atlas probe list: [`"0 0 * * *"`](https://crontab.guru/#0_0_*_*_*)
-* PeeringDB info: [`"45 0 * * *"`](https://crontab.guru/#45_0_*_*_*)
-* BGP: [`"50 */6 * * *"`](https://crontab.guru/#50_*/6_*_*_*)
-* Availability cells: [`"0 0 * * *"`](https://crontab.guru/#0_0_*_*_*)
-
-*Whenever the GeoIP feed is updated, DNS PTR records refresh is also triggered.*
-
 ## Note
 
 1. The GeoIP feed only represents the planned naming and addressing scheme of the Starlink ISP. It may not reflect the actual deployment status of Starlink ground stations or the availability of Starlink service in a given region.
