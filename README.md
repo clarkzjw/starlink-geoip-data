@@ -1,7 +1,5 @@
 # Starlink GeoIP Dataset
 
-[![Refresh GeoIP](https://github.com/clarkzjw/starlink-geoip/actions/workflows/geoip_feed_refresh.yaml/badge.svg)](https://github.com/clarkzjw/starlink-geoip/actions/workflows/geoip_feed_refresh.yaml) [![Update GEOIP Map](https://github.com/clarkzjw/starlink-geoip/actions/workflows/update_map.yaml/badge.svg)](https://github.com/clarkzjw/starlink-geoip/actions/workflows/update_map.yaml) [![Refresh Atlas Probe List](https://github.com/clarkzjw/starlink-geoip/actions/workflows/refresh_atlas_probe.yaml/badge.svg)](https://github.com/clarkzjw/starlink-geoip/actions/workflows/refresh_atlas_probe.yaml)
-
 📝 See the list of our related research work at https://oac.uvic.ca/starlink.
 
 📍 Check out the GeoIP visualization map at https://pan.uvic.ca/~clarkzjw/starlink.
@@ -10,7 +8,7 @@
 
 ## Code
 
-The source code used to generated this repository is available at [clarkzjw/starlink-geoip](https://github.com/clarkzjw/starlink-geoip).
+The source code used to generate this repository is available at [clarkzjw/starlink-geoip](https://github.com/clarkzjw/starlink-geoip).
 
 ![](https://raw.githubusercontent.com/clarkzjw/starlink-geoip-data/refs/heads/figures/geoip-subnet-count.png)
 
@@ -174,7 +172,7 @@ The repository is automatically updated by GitHub Actions at https://github.com/
 
 1. The GeoIP feed only represents the planned naming and addressing scheme of the Starlink ISP. It may not reflect the actual deployment status of Starlink ground stations or the availability of Starlink service in a given region.
 2. Some subnets listed in the GeoIP feed **may** not have been announced by BGP.
-3. Some subnets **might** be associated with outdated or inaccurate DNS PTR records, which does not reflect the actual PoP association.
+3. Some subnets **might** be associated with outdated or inaccurate DNS PTR records, which do not reflect the actual PoP association.
 
 ## Disclaimer
 
