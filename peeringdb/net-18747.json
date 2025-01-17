@@ -68,10 +68,10 @@
             "info_ipv6": true,
             "info_never_via_route_servers": false,
             "ix_count": 50,
-            "fac_count": 37,
+            "fac_count": 38,
             "notes": "Recommend prefix limit 1000 for IPv4 and 1000 for IPv6\n\nSatellite based internet service provider\n\nFor SpaceX corporate see AS27277",
             "netixlan_updated": "2024-12-30T18:42:43Z",
-            "netfac_updated": "2024-10-02T19:32:48Z",
+            "netfac_updated": "2025-01-16T18:01:39Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
             "policy_general": "Open",
@@ -385,6 +385,17 @@
                     "local_asn": 14593,
                     "created": "2024-03-20T18:19:37Z",
                     "updated": "2024-03-20T18:19:37Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 76109,
+                    "name": "Equinix CL3 - Calgary (formerly Q9 Calgary Three)",
+                    "city": "Calgary",
+                    "country": "CA",
+                    "fac_id": 3251,
+                    "local_asn": 14593,
+                    "created": "2025-01-16T18:01:39Z",
+                    "updated": "2025-01-16T18:01:40Z",
                     "status": "ok"
                 },
                 {
@@ -1914,7 +1925,7 @@
             "rir_status": "ok",
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2024-12-30T18:43:26Z",
+            "updated": "2025-01-16T18:01:45Z",
             "status": "ok"
         }
     ],
