@@ -169,7 +169,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-16T02:17:55Z"
+            "since": "2025-01-18T02:32:33Z"
         },
         "type": "Probe",
         "ipv4_ptr": ""
@@ -432,7 +432,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-17T03:17:40Z"
+            "since": "2025-01-18T23:34:44Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.lndngbr1.pop.starlinkisp.net."
@@ -520,7 +520,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2024-12-28T14:30:27Z"
+            "since": "2025-01-18T21:23:56Z"
         },
         "type": "Probe",
         "ipv4_ptr": "",
@@ -669,7 +669,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-17T02:23:53Z"
+            "since": "2025-01-18T11:05:48Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.wrswpol1.pop.starlinkisp.net."
@@ -698,7 +698,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-15T10:36:38Z"
+            "since": "2025-01-18T10:43:42Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.dnvrcox1.pop.starlinkisp.net."
@@ -873,7 +873,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-15T11:06:00Z"
+            "since": "2025-01-18T11:04:50Z"
         },
         "type": "Probe",
         "ipv4_ptr": ""
@@ -902,7 +902,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-17T21:16:56Z"
+            "since": "2025-01-18T13:11:34Z"
         },
         "type": "Probe",
         "ipv4_ptr": ""
@@ -1170,36 +1170,6 @@
         "ipv4_ptr": "customer.nwyynyx1.pop.starlinkisp.net."
     },
     {
-        "address_v4": "98.97.82.46",
-        "address_v6": "2605:59c8:412b:2600:1:4cff:fe99:f220",
-        "asn_v4": 14593,
-        "asn_v6": 14593,
-        "country_code": "US",
-        "description": "Probe from Rise broadband in Ladonia, Tx",
-        "firmware_version": 5080,
-        "first_connected": 1554576563,
-        "geometry": {
-            "type": "Point",
-            "coordinates": [
-                -95.9405,
-                33.3675
-            ]
-        },
-        "id": 50941,
-        "is_anchor": false,
-        "is_public": true,
-        "prefix_v4": "98.97.80.0/21",
-        "prefix_v6": "2605:59c8:4000::/38",
-        "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2025-01-17T03:29:43Z"
-        },
-        "type": "Probe",
-        "ipv4_ptr": "customer.dllstxx1.pop.starlinkisp.net.",
-        "ipv6_ptr": "customer.dllstxx1.pop.starlinkisp.net."
-    },
-    {
         "address_v4": null,
         "address_v6": null,
         "asn_v4": 14593,
@@ -1223,7 +1193,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-16T11:49:17Z"
+            "since": "2025-01-18T08:29:22Z"
         },
         "type": "Probe",
         "ipv4_ptr": ""
@@ -1337,9 +1307,9 @@
         "prefix_v4": "145.224.72.0/21",
         "prefix_v6": "2a0d:3344:1400::/38",
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2025-01-18T01:09:04Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2025-01-19T01:04:20Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.frntdeu1.pop.starlinkisp.net.",
@@ -1404,9 +1374,9 @@
         "ipv4_ptr": ""
     },
     {
-        "address_v4": "98.97.129.107",
+        "address_v4": "152.230.242.125",
         "address_v6": "2803:9810:30c6:d700:1:4bff:fe8d:5117",
-        "asn_v4": 14593,
+        "asn_v4": 18822,
         "asn_v6": 14593,
         "country_code": "CL",
         "description": "NIC Chile / MVS Probe",
@@ -1422,15 +1392,14 @@
         "id": 53656,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "98.97.128.0/23",
+        "prefix_v4": "152.230.242.0/24",
         "prefix_v6": "2803:9810:3000::/38",
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-16T23:21:18Z"
+            "since": "2025-01-18T08:10:53Z"
         },
         "type": "Probe",
-        "ipv4_ptr": "customer.sntochl1.pop.starlinkisp.net.",
         "ipv6_ptr": "customer.sntochl1.pop.starlinkisp.net."
     },
     {
@@ -1520,6 +1489,35 @@
         },
         "type": "Probe",
         "ipv4_ptr": "customer.lsancax1.pop.starlinkisp.net."
+    },
+    {
+        "address_v4": "206.83.113.70",
+        "address_v6": "fd40:71a3:b077:555e:1:77ff:fec4:b883",
+        "asn_v4": 14593,
+        "asn_v6": null,
+        "country_code": "AU",
+        "description": "Samsonvale Queensland Probe",
+        "firmware_version": 5080,
+        "first_connected": 1577747795,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                152.8315,
+                -27.2925
+            ]
+        },
+        "id": 54481,
+        "is_anchor": false,
+        "is_public": true,
+        "prefix_v4": "206.83.112.0/21",
+        "prefix_v6": null,
+        "status": {
+            "id": 1,
+            "name": "Connected",
+            "since": "2025-01-19T00:38:40Z"
+        },
+        "type": "Probe",
+        "ipv4_ptr": "customer.sydyaus1.pop.starlinkisp.net."
     },
     {
         "address_v4": "98.97.19.9",
@@ -1838,7 +1836,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-17T01:40:02Z"
+            "since": "2025-01-18T11:33:37Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.sfiabgr1.pop.starlinkisp.net."
@@ -1903,8 +1901,8 @@
         "ipv6_ptr": "customer.frntdeu1.pop.starlinkisp.net."
     },
     {
-        "address_v4": "129.224.205.228",
-        "address_v6": "fd16:de84:a2d7:0:da58:d7ff:fe03:57a",
+        "address_v4": "129.224.205.184",
+        "address_v6": "fd00:86f1:874e:fa42:da58:d7ff:fe03:57a",
         "asn_v4": 14593,
         "asn_v6": null,
         "country_code": "BJ",
@@ -1926,13 +1924,13 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-16T01:28:06Z"
+            "since": "2025-01-18T11:48:59Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.lgosnga1.pop.starlinkisp.net."
     },
     {
-        "address_v4": "98.97.25.60",
+        "address_v4": "98.97.24.236",
         "address_v6": null,
         "asn_v4": 14593,
         "asn_v6": null,
@@ -1955,13 +1953,13 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-17T11:22:27Z"
+            "since": "2025-01-18T11:06:16Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.snjecax1.pop.starlinkisp.net."
     },
     {
-        "address_v4": "129.222.2.162",
+        "address_v4": "98.97.153.236",
         "address_v6": "2605:59c0:1cc:2910:da58:d7ff:fe03:583",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -1979,7 +1977,7 @@
         "id": 61081,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "129.222.2.0/23",
+        "prefix_v4": "98.97.152.0/22",
         "prefix_v6": "2605:59c0::/38",
         "status": {
             "id": 1,
@@ -2227,7 +2225,7 @@
         "ipv6_ptr": "customer.nwyynyx1.pop.starlinkisp.net."
     },
     {
-        "address_v4": "98.97.61.128",
+        "address_v4": "98.97.27.232",
         "address_v6": null,
         "asn_v4": 14593,
         "asn_v6": null,
@@ -2245,12 +2243,12 @@
         "id": 61602,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "98.97.60.0/23",
+        "prefix_v4": "98.97.24.0/21",
         "prefix_v6": null,
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-17T11:34:00Z"
+            "since": "2025-01-18T11:38:59Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.snjecax1.pop.starlinkisp.net."
@@ -2286,7 +2284,7 @@
         "ipv6_ptr": "customer.nwyynyx1.pop.starlinkisp.net."
     },
     {
-        "address_v4": "98.97.4.35",
+        "address_v4": "98.97.4.232",
         "address_v6": "2605:59c8:15f2:2c02:da58:d7ff:fe03:17c",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -2375,7 +2373,7 @@
         "ipv6_ptr": "customer.sttlwax1.pop.starlinkisp.net."
     },
     {
-        "address_v4": "98.97.5.91",
+        "address_v4": "98.97.9.215",
         "address_v6": "2605:59c8:1140:f900:da58:d7ff:fe03:4f0",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -2393,12 +2391,12 @@
         "id": 61899,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "98.97.0.0/21",
+        "prefix_v4": "98.97.8.0/21",
         "prefix_v6": "2605:59c8:1000::/38",
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-17T10:29:27Z"
+            "since": "2025-01-18T22:42:33Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.chcoilx1.pop.starlinkisp.net.",
@@ -2553,7 +2551,7 @@
         "ipv6_ptr": "customer.sttlwax1.pop.starlinkisp.net."
     },
     {
-        "address_v4": "98.97.8.226",
+        "address_v4": "98.97.9.124",
         "address_v6": "2605:59c8:180f:5100:da58:d7ff:fe03:99a",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -2636,13 +2634,13 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-17T21:10:23Z"
+            "since": "2025-01-18T23:48:23Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.sttlwax1.pop.starlinkisp.net."
     },
     {
-        "address_v4": "145.224.75.201",
+        "address_v4": "145.224.72.17",
         "address_v6": null,
         "asn_v4": 14593,
         "asn_v6": null,
@@ -2665,7 +2663,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-15T03:23:48Z"
+            "since": "2025-01-18T02:46:55Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.frntdeu1.pop.starlinkisp.net."
@@ -3047,13 +3045,42 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-17T18:31:39Z"
+            "since": "2025-01-18T18:36:46Z"
         },
         "type": "Probe",
         "ipv4_ptr": ""
     },
     {
-        "address_v4": "98.97.19.227",
+        "address_v4": "87.251.31.196",
+        "address_v6": null,
+        "asn_v4": 14593,
+        "asn_v6": null,
+        "country_code": "SE",
+        "description": "Villa Hamnvik",
+        "firmware_version": 5080,
+        "first_connected": 1720734003,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                17.9475,
+                58.9005
+            ]
+        },
+        "id": 65507,
+        "is_anchor": false,
+        "is_public": true,
+        "prefix_v4": "87.251.31.0/24",
+        "prefix_v6": null,
+        "status": {
+            "id": 1,
+            "name": "Connected",
+            "since": "2025-01-18T16:58:19Z"
+        },
+        "type": "Probe",
+        "ipv4_ptr": "customer.frntdeu1.pop.starlinkisp.net."
+    },
+    {
+        "address_v4": "98.97.22.110",
         "address_v6": "2605:59c8:28ce:5a10:da58:d7ff:fe03:c54",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -3136,7 +3163,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-15T03:06:52Z"
+            "since": "2025-01-18T02:12:33Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.frntdeu1.pop.starlinkisp.net."
@@ -3229,7 +3256,7 @@
         "ipv4_ptr": "customer.frntdeu1.pop.starlinkisp.net."
     },
     {
-        "address_v4": "145.224.73.19",
+        "address_v4": "145.224.75.141",
         "address_v6": null,
         "asn_v4": 14593,
         "asn_v6": null,
@@ -3252,7 +3279,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-15T03:07:05Z"
+            "since": "2025-01-18T02:12:51Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.frntdeu1.pop.starlinkisp.net."
@@ -3286,6 +3313,34 @@
         "type": "Probe",
         "ipv4_ptr": "customer.frntdeu1.pop.starlinkisp.net.",
         "ipv6_ptr": "customer.frntdeu1.pop.starlinkisp.net."
+    },
+    {
+        "address_v4": null,
+        "address_v6": null,
+        "asn_v4": 12083,
+        "asn_v6": 10796,
+        "country_code": "US",
+        "description": "Pi4 probe labeled Brad (Mobile)",
+        "firmware_version": 5040,
+        "first_connected": 1643050811,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -82.7725,
+                28.0215
+            ]
+        },
+        "id": 1003608,
+        "is_anchor": false,
+        "is_public": false,
+        "prefix_v4": "24.96.113.0/24",
+        "prefix_v6": "2603:6010::/28",
+        "status": {
+            "id": 1,
+            "name": "Connected",
+            "since": "2025-01-19T01:12:40Z"
+        },
+        "type": "Probe"
     },
     {
         "address_v4": "98.97.36.48",
@@ -3436,7 +3491,7 @@
         "ipv6_ptr": "customer.frntdeu1.pop.starlinkisp.net."
     },
     {
-        "address_v4": "98.97.16.6",
+        "address_v4": "98.97.22.19",
         "address_v6": "2605:59c8:2017:6200:211:32ff:fef0:4d23",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -3459,7 +3514,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-17T07:55:10Z"
+            "since": "2025-01-18T09:06:32Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.nwyynyx1.pop.starlinkisp.net.",
@@ -3489,7 +3544,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-16T07:34:42Z"
+            "since": "2025-01-18T09:24:33Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.frntdeu1.pop.starlinkisp.net."
@@ -3582,7 +3637,7 @@
         "ipv4_ptr": "customer.sydyaus1.pop.starlinkisp.net."
     },
     {
-        "address_v4": "212.105.153.193",
+        "address_v4": "169.155.232.178",
         "address_v6": "fd7a:115c:a1e0:ab12:4843:cd96:627a:fd28",
         "asn_v4": 14593,
         "asn_v6": null,
@@ -3600,15 +3655,15 @@
         "id": 1004876,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "212.105.152.0/23",
+        "prefix_v4": "169.155.232.0/24",
         "prefix_v6": null,
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-16T03:19:30Z"
+            "since": "2025-01-18T02:14:16Z"
         },
         "type": "Probe",
-        "ipv4_ptr": ""
+        "ipv4_ptr": "customer.mlnnita1.pop.starlinkisp.net."
     },
     {
         "address_v4": "91.137.57.229",
@@ -3669,7 +3724,7 @@
         "ipv4_ptr": "customer.frntdeu1.pop.starlinkisp.net."
     },
     {
-        "address_v4": "98.97.8.76",
+        "address_v4": "98.97.14.236",
         "address_v6": null,
         "asn_v4": 14593,
         "asn_v6": null,
@@ -3692,7 +3747,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-17T07:50:26Z"
+            "since": "2025-01-18T09:29:54Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.chcoilx1.pop.starlinkisp.net."
@@ -3809,7 +3864,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-15T08:23:17Z"
+            "since": "2025-01-18T08:11:54Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.mmmiflx1.pop.starlinkisp.net."
@@ -3867,7 +3922,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-17T22:48:52Z"
+            "since": "2025-01-18T13:13:18Z"
         },
         "type": "Probe",
         "ipv4_ptr": ""
@@ -4071,7 +4126,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-17T09:17:17Z"
+            "since": "2025-01-18T23:06:13Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.mplsmnx1.pop.starlinkisp.net."
@@ -4166,7 +4221,7 @@
         "ipv4_ptr": "customer.nwyynyx1.pop.starlinkisp.net."
     },
     {
-        "address_v4": "98.97.21.134",
+        "address_v4": "98.97.21.215",
         "address_v6": "2605:59c8:2000:d0cc:ada4:c61:ec65:d4fe",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -4225,7 +4280,7 @@
         "ipv4_ptr": "customer.mmmiflx1.pop.starlinkisp.net."
     },
     {
-        "address_v4": "116.91.213.0",
+        "address_v4": "206.83.112.48",
         "address_v6": null,
         "asn_v4": 14593,
         "asn_v6": null,
@@ -4243,12 +4298,12 @@
         "id": 1007278,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "116.91.212.0/23",
+        "prefix_v4": "206.83.112.0/21",
         "prefix_v6": null,
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-17T17:16:44Z"
+            "since": "2025-01-18T14:26:49Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.sydyaus1.pop.starlinkisp.net."
@@ -4403,7 +4458,7 @@
         "ipv6_ptr": "customer.mdrdesp1.pop.starlinkisp.net."
     },
     {
-        "address_v4": "98.97.129.107",
+        "address_v4": "138.84.34.11",
         "address_v6": null,
         "asn_v4": 14593,
         "asn_v6": null,
@@ -4421,12 +4476,12 @@
         "id": 1007645,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "98.97.128.0/23",
+        "prefix_v4": "138.84.32.0/22",
         "prefix_v6": null,
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-16T23:25:54Z"
+            "since": "2025-01-18T12:54:52Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.sntochl1.pop.starlinkisp.net."
@@ -4490,8 +4545,8 @@
         "ipv4_ptr": "customer.lndngbr1.pop.starlinkisp.net."
     },
     {
-        "address_v4": "206.83.98.114",
-        "address_v6": "2406:2d40:72cb:fe10:e2cc:fe74:e39d:e093",
+        "address_v4": "206.83.102.196",
+        "address_v6": "2406:2d40:7288:2610:3eec:efff:fec9:5178",
         "asn_v4": 14593,
         "asn_v6": 14593,
         "country_code": "KI",
@@ -4513,7 +4568,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-17T20:55:07Z"
+            "since": "2025-01-18T13:31:32Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.acklnzl1.pop.starlinkisp.net.",
@@ -4573,7 +4628,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-17T09:38:00Z"
+            "since": "2025-01-18T10:03:52Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.chcoilx1.pop.starlinkisp.net."
@@ -4727,36 +4782,6 @@
         "ipv6_ptr": ""
     },
     {
-        "address_v4": "98.97.18.23",
-        "address_v6": "2605:59c8:2059:d810::5ac",
-        "asn_v4": 14593,
-        "asn_v6": 14593,
-        "country_code": "US",
-        "description": null,
-        "firmware_version": 5100,
-        "first_connected": 1728249527,
-        "geometry": {
-            "type": "Point",
-            "coordinates": [
-                -79.9415,
-                40.4375
-            ]
-        },
-        "id": 1009030,
-        "is_anchor": false,
-        "is_public": true,
-        "prefix_v4": "98.97.16.0/21",
-        "prefix_v6": "2605:59c8:2000::/38",
-        "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2024-12-14T21:18:18Z"
-        },
-        "type": "Probe",
-        "ipv4_ptr": "customer.nwyynyx1.pop.starlinkisp.net.",
-        "ipv6_ptr": "customer.nwyynyx1.pop.starlinkisp.net."
-    },
-    {
         "address_v4": "145.224.74.65",
         "address_v6": "2a0d:3341:b1c6:7401:be24:11ff:fee5:76c4",
         "asn_v4": 14593,
@@ -4840,7 +4865,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-17T10:44:56Z"
+            "since": "2025-01-18T11:18:30Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.sttlwax1.pop.starlinkisp.net."
@@ -4957,7 +4982,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2025-01-16T20:18:03Z"
+            "since": "2025-01-18T19:02:50Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.jtnaidn2.pop.starlinkisp.net."
