@@ -81,7 +81,7 @@ def plot_subnet_count():
                 subnet_count["ipv4_ips"][date] = v4_ips / 1000
                 subnet_count["ipv6_56_subnet_count"][date] = ipv6_56_subnet_count / 1000000
 
-    fig = plt.figure(figsize=(8, 6))
+    fig = plt.figure(figsize=(10, 6))
     # ax = fig.add_subplot(111)
     bax = brokenaxes(ylims=((200, 600), (1200, 1800)), hspace=.1)
 
@@ -90,7 +90,7 @@ def plot_subnet_count():
 
     bax.plot(subnet_count["ipv4"].keys(), subnet_count["ipv4"].values(), label="IPv4")
     bax.plot(subnet_count["ipv6"].keys(), subnet_count["ipv6"].values(), label="IPv6")
-    bax.legend()
+    bax.legend(loc="upper left")
     bax.set_xlabel("Date")
     bax.set_ylabel("Subnet Count")
     plt.title("No. of IPv4 and IPv6 Subnets as Planned in Starlink GeoIP Feed")
