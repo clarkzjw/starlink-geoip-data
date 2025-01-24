@@ -19,7 +19,7 @@
         "lon": 28.197517,
         "show": true,
         "type": "netfac",
-        "note": "This PoP does not appear in the GeoIP feed yet.<br>Teraco Johannesburg Campus, South Africa<br><a href=\"https://www.peeringdb.com/fac/850\" target=\"_blank\">https://www.peeringdb.com/fac/850</a><br>"
+        "note": "This PoP does not appear in the GeoIP feed yet, although there is already an entry in PeeringDB.<br>Teraco Johannesburg Campus, South Africa<br><a href=\"https://www.peeringdb.com/fac/850\" target=\"_blank\">https://www.peeringdb.com/fac/850</a><br>"
     },
     {
         "code": "aafbgux1",
@@ -151,7 +151,7 @@
         "lon": 51.5070005,
         "show": true,
         "type": "pop",
-        "note": "This PoP does not have an Interconnection Facilities (netfac) entry in PeeringDB yet."
+        "note": "This PoP is operational, but it does not have an Interconnection Facilities (netfac) entry in PeeringDB yet."
     },
     {
         "code": "dtcrakx1",
@@ -404,7 +404,7 @@
         "lon": -166.7767095,
         "show": true,
         "type": "pop",
-        "note": "Not confirmed, this is probably a <a href='https://www.starlinkinternet.info/community-gateway' target='_blank'>community gateway</a>. <br>"
+        "note": "Not confirmed, this is <b>probably<b> a <a href='https://www.starlinkinternet.info/community-gateway' target='_blank'>community gateway</a>. <br>"
     },
     {
         "code": "qrtomex1",
@@ -425,7 +425,7 @@
         "lat": 0,
         "lon": 0,
         "show": false,
-        "note": "This is probably a community gateway installed on cruise ships."
+        "note": "This is <b>probably<b> a community gateway installed on cruise ships."
     },
     {
         "code": "rcxship2",
@@ -446,7 +446,7 @@
         "lon": -122.121512,
         "show": true,
         "type": "pop",
-        "note": "This is probably a placeholder for new subnet entries."
+        "note": "This is <b>probably<b> a placeholder for new subnet entries."
     },
     {
         "code": "rdmdwax3rk3",
@@ -462,8 +462,8 @@
     {
         "code": "sea",
         "dns": "customer.sea.pop.starlinkisp.net.",
-        "city": "",
-        "country": "",
+        "city": "Unknown",
+        "country": "Unknown",
         "lat": 0,
         "lon": 0,
         "show": false,
@@ -543,13 +543,13 @@
         "lat": 0,
         "lon": 0,
         "show": false,
-        "note": "Not confirmed, this is probably a community gateway installed on SpaceX recovery drone ships \"A Shortfall of Gravitas\". See <a href=\"https://space-offshore.com/a-shortfall-of-gravitas/\" target=\"_blank\">A Shortfall of Gravitas</a>"
+        "note": "Not confirmed, this is <b>probably<b> a community gateway installed on SpaceX recovery drone ships \"A Shortfall of Gravitas\". See <a href=\"https://space-offshore.com/a-shortfall-of-gravitas/\" target=\"_blank\">A Shortfall of Gravitas</a>."
     },
     {
         "code": "strespx2",
         "dns": "customer.strespx2.pop.starlinkisp.net.",
-        "city": "",
-        "country": "",
+        "city": "Unknown",
+        "country": "Unknown",
         "lat": 0,
         "lon": 0,
         "show": false,
