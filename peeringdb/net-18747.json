@@ -67,11 +67,11 @@
             "info_multicast": false,
             "info_ipv6": true,
             "info_never_via_route_servers": false,
-            "ix_count": 51,
-            "fac_count": 37,
+            "ix_count": 52,
+            "fac_count": 38,
             "notes": "Recommend prefix limit 1000 for IPv4 and 1000 for IPv6\n\nSatellite based internet service provider\n\nFor SpaceX corporate see AS27277",
-            "netixlan_updated": "2025-02-11T19:02:03Z",
-            "netfac_updated": "2025-01-30T21:02:16Z",
+            "netixlan_updated": "2025-02-21T22:01:25Z",
+            "netfac_updated": "2025-02-22T01:15:18Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
             "policy_general": "Open",
@@ -344,6 +344,17 @@
                     "status": "ok"
                 },
                 {
+                    "id": 76924,
+                    "name": "Equinix ME1/ME2 - Melbourne",
+                    "city": "Melbourne",
+                    "country": "AU",
+                    "fac_id": 1988,
+                    "local_asn": 14593,
+                    "created": "2025-02-22T01:15:18Z",
+                    "updated": "2025-02-22T01:15:18Z",
+                    "status": "ok"
+                },
+                {
                     "id": 70280,
                     "name": "EdgeConneX Salt Lake City (EDCSLC01)",
                     "city": "Salt Lake City",
@@ -422,7 +433,7 @@
                 },
                 {
                     "id": 61959,
-                    "name": "ePLDT VITRO Makati 2",
+                    "name": "VITRO Makati 2",
                     "city": "Makati City",
                     "country": "PH",
                     "fac_id": 4809,
@@ -600,6 +611,25 @@
                     "ix_side_id": null,
                     "created": "2018-11-12T17:39:05Z",
                     "updated": "2024-07-17T21:42:58Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 46241,
+                    "ix_id": 779,
+                    "name": "MegaIX Melbourne: MegaIX",
+                    "ixlan_id": 779,
+                    "notes": "",
+                    "speed": 200000,
+                    "asn": 14593,
+                    "ipaddr4": "103.26.71.16",
+                    "ipaddr6": "2001:dea:0:30::10",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2019-01-02T11:56:10Z",
+                    "updated": "2025-02-21T22:01:25Z",
                     "status": "ok"
                 },
                 {
@@ -1933,7 +1963,7 @@
             "rir_status": "ok",
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2025-02-11T19:02:20Z",
+            "updated": "2025-02-22T01:15:41Z",
             "status": "ok"
         }
     ],
