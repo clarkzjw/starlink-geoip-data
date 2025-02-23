@@ -67,10 +67,10 @@
             "info_multicast": false,
             "info_ipv6": true,
             "info_never_via_route_servers": false,
-            "ix_count": 52,
+            "ix_count": 53,
             "fac_count": 38,
             "notes": "Recommend prefix limit 1000 for IPv4 and 1000 for IPv6\n\nSatellite based internet service provider\n\nFor SpaceX corporate see AS27277",
-            "netixlan_updated": "2025-02-21T22:01:25Z",
+            "netixlan_updated": "2025-02-22T01:21:36Z",
             "netfac_updated": "2025-02-22T01:15:18Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
@@ -725,6 +725,25 @@
                     "ix_side_id": null,
                     "created": "2019-06-04T23:58:23Z",
                     "updated": "2024-05-06T17:52:52Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 58372,
+                    "ix_id": 513,
+                    "name": "VIC-IX: VIC-IX",
+                    "ixlan_id": 513,
+                    "notes": "",
+                    "speed": 200000,
+                    "asn": 14593,
+                    "ipaddr4": "218.100.78.31",
+                    "ipaddr6": "2001:7fa:11:1:0:3901:0:1",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2020-06-03T17:42:55Z",
+                    "updated": "2025-02-22T01:21:37Z",
                     "status": "ok"
                 },
                 {
@@ -1963,7 +1982,7 @@
             "rir_status": "ok",
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2025-02-22T01:15:41Z",
+            "updated": "2025-02-22T01:21:41Z",
             "status": "ok"
         }
     ],
