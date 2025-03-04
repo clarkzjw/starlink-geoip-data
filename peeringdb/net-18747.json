@@ -67,10 +67,10 @@
             "info_multicast": false,
             "info_ipv6": true,
             "info_never_via_route_servers": false,
-            "ix_count": 53,
+            "ix_count": 54,
             "fac_count": 38,
             "notes": "Recommend prefix limit 1000 for IPv4 and 1000 for IPv6\n\nSatellite based internet service provider\n\nFor SpaceX corporate see AS27277",
-            "netixlan_updated": "2025-02-22T01:21:36Z",
+            "netixlan_updated": "2025-03-03T18:40:31Z",
             "netfac_updated": "2025-02-22T01:15:18Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
@@ -625,11 +625,11 @@
                     "ipaddr6": "2001:dea:0:30::10",
                     "is_rs_peer": true,
                     "bfd_support": false,
-                    "operational": true,
+                    "operational": false,
                     "net_side_id": null,
                     "ix_side_id": null,
                     "created": "2019-01-02T11:56:10Z",
-                    "updated": "2025-02-21T22:01:25Z",
+                    "updated": "2025-03-03T18:40:42Z",
                     "status": "ok"
                 },
                 {
@@ -1961,6 +1961,25 @@
                     "created": "2024-12-20T20:24:53Z",
                     "updated": "2024-12-23T21:43:26Z",
                     "status": "ok"
+                },
+                {
+                    "id": 98835,
+                    "ix_id": 129,
+                    "name": "JINX: JINX Peering",
+                    "ixlan_id": 129,
+                    "notes": "",
+                    "speed": 200000,
+                    "asn": 14593,
+                    "ipaddr4": "196.60.97.98",
+                    "ipaddr6": "2001:43f8:1f0::1:98",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2025-03-03T18:40:32Z",
+                    "updated": "2025-03-03T18:40:32Z",
+                    "status": "ok"
                 }
             ],
             "poc_set": [
@@ -1982,7 +2001,7 @@
             "rir_status": "ok",
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2025-02-22T01:21:41Z",
+            "updated": "2025-03-03T18:40:43Z",
             "status": "ok"
         }
     ],
