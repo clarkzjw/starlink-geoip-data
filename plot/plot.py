@@ -83,7 +83,7 @@ def plot_subnet_count():
 
     fig = plt.figure(figsize=(10, 6))
     # ax = fig.add_subplot(111)
-    bax = brokenaxes(ylims=((200, 600), (1200, 2200)), hspace=.1)
+    bax = brokenaxes(ylims=((200, 600), (1200, 1800)), hspace=.1)
 
     subnet_count["ipv4"] = dict(sorted(subnet_count["ipv4"].items()))
     subnet_count["ipv6"] = dict(sorted(subnet_count["ipv6"].items()))
