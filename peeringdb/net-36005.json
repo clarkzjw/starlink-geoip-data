@@ -67,10 +67,10 @@
             "info_multicast": false,
             "info_ipv6": true,
             "info_never_via_route_servers": false,
-            "ix_count": 1,
+            "ix_count": 2,
             "fac_count": 1,
             "notes": "",
-            "netixlan_updated": "2025-01-21T18:26:58Z",
+            "netixlan_updated": "2025-03-13T19:59:38Z",
             "netfac_updated": "2024-04-27T19:09:54Z",
             "poc_updated": "2024-04-27T19:08:01Z",
             "policy_url": "http://www.spacex.com",
@@ -110,6 +110,25 @@
                     "created": "2024-04-19T02:41:00Z",
                     "updated": "2025-01-21T18:26:59Z",
                     "status": "ok"
+                },
+                {
+                    "id": 99047,
+                    "ix_id": 4411,
+                    "name": "DE-CIX Jakarta",
+                    "ixlan_id": 4411,
+                    "notes": "",
+                    "speed": 400000,
+                    "asn": 45700,
+                    "ipaddr4": "103.159.71.66",
+                    "ipaddr6": "2001:df5:7880::3901:0:1",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2025-03-13T19:59:39Z",
+                    "updated": "2025-03-13T19:59:39Z",
+                    "status": "ok"
                 }
             ],
             "poc_set": [],
@@ -118,7 +137,7 @@
             "rir_status": "ok",
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "created": "2024-04-19T17:42:53Z",
-            "updated": "2024-04-27T19:10:49Z",
+            "updated": "2025-03-13T20:00:38Z",
             "status": "ok"
         }
     ],
