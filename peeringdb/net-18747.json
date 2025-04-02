@@ -68,10 +68,10 @@
             "info_ipv6": true,
             "info_never_via_route_servers": false,
             "ix_count": 53,
-            "fac_count": 38,
+            "fac_count": 39,
             "notes": "Recommend prefix limit 1000 for IPv4 and 1000 for IPv6\n\nSatellite based internet service provider\n\nFor SpaceX corporate see AS27277",
             "netixlan_updated": "2025-03-19T16:09:06Z",
-            "netfac_updated": "2025-02-22T01:15:18Z",
+            "netfac_updated": "2025-04-01T21:31:58Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
             "policy_general": "Open",
@@ -495,6 +495,17 @@
                     "local_asn": 14593,
                     "created": "2022-01-03T18:44:54Z",
                     "updated": "2022-01-03T18:44:54Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 77901,
+                    "name": "Spark Christchurch Exchange",
+                    "city": "Christchurch",
+                    "country": "NZ",
+                    "fac_id": 7541,
+                    "local_asn": 14593,
+                    "created": "2025-04-01T21:31:59Z",
+                    "updated": "2025-04-01T21:31:59Z",
                     "status": "ok"
                 }
             ],
@@ -1963,7 +1974,7 @@
             "rir_status": "ok",
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2025-03-19T16:09:10Z",
+            "updated": "2025-04-01T21:32:03Z",
             "status": "ok"
         }
     ],
