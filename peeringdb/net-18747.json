@@ -58,8 +58,8 @@
             "info_types": [
                 "Cable/DSL/ISP"
             ],
-            "info_prefixes4": 1000,
-            "info_prefixes6": 1000,
+            "info_prefixes4": 5000,
+            "info_prefixes6": 5000,
             "info_traffic": "",
             "info_ratio": "Mostly Inbound",
             "info_scope": "Global",
@@ -67,10 +67,10 @@
             "info_multicast": false,
             "info_ipv6": true,
             "info_never_via_route_servers": false,
-            "ix_count": 54,
+            "ix_count": 55,
             "fac_count": 39,
             "notes": "Recommend prefix limit 1000 for IPv4 and 1000 for IPv6\n\nSatellite based internet service provider\n\nFor SpaceX corporate see AS27277",
-            "netixlan_updated": "2025-04-08T01:38:49Z",
+            "netixlan_updated": "2025-04-09T16:46:13Z",
             "netfac_updated": "2025-04-01T21:31:58Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
@@ -1972,6 +1972,44 @@
                     "created": "2025-04-08T01:38:50Z",
                     "updated": "2025-04-08T01:38:50Z",
                     "status": "ok"
+                },
+                {
+                    "id": 99601,
+                    "ix_id": 3182,
+                    "name": "PIT - Guatemala - Guatemala City",
+                    "ixlan_id": 3182,
+                    "notes": "",
+                    "speed": 200000,
+                    "asn": 14593,
+                    "ipaddr4": "45.68.48.68",
+                    "ipaddr6": "2801:155:6:4157::68",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2025-04-09T16:45:09Z",
+                    "updated": "2025-04-09T16:45:09Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 99602,
+                    "ix_id": 3182,
+                    "name": "PIT - Guatemala - Guatemala City",
+                    "ixlan_id": 3182,
+                    "notes": "",
+                    "speed": 200000,
+                    "asn": 14593,
+                    "ipaddr4": "45.68.48.69",
+                    "ipaddr6": "2801:155:6:4157::69",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2025-04-09T16:46:13Z",
+                    "updated": "2025-04-09T16:46:13Z",
+                    "status": "ok"
                 }
             ],
             "poc_set": [
@@ -1993,7 +2031,7 @@
             "rir_status": "ok",
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2025-04-01T21:32:03Z",
+            "updated": "2025-04-09T19:02:41Z",
             "status": "ok"
         }
     ],
