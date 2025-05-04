@@ -1138,7 +1138,7 @@
             "properties": {
                 "title": "San Salvador",
                 "name": "SV, SV-SS, San Salvador",
-                "description": "<i>SV,SV-SS,San Salvador</i><br>143.105.122.0/24<br>(undefined.hostname.localhost.)<br>143.105.123.0/24<br>(undefined.hostname.localhost.)<br>143.105.4.0/25<br>(customer.rdmdwax3.pop.starlinkisp.net.)<br>143.105.4.128/25<br>(customer.rdmdwax3.pop.starlinkisp.net.)<br>179.60.173.0/25<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>98.97.161.64/26<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>98.97.161.128/26<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>179.60.173.128/26<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>98.97.161.0/27<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>98.97.161.32/27<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>98.97.161.192/27<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>98.97.161.224/27<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>179.60.173.192/27<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>179.60.173.224/27<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>2605:59c0:6200::/41<br>(customer.mc.starlinkisp.net.)<br>2605:59c8:7200::/42<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>"
+                "description": "<i>SV,SV-SS,San Salvador</i><br>143.105.122.0/24<br>(undefined.hostname.localhost.)<br>143.105.123.0/24<br>(undefined.hostname.localhost.)<br>179.60.173.0/25<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>98.97.161.64/26<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>98.97.161.128/26<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>179.60.173.128/26<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>98.97.161.0/27<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>98.97.161.32/27<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>98.97.161.192/27<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>98.97.161.224/27<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>179.60.173.192/27<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>179.60.173.224/27<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>2605:59c0:6200::/41<br>(customer.mc.starlinkisp.net.)<br>2605:59c8:7200::/42<br>(customer.qrtomex1.pop.starlinkisp.net.)<br>"
             }
         },
         {
@@ -1274,6 +1274,21 @@
                 "title": "N'Djamena",
                 "name": "TD, TD-ND, N'Djamena",
                 "description": "<i>TD,TD-ND,N'Djamena</i><br>143.105.160.0/24<br>(undefined.hostname.localhost.)<br>143.105.161.0/24<br>(undefined.hostname.localhost.)<br>143.105.162.0/24<br>(undefined.hostname.localhost.)<br>143.105.163.0/24<br>(undefined.hostname.localhost.)<br>2a0d:3344:2940::/42<br>(customer.mdrdesp1.pop.starlinkisp.net.)<br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    71.4272222,
+                    51.1655126
+                ]
+            },
+            "properties": {
+                "title": "Astana",
+                "name": "KZ, KZ-71, Astana",
+                "description": "<i>KZ,KZ-71,Astana</i><br>143.105.166.0/24<br>(undefined.hostname.localhost.)<br>143.105.167.0/24<br>(undefined.hostname.localhost.)<br>2a0d:3344:3b00::/41<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>"
             }
         },
         {
@@ -1888,7 +1903,7 @@
             "properties": {
                 "title": "Khartoum",
                 "name": "SD, SD-KH, Khartoum",
-                "description": "<i>SD,SD-KH,Khartoum</i><br>98.97.77.0/25<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>98.97.77.128/25<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>98.97.158.0/25<br>(customer.mnlaphl1.pop.starlinkisp.net.)<br>98.97.158.128/25<br>(customer.mnlaphl1.pop.starlinkisp.net.)<br>98.97.183.0/25<br>(customer.nrbiken1.pop.starlinkisp.net.)<br>98.97.183.128/25<br>(customer.nrbiken1.pop.starlinkisp.net.)<br>98.97.191.0/25<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>98.97.191.128/25<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>143.105.75.0/25<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>143.105.75.128/25<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>143.105.74.64/26<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>143.105.74.128/26<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>143.105.74.0/27<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>143.105.74.32/27<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>143.105.74.192/27<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>143.105.74.224/27<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>2a0d:3341:e000::/40<br>(customer.mc.starlinkisp.net.)<br>2a0d:3344:1300::/40<br>(customer.frntdeu1.pop.starlinkisp.net.)<br>"
+                "description": "<i>SD,SD-KH,Khartoum</i><br>98.97.77.0/25<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>98.97.77.128/25<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>98.97.158.0/25<br>(customer.mnlaphl1.pop.starlinkisp.net.)<br>98.97.158.128/25<br>(customer.mnlaphl1.pop.starlinkisp.net.)<br>98.97.183.0/25<br>(customer.nrbiken1.pop.starlinkisp.net.)<br>98.97.183.128/25<br>(customer.nrbiken1.pop.starlinkisp.net.)<br>98.97.191.0/25<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>98.97.191.128/25<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>143.105.75.0/25<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>143.105.75.128/25<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>2a0d:3341:e000::/40<br>(customer.mc.starlinkisp.net.)<br>2a0d:3344:1300::/40<br>(customer.frntdeu1.pop.starlinkisp.net.)<br>"
             }
         },
         {
@@ -2864,21 +2879,6 @@
                 "title": "Dakar",
                 "name": "SN, SN-DK, Dakar",
                 "description": "<i>SN,SN-DK,Dakar</i><br>2c0f:2a80:500::/40<br>(customer.lgosnga1.pop.starlinkisp.net.)<br>"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    71.4272222,
-                    51.1655126
-                ]
-            },
-            "properties": {
-                "title": "Astana",
-                "name": "KZ, KZ-71, Astana",
-                "description": "<i>KZ,KZ-71,Astana</i><br>2a0d:3344:3b00::/41<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>"
             }
         },
         {
