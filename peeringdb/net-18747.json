@@ -67,10 +67,10 @@
             "info_multicast": false,
             "info_ipv6": true,
             "info_never_via_route_servers": false,
-            "ix_count": 58,
+            "ix_count": 59,
             "fac_count": 39,
             "notes": "Recommend prefix limit 1000 for IPv4 and 1000 for IPv6\n\nSatellite based internet service provider\n\nFor SpaceX corporate see AS27277",
-            "netixlan_updated": "2025-05-19T18:21:56Z",
+            "netixlan_updated": "2025-07-07T17:29:01Z",
             "netfac_updated": "2025-04-01T21:31:58Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
@@ -1347,25 +1347,6 @@
                     "status": "ok"
                 },
                 {
-                    "id": 82701,
-                    "ix_id": 2345,
-                    "name": "GetaFIX Manila: Main",
-                    "ixlan_id": 2345,
-                    "notes": "",
-                    "speed": 100000,
-                    "asn": 14593,
-                    "ipaddr4": "103.104.19.81",
-                    "ipaddr6": "2401:fdc0::1:4593:1",
-                    "is_rs_peer": true,
-                    "bfd_support": false,
-                    "operational": true,
-                    "net_side_id": null,
-                    "ix_side_id": null,
-                    "created": "2023-05-08T20:37:57Z",
-                    "updated": "2023-05-08T20:37:57Z",
-                    "status": "ok"
-                },
-                {
                     "id": 82702,
                     "ix_id": 2345,
                     "name": "GetaFIX Manila: Main",
@@ -2067,6 +2048,25 @@
                     "created": "2025-05-19T18:21:56Z",
                     "updated": "2025-05-19T18:21:57Z",
                     "status": "ok"
+                },
+                {
+                    "id": 101336,
+                    "ix_id": 2381,
+                    "name": "AMS-IX Lagos: Main",
+                    "ixlan_id": 2381,
+                    "notes": "",
+                    "speed": 300000,
+                    "asn": 14593,
+                    "ipaddr4": "196.60.58.56",
+                    "ipaddr6": "2001:43f8:11f0::a501:4593:1",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2025-07-07T17:29:01Z",
+                    "updated": "2025-07-07T17:29:02Z",
+                    "status": "ok"
                 }
             ],
             "poc_set": [
@@ -2088,7 +2088,7 @@
             "rir_status": "ok",
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2025-05-19T18:22:02Z",
+            "updated": "2025-07-07T17:36:22Z",
             "status": "ok"
         }
     ],
