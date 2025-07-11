@@ -103,7 +103,7 @@
             "properties": {
                 "title": "Colombo",
                 "name": "LK, LK-1, Colombo",
-                "description": "<i>LK,LK-1,Colombo</i><br>14.1.78.0/24<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>14.1.79.0/24<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>2406:2d40:6100::/40<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>"
+                "description": "<i>LK,LK-1,Colombo</i><br>14.1.78.0/24<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>14.1.79.0/24<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>2406:2d40:6100::/40<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>2406:2d40:2d00::/41<br>(customer.prthaus1.pop.starlinkisp.net.)<br>"
             }
         },
         {
@@ -261,6 +261,21 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -47.89188739999999,
+                    -15.7975154
+                ]
+            },
+            "properties": {
+                "title": "Bras\u00edlia",
+                "name": "BR, BR-DF, Bras\u00edlia",
+                "description": "<i>BR,BR-DF,Bras\u00edlia</i><br>2803:9810:4c00::/40<br>(customer.splobra1.pop.starlinkisp.net.)<br>2803:9810:4d00::/40<br>(customer.splobra1.pop.starlinkisp.net.)<br>2803:9810:4e00::/40<br>(customer.splobra1.pop.starlinkisp.net.)<br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -111.8881397,
                     40.7605601
                 ]
@@ -313,7 +328,7 @@
             "properties": {
                 "title": "Hawthorne",
                 "name": "US, US-CA, Hawthorne",
-                "description": "<i>US,US-CA,Hawthorne</i><br>173.250.192.0/24<br>(customer.lsancax1.pop.starlinkisp.net.)<br>173.250.194.0/24<br>(customer.lsancax1.pop.starlinkisp.net.)<br>173.250.195.0/24<br>(customer.lsancax1.pop.starlinkisp.net.)<br>192.31.242.0/24<br>(mta2.spacex.com.)<br>2a0d:3341:dc01::/49<br>(customer.brseaus1.pop.starlinkisp.net.)<br>"
+                "description": "<i>US,US-CA,Hawthorne</i><br>173.250.192.0/24<br>(customer.lsancax1.pop.starlinkisp.net.)<br>173.250.194.0/24<br>(customer.lsancax1.pop.starlinkisp.net.)<br>173.250.195.0/24<br>(customer.lsancax1.pop.starlinkisp.net.)<br>2a0d:3341:dc01::/49<br>(customer.brseaus1.pop.starlinkisp.net.)<br>"
             }
         },
         {
@@ -358,7 +373,7 @@
             "properties": {
                 "title": "Seattle",
                 "name": "US, US-WA, Seattle",
-                "description": "<i>US,US-WA,Seattle</i><br>98.97.32.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.33.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.34.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.35.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.36.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.37.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.38.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.39.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.40.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.41.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.42.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.43.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.44.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.45.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.46.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.47.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.64.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.65.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.66.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.67.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.68.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.69.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.70.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.71.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.96.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.97.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.98.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.99.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.100.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.101.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.102.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.103.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>129.224.220.0/24<br>(customer.aafbgux1.pop.starlinkisp.net.)<br>98.97.73.0/25<br>(customer.sttlwax9.pop.starlinkisp.net.)<br>98.97.184.128/25<br>(customer.kentwax1.pop.starlinkisp.net.)<br>129.224.206.0/25<br>(customer.rdmdwax3.pop.starlinkisp.net.)<br>129.224.207.0/25<br>(customer.rdmdwax3rk3.pop.starlinkisp.net.)<br>129.224.207.128/25<br>(customer.rdmdwax3rk3.pop.starlinkisp.net.)<br>135.129.244.0/25<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>135.129.244.128/25<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>143.105.218.0/25<br>(undefined.hostname.localhost.)<br>143.105.218.128/25<br>(undefined.hostname.localhost.)<br>173.250.198.0/25<br>(undefined.hostname.localhost.)<br>173.250.198.128/25<br>(undefined.hostname.localhost.)<br>98.97.73.128/26<br>(customer.sttlwax9.pop.starlinkisp.net.)<br>98.97.184.0/26<br>(customer.kentwax1.pop.starlinkisp.net.)<br>129.224.206.128/26<br>(customer.rdmdwax3.pop.starlinkisp.net.)<br>135.129.115.64/26<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>135.129.115.128/26<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>135.129.115.32/27<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>135.129.115.192/27<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>135.129.115.224/27<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.73.192/28<br>(customer.sttlwax9.pop.starlinkisp.net.)<br>98.97.73.208/28<br>(customer.sttlwax9.pop.starlinkisp.net.)<br>129.224.206.192/28<br>(customer.rdmdwax3.pop.starlinkisp.net.)<br>129.224.206.208/28<br>(customer.rdmdwax3.pop.starlinkisp.net.)<br>2605:59c8::/40<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>2605:59c8:100::/40<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>2605:59c8:400::/40<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>2605:59c8:700::/40<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>2605:59c8:800::/40<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>2605:59c8:900::/40<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>2605:59c9::/40<br>(customer.rdmdwax3.pop.starlinkisp.net.)<br>2605:59c9:100::/40<br>(customer.rdmdwax3.pop.starlinkisp.net.)<br>2605:59c9:400::/40<br>(customer.rdmdwax3.pop.starlinkisp.net.)<br>2605:59ca::/40<br>(customer.sttlwax9.pop.starlinkisp.net.)<br>2605:59ca:100::/40<br>(customer.sttlwax9.pop.starlinkisp.net.)<br>2605:59c8:8000::/42<br>(customer.kentwax1.pop.starlinkisp.net.)<br>2605:59c8:8040::/42<br>(customer.kentwax1.pop.starlinkisp.net.)<br>2605:59c7:194::/46<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>2605:59c0:700d::/48<br>(customer.mc.starlinkisp.net.)<br>2605:59c7:f004::/48<br>(customer.spxship1.pop.starlinkisp.net.)<br>2605:59c9:200::/48<br>(customer.rdmdwax3.pop.starlinkisp.net.)<br>"
+                "description": "<i>US,US-WA,Seattle</i><br>98.97.32.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.33.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.34.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.35.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.36.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.37.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.38.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.39.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.40.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.41.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.42.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.43.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.44.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.45.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.46.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.47.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.64.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.65.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.66.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.67.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.68.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.69.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.70.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.71.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.96.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.97.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.98.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.99.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.100.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.101.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.102.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.103.0/24<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>129.224.220.0/24<br>(customer.aafbgux1.pop.starlinkisp.net.)<br>98.97.73.0/25<br>(customer.sttlwax9.pop.starlinkisp.net.)<br>98.97.184.128/25<br>(customer.kentwax1.pop.starlinkisp.net.)<br>129.224.206.0/25<br>(customer.rdmdwax3.pop.starlinkisp.net.)<br>129.224.207.0/25<br>(customer.rdmdwax3rk3.pop.starlinkisp.net.)<br>129.224.207.128/25<br>(customer.rdmdwax3rk3.pop.starlinkisp.net.)<br>135.129.244.0/25<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>135.129.244.128/25<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>143.105.218.0/25<br>(undefined.hostname.localhost.)<br>143.105.218.128/25<br>(undefined.hostname.localhost.)<br>173.250.198.0/25<br>(undefined.hostname.localhost.)<br>173.250.198.128/25<br>(undefined.hostname.localhost.)<br>173.250.207.0/25<br>(undefined.hostname.localhost.)<br>173.250.207.128/25<br>(undefined.hostname.localhost.)<br>98.97.73.128/26<br>(customer.sttlwax9.pop.starlinkisp.net.)<br>98.97.184.0/26<br>(customer.kentwax1.pop.starlinkisp.net.)<br>129.224.206.128/26<br>(customer.rdmdwax3.pop.starlinkisp.net.)<br>135.129.115.64/26<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>135.129.115.128/26<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>135.129.115.32/27<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>135.129.115.192/27<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>135.129.115.224/27<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>98.97.73.192/28<br>(customer.sttlwax9.pop.starlinkisp.net.)<br>98.97.73.208/28<br>(customer.sttlwax9.pop.starlinkisp.net.)<br>129.224.206.192/28<br>(customer.rdmdwax3.pop.starlinkisp.net.)<br>129.224.206.208/28<br>(customer.rdmdwax3.pop.starlinkisp.net.)<br>2605:59c8::/40<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>2605:59c8:100::/40<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>2605:59c8:400::/40<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>2605:59c8:700::/40<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>2605:59c8:800::/40<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>2605:59c8:900::/40<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>2605:59c9::/40<br>(customer.rdmdwax3.pop.starlinkisp.net.)<br>2605:59c9:100::/40<br>(customer.rdmdwax3.pop.starlinkisp.net.)<br>2605:59c9:400::/40<br>(customer.rdmdwax3.pop.starlinkisp.net.)<br>2605:59ca::/40<br>(customer.sttlwax9.pop.starlinkisp.net.)<br>2605:59ca:100::/40<br>(customer.sttlwax9.pop.starlinkisp.net.)<br>2605:59c8:8000::/42<br>(customer.kentwax1.pop.starlinkisp.net.)<br>2605:59c8:8040::/42<br>(customer.kentwax1.pop.starlinkisp.net.)<br>2605:59c7:194::/46<br>(customer.sttlwax1.pop.starlinkisp.net.)<br>2605:59c0:700d::/48<br>(customer.mc.starlinkisp.net.)<br>2605:59c7:f004::/48<br>(customer.spxship1.pop.starlinkisp.net.)<br>2605:59c9:200::/48<br>(customer.rdmdwax3.pop.starlinkisp.net.)<br>"
             }
         },
         {
@@ -1093,7 +1108,7 @@
             "properties": {
                 "title": "Yangon",
                 "name": "MM, MM-06, Yangon",
-                "description": "<i>MM,MM-06,Yangon</i><br>129.224.202.0/24<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>129.224.203.0/24<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>135.129.126.0/25<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>135.129.126.128/25<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>143.105.55.0/25<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>143.105.55.128/25<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>2406:2d40:6300::/40<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>2406:2d40:8180::/41<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>2406:2d40:3540::/42<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>"
+                "description": "<i>MM,MM-06,Yangon</i><br>129.224.202.0/24<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>129.224.203.0/24<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>135.129.126.0/25<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>135.129.126.128/25<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>143.105.55.0/25<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>143.105.55.128/25<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>2406:2d40:6300::/40<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>2406:2d40:2e00::/41<br>(customer.prthaus1.pop.starlinkisp.net.)<br>2406:2d40:8180::/41<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>2406:2d40:3540::/42<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>"
             }
         },
         {
@@ -1123,7 +1138,7 @@
             "properties": {
                 "title": "Asuncion",
                 "name": "PY, PY-ASU, Asuncion",
-                "description": "<i>PY,PY-ASU,Asuncion</i><br>143.105.108.0/24<br>(customer.bnssarg1.pop.starlinkisp.net.)<br>143.105.109.0/24<br>(customer.bnssarg1.pop.starlinkisp.net.)<br>148.222.128.0/24<br>(customer.splobra1.pop.starlinkisp.net.)<br>148.222.129.0/24<br>(customer.splobra1.pop.starlinkisp.net.)<br>2803:9810:4100::/40<br>(customer.splobra1.pop.starlinkisp.net.)<br>2803:9810:3300::/42<br>(customer.sntochl1.pop.starlinkisp.net.)<br>2803:9810:b300::/42<br>(customer.bnssarg1.pop.starlinkisp.net.)<br>"
+                "description": "<i>PY,PY-ASU,Asuncion</i><br>143.105.108.0/24<br>(customer.bnssarg1.pop.starlinkisp.net.)<br>143.105.109.0/24<br>(customer.bnssarg1.pop.starlinkisp.net.)<br>148.222.128.0/24<br>(customer.splobra1.pop.starlinkisp.net.)<br>148.222.129.0/24<br>(customer.splobra1.pop.starlinkisp.net.)<br>2803:9810:4100::/40<br>(customer.splobra1.pop.starlinkisp.net.)<br>2803:9810:4f00::/40<br>(customer.splobra1.pop.starlinkisp.net.)<br>2803:9810:3300::/42<br>(customer.sntochl1.pop.starlinkisp.net.)<br>2803:9810:b300::/42<br>(customer.bnssarg1.pop.starlinkisp.net.)<br>"
             }
         },
         {
@@ -1768,7 +1783,7 @@
             "properties": {
                 "title": "Thimphu",
                 "name": "BT, BT-15, Thimphu",
-                "description": "<i>BT,BT-15,Thimphu</i><br>14.1.76.128/25<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>14.1.76.0/26<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>14.1.76.64/26<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>2406:2d40:3240::/42<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>2406:2d40:6200::/42<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>"
+                "description": "<i>BT,BT-15,Thimphu</i><br>14.1.76.128/25<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>14.1.76.0/26<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>14.1.76.64/26<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>2406:2d40:2d80::/41<br>(customer.prthaus1.pop.starlinkisp.net.)<br>2406:2d40:3240::/42<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>2406:2d40:6200::/42<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>"
             }
         },
         {
@@ -2826,21 +2841,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    90.4152376,
-                    23.804093
-                ]
-            },
-            "properties": {
-                "title": "Dhaka",
-                "name": "BD, BD-E, Dhaka",
-                "description": "<i>BD,BD-E,Dhaka</i><br>2406:2d40:8300::/40<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     72.8320729,
                     18.9581934
                 ]
@@ -2848,7 +2848,22 @@
             "properties": {
                 "title": "Mumbai",
                 "name": "IN, IN-MH, Mumbai",
-                "description": "<i>IN,IN-MH,Mumbai</i><br>2406:2d40:a000::/40<br>(customer.mmbiind1.pop.starlinkisp.net.)<br>"
+                "description": "<i>IN,IN-MH,Mumbai</i><br>2406:2d40:2800::/40<br>(customer.prthaus1.pop.starlinkisp.net.)<br>2406:2d40:2900::/40<br>(customer.prthaus1.pop.starlinkisp.net.)<br>2406:2d40:2a00::/40<br>(customer.prthaus1.pop.starlinkisp.net.)<br>2406:2d40:2b00::/40<br>(customer.prthaus1.pop.starlinkisp.net.)<br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    90.4152376,
+                    23.804093
+                ]
+            },
+            "properties": {
+                "title": "Dhaka",
+                "name": "BD, BD-E, Dhaka",
+                "description": "<i>BD,BD-E,Dhaka</i><br>2406:2d40:2c00::/40<br>(customer.prthaus1.pop.starlinkisp.net.)<br>2406:2d40:2f00::/40<br>(customer.prthaus1.pop.starlinkisp.net.)<br>2406:2d40:8300::/40<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>"
             }
         },
         {
