@@ -67,11 +67,11 @@
             "info_multicast": false,
             "info_ipv6": true,
             "info_never_via_route_servers": false,
-            "ix_count": 60,
-            "fac_count": 39,
-            "notes": "Recommend prefix limit 1000 for IPv4 and 1000 for IPv6\n\nSatellite based internet service provider\n\nFor SpaceX corporate see AS27277",
-            "netixlan_updated": "2025-07-13T18:00:40Z",
-            "netfac_updated": "2025-04-01T21:31:58Z",
+            "ix_count": 62,
+            "fac_count": 46,
+            "notes": "",
+            "netixlan_updated": "2025-07-14T21:48:38Z",
+            "netfac_updated": "2025-07-14T21:32:56Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
             "policy_general": "Open",
@@ -333,6 +333,17 @@
                     "status": "ok"
                 },
                 {
+                    "id": 80348,
+                    "name": "Cologix MTL3",
+                    "city": "Montreal",
+                    "country": "CA",
+                    "fac_id": 1944,
+                    "local_asn": 14593,
+                    "created": "2025-07-14T21:30:17Z",
+                    "updated": "2025-07-14T21:30:17Z",
+                    "status": "ok"
+                },
+                {
                     "id": 73904,
                     "name": "Retelit Avalon 1",
                     "city": "Milano",
@@ -432,6 +443,28 @@
                     "status": "ok"
                 },
                 {
+                    "id": 80349,
+                    "name": "KIO Guatemala 1 (GTM1)",
+                    "city": "Ciudad de Guatemala",
+                    "country": "GT",
+                    "fac_id": 4589,
+                    "local_asn": 14593,
+                    "created": "2025-07-14T21:30:51Z",
+                    "updated": "2025-07-14T21:30:51Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 80347,
+                    "name": "NEXTDC B2",
+                    "city": "Fortitude Valley",
+                    "country": "AU",
+                    "fac_id": 4688,
+                    "local_asn": 14593,
+                    "created": "2025-07-14T21:29:35Z",
+                    "updated": "2025-07-14T21:29:35Z",
+                    "status": "ok"
+                },
+                {
                     "id": 61959,
                     "name": "VITRO Makati 2",
                     "city": "Makati City",
@@ -465,6 +498,17 @@
                     "status": "ok"
                 },
                 {
+                    "id": 80350,
+                    "name": "Omadata Data Center",
+                    "city": "Surabaya",
+                    "country": "ID",
+                    "fac_id": 5642,
+                    "local_asn": 14593,
+                    "created": "2025-07-14T21:31:49Z",
+                    "updated": "2025-07-14T21:31:51Z",
+                    "status": "ok"
+                },
+                {
                     "id": 57795,
                     "name": "Cirion Lima - LIM1",
                     "city": "Santiago de Surco",
@@ -487,6 +531,17 @@
                     "status": "ok"
                 },
                 {
+                    "id": 80346,
+                    "name": "Equinix MB2 - Mumbai (GPX Mumbai 2)",
+                    "city": "Mumbai",
+                    "country": "IN",
+                    "fac_id": 7377,
+                    "local_asn": 14593,
+                    "created": "2025-07-14T21:26:50Z",
+                    "updated": "2025-07-14T21:26:51Z",
+                    "status": "ok"
+                },
+                {
                     "id": 53058,
                     "name": "Digital Realty Madrid MAD3",
                     "city": "Madrid",
@@ -506,6 +561,28 @@
                     "local_asn": 14593,
                     "created": "2025-04-01T21:31:59Z",
                     "updated": "2025-04-01T21:31:59Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 80352,
+                    "name": "Meeza Data Center - MV2",
+                    "city": "Doha",
+                    "country": "QA",
+                    "fac_id": 8069,
+                    "local_asn": 14593,
+                    "created": "2025-07-14T21:32:57Z",
+                    "updated": "2025-07-14T21:32:57Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 80351,
+                    "name": "Equinix MC1 - Muscat",
+                    "city": "Muscat",
+                    "country": "OM",
+                    "fac_id": 9339,
+                    "local_asn": 14593,
+                    "created": "2025-07-14T21:32:28Z",
+                    "updated": "2025-07-14T21:32:28Z",
                     "status": "ok"
                 }
             ],
@@ -877,7 +954,7 @@
                     "name": "DE-CIX Frankfurt: DE-CIX Frankfurt Peering LAN",
                     "ixlan_id": 31,
                     "notes": "",
-                    "speed": 500000,
+                    "speed": 600000,
                     "asn": 14593,
                     "ipaddr4": "80.81.197.53",
                     "ipaddr6": "2001:7f8::3901:0:2",
@@ -887,7 +964,7 @@
                     "net_side_id": null,
                     "ix_side_id": null,
                     "created": "2022-01-19T23:11:05Z",
-                    "updated": "2024-11-06T20:27:45Z",
+                    "updated": "2025-07-14T21:40:43Z",
                     "status": "ok"
                 },
                 {
@@ -1276,7 +1353,7 @@
                     "name": "IXPN Lagos",
                     "ixlan_id": 488,
                     "notes": "",
-                    "speed": 300000,
+                    "speed": 600000,
                     "asn": 14593,
                     "ipaddr4": "196.216.148.128",
                     "ipaddr6": "2001:43f8:bb1::128",
@@ -1286,26 +1363,7 @@
                     "net_side_id": null,
                     "ix_side_id": null,
                     "created": "2022-10-12T00:44:57Z",
-                    "updated": "2025-04-25T16:37:42Z",
-                    "status": "ok"
-                },
-                {
-                    "id": 77660,
-                    "ix_id": 488,
-                    "name": "IXPN Lagos",
-                    "ixlan_id": 488,
-                    "notes": "",
-                    "speed": 300000,
-                    "asn": 14593,
-                    "ipaddr4": "196.216.148.129",
-                    "ipaddr6": "2001:43f8:bb1::129",
-                    "is_rs_peer": true,
-                    "bfd_support": false,
-                    "operational": true,
-                    "net_side_id": null,
-                    "ix_side_id": null,
-                    "created": "2022-10-12T00:45:23Z",
-                    "updated": "2025-04-25T16:37:42Z",
+                    "updated": "2025-07-14T21:48:39Z",
                     "status": "ok"
                 },
                 {
@@ -1689,6 +1747,25 @@
                     "status": "ok"
                 },
                 {
+                    "id": 93061,
+                    "ix_id": 832,
+                    "name": "DE-CIX Mumbai: DE-CIX Mumbai Peering LAN",
+                    "ixlan_id": 832,
+                    "notes": "",
+                    "speed": 200000,
+                    "asn": 14593,
+                    "ipaddr4": "103.27.171.68",
+                    "ipaddr6": "2401:7500:fff6::1c8",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2024-07-12T11:03:42Z",
+                    "updated": "2025-07-14T20:33:33Z",
+                    "status": "ok"
+                },
+                {
                     "id": 93473,
                     "ix_id": 3378,
                     "name": "DE-CIX Chicago",
@@ -1762,6 +1839,25 @@
                     "ix_side_id": null,
                     "created": "2024-08-23T22:03:15Z",
                     "updated": "2024-08-23T22:03:15Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 94242,
+                    "ix_id": 358,
+                    "name": "GNM-IX",
+                    "ixlan_id": 358,
+                    "notes": "",
+                    "speed": 200000,
+                    "asn": 14593,
+                    "ipaddr4": "178.18.236.155",
+                    "ipaddr6": "2a03:5f80:4:2::236:155",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2024-08-23T22:05:04Z",
+                    "updated": "2025-07-14T21:46:26Z",
                     "status": "ok"
                 },
                 {
@@ -2126,7 +2222,7 @@
             "rir_status": "ok",
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2025-07-12T00:15:46Z",
+            "updated": "2025-07-14T21:49:34Z",
             "status": "ok"
         }
     ],
