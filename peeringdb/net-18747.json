@@ -67,10 +67,10 @@
             "info_multicast": false,
             "info_ipv6": true,
             "info_never_via_route_servers": false,
-            "ix_count": 62,
+            "ix_count": 63,
             "fac_count": 46,
             "notes": "",
-            "netixlan_updated": "2025-07-14T21:48:38Z",
+            "netixlan_updated": "2025-07-15T17:10:06Z",
             "netfac_updated": "2025-07-14T21:32:56Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
@@ -680,6 +680,25 @@
                     "ix_side_id": null,
                     "created": "2017-09-19T10:43:48Z",
                     "updated": "2022-04-27T20:55:17Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 39729,
+                    "ix_id": 1627,
+                    "name": "Extreme IX Mumbai: Extreme IX",
+                    "ixlan_id": 1627,
+                    "notes": "",
+                    "speed": 200000,
+                    "asn": 14593,
+                    "ipaddr4": "103.77.108.201",
+                    "ipaddr6": "2001:df2:1900:2::201",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2018-02-20T09:01:56Z",
+                    "updated": "2025-07-15T17:10:07Z",
                     "status": "ok"
                 },
                 {
@@ -2222,7 +2241,7 @@
             "rir_status": "ok",
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2025-07-14T21:49:34Z",
+            "updated": "2025-07-15T17:10:29Z",
             "status": "ok"
         }
     ],
