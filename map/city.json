@@ -1183,7 +1183,7 @@
             "properties": {
                 "title": "Kingstown",
                 "name": "VC, VC-04, Kingstown",
-                "description": "<i>VC,VC-04,Kingstown</i><br>143.105.126.0/24<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>143.105.127.0/24<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>2605:59c8:64c0::/42<br>(customer.atlagax1.pop.starlinkisp.net.)<br>2803:9810:5480::/42<br>(customer.bgtacol1.pop.starlinkisp.net.)<br>"
+                "description": "<i>VC,VC-04,Kingstown</i><br>143.105.127.0/24<br>(customer.mmmiflx1.pop.starlinkisp.net.)<br>2605:59c8:64c0::/42<br>(customer.atlagax1.pop.starlinkisp.net.)<br>2803:9810:5480::/42<br>(customer.bgtacol1.pop.starlinkisp.net.)<br>"
             }
         },
         {
@@ -1866,21 +1866,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    103.819836,
-                    1.352083
-                ]
-            },
-            "properties": {
-                "title": "Singapore",
-                "name": "SG, SG-01, Singapore",
-                "description": "<i>SG,SG-01,Singapore</i><br>14.1.68.0/25<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>14.1.68.128/25<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>203.17.83.0/25<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>203.17.83.128/26<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>203.17.83.192/26<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>2406:2d40:8100::/42<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     179.1961926,
                     -8.5211471
                 ]
@@ -1904,36 +1889,6 @@
                 "title": "Thimphu",
                 "name": "BT, BT-15, Thimphu",
                 "description": "<i>BT,BT-15,Thimphu</i><br>14.1.76.128/25<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>14.1.76.0/26<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>14.1.76.64/26<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>2406:2d40:2d80::/41<br>(customer.prthaus1.pop.starlinkisp.net.)<br>2406:2d40:6200::/42<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    106.9155007,
-                    47.9220509
-                ]
-            },
-            "properties": {
-                "title": "Ulaanbaatar",
-                "name": "MN, MN-1, Ulaanbaatar",
-                "description": "<i>MN,MN-1,Ulaanbaatar</i><br>14.1.81.0/25<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>143.105.19.0/25<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>143.105.19.128/25<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>14.1.81.128/26<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>14.1.81.192/26<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>2406:2d40:3300::/40<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -175.2004858,
-                    -21.1343065
-                ]
-            },
-            "properties": {
-                "title": "Nuku'alofa",
-                "name": "TO, TO-04, Nuku'alofa",
-                "description": "<i>TO,TO-04,Nuku'alofa</i><br>65.181.10.0/25<br>(customer.sydyaus1.pop.starlinkisp.net.)<br>103.152.126.0/25<br>(customer.sydyaus1.pop.starlinkisp.net.)<br>103.152.126.128/25<br>(customer.sydyaus1.pop.starlinkisp.net.)<br>65.181.10.128/26<br>(customer.sydyaus1.pop.starlinkisp.net.)<br>65.181.10.192/26<br>(customer.sydyaus1.pop.starlinkisp.net.)<br>2406:2d40:2680::/42<br>(customer.prthaus1.pop.starlinkisp.net.)<br>2406:2d40:4300::/42<br>(customer.sydyaus1.pop.starlinkisp.net.)<br>2406:2d40:7300::/42<br>(customer.acklnzl1.pop.starlinkisp.net.)<br>2406:2d40:74c0::/42<br>(customer.acklnzl1.pop.starlinkisp.net.)<br>"
             }
         },
         {
@@ -2084,6 +2039,21 @@
                 "title": "Manama",
                 "name": "BH, BH-13, Manama",
                 "description": "<i>BH,BH-13,Manama</i><br>98.97.182.0/25<br>(customer.dohaqat1.pop.starlinkisp.net.)<br>98.97.182.128/25<br>(customer.dohaqat1.pop.starlinkisp.net.)<br>2a0d:3341:c300::/42<br>(customer.dohaqat1.pop.starlinkisp.net.)<br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -175.2004858,
+                    -21.1343065
+                ]
+            },
+            "properties": {
+                "title": "Nuku'alofa",
+                "name": "TO, TO-04, Nuku'alofa",
+                "description": "<i>TO,TO-04,Nuku'alofa</i><br>103.152.126.0/25<br>(customer.sydyaus1.pop.starlinkisp.net.)<br>103.152.126.128/25<br>(customer.sydyaus1.pop.starlinkisp.net.)<br>2406:2d40:2680::/42<br>(customer.prthaus1.pop.starlinkisp.net.)<br>2406:2d40:4300::/42<br>(customer.sydyaus1.pop.starlinkisp.net.)<br>2406:2d40:7300::/42<br>(customer.acklnzl1.pop.starlinkisp.net.)<br>2406:2d40:74c0::/42<br>(customer.acklnzl1.pop.starlinkisp.net.)<br>"
             }
         },
         {
@@ -2331,21 +2301,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    49.8670924,
-                    40.40926169999999
-                ]
-            },
-            "properties": {
-                "title": "Baku",
-                "name": "AZ, AZ-BA, Baku",
-                "description": "<i>AZ,AZ-BA,Baku</i><br>216.128.12.0/25<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>143.105.112.192/26<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>216.128.12.128/26<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>216.128.12.192/26<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>2a0d:3344:3680::/42<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -21.9407552,
                     64.1469868
                 ]
@@ -2369,21 +2324,6 @@
                 "title": "Copenhagen",
                 "name": "DK, DK-84, Copenhagen",
                 "description": "<i>DK,DK-84,Copenhagen</i><br>217.65.142.0/25<br>(customer.frntdeu1.pop.starlinkisp.net.)<br>217.65.142.128/25<br>(customer.frntdeu1.pop.starlinkisp.net.)<br>216.128.8.64/26<br>(customer.frntdeu1.pop.starlinkisp.net.)<br>216.128.8.128/26<br>(customer.frntdeu1.pop.starlinkisp.net.)<br>216.128.8.0/27<br>(customer.frntdeu1.pop.starlinkisp.net.)<br>216.128.8.32/27<br>(customer.frntdeu1.pop.starlinkisp.net.)<br>216.128.8.192/27<br>(customer.frntdeu1.pop.starlinkisp.net.)<br>216.128.8.224/27<br>(customer.frntdeu1.pop.starlinkisp.net.)<br>2a0d:3344:19c0::/42<br>(customer.frntdeu1.pop.starlinkisp.net.)<br>"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    171.266667,
-                    7.066667
-                ]
-            },
-            "properties": {
-                "title": "Majuro",
-                "name": "MH, MH-T, Majuro",
-                "description": "<i>MH,MH-T,Majuro</i><br>14.1.70.64/26<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>14.1.70.128/26<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>14.1.70.0/27<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>14.1.70.32/27<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>14.1.70.192/27<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>14.1.70.224/27<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>2406:2d40:3580::/42<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>"
             }
         },
         {
@@ -2466,36 +2406,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    21.4304599,
-                    41.9937655
-                ]
-            },
-            "properties": {
-                "title": "Skopje",
-                "name": "MK, MK-814, Skopje",
-                "description": "<i>MK,MK-814,Skopje</i><br>87.251.27.64/26<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>87.251.27.128/26<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>98.97.55.128/26<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>87.251.27.0/27<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>87.251.27.32/27<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>87.251.27.192/27<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>87.251.27.224/27<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>2a0d:3344:33c0::/42<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    19.8186982,
-                    41.3275459
-                ]
-            },
-            "properties": {
-                "title": "Tirana",
-                "name": "AL, AL-11, Tirana",
-                "description": "<i>AL,AL-11,Tirana</i><br>87.251.28.64/26<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>87.251.28.128/26<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>143.105.94.128/26<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>87.251.28.0/27<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>87.251.28.32/27<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>87.251.28.192/27<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>87.251.28.224/27<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>2a0d:3344:3440::/42<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     24.938379,
                     60.16985569999999
                 ]
@@ -2534,6 +2444,21 @@
                 "title": "Tbilisi",
                 "name": "GE, GE-TB, Tbilisi",
                 "description": "<i>GE,GE-TB,Tbilisi</i><br>98.97.55.64/26<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>217.142.28.64/26<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>217.142.28.128/26<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>217.142.28.0/27<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>217.142.28.32/27<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>217.142.28.192/27<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>217.142.28.224/27<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>2a0d:3344:3400::/42<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.4304599,
+                    41.9937655
+                ]
+            },
+            "properties": {
+                "title": "Skopje",
+                "name": "MK, MK-814, Skopje",
+                "description": "<i>MK,MK-814,Skopje</i><br>98.97.55.128/26<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>2a0d:3344:33c0::/42<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>"
             }
         },
         {
@@ -2616,8 +2541,23 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    21.005859,
-                    44.016521
+                    19.8186982,
+                    41.3275459
+                ]
+            },
+            "properties": {
+                "title": "Tirana",
+                "name": "AL, AL-11, Tirana",
+                "description": "<i>AL,AL-11,Tirana</i><br>143.105.94.128/26<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>2a0d:3344:3440::/42<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.1643067,
+                    42.6673053
                 ]
             },
             "properties": {
@@ -2669,6 +2609,21 @@
                 "title": "Zagreb",
                 "name": "HR, HR-21, Zagreb",
                 "description": "<i>HR,HR-21,Zagreb</i><br>143.105.112.128/26<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>212.105.159.64/26<br>(customer.mlnnita1.pop.starlinkisp.net.)<br>212.105.159.128/26<br>(customer.mlnnita1.pop.starlinkisp.net.)<br>212.105.159.0/27<br>(customer.mlnnita1.pop.starlinkisp.net.)<br>212.105.159.32/27<br>(customer.mlnnita1.pop.starlinkisp.net.)<br>212.105.159.192/27<br>(customer.mlnnita1.pop.starlinkisp.net.)<br>212.105.159.224/27<br>(customer.mlnnita1.pop.starlinkisp.net.)<br>2a0d:3341:cec0::/42<br>(customer.dohaqat1.pop.starlinkisp.net.)<br>2a0d:3344:34c0::/42<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.8670924,
+                    40.40926169999999
+                ]
+            },
+            "properties": {
+                "title": "Baku",
+                "name": "AZ, AZ-BA, Baku",
+                "description": "<i>AZ,AZ-BA,Baku</i><br>143.105.112.192/26<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>2a0d:3344:3680::/42<br>(customer.sfiabgr1.pop.starlinkisp.net.)<br>"
             }
         },
         {
@@ -2901,6 +2856,21 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    106.9155007,
+                    47.9220509
+                ]
+            },
+            "properties": {
+                "title": "Ulaanbaatar",
+                "name": "MN, MN-1, Ulaanbaatar",
+                "description": "<i>MN,MN-1,Ulaanbaatar</i><br>2406:2d40:3300::/40<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     106.6296638,
                     10.8230989
                 ]
@@ -3029,6 +2999,36 @@
                 "title": "Dili",
                 "name": "TL, TL-DI, Dili",
                 "description": "<i>TL,TL-DI,Dili</i><br>2406:2d40:2740::/42<br>(customer.prthaus1.pop.starlinkisp.net.)<br>2406:2d40:4c40::/42<br>(customer.sydyaus1.pop.starlinkisp.net.)<br>2406:2d40:8140::/42<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    171.266667,
+                    7.066667
+                ]
+            },
+            "properties": {
+                "title": "Majuro",
+                "name": "MH, MH-T, Majuro",
+                "description": "<i>MH,MH-T,Majuro</i><br>2406:2d40:3580::/42<br>(customer.tkyojpn1.pop.starlinkisp.net.)<br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.819836,
+                    1.352083
+                ]
+            },
+            "properties": {
+                "title": "Singapore",
+                "name": "SG, SG-01, Singapore",
+                "description": "<i>SG,SG-01,Singapore</i><br>2406:2d40:8100::/42<br>(customer.sngesgp1.pop.starlinkisp.net.)<br>"
             }
         },
         {
