@@ -392,8 +392,8 @@
         "lat": 19.0759837,
         "lon": 72.8776559,
         "show": true,
-        "type": "pop",
-        "note": "This is a planned PoP in GeoIP allocation, not yet operational."
+        "type": "netfac",
+        "note": "Equinix MB2 - Mumbai (GPX Mumbai 2)<br><a href=\"https://www.peeringdb.com/fac/7377\" target=\"_blank\">https://www.peeringdb.com/fac/7377</a><br>"
     },
     {
         "code": "mmmiflx1",
@@ -420,11 +420,13 @@
     {
         "code": "mntlcan1",
         "dns": "customer.mntlcan1.pop.starlinkisp.net.",
-        "city": "",
-        "country": "",
-        "lat": 0,
-        "lon": 0,
-        "show": false
+        "city": "Montreal",
+        "country": "Canada",
+        "lat": -73.570471,
+        "lon": 45.497188,
+        "show": true,
+        "type": "netfac",
+        "note": "Cologix MTL3<br><a href=\"https://www.peeringdb.com/fac/1944\" target=\"_blank\">https://www.peeringdb.com/fac/1944</a><br>"
     },
     {
         "code": "mplsmnx1",
@@ -522,16 +524,6 @@
         "lon": 0,
         "show": false,
         "note": "This is <b>probably</b> a community gateway installed on cruise ships."
-    },
-    {
-        "code": "rcxship2",
-        "dns": "customer.rcxship2.pop.starlinkisp.net.",
-        "city": "Unknown",
-        "country": "Unknown",
-        "lat": 0,
-        "lon": 0,
-        "show": false,
-        "note": "Unknown"
     },
     {
         "code": "rcxship3",
@@ -654,11 +646,13 @@
     {
         "code": "srbaidn2",
         "dns": "customer.srbaidn2.pop.starlinkisp.net.",
-        "city": "",
-        "country": "",
-        "lat": 0,
-        "lon": 0,
-        "show": false
+        "city": "Surabaya",
+        "country": "Indonesia",
+        "lat": 112.74282,
+        "lon": -7.273023,
+        "show": true,
+        "type": "netfac",
+        "note": "Omadata Data Center<br><a href=\"https://www.peeringdb.com/fac/5642\" target=\"_blank\">https://www.peeringdb.com/fac/5642</a><br>"
     },
     {
         "code": "strespx2",
