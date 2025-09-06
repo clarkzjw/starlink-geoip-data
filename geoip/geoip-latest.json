@@ -1099,10 +1099,6 @@
               "customer.mmmiflx1.pop.starlinkisp.net."
             ],
             [
-              "143.105.44.0/25",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
               "143.105.44.128/25",
               "customer.mmmiflx1.pop.starlinkisp.net."
             ],
@@ -1128,10 +1124,6 @@
             ],
             [
               "66.9.167.128/25",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "143.105.43.0/25",
               "customer.mmmiflx1.pop.starlinkisp.net."
             ],
             [
@@ -2322,10 +2314,6 @@
             ],
             [
               "143.105.0.0/24",
-              "undefined.hostname.localhost."
-            ],
-            [
-              "143.105.1.0/24",
               "undefined.hostname.localhost."
             ],
             [
@@ -11124,6 +11112,7 @@
     }
   },
   "nxdomain": [
+    "143.105.1.0/24,US,US-VA,Ashburn,",
     "148.227.96.0/24,CL,CL-RM,Santiago,",
     "148.227.97.0/24,CL,CL-RM,Santiago,",
     "148.227.98.0/24,CL,CL-RM,Santiago,",
@@ -11296,6 +11285,8 @@
     "168.140.254.0/24,AU,AU-QLD,Brisbane,",
     "168.140.255.0/24,AU,AU-QLD,Brisbane,",
     "192.31.242.0/24,US,US-CA,Hawthorne,",
+    "143.105.43.0/25,JM,JM-01,Kingston,",
+    "143.105.44.0/25,PR,PR-630,San Juan,",
     "150.228.26.0/25,FR,FR-IDF,Paris,",
     "150.228.26.128/25,FR,FR-IDF,Paris,",
     "150.228.27.0/25,NL,NL-NH,Amsterdam,",
@@ -11487,7 +11478,7 @@
     ],
     [
       "customer.mmmiflx1.pop.starlinkisp.net.",
-      140
+      138
     ],
     [
       "customer.mnlaphl1.pop.starlinkisp.net.",
@@ -11607,7 +11598,7 @@
     ],
     [
       "undefined.hostname.localhost.",
-      44
+      43
     ]
   ]
 }
