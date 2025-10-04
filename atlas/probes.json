@@ -172,7 +172,7 @@
             "since": "2025-10-03T01:22:46Z"
         },
         "type": "Probe",
-        "ipv4_ptr": ";; communications error to 127.0.0.53#53: timed out"
+        "ipv4_ptr": ""
     },
     {
         "address_v4": "98.97.25.239",
@@ -1696,7 +1696,7 @@
         "address_v4": null,
         "address_v6": null,
         "asn_v4": 14593,
-        "asn_v6": null,
+        "asn_v6": 14593,
         "country_code": "IT",
         "description": "",
         "firmware_version": 5080,
@@ -1712,14 +1712,15 @@
         "is_anchor": false,
         "is_public": false,
         "prefix_v4": "212.105.152.0/23",
-        "prefix_v6": null,
+        "prefix_v6": "2a0d:3341:cc00::/40",
         "status": {
             "id": 1,
             "name": "Connected",
             "since": "2025-10-03T18:31:03Z"
         },
         "type": "Probe",
-        "ipv4_ptr": ""
+        "ipv4_ptr": "",
+        "ipv6_ptr": ""
     },
     {
         "address_v4": "170.203.218.190",
@@ -1860,9 +1861,9 @@
         "prefix_v4": "216.147.120.0/21",
         "prefix_v6": "2605:59c8:5000::/40",
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2025-10-04T01:41:53Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2025-10-04T01:46:38Z"
         },
         "type": "Probe",
         "ipv4_ptr": "customer.dnvrcox1.pop.starlinkisp.net.",
@@ -2924,7 +2925,7 @@
         "status": {
             "id": 2,
             "name": "Disconnected",
-            "since": "2025-10-04T01:41:12Z"
+            "since": "2025-10-04T01:51:17Z"
         },
         "type": "Probe",
         "ipv6_ptr": "customer.chcoilx1.isp.starlink.com."
