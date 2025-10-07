@@ -68,10 +68,10 @@
             "info_multicast": false,
             "info_ipv6": true,
             "info_never_via_route_servers": false,
-            "ix_count": 65,
+            "ix_count": 66,
             "fac_count": 47,
             "notes": "",
-            "netixlan_updated": "2025-08-04T17:20:23Z",
+            "netixlan_updated": "2025-10-06T17:59:31Z",
             "netfac_updated": "2025-10-01T18:10:03Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
@@ -2308,6 +2308,25 @@
                     "created": "2025-08-04T17:20:24Z",
                     "updated": "2025-08-06T04:37:36Z",
                     "status": "ok"
+                },
+                {
+                    "id": 103736,
+                    "ix_id": 2718,
+                    "name": "EdgeIX - Perth: Main",
+                    "ixlan_id": 2718,
+                    "notes": "",
+                    "speed": 200000,
+                    "asn": 14593,
+                    "ipaddr4": "103.136.102.77",
+                    "ipaddr6": "2001:df0:680:3::4d",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2025-10-06T17:59:31Z",
+                    "updated": "2025-10-06T17:59:31Z",
+                    "status": "ok"
                 }
             ],
             "poc_set": [
@@ -2330,7 +2349,7 @@
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "logo": null,
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2025-10-01T18:10:06Z",
+            "updated": "2025-10-06T19:03:09Z",
             "status": "ok"
         }
     ],
