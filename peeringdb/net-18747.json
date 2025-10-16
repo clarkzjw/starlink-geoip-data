@@ -68,11 +68,11 @@
             "info_multicast": false,
             "info_ipv6": true,
             "info_never_via_route_servers": false,
-            "ix_count": 66,
-            "fac_count": 47,
+            "ix_count": 67,
+            "fac_count": 48,
             "notes": "",
-            "netixlan_updated": "2025-10-06T17:59:31Z",
-            "netfac_updated": "2025-10-01T18:10:03Z",
+            "netixlan_updated": "2025-10-14T18:08:51Z",
+            "netfac_updated": "2025-10-14T18:09:32Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
             "policy_general": "Open",
@@ -199,6 +199,17 @@
                     "local_asn": 14593,
                     "created": "2022-01-07T19:31:55Z",
                     "updated": "2022-01-07T19:31:55Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 82516,
+                    "name": "Netrality Kansas City - 1102 Grand",
+                    "city": "Kansas City",
+                    "country": "US",
+                    "fac_id": 435,
+                    "local_asn": 14593,
+                    "created": "2025-10-14T18:09:32Z",
+                    "updated": "2025-10-14T18:09:33Z",
                     "status": "ok"
                 },
                 {
@@ -599,6 +610,25 @@
                 }
             ],
             "netixlan_set": [
+                {
+                    "id": 7542,
+                    "ix_id": 249,
+                    "name": "KCIX",
+                    "ixlan_id": 249,
+                    "notes": "",
+                    "speed": 200000,
+                    "asn": 14593,
+                    "ipaddr4": "206.51.7.7",
+                    "ipaddr6": "2001:504:1b:1::7",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2011-01-06T00:00:00Z",
+                    "updated": "2025-10-14T18:08:24Z",
+                    "status": "ok"
+                },
                 {
                     "id": 18813,
                     "ix_id": 18,
@@ -2327,6 +2357,25 @@
                     "created": "2025-10-06T17:59:31Z",
                     "updated": "2025-10-06T17:59:31Z",
                     "status": "ok"
+                },
+                {
+                    "id": 103928,
+                    "ix_id": 249,
+                    "name": "KCIX",
+                    "ixlan_id": 249,
+                    "notes": "",
+                    "speed": 200000,
+                    "asn": 14593,
+                    "ipaddr4": "206.51.7.23",
+                    "ipaddr6": "2001:504:1b:1::23",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2025-10-14T18:08:51Z",
+                    "updated": "2025-10-14T18:08:51Z",
+                    "status": "ok"
                 }
             ],
             "poc_set": [
@@ -2349,7 +2398,7 @@
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "logo": null,
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2025-10-06T19:03:09Z",
+            "updated": "2025-10-14T18:10:00Z",
             "status": "ok"
         }
     ],
