@@ -69,10 +69,10 @@
             "info_ipv6": true,
             "info_never_via_route_servers": false,
             "ix_count": 67,
-            "fac_count": 48,
+            "fac_count": 49,
             "notes": "",
             "netixlan_updated": "2025-10-14T18:08:51Z",
-            "netfac_updated": "2025-10-14T18:09:32Z",
+            "netfac_updated": "2025-10-21T01:48:26Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
             "policy_general": "Open",
@@ -595,6 +595,17 @@
                     "local_asn": 14593,
                     "created": "2025-07-14T21:32:28Z",
                     "updated": "2025-07-14T21:32:28Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 82719,
+                    "name": "Elea BSB2 - Bras\u00edlia",
+                    "city": "Bras\u00edlia",
+                    "country": "BR",
+                    "fac_id": 11610,
+                    "local_asn": 14593,
+                    "created": "2025-10-21T01:48:27Z",
+                    "updated": "2025-10-21T01:48:27Z",
                     "status": "ok"
                 },
                 {
@@ -2228,7 +2239,7 @@
                 {
                     "id": 101471,
                     "ix_id": 355,
-                    "name": "QIX Montreal",
+                    "name": "CANIX Montreal",
                     "ixlan_id": 355,
                     "notes": "",
                     "speed": 200000,
@@ -2247,7 +2258,7 @@
                 {
                     "id": 101472,
                     "ix_id": 355,
-                    "name": "QIX Montreal",
+                    "name": "CANIX Montreal",
                     "ixlan_id": 355,
                     "notes": "",
                     "speed": 200000,
@@ -2398,7 +2409,7 @@
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "logo": null,
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2025-10-14T18:10:00Z",
+            "updated": "2025-10-21T02:14:04Z",
             "status": "ok"
         }
     ],
