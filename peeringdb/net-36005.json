@@ -68,10 +68,10 @@
             "info_multicast": false,
             "info_ipv6": true,
             "info_never_via_route_servers": false,
-            "ix_count": 2,
+            "ix_count": 3,
             "fac_count": 1,
             "notes": "",
-            "netixlan_updated": "2025-10-09T05:42:51Z",
+            "netixlan_updated": "2025-10-27T20:28:04Z",
             "netfac_updated": "2024-04-27T19:09:54Z",
             "poc_updated": "2024-04-27T19:08:01Z",
             "policy_url": "http://www.spacex.com",
@@ -130,6 +130,25 @@
                     "created": "2025-03-13T19:59:39Z",
                     "updated": "2025-10-09T05:42:51Z",
                     "status": "ok"
+                },
+                {
+                    "id": 104222,
+                    "ix_id": 4033,
+                    "name": "ODIX Omadata",
+                    "ixlan_id": 4033,
+                    "notes": "",
+                    "speed": 100000,
+                    "asn": 45700,
+                    "ipaddr4": "218.100.74.200",
+                    "ipaddr6": "2403:1a00::c",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2025-10-27T20:25:51Z",
+                    "updated": "2025-10-27T20:28:05Z",
+                    "status": "ok"
                 }
             ],
             "poc_set": [],
@@ -139,7 +158,7 @@
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "logo": null,
             "created": "2024-04-19T17:42:53Z",
-            "updated": "2025-10-09T05:42:51Z",
+            "updated": "2025-10-27T20:28:32Z",
             "status": "ok"
         }
     ],
