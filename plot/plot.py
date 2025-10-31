@@ -75,15 +75,19 @@ def plot_subnet_count():
                 # skip historical data
                 if date < datetime(2024, 1, 1):
                     continue
-                v4_count, v6_count, v4_ips, ipv6_56_subnet_count = count_subnet(Path(dirpath).joinpath(filename))
+                v4_count, v6_count, v4_ips, ipv6_56_subnet_count = count_subnet(
+                    Path(dirpath).joinpath(filename)
+                )
                 subnet_count["ipv4"][date] = v4_count
                 subnet_count["ipv6"][date] = v6_count
                 subnet_count["ipv4_ips"][date] = v4_ips / 1000
-                subnet_count["ipv6_56_subnet_count"][date] = ipv6_56_subnet_count / 1000000
+                subnet_count["ipv6_56_subnet_count"][date] = (
+                    ipv6_56_subnet_count / 1000000
+                )
 
     fig = plt.figure(figsize=(10, 6))
     # ax = fig.add_subplot(111)
-    bax = brokenaxes(ylims=((200, 600), (1200, 2200)), hspace=.1)
+    bax = brokenaxes(ylims=((200, 600), (1200, 2200)), hspace=0.1)
 
     subnet_count["ipv4"] = dict(sorted(subnet_count["ipv4"].items()))
     subnet_count["ipv6"] = dict(sorted(subnet_count["ipv6"].items()))
@@ -94,7 +98,7 @@ def plot_subnet_count():
     bax.set_xlabel("Date")
     bax.set_ylabel("Subnet Count")
     plt.title("No. of IPv4 and IPv6 Subnets as Planned in Starlink GeoIP Feed")
-    plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment='right')
+    plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment="right")
     # plt.tight_layout()
     plt.savefig("figures/geoip-subnet-count.png")
     plt.close()
@@ -104,12 +108,16 @@ def plot_subnet_count():
 
     subnet_count["ipv4_ips"] = dict(sorted(subnet_count["ipv4_ips"].items()))
 
-    ax.plot(subnet_count["ipv4_ips"].keys(), subnet_count["ipv4_ips"].values(), label="IPv4 Usable IP Addresses")
+    ax.plot(
+        subnet_count["ipv4_ips"].keys(),
+        subnet_count["ipv4_ips"].values(),
+        label="IPv4 Usable IP Addresses",
+    )
     ax.legend()
     ax.set_xlabel("Date")
     ax.set_ylabel("Usable IP Address Count (Thousands)")
     plt.title("No. of Usable IPv4 Addresses as Planned in Starlink GeoIP Feed")
-    plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment='right')
+    plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment="right")
     plt.tight_layout()
     plt.savefig("figures/geoip-subnet-ip-count.png")
     plt.close()
@@ -117,14 +125,20 @@ def plot_subnet_count():
     fig = plt.figure(figsize=(8, 4))
     ax = fig.add_subplot(111)
 
-    subnet_count["ipv6_56_subnet_count"] = dict(sorted(subnet_count["ipv6_56_subnet_count"].items()))
+    subnet_count["ipv6_56_subnet_count"] = dict(
+        sorted(subnet_count["ipv6_56_subnet_count"].items())
+    )
 
-    ax.plot(subnet_count["ipv6_56_subnet_count"].keys(), subnet_count["ipv6_56_subnet_count"].values(), label="IPv6 /56 Subnet Count")
+    ax.plot(
+        subnet_count["ipv6_56_subnet_count"].keys(),
+        subnet_count["ipv6_56_subnet_count"].values(),
+        label="IPv6 /56 Subnet Count",
+    )
     ax.legend()
     ax.set_xlabel("Date")
     ax.set_ylabel("No. of /56 Subnets (Millions)")
     plt.title("No. of /56 Subnets as Planned in Starlink GeoIP Feed")
-    plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment='right')
+    plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment="right")
     plt.tight_layout()
     plt.savefig("figures/geoip-v6_56_subnet-count.png")
     plt.close()
@@ -162,7 +176,9 @@ def plot_country_city_count():
                 # skip historical data
                 if date < datetime(2024, 1, 1):
                     continue
-                country_count, city_count = count_country_city(Path(dirpath).joinpath(filename))
+                country_count, city_count = count_country_city(
+                    Path(dirpath).joinpath(filename)
+                )
                 count["country"][date] = country_count
                 count["city"][date] = city_count
 
@@ -177,8 +193,10 @@ def plot_country_city_count():
     ax.legend()
     ax.set_xlabel("Date")
     ax.set_ylabel("Count")
-    plt.title("No. of Countries, Territories and Cities as Planned in Starlink GeoIP Feed")
-    plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment='right')
+    plt.title(
+        "No. of Countries, Territories and Cities as Planned in Starlink GeoIP Feed"
+    )
+    plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment="right")
     plt.tight_layout()
     plt.savefig("figures/geoip-country-city-count.png")
     plt.close()
@@ -192,13 +210,15 @@ def plot_pop_density():
         pop_density = {}
         for pop, count in pop_subnet_count:
             if re.match(r"customer\.[a-z0-9]+\.pop\.starlinkisp\.net\.", pop):
-                pop_code = pop.split('.')[1]
+                pop_code = pop.split(".")[1]
                 pop_density[pop_code] = count
 
         fig = plt.figure(figsize=(12, 8))
         ax = fig.add_subplot(111)
 
-        pop_density = dict(sorted(pop_density.items(), key=lambda x: x[1], reverse=True))
+        pop_density = dict(
+            sorted(pop_density.items(), key=lambda x: x[1], reverse=True)
+        )
 
         x = np.arange(len(pop_density))
         ax.bar(x, pop_density.values())
@@ -207,7 +227,9 @@ def plot_pop_density():
         ax.set_xlabel("PoP")
         ax.set_ylabel("Subnet Count")
         plt.title("No. of Subnets Served per PoP as Planned in Starlink GeoIP Feed")
-        plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment='right')
+        plt.figtext(
+            0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment="right"
+        )
         plt.tight_layout()
         plt.savefig("figures/geoip-pop-density.png")
         plt.close()
@@ -220,13 +242,17 @@ def plot_active_atlas_probes():
         probe_count = defaultdict(int)
         for probe in data:
             if probe["status"]["name"] == "Connected":
-                country_name = pycountry.countries.get(alpha_2=probe["country_code"]).name
+                country_name = pycountry.countries.get(
+                    alpha_2=probe["country_code"]
+                ).name
                 probe_count[country_name] += 1
 
         fig = plt.figure(figsize=(10, 6))
         ax = fig.add_subplot(111)
 
-        probe_count = dict(sorted(probe_count.items(), key=lambda x: x[1], reverse=True))
+        probe_count = dict(
+            sorted(probe_count.items(), key=lambda x: x[1], reverse=True)
+        )
 
         x = np.arange(len(probe_count))
         ax.bar(x, probe_count.values())
@@ -238,7 +264,9 @@ def plot_active_atlas_probes():
         ax.set_xlabel("Country")
         ax.set_ylabel("Probe Count")
         plt.title("No. of Active RIPE Atlas Probes per Country")
-        plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment='right')
+        plt.figtext(
+            0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment="right"
+        )
         plt.tight_layout()
         plt.savefig("figures/atlas-active-probes.png")
         plt.close()
@@ -249,15 +277,16 @@ def plot_active_atlas_probe_per_pops():
     with open(Path(ATLAS_DIR).joinpath("active_probes.csv"), "r") as f:
         probe_count = defaultdict(int)
         for line in f:
-            _, dns, _, _ = line.split(",")
-            if len(dns) > 0:
-                pop_code = dns.split('.')[1]
+            _, pop_code, _, _ = line.split(",")
+            if len(pop_code) > 0:
                 probe_count[pop_code] = probe_count[pop_code] + 1
 
         fig = plt.figure(figsize=(10, 6))
         ax = fig.add_subplot(111)
 
-        probe_count = dict(sorted(probe_count.items(), key=lambda x: x[1], reverse=True))
+        probe_count = dict(
+            sorted(probe_count.items(), key=lambda x: x[1], reverse=True)
+        )
 
         x = np.arange(len(probe_count))
         ax.bar(x, probe_count.values())
@@ -269,7 +298,9 @@ def plot_active_atlas_probe_per_pops():
         ax.set_xlabel("PoP")
         ax.set_ylabel("Probe Count")
         plt.title("No. of Active RIPE Atlas Probes per PoP")
-        plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment='right')
+        plt.figtext(
+            0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment="right"
+        )
         plt.tight_layout()
         plt.savefig("figures/atlas-active-probes-per-pop.png")
         plt.close()
