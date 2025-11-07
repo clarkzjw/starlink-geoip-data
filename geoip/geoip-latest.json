@@ -10237,6 +10237,14 @@
         "Ashburn": {
           "ips": [
             [
+              "74.244.146.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.147.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "170.203.212.0/24",
               "customer.sttlwax1.pop.starlinkisp.net."
             ],
@@ -10636,6 +10644,30 @@
         }
       }
     },
+    "CR": {
+      "CR-SJ": {
+        "San Jose": {
+          "ips": [
+            [
+              "74.244.144.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.145.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "170.203.199.0/25",
+              "customer.gtmygtm1.pop.starlinkisp.net."
+            ],
+            [
+              "170.203.199.128/25",
+              "customer.gtmygtm1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
     "UA": {
       "UA-30": {
         "Kyiv": {
@@ -10883,6 +10915,14 @@
         "Jakarta": {
           "ips": [
             [
+              "103.184.179.0/25",
+              "0-179-184-103.host.net.id."
+            ],
+            [
+              "103.184.179.128/25",
+              "128-179-184-103.host.net.id."
+            ],
+            [
               "2406:2d40:5000::/40",
               "customer.jtnaidn1.pop.starlinkisp.net."
             ]
@@ -10901,22 +10941,6 @@
             [
               "74.244.88.128/25",
               "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
-    "CR": {
-      "CR-SJ": {
-        "San Jose": {
-          "ips": [
-            [
-              "170.203.199.0/25",
-              "customer.gtmygtm1.pop.starlinkisp.net."
-            ],
-            [
-              "170.203.199.128/25",
-              "customer.gtmygtm1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -11657,6 +11681,14 @@
   },
   "pop_subnet_count": [
     [
+      "0-179-184-103.host.net.id.",
+      1
+    ],
+    [
+      "128-179-184-103.host.net.id.",
+      1
+    ],
+    [
       "customer.aafbgux1.pop.starlinkisp.net.",
       1
     ],
@@ -11778,7 +11810,7 @@
     ],
     [
       "customer.isp.starlink.com.",
-      61
+      65
     ],
     [
       "customer.jhngzaf1.isp.starlink.com.",
