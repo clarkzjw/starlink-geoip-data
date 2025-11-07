@@ -2183,14 +2183,6 @@
               "customer.sntochl1.pop.starlinkisp.net."
             ],
             [
-              "148.222.135.0/25",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ],
-            [
-              "148.222.135.128/25",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ],
-            [
               "148.222.220.0/25",
               "customer.sntochl1.pop.starlinkisp.net."
             ],
@@ -10812,6 +10804,22 @@
         }
       }
     },
+    "PE": {
+      "PE-LMA": {
+        "Lima": {
+          "ips": [
+            [
+              "148.222.134.0/24",
+              "customer.splobra1.pop.starlinkisp.net."
+            ],
+            [
+              "148.222.135.0/24",
+              "customer.sntochl1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
     "CL": {
       "CL-RM": {
         "Santiago": {
@@ -12014,7 +12022,7 @@
     ],
     [
       "customer.sntochl1.pop.starlinkisp.net.",
-      67
+      66
     ],
     [
       "customer.splobra1.isp.starlink.com.",
@@ -12022,7 +12030,7 @@
     ],
     [
       "customer.splobra1.pop.starlinkisp.net.",
-      27
+      28
     ],
     [
       "customer.spxship1.pop.starlinkisp.net.",
