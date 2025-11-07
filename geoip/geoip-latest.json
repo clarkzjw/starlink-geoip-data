@@ -10149,49 +10149,17 @@
           ]
         }
       },
-      "US-VA": {
-        "Ashburn": {
-          "ips": [
-            [
-              "170.203.212.0/24",
-              "customer.sttlwax1.pop.starlinkisp.net."
-            ],
-            [
-              "170.203.213.0/24",
-              "customer.sttlwax1.pop.starlinkisp.net."
-            ],
-            [
-              "170.203.214.0/24",
-              "customer.sttlwax1.pop.starlinkisp.net."
-            ],
-            [
-              "170.203.215.0/24",
-              "customer.sttlwax1.pop.starlinkisp.net."
-            ],
-            [
-              "192.31.243.0/24",
-              "customer.sea.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
-      "US-ME": {
-        "Portland": {
-          "ips": [
-            [
-              "135.129.126.0/25",
-              "customer.sngesgp1.pop.starlinkisp.net."
-            ],
-            [
-              "135.129.126.128/25",
-              "customer.sngesgp1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
       "US-TX": {
         "Dallas": {
           "ips": [
+            [
+              "74.244.138.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.139.0/24",
+              "customer.isp.starlink.com."
+            ],
             [
               "2605:59c6::/40",
               "customer.isp.starlink.com."
@@ -10239,6 +10207,68 @@
             [
               "143.105.179.0/24",
               "customer.isp.starlink.com."
+            ]
+          ]
+        }
+      },
+      "US-GA": {
+        "Atlanta": {
+          "ips": [
+            [
+              "74.244.140.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.141.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.142.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.143.0/24",
+              "customer.isp.starlink.com."
+            ]
+          ]
+        }
+      },
+      "US-VA": {
+        "Ashburn": {
+          "ips": [
+            [
+              "170.203.212.0/24",
+              "customer.sttlwax1.pop.starlinkisp.net."
+            ],
+            [
+              "170.203.213.0/24",
+              "customer.sttlwax1.pop.starlinkisp.net."
+            ],
+            [
+              "170.203.214.0/24",
+              "customer.sttlwax1.pop.starlinkisp.net."
+            ],
+            [
+              "170.203.215.0/24",
+              "customer.sttlwax1.pop.starlinkisp.net."
+            ],
+            [
+              "192.31.243.0/24",
+              "customer.sea.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      },
+      "US-ME": {
+        "Portland": {
+          "ips": [
+            [
+              "135.129.126.0/25",
+              "customer.sngesgp1.pop.starlinkisp.net."
+            ],
+            [
+              "135.129.126.128/25",
+              "customer.sngesgp1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -10530,6 +10560,82 @@
         }
       }
     },
+    "AR": {
+      "AR-C": {
+        "Buenos Aires": {
+          "ips": [
+            [
+              "74.244.132.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.133.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.134.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.135.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "148.222.222.0/25",
+              "customer.sntochl1.pop.starlinkisp.net."
+            ],
+            [
+              "148.222.222.128/25",
+              "customer.sntochl1.pop.starlinkisp.net."
+            ],
+            [
+              "200.189.23.0/25",
+              "customer.splobra1.pop.starlinkisp.net."
+            ],
+            [
+              "200.189.23.128/25",
+              "customer.splobra1.pop.starlinkisp.net."
+            ],
+            [
+              "2803:9810:3800::/40",
+              "customer.sntochl1.pop.starlinkisp.net."
+            ],
+            [
+              "2803:9810:3900::/40",
+              "customer.sntochl1.pop.starlinkisp.net."
+            ],
+            [
+              "2803:9810:3e00::/40",
+              "customer.sntochl1.pop.starlinkisp.net."
+            ],
+            [
+              "2803:9810:5900::/40",
+              "customer.bgtacol1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
+    "MX": {
+      "MX-DIF": {
+        "Mexico City": {
+          "ips": [
+            [
+              "74.244.136.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.137.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2803:9810:5800::/40",
+              "customer.bgtacol1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
     "UA": {
       "UA-30": {
         "Kyiv": {
@@ -10800,46 +10906,6 @@
         }
       }
     },
-    "AR": {
-      "AR-C": {
-        "Buenos Aires": {
-          "ips": [
-            [
-              "148.222.222.0/25",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ],
-            [
-              "148.222.222.128/25",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ],
-            [
-              "200.189.23.0/25",
-              "customer.splobra1.pop.starlinkisp.net."
-            ],
-            [
-              "200.189.23.128/25",
-              "customer.splobra1.pop.starlinkisp.net."
-            ],
-            [
-              "2803:9810:3800::/40",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ],
-            [
-              "2803:9810:3900::/40",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ],
-            [
-              "2803:9810:3e00::/40",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ],
-            [
-              "2803:9810:5900::/40",
-              "customer.bgtacol1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
     "CR": {
       "CR-SJ": {
         "San Jose": {
@@ -11003,18 +11069,6 @@
             [
               "2803:9810:4f00::/40",
               "customer.splobra1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "MX": {
-      "MX-DIF": {
-        "Mexico City": {
-          "ips": [
-            [
-              "2803:9810:5800::/40",
-              "customer.bgtacol1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -11724,7 +11778,7 @@
     ],
     [
       "customer.isp.starlink.com.",
-      49
+      61
     ],
     [
       "customer.jhngzaf1.isp.starlink.com.",
