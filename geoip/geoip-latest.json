@@ -747,10 +747,6 @@
         "Dhaka": {
           "ips": [
             [
-              "2406:2d40:3800::/40",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ],
-            [
               "2406:2d40:8300::/40",
               "customer.sngesgp1.pop.starlinkisp.net."
             ]
@@ -7601,10 +7597,6 @@
             [
               "173.250.192.0/24",
               "customer.lsancax1.pop.starlinkisp.net."
-            ],
-            [
-              "2a0d:3341:dc01::/49",
-              "customer.rdmdwax3.pop.starlinkisp.net."
             ]
           ]
         }
@@ -8911,14 +8903,6 @@
             [
               "2605:59c8:3f00::/40",
               "customer.sttlwax1.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:5200::/48",
-              "customer.rdmdwax3.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:6c00::/48",
-              "customer.rdmdwax3.isp.starlink.com."
             ]
           ]
         }
@@ -9145,36 +9129,12 @@
               "customer.sttlwax1.isp.starlink.com."
             ],
             [
-              "129.224.206.0/25",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ],
-            [
               "135.129.244.0/25",
               "customer.sttlwax1.pop.starlinkisp.net."
             ],
             [
               "135.129.244.128/25",
               "customer.sttlwax1.pop.starlinkisp.net."
-            ],
-            [
-              "173.250.198.0/25",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ],
-            [
-              "173.250.198.128/25",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ],
-            [
-              "129.224.206.128/26",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ],
-            [
-              "129.224.206.192/28",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ],
-            [
-              "129.224.206.208/28",
-              "customer.rdmdwax3.pop.starlinkisp.net."
             ],
             [
               "2605:59c8::/40",
@@ -9201,20 +9161,8 @@
               "customer.sttlwax1.isp.starlink.com."
             ],
             [
-              "2605:59c9::/40",
-              "customer.rdmdwax3.isp.starlink.com."
-            ],
-            [
-              "2605:59c9:100::/40",
-              "customer.rdmdwax3.isp.starlink.com."
-            ],
-            [
               "2605:59c7:194::/46",
               "customer.sttlwax1.isp.starlink.com."
-            ],
-            [
-              "2605:59c9:200::/48",
-              "customer.rdmdwax3.isp.starlink.com."
             ]
           ]
         }
@@ -10129,6 +10077,10 @@
             [
               "173.250.195.0/24",
               "customer.lsancax1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:dc01::/49",
+              "customer.rdmdwax3.pop.starlinkisp.net."
             ]
           ]
         }
@@ -10142,6 +10094,22 @@
             ],
             [
               "74.244.139.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "143.105.176.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "143.105.177.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "143.105.178.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "143.105.179.0/24",
               "customer.isp.starlink.com."
             ],
             [
@@ -10174,22 +10142,6 @@
             ],
             [
               "2605:59c6:700::/40",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "143.105.176.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "143.105.177.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "143.105.178.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "143.105.179.0/24",
               "customer.isp.starlink.com."
             ]
           ]
@@ -10291,6 +10243,14 @@
             [
               "102.215.59.128/25",
               "customer.kentwax1.pop.starlinkisp.net."
+            ],
+            [
+              "2605:59c0:5200::/48",
+              "customer.rdmdwax3.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:6c00::/48",
+              "customer.rdmdwax3.isp.starlink.com."
             ]
           ]
         }
@@ -10311,6 +10271,10 @@
               "customer.kentwax1.pop.starlinkisp.net."
             ],
             [
+              "129.224.206.0/25",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ],
+            [
               "129.224.207.0/25",
               "customer.rdmdwax3rk3.pop.starlinkisp.net."
             ],
@@ -10327,6 +10291,14 @@
               "customer.isp.starlink.com."
             ],
             [
+              "173.250.198.0/25",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ],
+            [
+              "173.250.198.128/25",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ],
+            [
               "98.97.73.128/26",
               "customer.isp.starlink.com."
             ],
@@ -10335,12 +10307,36 @@
               "customer.kentwax1.pop.starlinkisp.net."
             ],
             [
+              "129.224.206.128/26",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ],
+            [
               "98.97.73.192/28",
               "customer.isp.starlink.com."
             ],
             [
               "98.97.73.208/28",
               "customer.isp.starlink.com."
+            ],
+            [
+              "129.224.206.192/28",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ],
+            [
+              "129.224.206.208/28",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ],
+            [
+              "2605:59c9::/40",
+              "customer.rdmdwax3.isp.starlink.com."
+            ],
+            [
+              "2605:59c9:100::/40",
+              "customer.rdmdwax3.isp.starlink.com."
+            ],
+            [
+              "2605:59c9:200::/48",
+              "customer.rdmdwax3.isp.starlink.com."
             ]
           ]
         },
@@ -11025,6 +11021,10 @@
             [
               "2406:2d40:2f00::/40",
               "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:3800::/40",
+              "customer.rdmdwax3.pop.starlinkisp.net."
             ]
           ]
         }
@@ -11036,22 +11036,6 @@
           "ips": [
             [
               "2406:2d40:3b00::/40",
-              "customer.tkyojpn1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "VN": {
-      "VN-SG": {
-        "Saigon": {
-          "ips": [
-            [
-              "2406:2d40:4800::/40",
-              "customer.sydyaus1.pop.starlinkisp.net."
-            ],
-            [
-              "2406:2d40:3240::/42",
               "customer.tkyojpn1.pop.starlinkisp.net."
             ]
           ]
@@ -11672,6 +11656,22 @@
           "ips": [
             [
               "2406:2d40:3e00::/40",
+              "customer.tkyojpn1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
+    "VN": {
+      "VN-SG": {
+        "Saigon": {
+          "ips": [
+            [
+              "2406:2d40:4800::/40",
+              "customer.sydyaus1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:3240::/42",
               "customer.tkyojpn1.pop.starlinkisp.net."
             ]
           ]
