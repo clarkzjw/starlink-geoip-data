@@ -7927,16 +7927,12 @@
               "customer.lsancax1.isp.starlink.com."
             ],
             [
+              "143.105.107.0/24",
+              "customer.lsancax1.isp.starlink.com."
+            ],
+            [
               "129.222.66.128/25",
               "customer.acklnzl1.pop.starlinkisp.net."
-            ],
-            [
-              "143.105.107.0/25",
-              "customer.lsancax1.isp.starlink.com."
-            ],
-            [
-              "143.105.107.128/25",
-              "customer.lsancax1.isp.starlink.com."
             ],
             [
               "170.203.194.128/25",
@@ -10201,6 +10197,16 @@
           ]
         }
       },
+      "US-HI": {
+        "Honolulu": {
+          "ips": [
+            [
+              "143.105.106.0/24",
+              "customer.lgosnga1.isp.starlink.com."
+            ]
+          ]
+        }
+      },
       "US-ME": {
         "Portland": {
           "ips": [
@@ -11906,7 +11912,7 @@
     ],
     [
       "customer.lgosnga1.isp.starlink.com.",
-      35
+      36
     ],
     [
       "customer.lgosnga1.pop.starlinkisp.net.",
@@ -11926,7 +11932,7 @@
     ],
     [
       "customer.lsancax1.isp.starlink.com.",
-      30
+      29
     ],
     [
       "customer.lsancax1.pop.starlinkisp.net.",
