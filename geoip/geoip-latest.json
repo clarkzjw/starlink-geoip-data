@@ -10055,8 +10055,8 @@
           ]
         }
       },
-      "US-CA": {
-        "San Jose": {
+      "US-NV": {
+        "Las Vegas": {
           "ips": [
             [
               "74.244.130.0/24",
@@ -10065,22 +10065,6 @@
             [
               "74.244.131.0/24",
               "customer.isp.starlink.com."
-            ]
-          ]
-        },
-        "Hawthorne": {
-          "ips": [
-            [
-              "173.250.194.0/24",
-              "customer.lsancax1.pop.starlinkisp.net."
-            ],
-            [
-              "173.250.195.0/24",
-              "customer.lsancax1.pop.starlinkisp.net."
-            ],
-            [
-              "2a0d:3341:dc01::/49",
-              "customer.rdmdwax3.pop.starlinkisp.net."
             ]
           ]
         }
@@ -10199,6 +10183,20 @@
             [
               "192.31.243.0/24",
               "customer.sea.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      },
+      "US-OR": {
+        "Portland": {
+          "ips": [
+            [
+              "98.97.48.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "98.97.49.0/24",
+              "customer.isp.starlink.com."
             ]
           ]
         }
@@ -10374,6 +10372,24 @@
             ],
             [
               "2a0d:3341:dc03::/48",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      },
+      "US-CA": {
+        "Hawthorne": {
+          "ips": [
+            [
+              "173.250.194.0/24",
+              "customer.lsancax1.pop.starlinkisp.net."
+            ],
+            [
+              "173.250.195.0/24",
+              "customer.lsancax1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:dc01::/49",
               "customer.rdmdwax3.pop.starlinkisp.net."
             ]
           ]
@@ -10659,6 +10675,42 @@
             [
               "74.244.149.0/24",
               "customer.isp.starlink.com."
+            ]
+          ]
+        }
+      }
+    },
+    "GP": {
+      "GP-GP": {
+        "Basse-Terre": {
+          "ips": [
+            [
+              "74.244.150.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.151.0/24",
+              "customer.isp.starlink.com."
+            ]
+          ]
+        }
+      }
+    },
+    "VI": {
+      "VI-VI": {
+        "Charlotte Amalie": {
+          "ips": [
+            [
+              "74.244.152.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.153.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:1540::/42",
+              "customer.frtabra1.isp.starlink.com."
             ]
           ]
         }
@@ -11402,18 +11454,6 @@
         }
       }
     },
-    "VI": {
-      "VI-VI": {
-        "Charlotte Amalie": {
-          "ips": [
-            [
-              "2605:59c0:1540::/42",
-              "customer.frtabra1.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
     "BS": {
       "BS-NP": {
         "Nassau": {
@@ -11834,7 +11874,7 @@
     ],
     [
       "customer.isp.starlink.com.",
-      67
+      73
     ],
     [
       "customer.jhngzaf1.isp.starlink.com.",
