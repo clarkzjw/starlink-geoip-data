@@ -5231,14 +5231,6 @@
               "customer.qrtomex1.pop.starlinkisp.net."
             ],
             [
-              "138.84.56.0/25",
-              "customer.qrtomex1.pop.starlinkisp.net."
-            ],
-            [
-              "138.84.56.128/25",
-              "customer.qrtomex1.pop.starlinkisp.net."
-            ],
-            [
               "138.84.60.0/25",
               "customer.qrtomex1.pop.starlinkisp.net."
             ],
@@ -10818,6 +10810,66 @@
         }
       }
     },
+    "BR": {
+      "BR-SP": {
+        "Sao Paulo": {
+          "ips": [
+            [
+              "138.84.56.0/24",
+              "customer.qrtomex1.pop.starlinkisp.net."
+            ],
+            [
+              "138.84.57.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "2803:9810:3500::/40",
+              "customer.sntochl1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      },
+      "BR-DF": {
+        "Bras\u00edlia": {
+          "ips": [
+            [
+              "148.227.88.0/24",
+              "customer.splobra1.pop.starlinkisp.net."
+            ],
+            [
+              "2803:9810:4c00::/40",
+              "customer.splobra1.pop.starlinkisp.net."
+            ],
+            [
+              "2803:9810:4d00::/40",
+              "customer.splobra1.pop.starlinkisp.net."
+            ],
+            [
+              "2803:9810:4e00::/40",
+              "customer.splobra1.pop.starlinkisp.net."
+            ]
+          ]
+        },
+        "Brasilia": {
+          "ips": [
+            [
+              "2803:9810:3b00::/40",
+              "customer.sntochl1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      },
+      "BR-CE": {
+        "Fortaleza": {
+          "ips": [
+            [
+              "2803:9810:3f00::/40",
+              "customer.sntochl1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
     "VE": {
       "VE-A": {
         "Caracas": {
@@ -10880,58 +10932,6 @@
             ],
             [
               "2803:9810:8500::/40",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "BR": {
-      "BR-DF": {
-        "Bras\u00edlia": {
-          "ips": [
-            [
-              "148.227.88.0/24",
-              "customer.splobra1.pop.starlinkisp.net."
-            ],
-            [
-              "2803:9810:4c00::/40",
-              "customer.splobra1.pop.starlinkisp.net."
-            ],
-            [
-              "2803:9810:4d00::/40",
-              "customer.splobra1.pop.starlinkisp.net."
-            ],
-            [
-              "2803:9810:4e00::/40",
-              "customer.splobra1.pop.starlinkisp.net."
-            ]
-          ]
-        },
-        "Brasilia": {
-          "ips": [
-            [
-              "2803:9810:3b00::/40",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
-      "BR-SP": {
-        "Sao Paulo": {
-          "ips": [
-            [
-              "2803:9810:3500::/40",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
-      "BR-CE": {
-        "Fortaleza": {
-          "ips": [
-            [
-              "2803:9810:3f00::/40",
               "customer.sntochl1.pop.starlinkisp.net."
             ]
           ]
@@ -11964,7 +11964,7 @@
     ],
     [
       "customer.mmmiflx1.pop.starlinkisp.net.",
-      58
+      59
     ],
     [
       "customer.mnlaphl1.isp.starlink.com.",
@@ -12020,7 +12020,7 @@
     ],
     [
       "customer.qrtomex1.pop.starlinkisp.net.",
-      22
+      21
     ],
     [
       "customer.rcxship1.pop.starlinkisp.net.",
