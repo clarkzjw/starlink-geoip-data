@@ -7497,14 +7497,6 @@
         "Denver": {
           "ips": [
             [
-              "74.244.8.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "74.244.9.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
               "74.244.10.0/24",
               "customer.dnvrcox1.isp.starlink.com."
             ],
@@ -9802,23 +9794,21 @@
         }
       }
     },
-    "TD": {
-      "TD-ND": {
-        "N'Djamena": {
+    "US": {
+      "US-CO": {
+        "Denver": {
           "ips": [
             [
-              "74.244.68.0/24",
-              "customer.limaper1.isp.starlink.com."
+              "74.244.8.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
             ],
             [
-              "74.244.69.0/24",
-              "customer.limaper1.isp.starlink.com."
+              "74.244.9.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
             ]
           ]
         }
-      }
-    },
-    "US": {
+      },
       "US-FL": {
         "Miami": {
           "ips": [
@@ -10285,6 +10275,22 @@
             [
               "2a0d:3341:dc01::/49",
               "customer.rdmdwax3.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
+    "TD": {
+      "TD-ND": {
+        "N'Djamena": {
+          "ips": [
+            [
+              "74.244.68.0/24",
+              "customer.limaper1.isp.starlink.com."
+            ],
+            [
+              "74.244.69.0/24",
+              "customer.limaper1.isp.starlink.com."
             ]
           ]
         }
