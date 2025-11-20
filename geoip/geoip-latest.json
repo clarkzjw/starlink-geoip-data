@@ -7125,14 +7125,6 @@
               "customer.sltyutx1.isp.starlink.com."
             ],
             [
-              "74.244.110.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "74.244.111.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
               "129.222.100.0/24",
               "customer.sltyutx1.pop.starlinkisp.net."
             ],
@@ -8861,6 +8853,28 @@
           ]
         }
       },
+      "US-ID": {
+        "Boise": {
+          "ips": [
+            [
+              "74.244.110.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "74.244.111.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "98.97.40.0/24",
+              "customer.sttlwax1.isp.starlink.com."
+            ],
+            [
+              "98.97.41.0/24",
+              "customer.sttlwax1.isp.starlink.com."
+            ]
+          ]
+        }
+      },
       "US-WA": {
         "Seattle": {
           "ips": [
@@ -9002,20 +9016,6 @@
             ],
             [
               "2605:59c7:194::/46",
-              "customer.sttlwax1.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "US-ID": {
-        "Boise": {
-          "ips": [
-            [
-              "98.97.40.0/24",
-              "customer.sttlwax1.isp.starlink.com."
-            ],
-            [
-              "98.97.41.0/24",
               "customer.sttlwax1.isp.starlink.com."
             ]
           ]
@@ -10089,12 +10089,40 @@
           ]
         }
       },
+      "US-MT": {
+        "Billings": {
+          "ips": [
+            [
+              "135.129.126.0/24",
+              "customer.sngesgp1.pop.starlinkisp.net."
+            ],
+            [
+              "135.129.127.0/24",
+              "customer.gtmygtm1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      },
       "US-HI": {
         "Honolulu": {
           "ips": [
             [
               "143.105.106.0/24",
               "customer.lgosnga1.isp.starlink.com."
+            ]
+          ]
+        }
+      },
+      "US-WY": {
+        "Cheyenne": {
+          "ips": [
+            [
+              "216.234.202.0/24",
+              "customer.nwyynyx1.pop.starlinkisp.net."
+            ],
+            [
+              "216.234.203.0/24",
+              "customer.frtabra1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -11762,7 +11790,7 @@
     ],
     [
       "customer.frtabra1.pop.starlinkisp.net.",
-      7
+      8
     ],
     [
       "customer.gtmygtm1.isp.starlink.com.",
@@ -11770,7 +11798,7 @@
     ],
     [
       "customer.gtmygtm1.pop.starlinkisp.net.",
-      18
+      19
     ],
     [
       "customer.iqltcan1.pop.starlinkisp.net.",
@@ -11910,7 +11938,7 @@
     ],
     [
       "customer.nwyynyx1.pop.starlinkisp.net.",
-      49
+      50
     ],
     [
       "customer.prthaus1.pop.starlinkisp.net.",
@@ -11966,7 +11994,7 @@
     ],
     [
       "customer.sngesgp1.pop.starlinkisp.net.",
-      25
+      26
     ],
     [
       "customer.snjecax1.isp.starlink.com.",
