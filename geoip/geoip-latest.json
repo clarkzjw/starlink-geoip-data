@@ -7485,8 +7485,8 @@
           ]
         }
       },
-      "US-CO": {
-        "Denver": {
+      "US-WY": {
+        "Cheyenne": {
           "ips": [
             [
               "74.244.10.0/24",
@@ -7495,109 +7495,19 @@
             [
               "74.244.11.0/24",
               "customer.dnvrcox1.isp.starlink.com."
-            ],
+            ]
+          ]
+        }
+      },
+      "US-NM": {
+        "Albuquerque": {
+          "ips": [
             [
               "74.244.14.0/24",
               "customer.dnvrcox1.isp.starlink.com."
             ],
             [
               "74.244.15.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "98.97.104.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "98.97.105.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "98.97.106.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "98.97.107.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "98.97.108.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "98.97.109.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "98.97.110.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "98.97.111.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "143.105.88.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "143.105.89.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "143.105.182.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "143.105.183.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "216.147.120.0/24",
-              "customer.dnvrcox1.pop.starlinkisp.net."
-            ],
-            [
-              "216.147.121.0/24",
-              "customer.dnvrcox1.pop.starlinkisp.net."
-            ],
-            [
-              "216.147.122.0/24",
-              "customer.dnvrcox1.pop.starlinkisp.net."
-            ],
-            [
-              "216.147.123.0/24",
-              "customer.dnvrcox1.pop.starlinkisp.net."
-            ],
-            [
-              "216.147.124.0/24",
-              "customer.dnvrcox1.pop.starlinkisp.net."
-            ],
-            [
-              "216.147.125.0/24",
-              "customer.dnvrcox1.pop.starlinkisp.net."
-            ],
-            [
-              "216.147.126.0/24",
-              "customer.dnvrcox1.pop.starlinkisp.net."
-            ],
-            [
-              "216.147.127.0/24",
-              "customer.dnvrcox1.pop.starlinkisp.net."
-            ],
-            [
-              "2605:59c8:5000::/40",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "2605:59c8:5100::/40",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "2605:59c8:5200::/40",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "2605:59c8:5300::/40",
               "customer.dnvrcox1.isp.starlink.com."
             ]
           ]
@@ -9031,6 +8941,108 @@
             [
               "98.97.43.0/24",
               "customer.sttlwax1.isp.starlink.com."
+            ]
+          ]
+        }
+      },
+      "US-CO": {
+        "Denver": {
+          "ips": [
+            [
+              "98.97.104.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "98.97.105.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "98.97.106.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "98.97.107.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "98.97.108.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "98.97.109.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "98.97.110.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "98.97.111.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "143.105.88.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "143.105.89.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "143.105.182.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "143.105.183.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "216.147.120.0/24",
+              "customer.dnvrcox1.pop.starlinkisp.net."
+            ],
+            [
+              "216.147.121.0/24",
+              "customer.dnvrcox1.pop.starlinkisp.net."
+            ],
+            [
+              "216.147.122.0/24",
+              "customer.dnvrcox1.pop.starlinkisp.net."
+            ],
+            [
+              "216.147.123.0/24",
+              "customer.dnvrcox1.pop.starlinkisp.net."
+            ],
+            [
+              "216.147.124.0/24",
+              "customer.dnvrcox1.pop.starlinkisp.net."
+            ],
+            [
+              "216.147.125.0/24",
+              "customer.dnvrcox1.pop.starlinkisp.net."
+            ],
+            [
+              "216.147.126.0/24",
+              "customer.dnvrcox1.pop.starlinkisp.net."
+            ],
+            [
+              "216.147.127.0/24",
+              "customer.dnvrcox1.pop.starlinkisp.net."
+            ],
+            [
+              "2605:59c8:5000::/40",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "2605:59c8:5100::/40",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "2605:59c8:5200::/40",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "2605:59c8:5300::/40",
+              "customer.dnvrcox1.isp.starlink.com."
             ]
           ]
         }
