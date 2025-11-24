@@ -9821,6 +9821,10 @@
             [
               "74.244.9.0/24",
               "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "2605:59c1:2000::/38",
+              "customer.isp.starlink.com."
             ]
           ]
         }
@@ -9850,6 +9854,10 @@
             ],
             [
               "74.244.123.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c1:2400::/38",
               "customer.isp.starlink.com."
             ],
             [
@@ -9923,6 +9931,10 @@
               "customer.mlbeaus1.isp.starlink.com."
             ],
             [
+              "2605:59c1:4000::/38",
+              "customer.isp.starlink.com."
+            ],
+            [
               "2605:59c8:4800::/40",
               "customer.rdmdwax3.isp.starlink.com."
             ],
@@ -9968,6 +9980,10 @@
             ],
             [
               "74.244.139.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c1:1400::/38",
               "customer.isp.starlink.com."
             ],
             [
@@ -10039,6 +10055,10 @@
             [
               "74.244.143.0/24",
               "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c1:1000::/38",
+              "customer.isp.starlink.com."
             ]
           ]
         }
@@ -10066,6 +10086,10 @@
             ],
             [
               "74.244.157.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c1:3000::/38",
               "customer.isp.starlink.com."
             ]
           ]
@@ -10149,47 +10173,13 @@
           ]
         }
       },
-      "US-AK": {
-        "Dutch Harbor": {
-          "ips": [
-            [
-              "129.224.216.0/24",
-              "customer.dtcrakx1.pop.starlinkisp.net."
-            ]
-          ]
-        },
-        "Nome": {
-          "ips": [
-            [
-              "205.174.157.0/24",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        },
-        "Anchorage": {
-          "ips": [
-            [
-              "102.215.59.0/25",
-              "customer.kentwax1.pop.starlinkisp.net."
-            ],
-            [
-              "102.215.59.128/25",
-              "customer.kentwax1.pop.starlinkisp.net."
-            ],
-            [
-              "2605:59c0:5200::/48",
-              "customer.rdmdwax3.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:6c00::/48",
-              "customer.rdmdwax3.isp.starlink.com."
-            ]
-          ]
-        }
-      },
       "US-WA": {
         "Seattle": {
           "ips": [
+            [
+              "2605:59c1::/38",
+              "customer.isp.starlink.com."
+            ],
             [
               "129.224.220.0/24",
               "customer.aafbgux1.pop.starlinkisp.net."
@@ -10281,9 +10271,39 @@
           ]
         }
       },
+      "US-CA": {
+        "Los Angeles": {
+          "ips": [
+            [
+              "2605:59c1:400::/38",
+              "customer.isp.starlink.com."
+            ]
+          ]
+        },
+        "Hawthorne": {
+          "ips": [
+            [
+              "173.250.194.0/24",
+              "customer.lsancax1.pop.starlinkisp.net."
+            ],
+            [
+              "173.250.195.0/24",
+              "customer.lsancax1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:dc01::/49",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      },
       "US-IL": {
         "Chicago": {
           "ips": [
+            [
+              "2605:59c1:800::/38",
+              "customer.isp.starlink.com."
+            ],
             [
               "143.105.72.0/24",
               "customer.isp.starlink.com."
@@ -10311,20 +10331,68 @@
           ]
         }
       },
-      "US-CA": {
-        "Hawthorne": {
+      "US-NY": {
+        "New York City": {
           "ips": [
             [
-              "173.250.194.0/24",
-              "customer.lsancax1.pop.starlinkisp.net."
+              "2605:59c1:c00::/38",
+              "customer.isp.starlink.com."
+            ]
+          ]
+        }
+      },
+      "US-UT": {
+        "Salt Lake City": {
+          "ips": [
+            [
+              "2605:59c1:2800::/38",
+              "customer.isp.starlink.com."
+            ]
+          ]
+        },
+        "San Jose": {
+          "ips": [
+            [
+              "2605:59c1:2c00::/38",
+              "customer.isp.starlink.com."
+            ]
+          ]
+        }
+      },
+      "US-AK": {
+        "Dutch Harbor": {
+          "ips": [
+            [
+              "129.224.216.0/24",
+              "customer.dtcrakx1.pop.starlinkisp.net."
+            ]
+          ]
+        },
+        "Nome": {
+          "ips": [
+            [
+              "205.174.157.0/24",
+              "customer.isp.starlink.com."
+            ]
+          ]
+        },
+        "Anchorage": {
+          "ips": [
+            [
+              "102.215.59.0/25",
+              "customer.kentwax1.pop.starlinkisp.net."
             ],
             [
-              "173.250.195.0/24",
-              "customer.lsancax1.pop.starlinkisp.net."
+              "102.215.59.128/25",
+              "customer.kentwax1.pop.starlinkisp.net."
             ],
             [
-              "2a0d:3341:dc01::/49",
-              "customer.rdmdwax3.pop.starlinkisp.net."
+              "2605:59c0:5200::/48",
+              "customer.rdmdwax3.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:6c00::/48",
+              "customer.rdmdwax3.isp.starlink.com."
             ]
           ]
         }
@@ -10427,6 +10495,10 @@
             [
               "129.222.95.0/24",
               "customer.nrbiken1.pop.starlinkisp.net."
+            ],
+            [
+              "2605:59c1:3c00::/38",
+              "customer.isp.starlink.com."
             ]
           ]
         },
@@ -10475,6 +10547,10 @@
             [
               "170.203.211.0/24",
               "customer.sttlwax1.pop.starlinkisp.net."
+            ],
+            [
+              "2605:59c1:3800::/38",
+              "customer.isp.starlink.com."
             ]
           ]
         }
@@ -10708,6 +10784,10 @@
             ],
             [
               "98.97.77.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c1:1800::/38",
               "customer.isp.starlink.com."
             ]
           ]
@@ -11011,6 +11091,30 @@
             [
               "216.128.4.224/27",
               "customer.sfiabgr1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
+    "ZW": {
+      "ZW-HA": {
+        "Harare": {
+          "ips": [
+            [
+              "2605:59c1:3400::/38",
+              "customer.isp.starlink.com."
+            ]
+          ]
+        }
+      }
+    },
+    "KE": {
+      "KE-30": {
+        "Nairobi": {
+          "ips": [
+            [
+              "2605:59c1:4400::/38",
+              "customer.isp.starlink.com."
             ]
           ]
         }
@@ -11856,7 +11960,7 @@
     ],
     [
       "customer.isp.starlink.com.",
-      79
+      96
     ],
     [
       "customer.jhngzaf1.isp.starlink.com.",
