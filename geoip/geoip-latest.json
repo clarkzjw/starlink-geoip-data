@@ -10974,22 +10974,6 @@
         }
       }
     },
-    "CL": {
-      "CL-RM": {
-        "Santiago": {
-          "ips": [
-            [
-              "148.227.64.0/24",
-              "undefined.hostname.localhost."
-            ],
-            [
-              "2803:9810:8500::/40",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
     "ID": {
       "ID-JI": {
         "Surabaya": {
@@ -11243,6 +11227,18 @@
             [
               "2803:9810:6500::/40",
               "customer.limaper1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
+    "CL": {
+      "CL-RM": {
+        "Santiago": {
+          "ips": [
+            [
+              "2803:9810:8500::/40",
+              "customer.sntochl1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -12212,7 +12208,7 @@
     ],
     [
       "undefined.hostname.localhost.",
-      4
+      3
     ]
   ]
 }
