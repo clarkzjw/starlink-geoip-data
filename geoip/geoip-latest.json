@@ -1,5 +1,17 @@
 {
-  "valid": {
+  "countries": {
+    "AD": {
+      "AD-07": {
+        "Andorra la Vella": {
+          "ips": [
+            [
+              "2a0d:3344:3f00::/40",
+              "customer.sfiabgr1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
     "AE": {
       "AE-DU": {
         "Dubai": {
@@ -19,6 +31,10 @@
             [
               "2a0d:3341:c100::/42",
               "customer.dohaqat1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:d540::/42",
+              "customer.mlnnita1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -127,6 +143,22 @@
         "Buenos Aires": {
           "ips": [
             [
+              "74.244.132.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.133.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.134.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.135.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "98.97.134.0/24",
               "customer.bnssarg1.pop.starlinkisp.net."
             ],
@@ -223,12 +255,28 @@
               "customer.sntochl1.pop.starlinkisp.net."
             ],
             [
+              "148.222.222.0/25",
+              "customer.sntochl1.pop.starlinkisp.net."
+            ],
+            [
+              "148.222.222.128/25",
+              "customer.sntochl1.pop.starlinkisp.net."
+            ],
+            [
               "148.222.223.0/25",
               "customer.sntochl1.pop.starlinkisp.net."
             ],
             [
               "148.222.223.128/25",
               "customer.sntochl1.pop.starlinkisp.net."
+            ],
+            [
+              "200.189.23.0/25",
+              "customer.splobra1.pop.starlinkisp.net."
+            ],
+            [
+              "200.189.23.128/25",
+              "customer.splobra1.pop.starlinkisp.net."
             ],
             [
               "200.189.30.0/25",
@@ -255,12 +303,32 @@
               "customer.bnssarg1.pop.starlinkisp.net."
             ],
             [
+              "2803:9810:1400::/38",
+              "customer.sa.mc.starlinkisp.net."
+            ],
+            [
+              "2803:9810:3800::/40",
+              "customer.sntochl1.pop.starlinkisp.net."
+            ],
+            [
+              "2803:9810:3900::/40",
+              "customer.sntochl1.pop.starlinkisp.net."
+            ],
+            [
               "2803:9810:3c00::/40",
+              "customer.sntochl1.pop.starlinkisp.net."
+            ],
+            [
+              "2803:9810:3e00::/40",
               "customer.sntochl1.pop.starlinkisp.net."
             ],
             [
               "2803:9810:4400::/40",
               "customer.splobra1.pop.starlinkisp.net."
+            ],
+            [
+              "2803:9810:5900::/40",
+              "customer.bgtacol1.pop.starlinkisp.net."
             ],
             [
               "2803:9810:8400::/40",
@@ -339,6 +407,14 @@
               "customer.mlnnita1.pop.starlinkisp.net."
             ],
             [
+              "2a0d:3341:c880::/42",
+              "customer.dohaqat1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:ce00::/42",
+              "customer.dohaqat1.pop.starlinkisp.net."
+            ],
+            [
               "2a0d:3344:1880::/42",
               "customer.frntdeu1.pop.starlinkisp.net."
             ],
@@ -395,8 +471,36 @@
               "customer.mlbeaus1.pop.starlinkisp.net."
             ],
             [
+              "14.1.93.0/25",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "14.1.93.128/25",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "206.83.111.0/25",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "206.83.111.128/25",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:1c00::/38",
+              "undefined.hostname.localhost."
+            ],
+            [
               "2406:2d40:6800::/40",
               "customer.mlbeaus1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:6900::/40",
+              "customer.sngesgp1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:6a00::/40",
+              "customer.sngesgp1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -411,6 +515,10 @@
             [
               "14.1.75.0/24",
               "customer.mlbeaus1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:6b00::/41",
+              "customer.sngesgp1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -519,6 +627,10 @@
               "customer.sydyaus1.pop.starlinkisp.net."
             ],
             [
+              "2406:2d40:1800::/38",
+              "undefined.hostname.localhost."
+            ],
+            [
               "2406:2d40:4000::/40",
               "customer.sydyaus1.pop.starlinkisp.net."
             ],
@@ -565,6 +677,22 @@
               "customer.brseaus1.pop.starlinkisp.net."
             ],
             [
+              "65.181.10.0/24",
+              "customer.sydyaus1.pop.starlinkisp.net."
+            ],
+            [
+              "65.181.11.0/24",
+              "customer.jtnaidn1.pop.starlinkisp.net."
+            ],
+            [
+              "65.181.26.0/24",
+              "customer.sngesgp1.pop.starlinkisp.net."
+            ],
+            [
+              "65.181.27.0/24",
+              "customer.chrhnzl1.pop.starlinkisp.net."
+            ],
+            [
               "206.83.120.0/24",
               "customer.brseaus1.pop.starlinkisp.net."
             ],
@@ -591,6 +719,18 @@
             [
               "2406:2d40:2400::/40",
               "customer.brseaus1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:2500::/40",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:3900::/40",
+              "customer.tkyojpn1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:3a00::/40",
+              "customer.tkyojpn1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -735,8 +875,24 @@
         "Dhaka": {
           "ips": [
             [
+              "2406:2d40:c00::/38",
+              "undefined.hostname.localhost."
+            ],
+            [
+              "2406:2d40:2c00::/40",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:2f00::/40",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
               "2406:2d40:8300::/40",
               "customer.sngesgp1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:3800::/40",
+              "customer.rdmdwax3.pop.starlinkisp.net."
             ]
           ]
         }
@@ -785,6 +941,14 @@
             [
               "74.244.89.0/24",
               "customer.lgosnga1.isp.starlink.com."
+            ],
+            [
+              "74.244.88.0/25",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.88.128/25",
+              "customer.isp.starlink.com."
             ]
           ]
         }
@@ -946,6 +1110,18 @@
         }
       }
     },
+    "BN": {
+      "BN-BM": {
+        "Bandar Seri Begawan": {
+          "ips": [
+            [
+              "2406:2d40:4900::/40",
+              "customer.sydyaus1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
     "BQ": {
       "BQ-BO": {
         "Kralendijk": {
@@ -985,6 +1161,14 @@
             [
               "98.97.157.0/24",
               "customer.bgtacol1.pop.starlinkisp.net."
+            ],
+            [
+              "138.84.56.0/24",
+              "customer.qrtomex1.pop.starlinkisp.net."
+            ],
+            [
+              "138.84.57.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
             ],
             [
               "143.105.24.0/24",
@@ -1067,7 +1251,15 @@
               "customer.limaper1.pop.starlinkisp.net."
             ],
             [
+              "2803:9810:1000::/38",
+              "customer.sa.mc.starlinkisp.net."
+            ],
+            [
               "2803:9810:3100::/40",
+              "customer.sntochl1.pop.starlinkisp.net."
+            ],
+            [
+              "2803:9810:3500::/40",
               "customer.sntochl1.pop.starlinkisp.net."
             ],
             [
@@ -1173,8 +1365,16 @@
               "customer.frtabra1.pop.starlinkisp.net."
             ],
             [
+              "2803:9810:c00::/38",
+              "customer.sa.mc.starlinkisp.net."
+            ],
+            [
               "2605:59c8:6900::/40",
               "customer.frtabra1.isp.starlink.com."
+            ],
+            [
+              "2803:9810:3f00::/40",
+              "customer.sntochl1.pop.starlinkisp.net."
             ],
             [
               "2803:9810:7000::/40",
@@ -1183,6 +1383,40 @@
             [
               "2803:9810:7200::/40",
               "customer.frtabra1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      },
+      "BR-DF": {
+        "Bras\u00edlia": {
+          "ips": [
+            [
+              "148.227.88.0/24",
+              "customer.splobra1.pop.starlinkisp.net."
+            ],
+            [
+              "2803:9810:4c00::/40",
+              "customer.splobra1.pop.starlinkisp.net."
+            ],
+            [
+              "2803:9810:4d00::/40",
+              "customer.splobra1.pop.starlinkisp.net."
+            ],
+            [
+              "2803:9810:4e00::/40",
+              "customer.splobra1.pop.starlinkisp.net."
+            ]
+          ]
+        },
+        "Brasilia": {
+          "ips": [
+            [
+              "2803:9810:2000::/38",
+              "customer.sa.mc.starlinkisp.net."
+            ],
+            [
+              "2803:9810:3b00::/40",
+              "customer.sntochl1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -1233,6 +1467,10 @@
               "customer.mmmiflx1.pop.starlinkisp.net."
             ],
             [
+              "2605:59c0:1580::/42",
+              "customer.frtabra1.isp.starlink.com."
+            ],
+            [
               "2605:59c8:67c0::/42",
               "customer.mmmiflx1.isp.starlink.com."
             ]
@@ -1245,6 +1483,10 @@
         "Thimphu": {
           "ips": [
             [
+              "2406:2d40:2d80::/41",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
               "2406:2d40:6200::/42",
               "customer.sngesgp1.pop.starlinkisp.net."
             ]
@@ -1256,6 +1498,14 @@
       "BW-GA": {
         "Gaborone": {
           "ips": [
+            [
+              "143.105.252.0/24",
+              "customer.splobra1.isp.starlink.com."
+            ],
+            [
+              "143.105.253.0/24",
+              "customer.splobra1.isp.starlink.com."
+            ],
             [
               "216.234.219.0/25",
               "customer.jhngzaf1.pop.starlinkisp.net."
@@ -1283,6 +1533,14 @@
             [
               "74.244.1.0/24",
               "customer.mntlcan1.isp.starlink.com."
+            ],
+            [
+              "129.222.94.0/24",
+              "customer.nwyynyx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.95.0/24",
+              "customer.nrbiken1.pop.starlinkisp.net."
             ],
             [
               "129.222.208.0/24",
@@ -1325,6 +1583,10 @@
               "customer.mntlcan1.isp.starlink.com."
             ],
             [
+              "2605:59c1:3c00::/38",
+              "customer.isp.starlink.com."
+            ],
+            [
               "2605:59c0:2400::/40",
               "customer.mntlcan1.isp.starlink.com."
             ],
@@ -1339,6 +1601,14 @@
             [
               "2605:59c8:2700::/40",
               "customer.nwyynyx1.isp.starlink.com."
+            ]
+          ]
+        },
+        "Kuujjuaq": {
+          "ips": [
+            [
+              "141.109.85.0/24",
+              "customer.kjjqcan1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -1423,6 +1693,14 @@
               "customer.sttlwax1.isp.starlink.com."
             ]
           ]
+        },
+        "Brucejack": {
+          "ips": [
+            [
+              "141.109.80.0/24",
+              "customer.brckcan1.pop.starlinkisp.net."
+            ]
+          ]
         }
       },
       "CA-AB": {
@@ -1469,6 +1747,22 @@
               "customer.sttlwax1.isp.starlink.com."
             ],
             [
+              "170.203.208.0/24",
+              "customer.sttlwax1.pop.starlinkisp.net."
+            ],
+            [
+              "170.203.209.0/24",
+              "customer.sttlwax1.pop.starlinkisp.net."
+            ],
+            [
+              "170.203.210.0/24",
+              "customer.sttlwax1.pop.starlinkisp.net."
+            ],
+            [
+              "170.203.211.0/24",
+              "customer.sttlwax1.pop.starlinkisp.net."
+            ],
+            [
               "170.203.216.0/24",
               "customer.sttlwax1.pop.starlinkisp.net."
             ],
@@ -1491,6 +1785,10 @@
             [
               "170.203.221.0/24",
               "customer.clgycan1.pop.starlinkisp.net."
+            ],
+            [
+              "2605:59c1:3800::/38",
+              "customer.isp.starlink.com."
             ],
             [
               "2605:59c0:5400::/40",
@@ -1527,6 +1825,22 @@
               "customer.nwyynyx1.isp.starlink.com."
             ],
             [
+              "74.244.124.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.125.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.126.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.127.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "129.222.152.0/24",
               "customer.mplsmnx1.pop.starlinkisp.net."
             ],
@@ -1559,11 +1873,27 @@
               "customer.chcoilx1.pop.starlinkisp.net."
             ],
             [
+              "129.222.192.0/24",
+              "customer.nwyynyx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.193.0/24",
+              "customer.nwyynyx1.pop.starlinkisp.net."
+            ],
+            [
               "129.222.194.0/24",
               "customer.nwyynyx1.pop.starlinkisp.net."
             ],
             [
               "129.222.195.0/24",
+              "customer.nwyynyx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.196.0/24",
+              "customer.nwyynyx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.197.0/24",
               "customer.nwyynyx1.pop.starlinkisp.net."
             ],
             [
@@ -1601,6 +1931,14 @@
             [
               "98.97.161.128/25",
               "customer.ashnvax2.pop.starlinkisp.net."
+            ],
+            [
+              "135.129.122.0/25",
+              "customer.mplsmnx1.pop.starlinkisp.net."
+            ],
+            [
+              "135.129.122.128/25",
+              "customer.mplsmnx1.pop.starlinkisp.net."
             ],
             [
               "143.105.4.0/25",
@@ -1641,6 +1979,14 @@
             [
               "143.105.121.128/25",
               "customer.chcoilx1.isp.starlink.com."
+            ],
+            [
+              "216.234.220.0/25",
+              "customer.nrbiken1.pop.starlinkisp.net."
+            ],
+            [
+              "216.234.220.128/25",
+              "customer.nrbiken1.pop.starlinkisp.net."
             ],
             [
               "2605:59c0:700::/40",
@@ -1837,6 +2183,28 @@
           ]
         }
       },
+      "CA-NU": {
+        "Iqaluit": {
+          "ips": [
+            [
+              "135.129.112.0/24",
+              "customer.nwyynyx1.pop.starlinkisp.net."
+            ],
+            [
+              "135.129.113.0/24",
+              "customer.nwyynyx1.pop.starlinkisp.net."
+            ],
+            [
+              "2605:59ca:1500::/40",
+              "customer.mntlcan1.isp.starlink.com."
+            ],
+            [
+              "129.224.217.0/24",
+              "customer.iqltcan1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      },
       "CA-NL": {
         "Saint John's": {
           "ips": [
@@ -1850,16 +2218,6 @@
             ],
             [
               "2605:59c0:2a00::/40",
-              "customer.mntlcan1.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "CA-NU": {
-        "Iqaluit": {
-          "ips": [
-            [
-              "2605:59ca:1500::/40",
               "customer.mntlcan1.isp.starlink.com."
             ]
           ]
@@ -1945,6 +2303,10 @@
             [
               "209.198.154.224/27",
               "customer.frntdeu1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:ce40::/42",
+              "customer.dohaqat1.pop.starlinkisp.net."
             ],
             [
               "2a0d:3344:1940::/42",
@@ -2159,6 +2521,10 @@
               "customer.sntochl1.pop.starlinkisp.net."
             ],
             [
+              "2803:9810:1800::/38",
+              "customer.sa.mc.starlinkisp.net."
+            ],
+            [
               "2803:9810:3000::/40",
               "customer.sntochl1.pop.starlinkisp.net."
             ],
@@ -2168,6 +2534,10 @@
             ],
             [
               "2803:9810:3d00::/40",
+              "customer.sntochl1.pop.starlinkisp.net."
+            ],
+            [
+              "2803:9810:8500::/40",
               "customer.sntochl1.pop.starlinkisp.net."
             ],
             [
@@ -2275,6 +2645,10 @@
               "customer.bgtacol1.pop.starlinkisp.net."
             ],
             [
+              "2803:9810:800::/38",
+              "customer.sa.mc.starlinkisp.net."
+            ],
+            [
               "2803:9810:5000::/40",
               "customer.bgtacol1.pop.starlinkisp.net."
             ],
@@ -2302,6 +2676,22 @@
       "CR-SJ": {
         "San Jose": {
           "ips": [
+            [
+              "74.244.144.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.145.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "170.203.199.0/25",
+              "customer.gtmygtm1.pop.starlinkisp.net."
+            ],
+            [
+              "170.203.199.128/25",
+              "customer.gtmygtm1.pop.starlinkisp.net."
+            ],
             [
               "170.203.222.0/25",
               "customer.gtmygtm1.pop.starlinkisp.net."
@@ -2499,6 +2889,10 @@
               "customer.frntdeu1.pop.starlinkisp.net."
             ],
             [
+              "2a0d:3341:c5c0::/42",
+              "customer.dohaqat1.pop.starlinkisp.net."
+            ],
+            [
               "2a0d:3341:d080::/42",
               "customer.mlnnita1.pop.starlinkisp.net."
             ],
@@ -2637,6 +3031,10 @@
             [
               "2a0d:3341:b300::/40",
               "customer.frntdeu1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:cf00::/40",
+              "customer.dohaqat1.pop.starlinkisp.net."
             ],
             [
               "2a0d:3344:1500::/40",
@@ -2801,6 +3199,10 @@
             [
               "212.105.135.224/27",
               "customer.wrswpol1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:c500::/42",
+              "customer.dohaqat1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -2931,6 +3333,10 @@
               "customer.frntdeu1.pop.starlinkisp.net."
             ],
             [
+              "2a0d:3341:c600::/42",
+              "customer.dohaqat1.pop.starlinkisp.net."
+            ],
+            [
               "2a0d:3344:16c0::/42",
               "customer.frntdeu1.pop.starlinkisp.net."
             ]
@@ -2942,6 +3348,10 @@
       "FJ-C": {
         "Suva": {
           "ips": [
+            [
+              "2406:2d40:2600::/42",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
             [
               "2406:2d40:43c0::/42",
               "customer.sydyaus1.pop.starlinkisp.net."
@@ -3175,6 +3585,14 @@
               "customer.lndngbr1.pop.starlinkisp.net."
             ],
             [
+              "2a0d:3341:b400::/40",
+              "customer.frntdeu1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:cd00::/40",
+              "customer.dohaqat1.pop.starlinkisp.net."
+            ],
+            [
               "2a0d:3344::/40",
               "customer.lndngbr1.pop.starlinkisp.net."
             ],
@@ -3185,6 +3603,14 @@
             [
               "2a0d:3344:2300::/40",
               "customer.mdrdesp1.pop.starlinkisp.net."
+            ],
+            [
+              "143.105.220.0/25",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "143.105.220.128/25",
+              "customer.isp.starlink.com."
             ]
           ]
         }
@@ -3315,6 +3741,10 @@
               "customer.lndngbr1.pop.starlinkisp.net."
             ],
             [
+              "2a0d:3341:b700::/40",
+              "customer.frntdeu1.pop.starlinkisp.net."
+            ],
+            [
               "2a0d:3344:100::/40",
               "customer.lndngbr1.pop.starlinkisp.net."
             ],
@@ -3411,6 +3841,14 @@
         "Accra": {
           "ips": [
             [
+              "74.244.118.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.119.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "143.105.208.0/24",
               "customer.lgosnga1.isp.starlink.com."
             ],
@@ -3430,6 +3868,14 @@
       "": {
         "Basse-Terre": {
           "ips": [
+            [
+              "74.244.150.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.151.0/24",
+              "customer.isp.starlink.com."
+            ],
             [
               "98.97.50.0/25",
               "customer.mmmiflx1.isp.starlink.com."
@@ -3507,6 +3953,14 @@
               "customer.gtmygtm1.isp.starlink.com."
             ],
             [
+              "98.97.144.0/24",
+              "customer.wrswpol1.pop.starlinkisp.net."
+            ],
+            [
+              "98.97.145.0/24",
+              "customer.dohaqat1.pop.starlinkisp.net."
+            ],
+            [
               "129.222.58.0/24",
               "customer.gtmygtm1.pop.starlinkisp.net."
             ],
@@ -3521,6 +3975,10 @@
             [
               "66.9.161.128/25",
               "customer.gtmygtm1.pop.starlinkisp.net."
+            ],
+            [
+              "2803:9810:400::/38",
+              "customer.sa.mc.starlinkisp.net."
             ],
             [
               "2605:59c0:6000::/40",
@@ -3582,6 +4040,14 @@
       "GW-BS": {
         "Bissau": {
           "ips": [
+            [
+              "143.105.184.0/24",
+              "customer.lgosnga1.isp.starlink.com."
+            ],
+            [
+              "143.105.185.0/24",
+              "customer.lgosnga1.isp.starlink.com."
+            ],
             [
               "2a0d:3344:2a00::/42",
               "customer.mdrdesp1.pop.starlinkisp.net."
@@ -3681,6 +4147,10 @@
             [
               "212.105.159.224/27",
               "customer.mlnnita1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:cec0::/42",
+              "customer.dohaqat1.pop.starlinkisp.net."
             ],
             [
               "2a0d:3344:34c0::/42",
@@ -3791,6 +4261,10 @@
               "customer.wrswpol1.pop.starlinkisp.net."
             ],
             [
+              "2a0d:3341:c6c0::/42",
+              "customer.dohaqat1.pop.starlinkisp.net."
+            ],
+            [
               "2a0d:3341:d040::/42",
               "customer.mlnnita1.pop.starlinkisp.net."
             ],
@@ -3855,6 +4329,14 @@
               "customer.jtnaidn2.pop.starlinkisp.net."
             ],
             [
+              "103.184.179.0/25",
+              "0-179-184-103.host.net.id."
+            ],
+            [
+              "103.184.179.128/25",
+              "128-179-184-103.host.net.id."
+            ],
+            [
               "103.228.242.0/25",
               "customer.jtnaidn2.pop.starlinkisp.net."
             ],
@@ -3893,6 +4375,10 @@
             [
               "202.125.100.144/28",
               "customer.jtnaidn2.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:5000::/40",
+              "customer.jtnaidn1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -3900,6 +4386,22 @@
       "ID-JI": {
         "Surabaya": {
           "ips": [
+            [
+              "202.65.228.0/24",
+              "customer.jtnaidn2.pop.starlinkisp.net."
+            ],
+            [
+              "202.65.229.0/24",
+              "customer.jtnaidn2.pop.starlinkisp.net."
+            ],
+            [
+              "202.65.230.0/24",
+              "customer.jtnaidn2.pop.starlinkisp.net."
+            ],
+            [
+              "202.65.231.0/24",
+              "customer.jtnaidn2.pop.starlinkisp.net."
+            ],
             [
               "202.65.232.0/24",
               "customer.srbaidn2.pop.starlinkisp.net."
@@ -3939,6 +4441,10 @@
             [
               "169.155.239.0/24",
               "customer.lndngbr1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:b600::/40",
+              "customer.frntdeu1.pop.starlinkisp.net."
             ],
             [
               "2a0d:3344:800::/42",
@@ -3991,6 +4497,30 @@
             [
               "2406:2d40:2800::/40",
               "customer.mmbiind1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:2900::/40",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:2a00::/40",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:2b00::/40",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
+    "IQ": {
+      "IQ-BG": {
+        "Baghdad": {
+          "ips": [
+            [
+              "2a0d:3341:de00::/40",
+              "customer.mlnnita1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -4105,12 +4635,24 @@
               "customer.mlnnita1.pop.starlinkisp.net."
             ],
             [
+              "2a0d:3341:b800::/40",
+              "customer.frntdeu1.pop.starlinkisp.net."
+            ],
+            [
               "2a0d:3341:cc00::/40",
               "customer.mlnnita1.pop.starlinkisp.net."
             ],
             [
               "2a0d:3341:dd00::/40",
               "customer.mlnnita1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3344:2440::/42",
+              "customer.mdrdesp1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3344:2700::/42",
+              "customer.mdrdesp1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -4169,6 +4711,14 @@
             [
               "143.105.43.0/25",
               "customer.mmmiflx1.isp.starlink.com."
+            ],
+            [
+              "170.203.223.0/25",
+              "customer.nrbiken1.pop.starlinkisp.net."
+            ],
+            [
+              "170.203.223.128/25",
+              "customer.nrbiken1.pop.starlinkisp.net."
             ],
             [
               "143.105.43.128/26",
@@ -4299,8 +4849,16 @@
               "customer.tkyojpn1.pop.starlinkisp.net."
             ],
             [
+              "2406:2d40:800::/38",
+              "undefined.hostname.localhost."
+            ],
+            [
               "2406:2d40:3000::/40",
               "customer.tkyojpn1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:5a00::/40",
+              "customer.jtnaidn1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -4349,6 +4907,22 @@
             [
               "216.128.0.128/25",
               "customer.nrbiken1.pop.starlinkisp.net."
+            ],
+            [
+              "2605:59c1:4400::/38",
+              "customer.isp.starlink.com."
+            ]
+          ]
+        }
+      }
+    },
+    "KG": {
+      "KG-GB": {
+        "Bishkek": {
+          "ips": [
+            [
+              "2406:2d40:3e00::/40",
+              "customer.tkyojpn1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -4358,6 +4932,10 @@
       "KI-G": {
         "Tarawa": {
           "ips": [
+            [
+              "2406:2d40:2640::/42",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
             [
               "2406:2d40:4540::/42",
               "customer.sydyaus1.pop.starlinkisp.net."
@@ -4412,12 +4990,26 @@
             ]
           ]
         }
+      },
+      "KZ-75": {
+        "Almaty": {
+          "ips": [
+            [
+              "2406:2d40:3c00::/40",
+              "customer.tkyojpn1.pop.starlinkisp.net."
+            ]
+          ]
+        }
       }
     },
     "LB": {
       "LB-BA": {
         "Beirut": {
           "ips": [
+            [
+              "2a0d:3344:2d00::/40",
+              "customer.mdrdesp1.pop.starlinkisp.net."
+            ],
             [
               "2a0d:3341:c2c0::/42",
               "customer.dohaqat1.pop.starlinkisp.net."
@@ -4450,6 +5042,18 @@
         }
       }
     },
+    "LI": {
+      "LI-11": {
+        "Vaduz": {
+          "ips": [
+            [
+              "2a0d:3344:3e00::/40",
+              "customer.sfiabgr1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
     "LK": {
       "LK-1": {
         "Colombo": {
@@ -4465,6 +5069,10 @@
             [
               "2406:2d40:6100::/40",
               "customer.sngesgp1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:2d00::/41",
+              "customer.prthaus1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -4537,6 +5145,10 @@
             [
               "216.128.1.224/27",
               "customer.wrswpol1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:c580::/42",
+              "customer.dohaqat1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -4605,6 +5217,22 @@
             [
               "209.198.143.224/27",
               "customer.wrswpol1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:c540::/42",
+              "customer.dohaqat1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
+    "LY": {
+      "LY-JI": {
+        "Tripoli": {
+          "ips": [
+            [
+              "2a0d:3341:e400::/40",
+              "customer.mc.starlinkisp.net."
             ]
           ]
         }
@@ -4661,6 +5289,10 @@
             [
               "217.142.24.224/27",
               "customer.sfiabgr1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:c840::/42",
+              "customer.dohaqat1.pop.starlinkisp.net."
             ],
             [
               "2a0d:3344:3480::/42",
@@ -4803,6 +5435,10 @@
               "customer.sngesgp1.pop.starlinkisp.net."
             ],
             [
+              "2406:2d40:2e00::/41",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
               "2406:2d40:8180::/41",
               "customer.sngesgp1.pop.starlinkisp.net."
             ],
@@ -4820,6 +5456,10 @@
           "ips": [
             [
               "2406:2d40:3300::/40",
+              "customer.tkyojpn1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:3d00::/40",
               "customer.tkyojpn1.pop.starlinkisp.net."
             ]
           ]
@@ -4879,8 +5519,28 @@
               "customer.mmmiflx1.isp.starlink.com."
             ],
             [
+              "2605:59c0:1500::/42",
+              "customer.frtabra1.isp.starlink.com."
+            ],
+            [
               "2803:9810:57c0::/42",
               "customer.bgtacol1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
+    "MS": {
+      "": {
+        "Brades": {
+          "ips": [
+            [
+              "74.244.148.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.149.0/24",
+              "customer.isp.starlink.com."
             ]
           ]
         }
@@ -4893,6 +5553,30 @@
             [
               "143.105.94.64/26",
               "customer.sfiabgr1.isp.starlink.com."
+            ],
+            [
+              "216.128.4.64/26",
+              "customer.sfiabgr1.pop.starlinkisp.net."
+            ],
+            [
+              "216.128.4.128/26",
+              "customer.sfiabgr1.pop.starlinkisp.net."
+            ],
+            [
+              "216.128.4.0/27",
+              "customer.sfiabgr1.pop.starlinkisp.net."
+            ],
+            [
+              "216.128.4.32/27",
+              "customer.sfiabgr1.pop.starlinkisp.net."
+            ],
+            [
+              "216.128.4.192/27",
+              "customer.sfiabgr1.pop.starlinkisp.net."
+            ],
+            [
+              "216.128.4.224/27",
+              "customer.sfiabgr1.pop.starlinkisp.net."
             ],
             [
               "2a0d:3341:d000::/42",
@@ -5037,6 +5721,14 @@
             [
               "74.244.103.0/24",
               "customer.qrtomex1.isp.starlink.com."
+            ],
+            [
+              "74.244.136.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.137.0/24",
+              "customer.isp.starlink.com."
             ],
             [
               "98.97.146.0/24",
@@ -5215,6 +5907,10 @@
               "customer.dllstxx1.pop.starlinkisp.net."
             ],
             [
+              "2803:9810::/38",
+              "customer.sa.mc.starlinkisp.net."
+            ],
+            [
               "2605:59c0:800::/40",
               "customer.tmpeazx1.isp.starlink.com."
             ],
@@ -5253,6 +5949,10 @@
             [
               "2605:59c8:7600::/40",
               "customer.qrtomex1.isp.starlink.com."
+            ],
+            [
+              "2803:9810:5800::/40",
+              "customer.bgtacol1.pop.starlinkisp.net."
             ],
             [
               "2803:9810:a200::/40",
@@ -5309,6 +6009,14 @@
             [
               "206.83.110.128/25",
               "customer.sngesgp1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:400::/38",
+              "undefined.hostname.localhost."
+            ],
+            [
+              "2406:2d40:5b00::/40",
+              "customer.jtnaidn1.pop.starlinkisp.net."
             ],
             [
               "2406:2d40:8000::/40",
@@ -5423,6 +6131,14 @@
         "Lagos": {
           "ips": [
             [
+              "98.97.76.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "98.97.77.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "98.97.79.0/24",
               "customer.lgosnga1.isp.starlink.com."
             ],
@@ -5495,6 +6211,10 @@
               "customer.lgosnga1.pop.starlinkisp.net."
             ],
             [
+              "2605:59c1:1800::/38",
+              "customer.isp.starlink.com."
+            ],
+            [
               "2605:59c0:e00::/40",
               "customer.lgosnga1.isp.starlink.com."
             ],
@@ -5505,6 +6225,18 @@
             [
               "2c0f:2a80:a00::/40",
               "customer.lgosnga1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
+    "NI": {
+      "NI-MN": {
+        "Managua": {
+          "ips": [
+            [
+              "2803:9810:6500::/40",
+              "customer.limaper1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -5615,6 +6347,10 @@
               "customer.sydyaus1.pop.starlinkisp.net."
             ],
             [
+              "2406:2d40:2780::/42",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
               "2406:2d40:4c80::/42",
               "customer.sydyaus1.pop.starlinkisp.net."
             ],
@@ -5637,6 +6373,10 @@
             [
               "116.91.219.0/24",
               "customer.chrhnzl1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:1000::/38",
+              "undefined.hostname.localhost."
             ],
             [
               "2406:2d40:6400::/40",
@@ -5687,6 +6427,10 @@
             [
               "116.91.215.128/25",
               "customer.acklnzl1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:1400::/38",
+              "undefined.hostname.localhost."
             ],
             [
               "2406:2d40:7200::/40",
@@ -5841,6 +6585,10 @@
               "customer.limaper1.pop.starlinkisp.net."
             ],
             [
+              "2803:9810:1c00::/38",
+              "customer.sa.mc.starlinkisp.net."
+            ],
+            [
               "2803:9810:6000::/40",
               "customer.limaper1.pop.starlinkisp.net."
             ],
@@ -5939,6 +6687,14 @@
             [
               "103.235.95.128/25",
               "customer.mnlaphl1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40::/38",
+              "undefined.hostname.localhost."
+            ],
+            [
+              "2406:2d40:3b00::/40",
+              "customer.tkyojpn1.pop.starlinkisp.net."
             ],
             [
               "2406:2d40:9000::/40",
@@ -6189,6 +6945,10 @@
               "customer.splobra1.pop.starlinkisp.net."
             ],
             [
+              "2803:9810:4f00::/40",
+              "customer.splobra1.pop.starlinkisp.net."
+            ],
+            [
               "2803:9810:3300::/42",
               "customer.sntochl1.pop.starlinkisp.net."
             ],
@@ -6251,6 +7011,22 @@
             [
               "2a0d:3341:c200::/42",
               "customer.dohaqat1.pop.starlinkisp.net."
+            ],
+            [
+              "143.105.219.0/25",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "143.105.219.128/25",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "143.105.221.0/25",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "143.105.221.128/25",
+              "customer.isp.starlink.com."
             ]
           ]
         }
@@ -6368,6 +7144,18 @@
         }
       }
     },
+    "RS": {
+      "RS-00": {
+        "Belgrade": {
+          "ips": [
+            [
+              "2a0d:3344:2c00::/40",
+              "customer.mdrdesp1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
     "RW": {
       "RW-01": {
         "Kigali": {
@@ -6401,6 +7189,10 @@
         "Honiara": {
           "ips": [
             [
+              "2406:2d40:26c0::/42",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
               "2406:2d40:4380::/42",
               "customer.sydyaus1.pop.starlinkisp.net."
             ]
@@ -6412,6 +7204,14 @@
       "SD-KH": {
         "Khartoum": {
           "ips": [
+            [
+              "129.222.68.0/24",
+              "customer.bgtacol1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.69.0/24",
+              "customer.sfiabgr1.pop.starlinkisp.net."
+            ],
             [
               "66.9.173.0/25",
               "customer.nrbiken1.pop.starlinkisp.net."
@@ -6443,6 +7243,14 @@
             [
               "98.97.191.128/25",
               "customer.sfiabgr1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.164.0/25",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.164.128/25",
+              "customer.rdmdwax3.pop.starlinkisp.net."
             ],
             [
               "143.105.75.0/25",
@@ -6497,6 +7305,10 @@
               "customer.frntdeu1.pop.starlinkisp.net."
             ],
             [
+              "2a0d:3341:c640::/42",
+              "customer.dohaqat1.pop.starlinkisp.net."
+            ],
+            [
               "2a0d:3344:1f40::/42",
               "customer.frntdeu1.pop.starlinkisp.net."
             ]
@@ -6543,6 +7355,10 @@
             [
               "212.105.158.224/27",
               "customer.mlnnita1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:ce80::/42",
+              "customer.dohaqat1.pop.starlinkisp.net."
             ],
             [
               "2a0d:3344:1d80::/42",
@@ -6645,6 +7461,10 @@
               "customer.wrswpol1.pop.starlinkisp.net."
             ],
             [
+              "2a0d:3341:c680::/42",
+              "customer.dohaqat1.pop.starlinkisp.net."
+            ],
+            [
               "2a0d:3341:d0c0::/42",
               "customer.mlnnita1.pop.starlinkisp.net."
             ],
@@ -6664,6 +7484,10 @@
       "SL-W": {
         "Freetown": {
           "ips": [
+            [
+              "129.224.204.0/24",
+              "customer.mnlaphl1.pop.starlinkisp.net."
+            ],
             [
               "129.224.205.0/24",
               "customer.lgosnga1.pop.starlinkisp.net."
@@ -6784,6 +7608,18 @@
         }
       }
     },
+    "ST": {
+      "ST-01": {
+        "Sao Tome": {
+          "ips": [
+            [
+              "2a0d:3344:2e00::/40",
+              "customer.mdrdesp1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
     "SV": {
       "SV-SS": {
         "San Salvador": {
@@ -6823,6 +7659,18 @@
             [
               "2605:59c0:16c0::/42",
               "customer.mmmiflx1.isp.starlink.com."
+            ]
+          ]
+        }
+      }
+    },
+    "SY": {
+      "SY-DI": {
+        "Damascus": {
+          "ips": [
+            [
+              "2a0d:3341:df00::/40",
+              "customer.mlnnita1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -6877,6 +7725,14 @@
         "N'Djamena": {
           "ips": [
             [
+              "74.244.68.0/24",
+              "customer.limaper1.isp.starlink.com."
+            ],
+            [
+              "74.244.69.0/24",
+              "customer.limaper1.isp.starlink.com."
+            ],
+            [
               "143.105.160.0/24",
               "customer.lgosnga1.isp.starlink.com."
             ],
@@ -6912,10 +7768,30 @@
         }
       }
     },
+    "TJ": {
+      "TJ-DU": {
+        "Dushanbe": {
+          "ips": [
+            [
+              "2406:2d40:4a00::/40",
+              "customer.sydyaus1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:3f00::/40",
+              "customer.tkyojpn1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
     "TL": {
       "TL-DI": {
         "Dili": {
           "ips": [
+            [
+              "2406:2d40:2740::/42",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
             [
               "2406:2d40:4c40::/42",
               "customer.sydyaus1.pop.starlinkisp.net."
@@ -6928,10 +7804,26 @@
         }
       }
     },
+    "TM": {
+      "TM-S": {
+        "Ashgabat": {
+          "ips": [
+            [
+              "2406:2d40:5900::/40",
+              "customer.jtnaidn1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
     "TO": {
       "TO-04": {
         "Nuku'alofa": {
           "ips": [
+            [
+              "2406:2d40:2680::/42",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
             [
               "2406:2d40:4300::/42",
               "customer.sydyaus1.pop.starlinkisp.net."
@@ -6953,6 +7845,14 @@
         "Port of Spain": {
           "ips": [
             [
+              "129.222.198.0/24",
+              "customer.nwyynyx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.199.0/24",
+              "customer.nwyynyx1.pop.starlinkisp.net."
+            ],
+            [
               "2803:9810:5440::/42",
               "customer.bgtacol1.pop.starlinkisp.net."
             ],
@@ -6969,6 +7869,10 @@
         "Funafuti": {
           "ips": [
             [
+              "2406:2d40:27c0::/42",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
               "2406:2d40:7440::/42",
               "customer.acklnzl1.pop.starlinkisp.net."
             ]
@@ -6980,6 +7884,14 @@
       "UA-30": {
         "Kyiv": {
           "ips": [
+            [
+              "87.251.28.0/24",
+              "customer.sfiabgr1.pop.starlinkisp.net."
+            ],
+            [
+              "87.251.29.0/24",
+              "customer.sfiabgr1.pop.starlinkisp.net."
+            ],
             [
               "129.222.188.0/24",
               "customer.sfiabgr1.pop.starlinkisp.net."
@@ -7085,6 +7997,22 @@
               "customer.sfiabgr1.pop.starlinkisp.net."
             ],
             [
+              "2a0d:3341:ba00::/40",
+              "customer.frntdeu1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:c700::/40",
+              "customer.dohaqat1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:c900::/40",
+              "customer.dohaqat1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:d900::/40",
+              "customer.mlnnita1.pop.starlinkisp.net."
+            ],
+            [
               "2a0d:3344:3500::/40",
               "customer.sfiabgr1.pop.starlinkisp.net."
             ]
@@ -7185,6 +8113,10 @@
               "customer.sltyutx1.pop.starlinkisp.net."
             ],
             [
+              "2605:59c1:2800::/38",
+              "customer.isp.starlink.com."
+            ],
+            [
               "2605:59c0:3000::/40",
               "customer.sltyutx1.isp.starlink.com."
             ],
@@ -7199,6 +8131,14 @@
             [
               "2605:59c8:4d00::/40",
               "customer.sltyutx1.isp.starlink.com."
+            ]
+          ]
+        },
+        "San Jose": {
+          "ips": [
+            [
+              "2605:59c1:2c00::/38",
+              "customer.isp.starlink.com."
             ]
           ]
         }
@@ -7325,6 +8265,10 @@
             [
               "143.105.223.0/24",
               "customer.lsancax1.isp.starlink.com."
+            ],
+            [
+              "2605:59c1:400::/38",
+              "customer.isp.starlink.com."
             ],
             [
               "2605:59c8:3000::/40",
@@ -7485,6 +8429,132 @@
             [
               "173.250.192.0/24",
               "customer.lsancax1.pop.starlinkisp.net."
+            ],
+            [
+              "173.250.194.0/24",
+              "customer.lsancax1.pop.starlinkisp.net."
+            ],
+            [
+              "173.250.195.0/24",
+              "customer.lsancax1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:dc01::/49",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      },
+      "US-CO": {
+        "Denver": {
+          "ips": [
+            [
+              "74.244.8.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "74.244.9.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "98.97.104.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "98.97.105.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "98.97.106.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "98.97.107.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "98.97.108.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "98.97.109.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "98.97.110.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "98.97.111.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "143.105.88.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "143.105.89.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "143.105.182.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "143.105.183.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "216.147.120.0/24",
+              "customer.dnvrcox1.pop.starlinkisp.net."
+            ],
+            [
+              "216.147.121.0/24",
+              "customer.dnvrcox1.pop.starlinkisp.net."
+            ],
+            [
+              "216.147.122.0/24",
+              "customer.dnvrcox1.pop.starlinkisp.net."
+            ],
+            [
+              "216.147.123.0/24",
+              "customer.dnvrcox1.pop.starlinkisp.net."
+            ],
+            [
+              "216.147.124.0/24",
+              "customer.dnvrcox1.pop.starlinkisp.net."
+            ],
+            [
+              "216.147.125.0/24",
+              "customer.dnvrcox1.pop.starlinkisp.net."
+            ],
+            [
+              "216.147.126.0/24",
+              "customer.dnvrcox1.pop.starlinkisp.net."
+            ],
+            [
+              "216.147.127.0/24",
+              "customer.dnvrcox1.pop.starlinkisp.net."
+            ],
+            [
+              "2605:59c1:2000::/38",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c8:5000::/40",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "2605:59c8:5100::/40",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "2605:59c8:5200::/40",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "2605:59c8:5300::/40",
+              "customer.dnvrcox1.isp.starlink.com."
             ]
           ]
         }
@@ -7499,6 +8569,14 @@
             [
               "74.244.11.0/24",
               "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "216.234.202.0/24",
+              "customer.nwyynyx1.pop.starlinkisp.net."
+            ],
+            [
+              "216.234.203.0/24",
+              "customer.frtabra1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -7567,6 +8645,62 @@
             [
               "74.244.27.0/24",
               "customer.knsymox1.isp.starlink.com."
+            ],
+            [
+              "74.244.114.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.115.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.116.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.117.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "143.105.242.0/24",
+              "customer.sfiabgr1.isp.starlink.com."
+            ],
+            [
+              "143.105.243.0/24",
+              "customer.sfiabgr1.isp.starlink.com."
+            ],
+            [
+              "143.105.244.0/24",
+              "customer.sfiabgr1.isp.starlink.com."
+            ],
+            [
+              "143.105.245.0/24",
+              "customer.sfiabgr1.isp.starlink.com."
+            ],
+            [
+              "143.105.246.0/24",
+              "customer.mlbeaus1.isp.starlink.com."
+            ],
+            [
+              "143.105.247.0/24",
+              "customer.mlbeaus1.isp.starlink.com."
+            ],
+            [
+              "2605:59c1:4000::/38",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c8:4800::/40",
+              "customer.rdmdwax3.isp.starlink.com."
+            ],
+            [
+              "2605:59c8:4900::/40",
+              "customer.rdmdwax3.isp.starlink.com."
+            ],
+            [
+              "2605:59c8:4a00::/40",
+              "customer.rdmdwax3.isp.starlink.com."
             ]
           ]
         }
@@ -7581,6 +8715,14 @@
             [
               "74.244.31.0/24",
               "customer.tmpeazx1.isp.starlink.com."
+            ],
+            [
+              "74.244.156.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.157.0/24",
+              "customer.isp.starlink.com."
             ],
             [
               "98.97.112.0/24",
@@ -7667,6 +8809,10 @@
               "customer.tmpeazx1.pop.starlinkisp.net."
             ],
             [
+              "2605:59c1:3000::/38",
+              "customer.isp.starlink.com."
+            ],
+            [
               "2605:59c0:4000::/40",
               "customer.tmpeazx1.isp.starlink.com."
             ],
@@ -7707,6 +8853,10 @@
             [
               "74.244.37.0/24",
               "customer.lsancax1.isp.starlink.com."
+            ],
+            [
+              "143.105.106.0/24",
+              "customer.lgosnga1.isp.starlink.com."
             ],
             [
               "143.105.107.0/24",
@@ -7789,6 +8939,14 @@
             [
               "74.244.49.0/24",
               "customer.dllstxx1.isp.starlink.com."
+            ],
+            [
+              "74.244.138.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.139.0/24",
+              "customer.isp.starlink.com."
             ],
             [
               "98.97.20.0/24",
@@ -7999,6 +9157,10 @@
               "customer.dllstxx1.pop.starlinkisp.net."
             ],
             [
+              "2605:59c1:1400::/38",
+              "customer.isp.starlink.com."
+            ],
+            [
               "2605:59c8:c00::/40",
               "customer.dllstxx1.isp.starlink.com."
             ],
@@ -8033,6 +9195,54 @@
             [
               "2605:59c8:4700::/40",
               "customer.dllstxx1.isp.starlink.com."
+            ],
+            [
+              "143.105.176.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "143.105.177.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "143.105.178.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "143.105.179.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c6::/40",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c6:100::/40",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c6:200::/40",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c6:300::/40",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c6:400::/40",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c6:500::/40",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c6:600::/40",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c6:700::/40",
+              "customer.isp.starlink.com."
             ]
           ]
         }
@@ -8063,6 +9273,22 @@
             [
               "74.244.59.0/24",
               "customer.atlagax1.isp.starlink.com."
+            ],
+            [
+              "74.244.140.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.141.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.142.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.143.0/24",
+              "customer.isp.starlink.com."
             ],
             [
               "98.97.168.0/24",
@@ -8199,6 +9425,10 @@
             [
               "143.105.225.0/24",
               "customer.atlagax1.isp.starlink.com."
+            ],
+            [
+              "2605:59c1:1000::/38",
+              "customer.isp.starlink.com."
             ],
             [
               "2605:59c0:6e00::/40",
@@ -8359,6 +9589,22 @@
               "customer.ashnvax2.isp.starlink.com."
             ],
             [
+              "170.203.212.0/24",
+              "customer.sttlwax1.pop.starlinkisp.net."
+            ],
+            [
+              "170.203.213.0/24",
+              "customer.sttlwax1.pop.starlinkisp.net."
+            ],
+            [
+              "170.203.214.0/24",
+              "customer.sttlwax1.pop.starlinkisp.net."
+            ],
+            [
+              "170.203.215.0/24",
+              "customer.sttlwax1.pop.starlinkisp.net."
+            ],
+            [
               "216.234.196.0/24",
               "customer.ashnvax2.pop.starlinkisp.net."
             ],
@@ -8373,6 +9619,10 @@
             [
               "216.234.207.0/24",
               "customer.ashnvax2.pop.starlinkisp.net."
+            ],
+            [
+              "2605:59c1:4c00::/38",
+              "customer.isp.starlink.com."
             ],
             [
               "2605:59c0::/40",
@@ -8401,6 +9651,10 @@
             [
               "2605:59c0:d00::/40",
               "customer.ashnvax2.isp.starlink.com."
+            ],
+            [
+              "192.31.243.0/24",
+              "customer.sea.pop.starlinkisp.net."
             ]
           ]
         }
@@ -8617,6 +9871,10 @@
               "customer.chcoilx1.isp.starlink.com."
             ],
             [
+              "2605:59c1:800::/38",
+              "customer.isp.starlink.com."
+            ],
+            [
               "2605:59c0:c00::/40",
               "customer.chcoilx1.isp.starlink.com."
             ],
@@ -8655,6 +9913,30 @@
             [
               "2605:59c8:3b00::/40",
               "customer.mplsmnx1.isp.starlink.com."
+            ],
+            [
+              "143.105.72.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "143.105.73.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "173.250.206.0/25",
+              "undefined.hostname.localhost."
+            ],
+            [
+              "173.250.206.128/25",
+              "undefined.hostname.localhost."
+            ],
+            [
+              "2a0d:3341:dc02::/48",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:dc03::/48",
+              "customer.rdmdwax3.pop.starlinkisp.net."
             ]
           ]
         }
@@ -8681,6 +9963,38 @@
             [
               "2605:59c8:3f00::/40",
               "customer.sttlwax1.isp.starlink.com."
+            ],
+            [
+              "102.215.59.0/25",
+              "customer.kentwax1.pop.starlinkisp.net."
+            ],
+            [
+              "102.215.59.128/25",
+              "customer.kentwax1.pop.starlinkisp.net."
+            ],
+            [
+              "2605:59c0:5200::/48",
+              "customer.rdmdwax3.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:6c00::/48",
+              "customer.rdmdwax3.isp.starlink.com."
+            ]
+          ]
+        },
+        "Dutch Harbor": {
+          "ips": [
+            [
+              "129.224.216.0/24",
+              "customer.dtcrakx1.pop.starlinkisp.net."
+            ]
+          ]
+        },
+        "Nome": {
+          "ips": [
+            [
+              "205.174.157.0/24",
+              "customer.isp.starlink.com."
             ]
           ]
         }
@@ -8753,6 +10067,10 @@
               "customer.mplsmnx1.isp.starlink.com."
             ],
             [
+              "2605:59c1:4800::/38",
+              "customer.isp.starlink.com."
+            ],
+            [
               "2605:59c8:3a00::/40",
               "customer.mplsmnx1.isp.starlink.com."
             ],
@@ -8785,6 +10103,228 @@
             [
               "98.97.41.0/24",
               "customer.sttlwax1.isp.starlink.com."
+            ]
+          ]
+        }
+      },
+      "US-FL": {
+        "Miami": {
+          "ips": [
+            [
+              "74.244.112.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.113.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.120.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.121.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.122.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.123.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "98.97.166.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "98.97.167.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "98.97.186.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "98.97.187.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.0.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.1.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.48.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.49.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.50.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.51.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.52.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.53.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.54.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.55.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.88.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.89.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.118.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.119.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.134.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.135.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.224.212.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "129.224.213.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "135.129.118.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "143.105.20.0/24",
+              "customer.mmmiflx1.isp.starlink.com."
+            ],
+            [
+              "143.105.21.0/24",
+              "customer.mmmiflx1.isp.starlink.com."
+            ],
+            [
+              "143.105.22.0/24",
+              "customer.mmmiflx1.isp.starlink.com."
+            ],
+            [
+              "143.105.23.0/24",
+              "customer.mmmiflx1.isp.starlink.com."
+            ],
+            [
+              "135.129.119.0/25",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "135.129.119.128/25",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ],
+            [
+              "2605:59c1:2400::/38",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:1000::/40",
+              "customer.mmmiflx1.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:1100::/40",
+              "customer.mmmiflx1.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:1700::/40",
+              "customer.mmmiflx1.isp.starlink.com."
+            ],
+            [
+              "129.224.218.0/24",
+              "customer.rcxship1.pop.starlinkisp.net."
+            ],
+            [
+              "129.224.219.0/24",
+              "customer.spxship1.pop.starlinkisp.net."
+            ],
+            [
+              "129.224.221.0/24",
+              "customer.rcxship2.pop.starlinkisp.net."
+            ],
+            [
+              "141.109.87.0/24",
+              "customer.mmmiflx1.pop.starlinkisp.net."
+            ]
+          ]
+        },
+        "Cape Canaveral": {
+          "ips": [
+            [
+              "129.224.223.0/24",
+              "customer.cpclspx1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      },
+      "US-NV": {
+        "Las Vegas": {
+          "ips": [
+            [
+              "74.244.130.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.131.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.154.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.155.0/24",
+              "customer.isp.starlink.com."
+            ]
+          ]
+        }
+      },
+      "US-NC": {
+        "Charlotte": {
+          "ips": [
+            [
+              "74.244.146.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.147.0/24",
+              "customer.isp.starlink.com."
             ]
           ]
         }
@@ -8905,6 +10445,10 @@
               "customer.sttlwax1.pop.starlinkisp.net."
             ],
             [
+              "2605:59c1::/38",
+              "customer.isp.starlink.com."
+            ],
+            [
               "2605:59c8::/40",
               "customer.sttlwax1.isp.starlink.com."
             ],
@@ -8931,6 +10475,94 @@
             [
               "2605:59c7:194::/46",
               "customer.sttlwax1.isp.starlink.com."
+            ],
+            [
+              "129.224.220.0/24",
+              "customer.aafbgux1.pop.starlinkisp.net."
+            ],
+            [
+              "98.97.73.0/25",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "98.97.184.128/25",
+              "customer.kentwax1.pop.starlinkisp.net."
+            ],
+            [
+              "129.224.206.0/25",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ],
+            [
+              "129.224.207.0/25",
+              "customer.rdmdwax3rk3.pop.starlinkisp.net."
+            ],
+            [
+              "129.224.207.128/25",
+              "customer.rdmdwax3rk3.pop.starlinkisp.net."
+            ],
+            [
+              "143.105.218.0/25",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "143.105.218.128/25",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "173.250.198.0/25",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ],
+            [
+              "173.250.198.128/25",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ],
+            [
+              "98.97.73.128/26",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "98.97.184.0/26",
+              "customer.kentwax1.pop.starlinkisp.net."
+            ],
+            [
+              "129.224.206.128/26",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ],
+            [
+              "98.97.73.192/28",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "98.97.73.208/28",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "129.224.206.192/28",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ],
+            [
+              "129.224.206.208/28",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ],
+            [
+              "2605:59c9::/40",
+              "customer.rdmdwax3.isp.starlink.com."
+            ],
+            [
+              "2605:59c9:100::/40",
+              "customer.rdmdwax3.isp.starlink.com."
+            ],
+            [
+              "2605:59c9:200::/48",
+              "customer.rdmdwax3.isp.starlink.com."
+            ]
+          ]
+        },
+        "Redmond": {
+          "ips": [
+            [
+              "141.109.91.0/24",
+              "undefined.hostname.localhost."
             ]
           ]
         }
@@ -8945,108 +10577,14 @@
             [
               "98.97.43.0/24",
               "customer.sttlwax1.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "US-CO": {
-        "Denver": {
-          "ips": [
-            [
-              "98.97.104.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
             ],
             [
-              "98.97.105.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
+              "98.97.48.0/24",
+              "customer.isp.starlink.com."
             ],
             [
-              "98.97.106.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "98.97.107.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "98.97.108.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "98.97.109.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "98.97.110.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "98.97.111.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "143.105.88.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "143.105.89.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "143.105.182.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "143.105.183.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "216.147.120.0/24",
-              "customer.dnvrcox1.pop.starlinkisp.net."
-            ],
-            [
-              "216.147.121.0/24",
-              "customer.dnvrcox1.pop.starlinkisp.net."
-            ],
-            [
-              "216.147.122.0/24",
-              "customer.dnvrcox1.pop.starlinkisp.net."
-            ],
-            [
-              "216.147.123.0/24",
-              "customer.dnvrcox1.pop.starlinkisp.net."
-            ],
-            [
-              "216.147.124.0/24",
-              "customer.dnvrcox1.pop.starlinkisp.net."
-            ],
-            [
-              "216.147.125.0/24",
-              "customer.dnvrcox1.pop.starlinkisp.net."
-            ],
-            [
-              "216.147.126.0/24",
-              "customer.dnvrcox1.pop.starlinkisp.net."
-            ],
-            [
-              "216.147.127.0/24",
-              "customer.dnvrcox1.pop.starlinkisp.net."
-            ],
-            [
-              "2605:59c8:5000::/40",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "2605:59c8:5100::/40",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "2605:59c8:5200::/40",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "2605:59c8:5300::/40",
-              "customer.dnvrcox1.isp.starlink.com."
+              "98.97.49.0/24",
+              "customer.isp.starlink.com."
             ]
           ]
         }
@@ -9071,142 +10609,16 @@
               "customer.clgycan1.pop.starlinkisp.net."
             ],
             [
+              "135.129.126.0/24",
+              "customer.sngesgp1.pop.starlinkisp.net."
+            ],
+            [
+              "135.129.127.0/24",
+              "customer.gtmygtm1.pop.starlinkisp.net."
+            ],
+            [
               "2605:59c0:5800::/40",
               "customer.clgycan1.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "US-FL": {
-        "Miami": {
-          "ips": [
-            [
-              "98.97.166.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "98.97.167.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "98.97.186.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "98.97.187.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.0.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.1.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.48.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.49.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.50.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.51.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.52.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.53.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.54.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.55.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.88.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.89.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.118.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.119.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.134.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.135.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.224.212.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.224.213.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "135.129.118.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "143.105.20.0/24",
-              "customer.mmmiflx1.isp.starlink.com."
-            ],
-            [
-              "143.105.21.0/24",
-              "customer.mmmiflx1.isp.starlink.com."
-            ],
-            [
-              "143.105.22.0/24",
-              "customer.mmmiflx1.isp.starlink.com."
-            ],
-            [
-              "143.105.23.0/24",
-              "customer.mmmiflx1.isp.starlink.com."
-            ],
-            [
-              "135.129.119.0/25",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "135.129.119.128/25",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "2605:59c0:1000::/40",
-              "customer.mmmiflx1.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:1100::/40",
-              "customer.mmmiflx1.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:1700::/40",
-              "customer.mmmiflx1.isp.starlink.com."
             ]
           ]
         }
@@ -9323,6 +10735,14 @@
               "customer.nwyynyx1.isp.starlink.com."
             ]
           ]
+        },
+        "New York City": {
+          "ips": [
+            [
+              "2605:59c1:c00::/38",
+              "customer.isp.starlink.com."
+            ]
+          ]
         }
       },
       "US-ME": {
@@ -9355,6 +10775,18 @@
             [
               "2803:9810:b100::/40",
               "customer.bnssarg1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
+    "UZ": {
+      "UZ-TO": {
+        "Tashkent": {
+          "ips": [
+            [
+              "2406:2d40:5800::/40",
+              "customer.jtnaidn1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -9393,6 +10825,14 @@
               "customer.bgtacol1.isp.starlink.com."
             ],
             [
+              "143.105.164.0/24",
+              "customer.mmmiflx1.isp.starlink.com."
+            ],
+            [
+              "143.105.165.0/24",
+              "customer.mmmiflx1.isp.starlink.com."
+            ],
+            [
               "129.224.209.0/25",
               "customer.bgtacol1.pop.starlinkisp.net."
             ],
@@ -9413,6 +10853,10 @@
               "customer.mmmiflx1.isp.starlink.com."
             ],
             [
+              "2803:9810:3a00::/40",
+              "customer.sntochl1.pop.starlinkisp.net."
+            ],
+            [
               "2803:9810:5600::/40",
               "customer.bgtacol1.pop.starlinkisp.net."
             ]
@@ -9424,6 +10868,14 @@
       "": {
         "Charlotte Amalie": {
           "ips": [
+            [
+              "74.244.152.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.153.0/24",
+              "customer.isp.starlink.com."
+            ],
             [
               "98.97.53.0/25",
               "customer.mmmiflx1.isp.starlink.com."
@@ -9443,6 +10895,26 @@
             [
               "98.97.53.192/26",
               "customer.mmmiflx1.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:1540::/42",
+              "customer.frtabra1.isp.starlink.com."
+            ]
+          ]
+        }
+      }
+    },
+    "VN": {
+      "VN-SG": {
+        "Saigon": {
+          "ips": [
+            [
+              "2406:2d40:4800::/40",
+              "customer.sydyaus1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:3240::/42",
+              "customer.tkyojpn1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -9450,6 +10922,14 @@
     },
     "VU": {
       "VU-SEE": {
+        "Port Vila": {
+          "ips": [
+            [
+              "2406:2d40:2700::/42",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ]
+          ]
+        },
         "Port-Vila": {
           "ips": [
             [
@@ -9535,6 +11015,10 @@
             [
               "2a0d:3341:c140::/42",
               "customer.dohaqat1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:d500::/42",
+              "customer.mlnnita1.pop.starlinkisp.net."
             ],
             [
               "2a0d:3344:1800::/42",
@@ -9625,6 +11109,14 @@
         "Lusaka": {
           "ips": [
             [
+              "74.244.128.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.129.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "129.222.212.0/24",
               "customer.nrbiken1.pop.starlinkisp.net."
             ],
@@ -9647,6 +11139,14 @@
             [
               "98.97.160.128/25",
               "customer.jhngzaf1.pop.starlinkisp.net."
+            ],
+            [
+              "145.224.95.0/25",
+              "customer.nrbiken1.pop.starlinkisp.net."
+            ],
+            [
+              "145.224.95.128/25",
+              "customer.nrbiken1.pop.starlinkisp.net."
             ],
             [
               "2605:59c0:5d00::/41",
@@ -9717,6 +11217,10 @@
               "customer.jhngzaf1.pop.starlinkisp.net."
             ],
             [
+              "2605:59c1:3400::/38",
+              "customer.isp.starlink.com."
+            ],
+            [
               "2605:59c0:6700::/40",
               "customer.jhngzaf1.isp.starlink.com."
             ],
@@ -9727,2252 +11231,6 @@
             [
               "2605:59c0:5f80::/41",
               "customer.jhngzaf1.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    }
-  },
-  "dns_ptr_pop_not_match": {
-    "AU": {
-      "AU-QLD": {
-        "Brisbane": {
-          "ips": [
-            [
-              "65.181.10.0/24",
-              "customer.sydyaus1.pop.starlinkisp.net."
-            ],
-            [
-              "65.181.11.0/24",
-              "customer.jtnaidn1.pop.starlinkisp.net."
-            ],
-            [
-              "65.181.26.0/24",
-              "customer.sngesgp1.pop.starlinkisp.net."
-            ],
-            [
-              "65.181.27.0/24",
-              "customer.chrhnzl1.pop.starlinkisp.net."
-            ],
-            [
-              "2406:2d40:2500::/40",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "2406:2d40:3900::/40",
-              "customer.tkyojpn1.pop.starlinkisp.net."
-            ],
-            [
-              "2406:2d40:3a00::/40",
-              "customer.tkyojpn1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
-      "AU-VIC": {
-        "Melbourne": {
-          "ips": [
-            [
-              "14.1.93.0/25",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "14.1.93.128/25",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "206.83.111.0/25",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "206.83.111.128/25",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "2406:2d40:1c00::/38",
-              "undefined.hostname.localhost."
-            ],
-            [
-              "2406:2d40:6900::/40",
-              "customer.sngesgp1.pop.starlinkisp.net."
-            ],
-            [
-              "2406:2d40:6a00::/40",
-              "customer.sngesgp1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
-      "AU-NSW": {
-        "Sydney": {
-          "ips": [
-            [
-              "2406:2d40:1800::/38",
-              "undefined.hostname.localhost."
-            ]
-          ]
-        }
-      },
-      "AU-TAS": {
-        "Hobart": {
-          "ips": [
-            [
-              "2406:2d40:6b00::/41",
-              "customer.sngesgp1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "US": {
-      "US-CO": {
-        "Denver": {
-          "ips": [
-            [
-              "74.244.8.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "74.244.9.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "2605:59c1:2000::/38",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "US-FL": {
-        "Miami": {
-          "ips": [
-            [
-              "74.244.112.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.113.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.120.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.121.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.122.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.123.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c1:2400::/38",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "129.224.218.0/24",
-              "customer.rcxship1.pop.starlinkisp.net."
-            ],
-            [
-              "129.224.219.0/24",
-              "customer.spxship1.pop.starlinkisp.net."
-            ],
-            [
-              "129.224.221.0/24",
-              "customer.rcxship2.pop.starlinkisp.net."
-            ],
-            [
-              "141.109.87.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ]
-          ]
-        },
-        "Cape Canaveral": {
-          "ips": [
-            [
-              "129.224.223.0/24",
-              "customer.cpclspx1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
-      "US-MO": {
-        "Kansas City": {
-          "ips": [
-            [
-              "74.244.114.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.115.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.116.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.117.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "143.105.242.0/24",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
-              "143.105.243.0/24",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
-              "143.105.244.0/24",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
-              "143.105.245.0/24",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
-              "143.105.246.0/24",
-              "customer.mlbeaus1.isp.starlink.com."
-            ],
-            [
-              "143.105.247.0/24",
-              "customer.mlbeaus1.isp.starlink.com."
-            ],
-            [
-              "2605:59c1:4000::/38",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c8:4800::/40",
-              "customer.rdmdwax3.isp.starlink.com."
-            ],
-            [
-              "2605:59c8:4900::/40",
-              "customer.rdmdwax3.isp.starlink.com."
-            ],
-            [
-              "2605:59c8:4a00::/40",
-              "customer.rdmdwax3.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "US-NV": {
-        "Las Vegas": {
-          "ips": [
-            [
-              "74.244.130.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.131.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.154.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.155.0/24",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "US-TX": {
-        "Dallas": {
-          "ips": [
-            [
-              "74.244.138.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.139.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c1:1400::/38",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "143.105.176.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "143.105.177.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "143.105.178.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "143.105.179.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c6::/40",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c6:100::/40",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c6:200::/40",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c6:300::/40",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c6:400::/40",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c6:500::/40",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c6:600::/40",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c6:700::/40",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "US-GA": {
-        "Atlanta": {
-          "ips": [
-            [
-              "74.244.140.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.141.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.142.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.143.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c1:1000::/38",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "US-NC": {
-        "Charlotte": {
-          "ips": [
-            [
-              "74.244.146.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.147.0/24",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "US-AZ": {
-        "Phoenix": {
-          "ips": [
-            [
-              "74.244.156.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.157.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c1:3000::/38",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "US-OR": {
-        "Portland": {
-          "ips": [
-            [
-              "98.97.48.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "98.97.49.0/24",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "US-MT": {
-        "Billings": {
-          "ips": [
-            [
-              "135.129.126.0/24",
-              "customer.sngesgp1.pop.starlinkisp.net."
-            ],
-            [
-              "135.129.127.0/24",
-              "customer.gtmygtm1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
-      "US-HI": {
-        "Honolulu": {
-          "ips": [
-            [
-              "143.105.106.0/24",
-              "customer.lgosnga1.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "US-VA": {
-        "Ashburn": {
-          "ips": [
-            [
-              "170.203.212.0/24",
-              "customer.sttlwax1.pop.starlinkisp.net."
-            ],
-            [
-              "170.203.213.0/24",
-              "customer.sttlwax1.pop.starlinkisp.net."
-            ],
-            [
-              "170.203.214.0/24",
-              "customer.sttlwax1.pop.starlinkisp.net."
-            ],
-            [
-              "170.203.215.0/24",
-              "customer.sttlwax1.pop.starlinkisp.net."
-            ],
-            [
-              "2605:59c1:4c00::/38",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "192.31.243.0/24",
-              "customer.sea.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
-      "US-WY": {
-        "Cheyenne": {
-          "ips": [
-            [
-              "216.234.202.0/24",
-              "customer.nwyynyx1.pop.starlinkisp.net."
-            ],
-            [
-              "216.234.203.0/24",
-              "customer.frtabra1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
-      "US-WA": {
-        "Seattle": {
-          "ips": [
-            [
-              "2605:59c1::/38",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "129.224.220.0/24",
-              "customer.aafbgux1.pop.starlinkisp.net."
-            ],
-            [
-              "98.97.73.0/25",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "98.97.184.128/25",
-              "customer.kentwax1.pop.starlinkisp.net."
-            ],
-            [
-              "129.224.206.0/25",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ],
-            [
-              "129.224.207.0/25",
-              "customer.rdmdwax3rk3.pop.starlinkisp.net."
-            ],
-            [
-              "129.224.207.128/25",
-              "customer.rdmdwax3rk3.pop.starlinkisp.net."
-            ],
-            [
-              "143.105.218.0/25",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "143.105.218.128/25",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "173.250.198.0/25",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ],
-            [
-              "173.250.198.128/25",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ],
-            [
-              "98.97.73.128/26",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "98.97.184.0/26",
-              "customer.kentwax1.pop.starlinkisp.net."
-            ],
-            [
-              "129.224.206.128/26",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ],
-            [
-              "98.97.73.192/28",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "98.97.73.208/28",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "129.224.206.192/28",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ],
-            [
-              "129.224.206.208/28",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ],
-            [
-              "2605:59c9::/40",
-              "customer.rdmdwax3.isp.starlink.com."
-            ],
-            [
-              "2605:59c9:100::/40",
-              "customer.rdmdwax3.isp.starlink.com."
-            ],
-            [
-              "2605:59c9:200::/48",
-              "customer.rdmdwax3.isp.starlink.com."
-            ]
-          ]
-        },
-        "Redmond": {
-          "ips": [
-            [
-              "141.109.91.0/24",
-              "undefined.hostname.localhost."
-            ]
-          ]
-        }
-      },
-      "US-CA": {
-        "Los Angeles": {
-          "ips": [
-            [
-              "2605:59c1:400::/38",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        },
-        "Hawthorne": {
-          "ips": [
-            [
-              "173.250.194.0/24",
-              "customer.lsancax1.pop.starlinkisp.net."
-            ],
-            [
-              "173.250.195.0/24",
-              "customer.lsancax1.pop.starlinkisp.net."
-            ],
-            [
-              "2a0d:3341:dc01::/49",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
-      "US-IL": {
-        "Chicago": {
-          "ips": [
-            [
-              "2605:59c1:800::/38",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "143.105.72.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "143.105.73.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "173.250.206.0/25",
-              "undefined.hostname.localhost."
-            ],
-            [
-              "173.250.206.128/25",
-              "undefined.hostname.localhost."
-            ],
-            [
-              "2a0d:3341:dc02::/48",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ],
-            [
-              "2a0d:3341:dc03::/48",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
-      "US-NY": {
-        "New York City": {
-          "ips": [
-            [
-              "2605:59c1:c00::/38",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "US-UT": {
-        "Salt Lake City": {
-          "ips": [
-            [
-              "2605:59c1:2800::/38",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        },
-        "San Jose": {
-          "ips": [
-            [
-              "2605:59c1:2c00::/38",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "US-MN": {
-        "Minneapolis": {
-          "ips": [
-            [
-              "2605:59c1:4800::/38",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "US-AK": {
-        "Dutch Harbor": {
-          "ips": [
-            [
-              "129.224.216.0/24",
-              "customer.dtcrakx1.pop.starlinkisp.net."
-            ]
-          ]
-        },
-        "Nome": {
-          "ips": [
-            [
-              "205.174.157.0/24",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        },
-        "Anchorage": {
-          "ips": [
-            [
-              "102.215.59.0/25",
-              "customer.kentwax1.pop.starlinkisp.net."
-            ],
-            [
-              "102.215.59.128/25",
-              "customer.kentwax1.pop.starlinkisp.net."
-            ],
-            [
-              "2605:59c0:5200::/48",
-              "customer.rdmdwax3.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:6c00::/48",
-              "customer.rdmdwax3.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
-    "TD": {
-      "TD-ND": {
-        "N'Djamena": {
-          "ips": [
-            [
-              "74.244.68.0/24",
-              "customer.limaper1.isp.starlink.com."
-            ],
-            [
-              "74.244.69.0/24",
-              "customer.limaper1.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
-    "GH": {
-      "GH-AA": {
-        "Accra": {
-          "ips": [
-            [
-              "74.244.118.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.119.0/24",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
-    "CA": {
-      "CA-ON": {
-        "Toronto": {
-          "ips": [
-            [
-              "74.244.124.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.125.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.126.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.127.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "129.222.192.0/24",
-              "customer.nwyynyx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.193.0/24",
-              "customer.nwyynyx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.196.0/24",
-              "customer.nwyynyx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.197.0/24",
-              "customer.nwyynyx1.pop.starlinkisp.net."
-            ],
-            [
-              "135.129.122.0/25",
-              "customer.mplsmnx1.pop.starlinkisp.net."
-            ],
-            [
-              "135.129.122.128/25",
-              "customer.mplsmnx1.pop.starlinkisp.net."
-            ],
-            [
-              "216.234.220.0/25",
-              "customer.nrbiken1.pop.starlinkisp.net."
-            ],
-            [
-              "216.234.220.128/25",
-              "customer.nrbiken1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
-      "CA-QC": {
-        "Montreal": {
-          "ips": [
-            [
-              "129.222.94.0/24",
-              "customer.nwyynyx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.95.0/24",
-              "customer.nrbiken1.pop.starlinkisp.net."
-            ],
-            [
-              "2605:59c1:3c00::/38",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        },
-        "Kuujjuaq": {
-          "ips": [
-            [
-              "141.109.85.0/24",
-              "customer.kjjqcan1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
-      "CA-NU": {
-        "Iqaluit": {
-          "ips": [
-            [
-              "135.129.112.0/24",
-              "customer.nwyynyx1.pop.starlinkisp.net."
-            ],
-            [
-              "135.129.113.0/24",
-              "customer.nwyynyx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.224.217.0/24",
-              "customer.iqltcan1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
-      "CA-AB": {
-        "Calgary": {
-          "ips": [
-            [
-              "170.203.208.0/24",
-              "customer.sttlwax1.pop.starlinkisp.net."
-            ],
-            [
-              "170.203.209.0/24",
-              "customer.sttlwax1.pop.starlinkisp.net."
-            ],
-            [
-              "170.203.210.0/24",
-              "customer.sttlwax1.pop.starlinkisp.net."
-            ],
-            [
-              "170.203.211.0/24",
-              "customer.sttlwax1.pop.starlinkisp.net."
-            ],
-            [
-              "2605:59c1:3800::/38",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "CA-BC": {
-        "Brucejack": {
-          "ips": [
-            [
-              "141.109.80.0/24",
-              "customer.brckcan1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "ZM": {
-      "ZM-09": {
-        "Lusaka": {
-          "ips": [
-            [
-              "74.244.128.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.129.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "145.224.95.0/25",
-              "customer.nrbiken1.pop.starlinkisp.net."
-            ],
-            [
-              "145.224.95.128/25",
-              "customer.nrbiken1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "AR": {
-      "AR-C": {
-        "Buenos Aires": {
-          "ips": [
-            [
-              "74.244.132.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.133.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.134.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.135.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "148.222.222.0/25",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ],
-            [
-              "148.222.222.128/25",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ],
-            [
-              "200.189.23.0/25",
-              "customer.splobra1.pop.starlinkisp.net."
-            ],
-            [
-              "200.189.23.128/25",
-              "customer.splobra1.pop.starlinkisp.net."
-            ],
-            [
-              "2803:9810:1400::/38",
-              "customer.sa.mc.starlinkisp.net."
-            ],
-            [
-              "2803:9810:3800::/40",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ],
-            [
-              "2803:9810:3900::/40",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ],
-            [
-              "2803:9810:3e00::/40",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ],
-            [
-              "2803:9810:5900::/40",
-              "customer.bgtacol1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "MX": {
-      "MX-CMX": {
-        "Mexico City": {
-          "ips": [
-            [
-              "74.244.136.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.137.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "2803:9810::/38",
-              "customer.sa.mc.starlinkisp.net."
-            ],
-            [
-              "2803:9810:5800::/40",
-              "customer.bgtacol1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "CR": {
-      "CR-SJ": {
-        "San Jose": {
-          "ips": [
-            [
-              "74.244.144.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.145.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "170.203.199.0/25",
-              "customer.gtmygtm1.pop.starlinkisp.net."
-            ],
-            [
-              "170.203.199.128/25",
-              "customer.gtmygtm1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "MS": {
-      "": {
-        "Brades": {
-          "ips": [
-            [
-              "74.244.148.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.149.0/24",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
-    "GP": {
-      "": {
-        "Basse-Terre": {
-          "ips": [
-            [
-              "74.244.150.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.151.0/24",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
-    "VI": {
-      "": {
-        "Charlotte Amalie": {
-          "ips": [
-            [
-              "74.244.152.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.153.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:1540::/42",
-              "customer.frtabra1.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
-    "UA": {
-      "UA-30": {
-        "Kyiv": {
-          "ips": [
-            [
-              "87.251.28.0/24",
-              "customer.sfiabgr1.pop.starlinkisp.net."
-            ],
-            [
-              "87.251.29.0/24",
-              "customer.sfiabgr1.pop.starlinkisp.net."
-            ],
-            [
-              "2a0d:3341:ba00::/40",
-              "customer.frntdeu1.pop.starlinkisp.net."
-            ],
-            [
-              "2a0d:3341:c700::/40",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ],
-            [
-              "2a0d:3341:c900::/40",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ],
-            [
-              "2a0d:3341:d900::/40",
-              "customer.mlnnita1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "NG": {
-      "NG-LA": {
-        "Lagos": {
-          "ips": [
-            [
-              "98.97.76.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "98.97.77.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c1:1800::/38",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
-    "GT": {
-      "GT-01": {
-        "Guatemala City": {
-          "ips": [
-            [
-              "98.97.144.0/24",
-              "customer.wrswpol1.pop.starlinkisp.net."
-            ],
-            [
-              "98.97.145.0/24",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ],
-            [
-              "2803:9810:400::/38",
-              "customer.sa.mc.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "SD": {
-      "SD-KH": {
-        "Khartoum": {
-          "ips": [
-            [
-              "129.222.68.0/24",
-              "customer.bgtacol1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.69.0/24",
-              "customer.sfiabgr1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.164.0/25",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.164.128/25",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "TT": {
-      "TT-POS": {
-        "Port of Spain": {
-          "ips": [
-            [
-              "129.222.198.0/24",
-              "customer.nwyynyx1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.199.0/24",
-              "customer.nwyynyx1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "SL": {
-      "SL-W": {
-        "Freetown": {
-          "ips": [
-            [
-              "129.224.204.0/24",
-              "customer.mnlaphl1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "BR": {
-      "BR-SP": {
-        "Sao Paulo": {
-          "ips": [
-            [
-              "138.84.56.0/24",
-              "customer.qrtomex1.pop.starlinkisp.net."
-            ],
-            [
-              "138.84.57.0/24",
-              "customer.mmmiflx1.pop.starlinkisp.net."
-            ],
-            [
-              "2803:9810:1000::/38",
-              "customer.sa.mc.starlinkisp.net."
-            ],
-            [
-              "2803:9810:3500::/40",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
-      "BR-DF": {
-        "Bras\u00edlia": {
-          "ips": [
-            [
-              "148.227.88.0/24",
-              "customer.splobra1.pop.starlinkisp.net."
-            ],
-            [
-              "2803:9810:4c00::/40",
-              "customer.splobra1.pop.starlinkisp.net."
-            ],
-            [
-              "2803:9810:4d00::/40",
-              "customer.splobra1.pop.starlinkisp.net."
-            ],
-            [
-              "2803:9810:4e00::/40",
-              "customer.splobra1.pop.starlinkisp.net."
-            ]
-          ]
-        },
-        "Brasilia": {
-          "ips": [
-            [
-              "2803:9810:2000::/38",
-              "customer.sa.mc.starlinkisp.net."
-            ],
-            [
-              "2803:9810:3b00::/40",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
-      "BR-CE": {
-        "Fortaleza": {
-          "ips": [
-            [
-              "2803:9810:c00::/38",
-              "customer.sa.mc.starlinkisp.net."
-            ],
-            [
-              "2803:9810:3f00::/40",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "VE": {
-      "VE-A": {
-        "Caracas": {
-          "ips": [
-            [
-              "143.105.164.0/24",
-              "customer.mmmiflx1.isp.starlink.com."
-            ],
-            [
-              "143.105.165.0/24",
-              "customer.mmmiflx1.isp.starlink.com."
-            ],
-            [
-              "2803:9810:3a00::/40",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "GW": {
-      "GW-BS": {
-        "Bissau": {
-          "ips": [
-            [
-              "143.105.184.0/24",
-              "customer.lgosnga1.isp.starlink.com."
-            ],
-            [
-              "143.105.185.0/24",
-              "customer.lgosnga1.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
-    "BW": {
-      "BW-GA": {
-        "Gaborone": {
-          "ips": [
-            [
-              "143.105.252.0/24",
-              "customer.splobra1.isp.starlink.com."
-            ],
-            [
-              "143.105.253.0/24",
-              "customer.splobra1.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
-    "ID": {
-      "ID-JI": {
-        "Surabaya": {
-          "ips": [
-            [
-              "202.65.228.0/24",
-              "customer.jtnaidn2.pop.starlinkisp.net."
-            ],
-            [
-              "202.65.229.0/24",
-              "customer.jtnaidn2.pop.starlinkisp.net."
-            ],
-            [
-              "202.65.230.0/24",
-              "customer.jtnaidn2.pop.starlinkisp.net."
-            ],
-            [
-              "202.65.231.0/24",
-              "customer.jtnaidn2.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
-      "ID-JK": {
-        "Jakarta": {
-          "ips": [
-            [
-              "103.184.179.0/25",
-              "0-179-184-103.host.net.id."
-            ],
-            [
-              "103.184.179.128/25",
-              "128-179-184-103.host.net.id."
-            ],
-            [
-              "2406:2d40:5000::/40",
-              "customer.jtnaidn1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "BF": {
-      "BF-03": {
-        "Ouagadougou": {
-          "ips": [
-            [
-              "74.244.88.0/25",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "74.244.88.128/25",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
-    "JM": {
-      "JM-01": {
-        "Kingston": {
-          "ips": [
-            [
-              "170.203.223.0/25",
-              "customer.nrbiken1.pop.starlinkisp.net."
-            ],
-            [
-              "170.203.223.128/25",
-              "customer.nrbiken1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "MT": {
-      "MT-60": {
-        "Valletta": {
-          "ips": [
-            [
-              "216.128.4.64/26",
-              "customer.sfiabgr1.pop.starlinkisp.net."
-            ],
-            [
-              "216.128.4.128/26",
-              "customer.sfiabgr1.pop.starlinkisp.net."
-            ],
-            [
-              "216.128.4.0/27",
-              "customer.sfiabgr1.pop.starlinkisp.net."
-            ],
-            [
-              "216.128.4.32/27",
-              "customer.sfiabgr1.pop.starlinkisp.net."
-            ],
-            [
-              "216.128.4.192/27",
-              "customer.sfiabgr1.pop.starlinkisp.net."
-            ],
-            [
-              "216.128.4.224/27",
-              "customer.sfiabgr1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "PH": {
-      "PH-00": {
-        "Manila": {
-          "ips": [
-            [
-              "2406:2d40::/38",
-              "undefined.hostname.localhost."
-            ],
-            [
-              "2406:2d40:3b00::/40",
-              "customer.tkyojpn1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "MY": {
-      "MY-14": {
-        "Kuala Lumpur": {
-          "ips": [
-            [
-              "2406:2d40:400::/38",
-              "undefined.hostname.localhost."
-            ],
-            [
-              "2406:2d40:5b00::/40",
-              "customer.jtnaidn1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "JP": {
-      "JP-13": {
-        "Tokyo": {
-          "ips": [
-            [
-              "2406:2d40:800::/38",
-              "undefined.hostname.localhost."
-            ],
-            [
-              "2406:2d40:5a00::/40",
-              "customer.jtnaidn1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "BD": {
-      "BD-E": {
-        "Dhaka": {
-          "ips": [
-            [
-              "2406:2d40:c00::/38",
-              "undefined.hostname.localhost."
-            ],
-            [
-              "2406:2d40:2c00::/40",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ],
-            [
-              "2406:2d40:2f00::/40",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "2406:2d40:3800::/40",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "NZ": {
-      "NZ-CAN": {
-        "Christchurch": {
-          "ips": [
-            [
-              "2406:2d40:1000::/38",
-              "undefined.hostname.localhost."
-            ]
-          ]
-        }
-      },
-      "NZ-AUK": {
-        "Auckland": {
-          "ips": [
-            [
-              "2406:2d40:1400::/38",
-              "undefined.hostname.localhost."
-            ]
-          ]
-        }
-      }
-    },
-    "ZW": {
-      "ZW-HA": {
-        "Harare": {
-          "ips": [
-            [
-              "2605:59c1:3400::/38",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
-    "KE": {
-      "KE-30": {
-        "Nairobi": {
-          "ips": [
-            [
-              "2605:59c1:4400::/38",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
-    "CO": {
-      "CO-DC": {
-        "Bogota": {
-          "ips": [
-            [
-              "2803:9810:800::/38",
-              "customer.sa.mc.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "CL": {
-      "CL-RM": {
-        "Santiago": {
-          "ips": [
-            [
-              "2803:9810:1800::/38",
-              "customer.sa.mc.starlinkisp.net."
-            ],
-            [
-              "2803:9810:8500::/40",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "PE": {
-      "PE-LMA": {
-        "Lima": {
-          "ips": [
-            [
-              "2803:9810:1c00::/38",
-              "customer.sa.mc.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "IN": {
-      "IN-MH": {
-        "Mumbai": {
-          "ips": [
-            [
-              "2406:2d40:2900::/40",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "2406:2d40:2a00::/40",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "2406:2d40:2b00::/40",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "BN": {
-      "BN-BM": {
-        "Bandar Seri Begawan": {
-          "ips": [
-            [
-              "2406:2d40:4900::/40",
-              "customer.sydyaus1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "TJ": {
-      "TJ-DU": {
-        "Dushanbe": {
-          "ips": [
-            [
-              "2406:2d40:4a00::/40",
-              "customer.sydyaus1.pop.starlinkisp.net."
-            ],
-            [
-              "2406:2d40:3f00::/40",
-              "customer.tkyojpn1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "PY": {
-      "PY-ASU": {
-        "Asuncion": {
-          "ips": [
-            [
-              "2803:9810:4f00::/40",
-              "customer.splobra1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "NI": {
-      "NI-MN": {
-        "Managua": {
-          "ips": [
-            [
-              "2803:9810:6500::/40",
-              "customer.limaper1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "FR": {
-      "FR-IDF": {
-        "Paris": {
-          "ips": [
-            [
-              "2a0d:3341:b400::/40",
-              "customer.frntdeu1.pop.starlinkisp.net."
-            ],
-            [
-              "2a0d:3341:cd00::/40",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ],
-            [
-              "143.105.220.0/25",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "143.105.220.128/25",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
-    "IE": {
-      "IE-D": {
-        "Dublin": {
-          "ips": [
-            [
-              "2a0d:3341:b600::/40",
-              "customer.frntdeu1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "GB": {
-      "GB-LND": {
-        "London": {
-          "ips": [
-            [
-              "2a0d:3341:b700::/40",
-              "customer.frntdeu1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "IT": {
-      "IT-25": {
-        "Milan": {
-          "ips": [
-            [
-              "2a0d:3341:b800::/40",
-              "customer.frntdeu1.pop.starlinkisp.net."
-            ],
-            [
-              "2a0d:3344:2440::/42",
-              "customer.mdrdesp1.pop.starlinkisp.net."
-            ],
-            [
-              "2a0d:3344:2700::/42",
-              "customer.mdrdesp1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "DE": {
-      "DE-BE": {
-        "Berlin": {
-          "ips": [
-            [
-              "2a0d:3341:cf00::/40",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "IQ": {
-      "IQ-BG": {
-        "Baghdad": {
-          "ips": [
-            [
-              "2a0d:3341:de00::/40",
-              "customer.mlnnita1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "SY": {
-      "SY-DI": {
-        "Damascus": {
-          "ips": [
-            [
-              "2a0d:3341:df00::/40",
-              "customer.mlnnita1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "LY": {
-      "LY-JI": {
-        "Tripoli": {
-          "ips": [
-            [
-              "2a0d:3341:e400::/40",
-              "customer.mc.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "RS": {
-      "RS-00": {
-        "Belgrade": {
-          "ips": [
-            [
-              "2a0d:3344:2c00::/40",
-              "customer.mdrdesp1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "LB": {
-      "LB-BA": {
-        "Beirut": {
-          "ips": [
-            [
-              "2a0d:3344:2d00::/40",
-              "customer.mdrdesp1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "ST": {
-      "ST-01": {
-        "Sao Tome": {
-          "ips": [
-            [
-              "2a0d:3344:2e00::/40",
-              "customer.mdrdesp1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "LI": {
-      "LI-11": {
-        "Vaduz": {
-          "ips": [
-            [
-              "2a0d:3344:3e00::/40",
-              "customer.sfiabgr1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "AD": {
-      "AD-07": {
-        "Andorra la Vella": {
-          "ips": [
-            [
-              "2a0d:3344:3f00::/40",
-              "customer.sfiabgr1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "LK": {
-      "LK-1": {
-        "Colombo": {
-          "ips": [
-            [
-              "2406:2d40:2d00::/41",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "BT": {
-      "BT-15": {
-        "Thimphu": {
-          "ips": [
-            [
-              "2406:2d40:2d80::/41",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "MM": {
-      "MM-06": {
-        "Yangon": {
-          "ips": [
-            [
-              "2406:2d40:2e00::/41",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "FJ": {
-      "FJ-C": {
-        "Suva": {
-          "ips": [
-            [
-              "2406:2d40:2600::/42",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "KI": {
-      "KI-G": {
-        "Tarawa": {
-          "ips": [
-            [
-              "2406:2d40:2640::/42",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "TO": {
-      "TO-04": {
-        "Nuku'alofa": {
-          "ips": [
-            [
-              "2406:2d40:2680::/42",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "SB": {
-      "SB-CT": {
-        "Honiara": {
-          "ips": [
-            [
-              "2406:2d40:26c0::/42",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "VU": {
-      "VU-SEE": {
-        "Port Vila": {
-          "ips": [
-            [
-              "2406:2d40:2700::/42",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "TL": {
-      "TL-DI": {
-        "Dili": {
-          "ips": [
-            [
-              "2406:2d40:2740::/42",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "NR": {
-      "NR-14": {
-        "Yaren": {
-          "ips": [
-            [
-              "2406:2d40:2780::/42",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "TV": {
-      "TV-FUN": {
-        "Funafuti": {
-          "ips": [
-            [
-              "2406:2d40:27c0::/42",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "MQ": {
-      "": {
-        "Fort-de-France": {
-          "ips": [
-            [
-              "2605:59c0:1500::/42",
-              "customer.frtabra1.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
-    "BS": {
-      "BS-NP": {
-        "Nassau": {
-          "ips": [
-            [
-              "2605:59c0:1580::/42",
-              "customer.frtabra1.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
-    "EE": {
-      "EE-37": {
-        "Tallinn": {
-          "ips": [
-            [
-              "2a0d:3341:c500::/42",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "LV": {
-      "LV-RIX": {
-        "Riga": {
-          "ips": [
-            [
-              "2a0d:3341:c540::/42",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "LT": {
-      "LT-VL": {
-        "Vilnius": {
-          "ips": [
-            [
-              "2a0d:3341:c580::/42",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "CZ": {
-      "CZ-10": {
-        "Prague": {
-          "ips": [
-            [
-              "2a0d:3341:c5c0::/42",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "FI": {
-      "FI-18": {
-        "Helsinki": {
-          "ips": [
-            [
-              "2a0d:3341:c600::/42",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "SE": {
-      "SE-AB": {
-        "Stockholm": {
-          "ips": [
-            [
-              "2a0d:3341:c640::/42",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "SK": {
-      "SK-BL": {
-        "Bratislava": {
-          "ips": [
-            [
-              "2a0d:3341:c680::/42",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "HU": {
-      "HU-BU": {
-        "Budapest": {
-          "ips": [
-            [
-              "2a0d:3341:c6c0::/42",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "MD": {
-      "MD-CU": {
-        "Chisinau": {
-          "ips": [
-            [
-              "2a0d:3341:c840::/42",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "AT": {
-      "AT-9": {
-        "Vienna": {
-          "ips": [
-            [
-              "2a0d:3341:c880::/42",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ],
-            [
-              "2a0d:3341:ce00::/42",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "CH": {
-      "CH-ZH": {
-        "Zurich": {
-          "ips": [
-            [
-              "2a0d:3341:ce40::/42",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "SI": {
-      "SI-061": {
-        "Ljubljana": {
-          "ips": [
-            [
-              "2a0d:3341:ce80::/42",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "HR": {
-      "HR-21": {
-        "Zagreb": {
-          "ips": [
-            [
-              "2a0d:3341:cec0::/42",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "YE": {
-      "YE-AD": {
-        "Aden": {
-          "ips": [
-            [
-              "2a0d:3341:d500::/42",
-              "customer.mlnnita1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "AE": {
-      "AE-DU": {
-        "Dubai": {
-          "ips": [
-            [
-              "2a0d:3341:d540::/42",
-              "customer.mlnnita1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "QA": {
-      "QA-DA": {
-        "Doha": {
-          "ips": [
-            [
-              "143.105.219.0/25",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "143.105.219.128/25",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "143.105.221.0/25",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "143.105.221.128/25",
-              "customer.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
-    "KZ": {
-      "KZ-75": {
-        "Almaty": {
-          "ips": [
-            [
-              "2406:2d40:3c00::/40",
-              "customer.tkyojpn1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "MN": {
-      "MN-1": {
-        "Ulaanbaatar": {
-          "ips": [
-            [
-              "2406:2d40:3d00::/40",
-              "customer.tkyojpn1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "KG": {
-      "KG-GB": {
-        "Bishkek": {
-          "ips": [
-            [
-              "2406:2d40:3e00::/40",
-              "customer.tkyojpn1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "VN": {
-      "VN-SG": {
-        "Saigon": {
-          "ips": [
-            [
-              "2406:2d40:4800::/40",
-              "customer.sydyaus1.pop.starlinkisp.net."
-            ],
-            [
-              "2406:2d40:3240::/42",
-              "customer.tkyojpn1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "UZ": {
-      "UZ-TO": {
-        "Tashkent": {
-          "ips": [
-            [
-              "2406:2d40:5800::/40",
-              "customer.jtnaidn1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      }
-    },
-    "TM": {
-      "TM-S": {
-        "Ashgabat": {
-          "ips": [
-            [
-              "2406:2d40:5900::/40",
-              "customer.jtnaidn1.pop.starlinkisp.net."
             ]
           ]
         }
