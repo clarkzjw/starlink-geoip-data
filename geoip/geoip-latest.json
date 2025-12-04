@@ -2497,14 +2497,6 @@
               "customer.ashnvax2.pop.starlinkisp.net."
             ],
             [
-              "135.129.122.0/25",
-              "customer.mplsmnx1.pop.starlinkisp.net."
-            ],
-            [
-              "135.129.122.128/25",
-              "customer.mplsmnx1.pop.starlinkisp.net."
-            ],
-            [
               "143.105.4.0/25",
               "customer.chcoilx1.isp.starlink.com."
             ],
@@ -3106,14 +3098,6 @@
             ],
             [
               "98.97.129.128/25",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ],
-            [
-              "138.84.37.0/25",
-              "customer.sntochl1.pop.starlinkisp.net."
-            ],
-            [
-              "138.84.37.128/25",
               "customer.sntochl1.pop.starlinkisp.net."
             ],
             [
@@ -9897,14 +9881,6 @@
               "customer.sltyutx1.isp.starlink.com."
             ]
           ]
-        },
-        "San Jose": {
-          "ips": [
-            [
-              "2605:59c1:2c00::/38",
-              "customer.isp.starlink.com."
-            ]
-          ]
         }
       },
       "US-CA": {
@@ -10193,6 +10169,10 @@
             [
               "216.234.201.0/24",
               "customer.snjecax1.pop.starlinkisp.net."
+            ],
+            [
+              "2605:59c1:2c00::/38",
+              "customer.isp.starlink.com."
             ],
             [
               "2605:59c0:2000::/40",
@@ -13992,7 +13972,7 @@
     ],
     [
       "customer.mplsmnx1.pop.starlinkisp.net.",
-      24
+      22
     ],
     [
       "customer.msctomn1.pop.starlinkisp.net.",
@@ -14088,7 +14068,7 @@
     ],
     [
       "customer.sntochl1.pop.starlinkisp.net.",
-      63
+      61
     ],
     [
       "customer.splobra1.isp.starlink.com.",
