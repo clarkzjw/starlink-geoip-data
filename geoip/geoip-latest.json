@@ -833,6 +833,100 @@
           ]
         }
       },
+      "AU-WA": {
+        "Perth": {
+          "ips": [
+            [
+              "65.181.20.0/24",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "65.181.21.0/24",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "65.181.22.0/24",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "65.181.23.0/24",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "116.91.216.0/24",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "150.228.152.0/24",
+              ""
+            ],
+            [
+              "150.228.153.0/24",
+              ""
+            ],
+            [
+              "150.228.200.0/24",
+              ""
+            ],
+            [
+              "150.228.201.0/24",
+              ""
+            ],
+            [
+              "150.228.202.0/24",
+              ""
+            ],
+            [
+              "150.228.203.0/24",
+              ""
+            ],
+            [
+              "168.140.244.0/24",
+              ""
+            ],
+            [
+              "168.140.245.0/24",
+              ""
+            ],
+            [
+              "65.181.30.0/25",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "65.181.30.128/25",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "116.91.217.0/25",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "116.91.217.128/25",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:8800::/38",
+              "customer.sngesgp1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:2000::/40",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:2200::/40",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "74.245.210.0/24",
+              ""
+            ],
+            [
+              "74.245.211.0/24",
+              ""
+            ]
+          ]
+        }
+      },
       "AU-QLD": {
         "Brisbane": {
           "ips": [
@@ -947,100 +1041,6 @@
             [
               "2406:2d40:3900::/40",
               "customer.tkyojpn1.pop.starlinkisp.net."
-            ]
-          ]
-        }
-      },
-      "AU-WA": {
-        "Perth": {
-          "ips": [
-            [
-              "65.181.20.0/24",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "65.181.21.0/24",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "65.181.22.0/24",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "65.181.23.0/24",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "116.91.216.0/24",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "150.228.152.0/24",
-              ""
-            ],
-            [
-              "150.228.153.0/24",
-              ""
-            ],
-            [
-              "150.228.200.0/24",
-              ""
-            ],
-            [
-              "150.228.201.0/24",
-              ""
-            ],
-            [
-              "150.228.202.0/24",
-              ""
-            ],
-            [
-              "150.228.203.0/24",
-              ""
-            ],
-            [
-              "168.140.244.0/24",
-              ""
-            ],
-            [
-              "168.140.245.0/24",
-              ""
-            ],
-            [
-              "65.181.30.0/25",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "65.181.30.128/25",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "116.91.217.0/25",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "116.91.217.128/25",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "2406:2d40:8800::/38",
-              "customer.sngesgp1.pop.starlinkisp.net."
-            ],
-            [
-              "2406:2d40:2000::/40",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "2406:2d40:2200::/40",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "74.245.210.0/24",
-              ""
-            ],
-            [
-              "74.245.211.0/24",
-              ""
             ]
           ]
         }
@@ -4069,16 +4069,16 @@
               ""
             ],
             [
-              "2406:2d40:2600::/42",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
               "2406:2d40:43c0::/42",
               "customer.sydyaus1.pop.starlinkisp.net."
             ],
             [
               "2406:2d40:7140::/42",
               "customer.acklnzl1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:2600::/42",
+              "customer.prthaus1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -4225,22 +4225,6 @@
               "customer.mdrdesp1.pop.starlinkisp.net."
             ],
             [
-              "169.155.252.0/24",
-              "customer.lndngbr1.pop.starlinkisp.net."
-            ],
-            [
-              "169.155.253.0/24",
-              "customer.lndngbr1.pop.starlinkisp.net."
-            ],
-            [
-              "169.155.254.0/24",
-              "customer.lndngbr1.pop.starlinkisp.net."
-            ],
-            [
-              "169.155.255.0/24",
-              "customer.lndngbr1.pop.starlinkisp.net."
-            ],
-            [
               "209.198.136.0/24",
               "customer.mlnnita1.pop.starlinkisp.net."
             ],
@@ -4277,14 +4261,6 @@
               "customer.mdrdesp1.pop.starlinkisp.net."
             ],
             [
-              "150.228.26.0/25",
-              ""
-            ],
-            [
-              "150.228.26.128/25",
-              ""
-            ],
-            [
               "188.92.248.0/25",
               "customer.mdrdesp1.pop.starlinkisp.net."
             ],
@@ -4317,28 +4293,12 @@
               "customer.frntdeu1.pop.starlinkisp.net."
             ],
             [
-              "209.198.142.0/25",
-              "customer.lndngbr1.pop.starlinkisp.net."
-            ],
-            [
-              "209.198.142.128/25",
-              "customer.lndngbr1.pop.starlinkisp.net."
-            ],
-            [
               "216.128.23.0/25",
               "customer.mlnnita1.pop.starlinkisp.net."
             ],
             [
               "216.128.23.128/25",
               "customer.mlnnita1.pop.starlinkisp.net."
-            ],
-            [
-              "217.65.140.0/25",
-              "customer.lndngbr1.pop.starlinkisp.net."
-            ],
-            [
-              "217.65.140.128/25",
-              "customer.lndngbr1.pop.starlinkisp.net."
             ],
             [
               "217.65.141.0/25",
@@ -4349,24 +4309,12 @@
               "customer.mlnnita1.pop.starlinkisp.net."
             ],
             [
-              "217.65.143.0/25",
-              "customer.lndngbr1.pop.starlinkisp.net."
-            ],
-            [
-              "217.65.143.128/25",
-              "customer.lndngbr1.pop.starlinkisp.net."
-            ],
-            [
               "2a0d:3341:b400::/40",
               "customer.frntdeu1.pop.starlinkisp.net."
             ],
             [
               "2a0d:3341:cd00::/40",
               "customer.dohaqat1.pop.starlinkisp.net."
-            ],
-            [
-              "2a0d:3344::/40",
-              "customer.lndngbr1.pop.starlinkisp.net."
             ],
             [
               "2a0d:3344:1000::/40",
@@ -4377,12 +4325,64 @@
               "customer.mdrdesp1.pop.starlinkisp.net."
             ],
             [
+              "169.155.252.0/24",
+              "customer.lndngbr1.pop.starlinkisp.net."
+            ],
+            [
+              "169.155.253.0/24",
+              "customer.lndngbr1.pop.starlinkisp.net."
+            ],
+            [
+              "169.155.254.0/24",
+              "customer.lndngbr1.pop.starlinkisp.net."
+            ],
+            [
+              "169.155.255.0/24",
+              "customer.lndngbr1.pop.starlinkisp.net."
+            ],
+            [
               "143.105.220.0/25",
               "customer.isp.starlink.com."
             ],
             [
               "143.105.220.128/25",
               "customer.isp.starlink.com."
+            ],
+            [
+              "150.228.26.0/25",
+              ""
+            ],
+            [
+              "150.228.26.128/25",
+              ""
+            ],
+            [
+              "209.198.142.0/25",
+              "customer.lndngbr1.pop.starlinkisp.net."
+            ],
+            [
+              "209.198.142.128/25",
+              "customer.lndngbr1.pop.starlinkisp.net."
+            ],
+            [
+              "217.65.140.0/25",
+              "customer.lndngbr1.pop.starlinkisp.net."
+            ],
+            [
+              "217.65.140.128/25",
+              "customer.lndngbr1.pop.starlinkisp.net."
+            ],
+            [
+              "217.65.143.0/25",
+              "customer.lndngbr1.pop.starlinkisp.net."
+            ],
+            [
+              "217.65.143.128/25",
+              "customer.lndngbr1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3344::/40",
+              "customer.lndngbr1.pop.starlinkisp.net."
             ],
             [
               "2605:59c0:700a::/47",
@@ -6029,16 +6029,16 @@
               ""
             ],
             [
-              "2406:2d40:2640::/42",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
               "2406:2d40:4540::/42",
               "customer.sydyaus1.pop.starlinkisp.net."
             ],
             [
               "2406:2d40:7500::/42",
               "customer.acklnzl1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:2640::/42",
+              "customer.prthaus1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -7599,12 +7599,12 @@
               "customer.frntdeu1.pop.starlinkisp.net."
             ],
             [
-              "2a0d:3344:c80::/42",
-              "customer.lndngbr1.pop.starlinkisp.net."
-            ],
-            [
               "2a0d:3344:1c80::/42",
               "customer.frntdeu1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3344:c80::/42",
+              "customer.lndngbr1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -7671,16 +7671,16 @@
               "customer.sydyaus1.pop.starlinkisp.net."
             ],
             [
-              "2406:2d40:2780::/42",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
               "2406:2d40:4c80::/42",
               "customer.sydyaus1.pop.starlinkisp.net."
             ],
             [
               "2406:2d40:75c0::/42",
               "customer.acklnzl1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:2780::/42",
+              "customer.prthaus1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -8729,12 +8729,12 @@
               ""
             ],
             [
-              "2406:2d40:26c0::/42",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
               "2406:2d40:4380::/42",
               "customer.sydyaus1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:26c0::/42",
+              "customer.prthaus1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -9413,6 +9413,14 @@
         "Dili": {
           "ips": [
             [
+              "2406:2d40:4c40::/42",
+              "customer.sydyaus1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:8140::/42",
+              "customer.sngesgp1.pop.starlinkisp.net."
+            ],
+            [
               "150.228.168.0/24",
               ""
             ],
@@ -9423,14 +9431,6 @@
             [
               "2406:2d40:2740::/42",
               "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
-              "2406:2d40:4c40::/42",
-              "customer.sydyaus1.pop.starlinkisp.net."
-            ],
-            [
-              "2406:2d40:8140::/42",
-              "customer.sngesgp1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -9461,10 +9461,6 @@
               ""
             ],
             [
-              "2406:2d40:2680::/42",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
               "2406:2d40:4300::/42",
               "customer.sydyaus1.pop.starlinkisp.net."
             ],
@@ -9475,6 +9471,10 @@
             [
               "2406:2d40:74c0::/42",
               "customer.acklnzl1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:2680::/42",
+              "customer.prthaus1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -9517,12 +9517,12 @@
               ""
             ],
             [
-              "2406:2d40:27c0::/42",
-              "customer.prthaus1.pop.starlinkisp.net."
-            ],
-            [
               "2406:2d40:7440::/42",
               "customer.acklnzl1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:27c0::/42",
+              "customer.prthaus1.pop.starlinkisp.net."
             ]
           ]
         }
