@@ -9985,14 +9985,6 @@
               "customer.sltyutx1.isp.starlink.com."
             ],
             [
-              "74.244.108.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "74.244.109.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
               "129.222.100.0/24",
               "customer.sltyutx1.pop.starlinkisp.net."
             ],
@@ -12313,6 +12305,56 @@
           ]
         }
       },
+      "US-MT": {
+        "Billings": {
+          "ips": [
+            [
+              "74.244.108.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "74.244.109.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "98.97.164.0/24",
+              "customer.clgycan1.pop.starlinkisp.net."
+            ],
+            [
+              "98.97.165.0/24",
+              "customer.clgycan1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.70.0/24",
+              "customer.clgycan1.pop.starlinkisp.net."
+            ],
+            [
+              "129.222.71.0/24",
+              "customer.clgycan1.pop.starlinkisp.net."
+            ],
+            [
+              "135.129.126.0/24",
+              "customer.sngesgp1.pop.starlinkisp.net."
+            ],
+            [
+              "135.129.127.0/24",
+              "customer.gtmygtm1.pop.starlinkisp.net."
+            ],
+            [
+              "2605:59c0:5800::/40",
+              "customer.clgycan1.isp.starlink.com."
+            ],
+            [
+              "2605:59ca:2100::/40",
+              ""
+            ],
+            [
+              "2605:59ca:6400::/40",
+              ""
+            ]
+          ]
+        }
+      },
       "US-ID": {
         "Boise": {
           "ips": [
@@ -12876,48 +12918,6 @@
             ],
             [
               "2605:59c8:8200::/40",
-              ""
-            ]
-          ]
-        }
-      },
-      "US-MT": {
-        "Billings": {
-          "ips": [
-            [
-              "98.97.164.0/24",
-              "customer.clgycan1.pop.starlinkisp.net."
-            ],
-            [
-              "98.97.165.0/24",
-              "customer.clgycan1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.70.0/24",
-              "customer.clgycan1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.71.0/24",
-              "customer.clgycan1.pop.starlinkisp.net."
-            ],
-            [
-              "135.129.126.0/24",
-              "customer.sngesgp1.pop.starlinkisp.net."
-            ],
-            [
-              "135.129.127.0/24",
-              "customer.gtmygtm1.pop.starlinkisp.net."
-            ],
-            [
-              "2605:59c0:5800::/40",
-              "customer.clgycan1.isp.starlink.com."
-            ],
-            [
-              "2605:59ca:2100::/40",
-              ""
-            ],
-            [
-              "2605:59ca:6400::/40",
               ""
             ]
           ]
