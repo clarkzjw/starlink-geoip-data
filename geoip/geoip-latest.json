@@ -10019,6 +10019,14 @@
               "customer.lsancax1.isp.starlink.com."
             ],
             [
+              "74.244.216.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.217.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "98.97.56.0/24",
               "customer.lsancax1.isp.starlink.com."
             ],
@@ -10205,6 +10213,14 @@
             [
               "74.244.53.0/24",
               "customer.snjecax1.isp.starlink.com."
+            ],
+            [
+              "74.244.214.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.215.0/24",
+              "customer.isp.starlink.com."
             ],
             [
               "98.97.24.0/24",
@@ -10885,6 +10901,22 @@
               "customer.isp.starlink.com."
             ],
             [
+              "74.244.206.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.207.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.208.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.209.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "98.97.20.0/24",
               "customer.dllstxx1.isp.starlink.com."
             ],
@@ -11324,6 +11356,30 @@
             ],
             [
               "74.244.141.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.202.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.203.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.204.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.205.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.212.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.213.0/24",
               "customer.isp.starlink.com."
             ],
             [
@@ -12295,6 +12351,14 @@
               "customer.sltyutx1.isp.starlink.com."
             ],
             [
+              "74.244.222.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.223.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "98.97.40.0/24",
               "customer.sttlwax1.isp.starlink.com."
             ],
@@ -12350,6 +12414,14 @@
             ],
             [
               "74.244.143.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.210.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.211.0/24",
               "customer.isp.starlink.com."
             ],
             [
@@ -12581,6 +12653,14 @@
               "customer.isp.starlink.com."
             ],
             [
+              "74.244.220.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.221.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "2605:59ca:2a00::/40",
               ""
             ],
@@ -12594,6 +12674,22 @@
       "US-WA": {
         "Seattle": {
           "ips": [
+            [
+              "74.244.198.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.199.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.200.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.201.0/24",
+              "customer.isp.starlink.com."
+            ],
             [
               "98.97.18.0/24",
               "customer.sttlwax1.isp.starlink.com."
@@ -12805,53 +12901,23 @@
           ]
         }
       },
-      "US-OR": {
-        "Portland": {
+      "US-NY": {
+        "New York City": {
           "ips": [
             [
-              "98.97.42.0/24",
-              "customer.sttlwax1.isp.starlink.com."
-            ],
-            [
-              "98.97.43.0/24",
-              "customer.sttlwax1.isp.starlink.com."
-            ],
-            [
-              "98.97.48.0/24",
+              "74.244.218.0/24",
               "customer.isp.starlink.com."
             ],
             [
-              "98.97.49.0/24",
+              "74.244.219.0/24",
               "customer.isp.starlink.com."
             ],
             [
-              "2605:59ca:2500::/40",
-              ""
-            ],
-            [
-              "2605:59ca:3300::/40",
-              ""
-            ],
-            [
-              "2605:59ca:3500::/40",
-              ""
-            ],
-            [
-              "173.250.198.0/25",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ],
-            [
-              "173.250.198.128/25",
-              "customer.rdmdwax3.pop.starlinkisp.net."
-            ],
-            [
-              "2605:59c8:8200::/40",
-              ""
+              "2605:59c1:c00::/38",
+              "customer.isp.starlink.com."
             ]
           ]
-        }
-      },
-      "US-NY": {
+        },
         "New York": {
           "ips": [
             [
@@ -12971,12 +13037,50 @@
               ""
             ]
           ]
-        },
-        "New York City": {
+        }
+      },
+      "US-OR": {
+        "Portland": {
           "ips": [
             [
-              "2605:59c1:c00::/38",
+              "98.97.42.0/24",
+              "customer.sttlwax1.isp.starlink.com."
+            ],
+            [
+              "98.97.43.0/24",
+              "customer.sttlwax1.isp.starlink.com."
+            ],
+            [
+              "98.97.48.0/24",
               "customer.isp.starlink.com."
+            ],
+            [
+              "98.97.49.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59ca:2500::/40",
+              ""
+            ],
+            [
+              "2605:59ca:3300::/40",
+              ""
+            ],
+            [
+              "2605:59ca:3500::/40",
+              ""
+            ],
+            [
+              "173.250.198.0/25",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ],
+            [
+              "173.250.198.128/25",
+              "customer.rdmdwax3.pop.starlinkisp.net."
+            ],
+            [
+              "2605:59c8:8200::/40",
+              ""
             ]
           ]
         }
@@ -14088,7 +14192,7 @@
     ],
     [
       "customer.isp.starlink.com.",
-      167
+      193
     ],
     [
       "customer.jhngzaf1.isp.starlink.com.",
