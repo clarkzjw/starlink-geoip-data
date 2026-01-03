@@ -558,9 +558,9 @@
     },
     {
         "address_v4": "98.97.41.7",
-        "address_v6": null,
+        "address_v6": "2605:59ca:34d7:2d14:c24a:ff:fecc:716e",
         "asn_v4": 14593,
-        "asn_v6": null,
+        "asn_v6": 14593,
         "country_code": "US",
         "description": "",
         "firmware_version": 0,
@@ -576,14 +576,15 @@
         "is_anchor": false,
         "is_public": true,
         "prefix_v4": "98.97.40.0/23",
-        "prefix_v6": null,
+        "prefix_v6": "2605:59ca:3400::/40",
         "status": {
             "id": 3,
             "name": "Abandoned",
             "since": "2023-09-20T14:52:01Z"
         },
         "type": "Probe",
-        "ipv4_ptr": "sttlwax1"
+        "ipv4_ptr": "sttlwax1",
+        "ipv6_ptr": "sttlwax1"
     },
     {
         "address_v4": "206.83.113.158",
@@ -1512,7 +1513,7 @@
         "status": {
             "id": 2,
             "name": "Disconnected",
-            "since": "2026-01-03T00:04:44Z"
+            "since": "2026-01-03T00:35:18Z"
         },
         "type": "Probe",
         "ipv4_ptr": "frntdeu1",
@@ -1979,9 +1980,9 @@
         "prefix_v4": "216.147.120.0/21",
         "prefix_v6": "2605:59c8:5000::/40",
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2026-01-03T00:18:01Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-01-03T00:40:51Z"
         },
         "type": "Probe",
         "ipv4_ptr": "dnvrcox1",
@@ -2690,7 +2691,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-01-02T13:29:40Z"
+            "since": "2026-01-03T00:30:35Z"
         },
         "type": "Probe",
         "ipv4_ptr": "chcoilx1",
@@ -5132,7 +5133,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-01-02T22:56:50Z"
+            "since": "2026-01-03T00:27:18Z"
         },
         "type": "Probe",
         "ipv4_ptr": "chcoilx1"
@@ -5554,7 +5555,7 @@
     },
     {
         "address_v4": "150.228.157.223",
-        "address_v6": "2406:2d40:900b:8a10:50c7:c79b:f02c:50ff",
+        "address_v6": "2406:2d40:900b:8a10:c789:2c01:f36:7171",
         "asn_v4": 14593,
         "asn_v6": 14593,
         "country_code": "PH",
@@ -5576,7 +5577,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-01-02T02:15:32Z"
+            "since": "2026-01-03T00:30:58Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mnlaphl1",
