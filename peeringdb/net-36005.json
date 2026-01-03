@@ -69,10 +69,10 @@
             "info_ipv6": true,
             "info_never_via_route_servers": false,
             "ix_count": 3,
-            "fac_count": 1,
+            "fac_count": 2,
             "notes": "",
             "netixlan_updated": "2025-10-31T05:55:58Z",
-            "netfac_updated": "2024-04-27T19:09:54Z",
+            "netfac_updated": "2026-01-02T23:17:11Z",
             "poc_updated": "2024-04-27T19:08:01Z",
             "policy_url": "http://www.spacex.com",
             "policy_general": "Open",
@@ -80,6 +80,17 @@
             "policy_ratio": false,
             "policy_contracts": "Not Required",
             "netfac_set": [
+                {
+                    "id": 84740,
+                    "name": "Omadata Data Center",
+                    "city": "Surabaya",
+                    "country": "ID",
+                    "fac_id": 5642,
+                    "local_asn": 45700,
+                    "created": "2026-01-02T23:17:11Z",
+                    "updated": "2026-01-02T23:17:11Z",
+                    "status": "ok"
+                },
                 {
                     "id": 70178,
                     "name": "NTT Jakarta 2 Data Center (JKT2)",
