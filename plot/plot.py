@@ -277,6 +277,8 @@ def plot_active_atlas_probe_per_pops():
     with open(Path(ATLAS_DIR).joinpath("active_probes.csv"), "r") as f:
         probe_count = defaultdict(int)
         for line in f:
+            if line.endswith("Iran, Islamic Republic of\n"):
+                line = line.replace("Iran, Islamic Republic of\n", "Iran\n")
             _, pop_code, _, _ = line.split(",")
             if len(pop_code) > 0:
                 probe_count[pop_code] = probe_count[pop_code] + 1
