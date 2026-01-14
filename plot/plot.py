@@ -86,17 +86,17 @@ def plot_subnet_count():
                 )
 
     fig = plt.figure(figsize=(10, 6))
-    ax = fig.add_subplot(111)
-    # bax = brokenaxes(ylims=((200, 600), (1200, 2200)), hspace=0.1)
+    # ax = fig.add_subplot(111)
+    bax = brokenaxes(ylims=((200, 600), (1200, 2200)), hspace=0.1)
 
     subnet_count["ipv4"] = dict(sorted(subnet_count["ipv4"].items()))
     subnet_count["ipv6"] = dict(sorted(subnet_count["ipv6"].items()))
 
-    ax.plot(subnet_count["ipv4"].keys(), subnet_count["ipv4"].values(), label="IPv4")
-    ax.plot(subnet_count["ipv6"].keys(), subnet_count["ipv6"].values(), label="IPv6")
-    ax.legend(loc="upper left")
-    ax.set_xlabel("Date")
-    ax.set_ylabel("Subnet Count")
+    bax.plot(subnet_count["ipv4"].keys(), subnet_count["ipv4"].values(), label="IPv4")
+    bax.plot(subnet_count["ipv6"].keys(), subnet_count["ipv6"].values(), label="IPv6")
+    bax.legend(loc="upper left")
+    bax.set_xlabel("Date")
+    bax.set_ylabel("Subnet Count")
     plt.title("No. of IPv4 and IPv6 Subnets as Planned in Starlink GeoIP Feed")
     plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment="right")
     # plt.tight_layout()
@@ -277,8 +277,6 @@ def plot_active_atlas_probe_per_pops():
     with open(Path(ATLAS_DIR).joinpath("active_probes.csv"), "r") as f:
         probe_count = defaultdict(int)
         for line in f:
-            if line.endswith("Iran, Islamic Republic of\n"):
-                line = line.replace("Iran, Islamic Republic of\n", "Iran\n")
             _, pop_code, _, _ = line.split(",")
             if len(pop_code) > 0:
                 probe_count[pop_code] = probe_count[pop_code] + 1
