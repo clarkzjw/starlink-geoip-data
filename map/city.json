@@ -3621,21 +3621,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -95.43783062756931,
-                    30.847266621184456
-                ]
-            },
-            "properties": {
-                "title": "Huntsville",
-                "name": "US, US-AL, Huntsville",
-                "description": "<i>US,US-AL,Huntsville</i><br>Subnet: 153.66.84.0/24: PoP: atlagax1<br>(PTR: )<br>Subnet: 153.66.85.0/24: PoP: atlagax1<br>(PTR: )<br>Subnet: 153.66.86.0/24: PoP: atlagax1<br>(PTR: )<br>Subnet: 153.66.87.0/24: PoP: atlagax1<br>(PTR: )<br>Subnet: 153.66.88.0/24: PoP: atlagax1<br>(PTR: )<br>Subnet: 153.66.89.0/24: PoP: atlagax1<br>(PTR: )<br>Subnet: 153.66.90.0/24: PoP: atlagax1<br>(PTR: )<br>Subnet: 153.66.91.0/24: PoP: atlagax1<br>(PTR: )<br>Subnet: 2605:59c8:3b00::/40: PoP: atlagax1<br>(PTR: customer.mplsmnx1.isp.starlink.com.)<br>Subnet: 2605:59ca:4800::/40: PoP: atlagax1<br>(PTR: )<br>"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -86.12996117109377,
                     35.65457505555269
                 ]
@@ -3899,6 +3884,21 @@
                 "title": "New Orleans",
                 "name": "US, US-LA, New Orleans",
                 "description": "<i>US,US-LA,New Orleans</i><br>Subnet: 153.66.218.0/24: PoP: dllstxx1<br>(PTR: )<br>Subnet: 153.66.219.0/24: PoP: dllstxx1<br>(PTR: )<br>Subnet: 153.66.220.0/24: PoP: dllstxx1<br>(PTR: )<br>Subnet: 153.66.221.0/24: PoP: dllstxx1<br>(PTR: )<br>Subnet: 153.66.222.0/24: PoP: dllstxx1<br>(PTR: )<br>Subnet: 153.66.223.0/24: PoP: dllstxx1<br>(PTR: )<br>Subnet: 153.66.224.0/24: PoP: dllstxx1<br>(PTR: )<br>Subnet: 153.66.225.0/24: PoP: dllstxx1<br>(PTR: )<br>Subnet: 153.66.226.0/24: PoP: dllstxx1<br>(PTR: )<br>Subnet: 153.66.227.0/24: PoP: dllstxx1<br>(PTR: )<br>Subnet: 153.66.228.0/24: PoP: dllstxx1<br>(PTR: )<br>Subnet: 153.66.229.0/24: PoP: dllstxx1<br>(PTR: )<br>Subnet: 2605:59ca:4f00::/40: PoP: atlagax1<br>(PTR: )<br>Subnet: 2605:59ca:5100::/40: PoP: dllstxx1<br>(PTR: )<br>Subnet: 2605:59ca:5200::/40: PoP: dllstxx1<br>(PTR: )<br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.43783062756931,
+                    30.847266621184456
+                ]
+            },
+            "properties": {
+                "title": "Huntsville",
+                "name": "US, US-AL, Huntsville",
+                "description": "<i>US,US-AL,Huntsville</i><br>Subnet: 2605:59c8:3b00::/40: PoP: atlagax1<br>(PTR: customer.mplsmnx1.isp.starlink.com.)<br>Subnet: 2605:59ca:4800::/40: PoP: atlagax1<br>(PTR: )<br>"
             }
         },
         {
