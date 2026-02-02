@@ -68,10 +68,10 @@
             "info_multicast": false,
             "info_ipv6": true,
             "info_never_via_route_servers": false,
-            "ix_count": 70,
+            "ix_count": 71,
             "fac_count": 49,
             "notes": "",
-            "netixlan_updated": "2026-01-22T00:40:44Z",
+            "netixlan_updated": "2026-01-31T00:44:55Z",
             "netfac_updated": "2025-10-21T01:48:26Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
@@ -2463,6 +2463,25 @@
                     "created": "2026-01-22T00:40:44Z",
                     "updated": "2026-01-22T00:40:45Z",
                     "status": "ok"
+                },
+                {
+                    "id": 106604,
+                    "ix_id": 4262,
+                    "name": "EdgeIX - Auckland",
+                    "ixlan_id": 4262,
+                    "notes": "",
+                    "speed": 200000,
+                    "asn": 14593,
+                    "ipaddr4": "103.180.190.46",
+                    "ipaddr6": "2001:df0:680:11::2e",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2026-01-31T00:44:56Z",
+                    "updated": "2026-01-31T00:44:56Z",
+                    "status": "ok"
                 }
             ],
             "poc_set": [
@@ -2485,7 +2504,7 @@
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "logo": null,
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2025-12-09T17:50:50Z",
+            "updated": "2026-01-31T00:45:09Z",
             "status": "ok"
         }
     ],
