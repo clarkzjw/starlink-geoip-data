@@ -5975,6 +5975,26 @@
               ""
             ],
             [
+              "217.142.22.0/24",
+              "customer.sfiabgr1.pop.starlinkisp.net."
+            ],
+            [
+              "217.142.23.0/24",
+              "customer.sfiabgr1.pop.starlinkisp.net."
+            ],
+            [
+              "217.142.30.0/24",
+              "customer.dohaqat1.pop.starlinkisp.net."
+            ],
+            [
+              "217.142.31.0/24",
+              "customer.sfiabgr1.pop.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:cb00::/40",
+              "customer.dohaqat1.pop.starlinkisp.net."
+            ],
+            [
               "2a0d:3341:de00::/40",
               "customer.mlnnita1.pop.starlinkisp.net."
             ]
@@ -6487,6 +6507,26 @@
             [
               "2605:59ca:805e::/47",
               ""
+            ]
+          ]
+        }
+      }
+    },
+    "KW": {
+      "KW-KU": {
+        "Kuwait City": {
+          "ips": [
+            [
+              "150.228.124.0/24",
+              ""
+            ],
+            [
+              "150.228.125.0/24",
+              ""
+            ],
+            [
+              "2a0d:3341:d500::/40",
+              "customer.mlnnita1.pop.starlinkisp.net."
             ]
           ]
         }
@@ -8585,6 +8625,24 @@
       }
     },
     "PG": {
+      "PG-NCD": {
+        "Port Moresby": {
+          "ips": [
+            [
+              "14.1.80.0/24",
+              "customer.sydyaus1.pop.starlinkisp.net."
+            ],
+            [
+              "14.1.81.0/24",
+              "customer.tkyojpn1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:4b00::/40",
+              "customer.sydyaus1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      },
       "PG-NIK": {
         "Londolovit": {
           "ips": [
@@ -9046,22 +9104,6 @@
             ],
             [
               "217.142.25.128/25",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ],
-            [
-              "217.142.27.0/25",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ],
-            [
-              "217.142.27.128/25",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ],
-            [
-              "217.142.30.0/25",
-              "customer.dohaqat1.pop.starlinkisp.net."
-            ],
-            [
-              "217.142.30.128/25",
               "customer.dohaqat1.pop.starlinkisp.net."
             ],
             [
@@ -10040,6 +10082,26 @@
         }
       }
     },
+    "TK": {
+      "": {
+        "Atafu": {
+          "ips": [
+            [
+              "14.1.92.0/24",
+              "customer.mnlaphl1.pop.starlinkisp.net."
+            ],
+            [
+              "14.1.93.0/24",
+              "customer.prthaus1.pop.starlinkisp.net."
+            ],
+            [
+              "2406:2d40:4800::/40",
+              "customer.sydyaus1.pop.starlinkisp.net."
+            ]
+          ]
+        }
+      }
+    },
     "TL": {
       "TL-DI": {
         "Dili": {
@@ -10394,14 +10456,6 @@
             ],
             [
               "135.129.117.128/25",
-              "customer.sltyutx1.pop.starlinkisp.net."
-            ],
-            [
-              "135.129.123.0/25",
-              "customer.sltyutx1.pop.starlinkisp.net."
-            ],
-            [
-              "135.129.123.128/25",
               "customer.sltyutx1.pop.starlinkisp.net."
             ],
             [
@@ -11335,24 +11389,12 @@
               "customer.lsancax1.isp.starlink.com."
             ],
             [
-              "129.222.66.128/25",
-              "customer.acklnzl1.pop.starlinkisp.net."
-            ],
-            [
               "170.203.194.128/25",
               "customer.tkyojpn1.pop.starlinkisp.net."
             ],
             [
               "170.203.195.128/25",
               "customer.sydyaus1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.66.0/26",
-              "customer.acklnzl1.pop.starlinkisp.net."
-            ],
-            [
-              "129.222.66.64/26",
-              "customer.acklnzl1.pop.starlinkisp.net."
             ],
             [
               "170.203.194.0/26",
@@ -15452,7 +15494,7 @@
     ],
     [
       "customer.acklnzl1.pop.starlinkisp.net.",
-      32
+      29
     ],
     [
       "customer.ashnvax2.isp.starlink.com.",
@@ -15536,7 +15578,7 @@
     ],
     [
       "customer.dohaqat1.pop.starlinkisp.net.",
-      36
+      34
     ],
     [
       "customer.dtcrakx1.pop.starlinkisp.net.",
@@ -15652,7 +15694,7 @@
     ],
     [
       "customer.mlnnita1.pop.starlinkisp.net.",
-      57
+      58
     ],
     [
       "customer.mmbiind1.pop.starlinkisp.net.",
@@ -15672,7 +15714,7 @@
     ],
     [
       "customer.mnlaphl1.pop.starlinkisp.net.",
-      46
+      47
     ],
     [
       "customer.mntlcan1.isp.starlink.com.",
@@ -15712,7 +15754,7 @@
     ],
     [
       "customer.prthaus1.pop.starlinkisp.net.",
-      20
+      21
     ],
     [
       "customer.qrtomex1.isp.starlink.com.",
@@ -15756,7 +15798,7 @@
     ],
     [
       "customer.sfiabgr1.pop.starlinkisp.net.",
-      106
+      109
     ],
     [
       "customer.sltyutx1.isp.starlink.com.",
@@ -15764,7 +15806,7 @@
     ],
     [
       "customer.sltyutx1.pop.starlinkisp.net.",
-      14
+      12
     ],
     [
       "customer.sngesgp1.pop.starlinkisp.net.",
@@ -15812,11 +15854,11 @@
     ],
     [
       "customer.sydyaus1.pop.starlinkisp.net.",
-      48
+      51
     ],
     [
       "customer.tkyojpn1.pop.starlinkisp.net.",
-      30
+      31
     ],
     [
       "customer.tmpeazx1.isp.starlink.com.",

@@ -1468,7 +1468,7 @@
             "properties": {
                 "title": "Baghdad",
                 "name": "IQ, IQ-BG, Baghdad",
-                "description": "<i>IQ,IQ-BG,Baghdad</i><br>Subnet: 150.228.104.0/24: PoP: sfiabgr1<br>(PTR: )<br>Subnet: 150.228.105.0/24: PoP: sfiabgr1<br>(PTR: )<br>Subnet: 2a0d:3341:de00::/40: PoP: sfiabgr1<br>(PTR: customer.mlnnita1.pop.starlinkisp.net.)<br>"
+                "description": "<i>IQ,IQ-BG,Baghdad</i><br>Subnet: 150.228.104.0/24: PoP: sfiabgr1<br>(PTR: )<br>Subnet: 150.228.105.0/24: PoP: sfiabgr1<br>(PTR: )<br>Subnet: 217.142.22.0/24: PoP: <br>(PTR: customer.sfiabgr1.pop.starlinkisp.net.)<br>Subnet: 217.142.23.0/24: PoP: <br>(PTR: customer.sfiabgr1.pop.starlinkisp.net.)<br>Subnet: 217.142.30.0/24: PoP: <br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 217.142.31.0/24: PoP: <br>(PTR: customer.sfiabgr1.pop.starlinkisp.net.)<br>Subnet: 2a0d:3341:cb00::/40: PoP: <br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 2a0d:3341:de00::/40: PoP: sfiabgr1<br>(PTR: customer.mlnnita1.pop.starlinkisp.net.)<br>"
             }
         },
         {
@@ -1619,6 +1619,21 @@
                 "title": "Seoul",
                 "name": "KR, KR-11, Seoul",
                 "description": "<i>KR,KR-11,Seoul</i><br>Subnet: 150.228.146.0/24: PoP: tkyojpn1<br>(PTR: )<br>Subnet: 150.228.147.0/24: PoP: tkyojpn1<br>(PTR: )<br>Subnet: 2406:2d40:3100::/40: PoP: tkyojpn1<br>(PTR: customer.tkyojpn1.pop.starlinkisp.net.)<br>Subnet: 2605:59ca:805e::/47: PoP: <br>(PTR: )<br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    47.61216588100007,
+                    29.355337252000027
+                ]
+            },
+            "properties": {
+                "title": "Kuwait City",
+                "name": "KW, KW-KU, Kuwait City",
+                "description": "<i>KW,KW-KU,Kuwait City</i><br>Subnet: 150.228.124.0/24: PoP: <br>(PTR: )<br>Subnet: 150.228.125.0/24: PoP: <br>(PTR: )<br>Subnet: 2a0d:3341:d500::/40: PoP: <br>(PTR: customer.mlnnita1.pop.starlinkisp.net.)<br>"
             }
         },
         {
@@ -2286,6 +2301,21 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    147.1960341,
+                    -9.4670693
+                ]
+            },
+            "properties": {
+                "title": "Port Moresby",
+                "name": "PG, PG-NCD, Port Moresby",
+                "description": "<i>PG,PG-NCD,Port Moresby</i><br>Subnet: 14.1.80.0/24: PoP: <br>(PTR: customer.sydyaus1.pop.starlinkisp.net.)<br>Subnet: 14.1.81.0/24: PoP: <br>(PTR: customer.tkyojpn1.pop.starlinkisp.net.)<br>Subnet: 2406:2d40:4b00::/40: PoP: <br>(PTR: customer.sydyaus1.pop.starlinkisp.net.)<br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     152.63700000000006,
                     -3.067669999999964
                 ]
@@ -2428,7 +2458,7 @@
             "properties": {
                 "title": "Doha",
                 "name": "QA, QA-DA, Doha",
-                "description": "<i>QA,QA-DA,Doha</i><br>Subnet: 150.228.78.0/24: PoP: dohaqat1<br>(PTR: )<br>Subnet: 150.228.79.0/24: PoP: dohaqat1<br>(PTR: )<br>Subnet: 150.228.80.0/24: PoP: dohaqat1<br>(PTR: )<br>Subnet: 150.228.81.0/24: PoP: dohaqat1<br>(PTR: )<br>Subnet: 91.102.181.0/25: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 91.102.181.128/25: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 212.105.143.0/25: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 212.105.143.128/25: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 217.142.25.0/25: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 217.142.25.128/25: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 217.142.27.0/25: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 217.142.27.128/25: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 217.142.30.0/25: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 217.142.30.128/25: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 2a0d:3344:4400::/38: PoP: dohaqat1<br>(PTR: )<br>Subnet: 2a0d:3341:c000::/40: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 2a0d:3341:f000::/40: PoP: dohaqat1<br>(PTR: customer.mc.starlinkisp.net.)<br>Subnet: 2a0d:3341:c200::/42: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 74.244.224.0/24: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 74.244.225.0/24: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 143.105.219.0/25: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 143.105.219.128/25: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 143.105.221.0/25: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 143.105.221.128/25: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 2605:59ca:8000::/46: PoP: <br>(PTR: )<br>Subnet: 2605:59c0:700c::/48: PoP: <br>(PTR: )<br>Subnet: 2605:59c0:700e::/48: PoP: <br>(PTR: )<br>Subnet: 2605:59c0:700f::/48: PoP: <br>(PTR: )<br>"
+                "description": "<i>QA,QA-DA,Doha</i><br>Subnet: 150.228.78.0/24: PoP: dohaqat1<br>(PTR: )<br>Subnet: 150.228.79.0/24: PoP: dohaqat1<br>(PTR: )<br>Subnet: 150.228.80.0/24: PoP: dohaqat1<br>(PTR: )<br>Subnet: 150.228.81.0/24: PoP: dohaqat1<br>(PTR: )<br>Subnet: 91.102.181.0/25: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 91.102.181.128/25: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 212.105.143.0/25: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 212.105.143.128/25: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 217.142.25.0/25: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 217.142.25.128/25: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 2a0d:3344:4400::/38: PoP: dohaqat1<br>(PTR: )<br>Subnet: 2a0d:3341:c000::/40: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 2a0d:3341:f000::/40: PoP: dohaqat1<br>(PTR: customer.mc.starlinkisp.net.)<br>Subnet: 2a0d:3341:c200::/42: PoP: dohaqat1<br>(PTR: customer.dohaqat1.pop.starlinkisp.net.)<br>Subnet: 74.244.224.0/24: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 74.244.225.0/24: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 143.105.219.0/25: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 143.105.219.128/25: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 143.105.221.0/25: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 143.105.221.128/25: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 2605:59ca:8000::/46: PoP: <br>(PTR: )<br>Subnet: 2605:59c0:700c::/48: PoP: <br>(PTR: )<br>Subnet: 2605:59c0:700e::/48: PoP: <br>(PTR: )<br>Subnet: 2605:59c0:700f::/48: PoP: <br>(PTR: )<br>"
             }
         },
         {
@@ -2826,6 +2856,21 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    -172.51946999999998,
+                    -8.534639999999968
+                ]
+            },
+            "properties": {
+                "title": "Atafu",
+                "name": "TK, , Atafu",
+                "description": "<i>TK,,Atafu</i><br>Subnet: 14.1.92.0/24: PoP: <br>(PTR: customer.mnlaphl1.pop.starlinkisp.net.)<br>Subnet: 14.1.93.0/24: PoP: <br>(PTR: customer.prthaus1.pop.starlinkisp.net.)<br>Subnet: 2406:2d40:4800::/40: PoP: <br>(PTR: customer.sydyaus1.pop.starlinkisp.net.)<br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     125.57361000000003,
                     -8.55860999999993
                 ]
@@ -2923,7 +2968,7 @@
             "properties": {
                 "title": "Salt Lake City",
                 "name": "US, US-UT, Salt Lake City",
-                "description": "<i>US,US-UT,Salt Lake City</i><br>Subnet: 66.9.180.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 66.9.181.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 66.9.182.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 66.9.183.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 74.244.76.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>Subnet: 74.244.77.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>Subnet: 129.222.100.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 129.222.101.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 129.222.102.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 129.222.103.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 129.222.130.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 129.222.131.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 143.105.104.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>Subnet: 143.105.105.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>Subnet: 143.105.230.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>Subnet: 143.105.231.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>Subnet: 135.129.117.0/25: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 135.129.117.128/25: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 135.129.123.0/25: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 135.129.123.128/25: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 2605:59c1:2800::/38: PoP: sltyutx1<br>(PTR: customer.isp.starlink.com.)<br>Subnet: 2605:59c0:3000::/40: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>Subnet: 2605:59c0:3100::/40: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>Subnet: 2605:59c0:3200::/40: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>Subnet: 2605:59c8:4d00::/40: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>"
+                "description": "<i>US,US-UT,Salt Lake City</i><br>Subnet: 66.9.180.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 66.9.181.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 66.9.182.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 66.9.183.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 74.244.76.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>Subnet: 74.244.77.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>Subnet: 129.222.100.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 129.222.101.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 129.222.102.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 129.222.103.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 129.222.130.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 129.222.131.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 143.105.104.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>Subnet: 143.105.105.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>Subnet: 143.105.230.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>Subnet: 143.105.231.0/24: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>Subnet: 135.129.117.0/25: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 135.129.117.128/25: PoP: sltyutx1<br>(PTR: customer.sltyutx1.pop.starlinkisp.net.)<br>Subnet: 2605:59c1:2800::/38: PoP: sltyutx1<br>(PTR: customer.isp.starlink.com.)<br>Subnet: 2605:59c0:3000::/40: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>Subnet: 2605:59c0:3100::/40: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>Subnet: 2605:59c0:3200::/40: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>Subnet: 2605:59c8:4d00::/40: PoP: sltyutx1<br>(PTR: customer.sltyutx1.isp.starlink.com.)<br>"
             }
         },
         {
@@ -3088,7 +3133,7 @@
             "properties": {
                 "title": "Honolulu",
                 "name": "US, US-HI, Honolulu",
-                "description": "<i>US,US-HI,Honolulu</i><br>Subnet: 74.244.36.0/24: PoP: lsancax1<br>(PTR: customer.lsancax1.isp.starlink.com.)<br>Subnet: 74.244.37.0/24: PoP: lsancax1<br>(PTR: customer.lsancax1.isp.starlink.com.)<br>Subnet: 143.105.106.0/24: PoP: lsancax1<br>(PTR: customer.lgosnga1.isp.starlink.com.)<br>Subnet: 143.105.107.0/24: PoP: lsancax1<br>(PTR: customer.lsancax1.isp.starlink.com.)<br>Subnet: 129.222.66.128/25: PoP: acklnzl1<br>(PTR: customer.acklnzl1.pop.starlinkisp.net.)<br>Subnet: 170.203.194.128/25: PoP: tkyojpn1<br>(PTR: customer.tkyojpn1.pop.starlinkisp.net.)<br>Subnet: 170.203.195.128/25: PoP: sydyaus1<br>(PTR: customer.sydyaus1.pop.starlinkisp.net.)<br>Subnet: 129.222.66.0/26: PoP: acklnzl1<br>(PTR: customer.acklnzl1.pop.starlinkisp.net.)<br>Subnet: 129.222.66.64/26: PoP: acklnzl1<br>(PTR: customer.acklnzl1.pop.starlinkisp.net.)<br>Subnet: 170.203.194.0/26: PoP: tkyojpn1<br>(PTR: customer.tkyojpn1.pop.starlinkisp.net.)<br>Subnet: 170.203.194.64/26: PoP: tkyojpn1<br>(PTR: customer.tkyojpn1.pop.starlinkisp.net.)<br>Subnet: 170.203.195.0/26: PoP: sydyaus1<br>(PTR: customer.sydyaus1.pop.starlinkisp.net.)<br>Subnet: 170.203.195.64/26: PoP: sydyaus1<br>(PTR: customer.sydyaus1.pop.starlinkisp.net.)<br>Subnet: 2605:59c8:3e00::/40: PoP: lsancax1<br>(PTR: customer.lsancax1.isp.starlink.com.)<br>"
+                "description": "<i>US,US-HI,Honolulu</i><br>Subnet: 74.244.36.0/24: PoP: lsancax1<br>(PTR: customer.lsancax1.isp.starlink.com.)<br>Subnet: 74.244.37.0/24: PoP: lsancax1<br>(PTR: customer.lsancax1.isp.starlink.com.)<br>Subnet: 143.105.106.0/24: PoP: lsancax1<br>(PTR: customer.lgosnga1.isp.starlink.com.)<br>Subnet: 143.105.107.0/24: PoP: lsancax1<br>(PTR: customer.lsancax1.isp.starlink.com.)<br>Subnet: 170.203.194.128/25: PoP: tkyojpn1<br>(PTR: customer.tkyojpn1.pop.starlinkisp.net.)<br>Subnet: 170.203.195.128/25: PoP: sydyaus1<br>(PTR: customer.sydyaus1.pop.starlinkisp.net.)<br>Subnet: 170.203.194.0/26: PoP: tkyojpn1<br>(PTR: customer.tkyojpn1.pop.starlinkisp.net.)<br>Subnet: 170.203.194.64/26: PoP: tkyojpn1<br>(PTR: customer.tkyojpn1.pop.starlinkisp.net.)<br>Subnet: 170.203.195.0/26: PoP: sydyaus1<br>(PTR: customer.sydyaus1.pop.starlinkisp.net.)<br>Subnet: 170.203.195.64/26: PoP: sydyaus1<br>(PTR: customer.sydyaus1.pop.starlinkisp.net.)<br>Subnet: 2605:59c8:3e00::/40: PoP: lsancax1<br>(PTR: customer.lsancax1.isp.starlink.com.)<br>"
             }
         },
         {
