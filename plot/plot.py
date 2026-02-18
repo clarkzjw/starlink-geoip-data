@@ -28,7 +28,15 @@ def get_date():
 def count_ipv6_56_subnets(subnet: str):
     net = ipaddress.IPv6Network(subnet)
     num48subnets = 2 ** (56 - net.prefixlen)
-    assert num48subnets >= 1
+    # assert num48subnets >= 1
+    # return num48subnets
+    # 20260217:
+    # Starlink added /128 addresses to feed.csv, such as
+    # 2620:134:b054:100::12/128,PH,PH-00,Manila,
+    # 2620:134:b054:100::14/128,BR,BR-SP,Sao Paulo,
+    # supposedly these are `pop.anycast.starlinkisp.net.`
+    if num48subnets < 1:
+        return 0
     return num48subnets
 
 
