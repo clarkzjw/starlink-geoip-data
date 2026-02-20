@@ -96,6 +96,26 @@
         }
       }
     },
+    "AI": {
+      "": {
+        "The Valley": {
+          "ips": [
+            [
+              "153.67.140.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "153.67.141.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:3300::/40",
+              ""
+            ]
+          ]
+        }
+      }
+    },
     "AL": {
       "AL-07": {
         "Kukes": {
@@ -660,19 +680,19 @@
             ],
             [
               "116.91.212.0/24",
-              "customer.mlbeaus1.pop.starlinkisp.net."
+              "customer.mlbeaus1.isp.starlink.com."
             ],
             [
               "116.91.213.0/24",
-              "customer.mlbeaus1.pop.starlinkisp.net."
+              "customer.mlbeaus1.isp.starlink.com."
             ],
             [
               "116.91.220.0/24",
-              "customer.mlbeaus1.pop.starlinkisp.net."
+              "customer.mlbeaus1.isp.starlink.com."
             ],
             [
               "116.91.221.0/24",
-              "customer.mlbeaus1.pop.starlinkisp.net."
+              "customer.mlbeaus1.isp.starlink.com."
             ],
             [
               "116.91.222.0/24",
@@ -680,7 +700,7 @@
             ],
             [
               "116.91.223.0/24",
-              "customer.mlbeaus1.pop.starlinkisp.net."
+              "customer.mlbeaus1.isp.starlink.com."
             ],
             [
               "150.228.150.0/24",
@@ -820,7 +840,7 @@
             ],
             [
               "116.91.211.0/24",
-              "customer.sydyaus1.pop.starlinkisp.net."
+              "customer.sydyaus1.isp.starlink.com."
             ],
             [
               "150.228.240.0/24",
@@ -1018,11 +1038,11 @@
             ],
             [
               "116.91.217.0/25",
-              "customer.prthaus1.pop.starlinkisp.net."
+              "customer.prthaus1.isp.starlink.com."
             ],
             [
               "116.91.217.128/25",
-              "customer.prthaus1.pop.starlinkisp.net."
+              "customer.prthaus1.isp.starlink.com."
             ],
             [
               "2406:2d40:8800::/38",
@@ -2391,6 +2411,26 @@
             [
               "2605:59c0:6600::/40",
               "customer.jhngzaf1.isp.starlink.com."
+            ]
+          ]
+        }
+      }
+    },
+    "BZ": {
+      "BZ-SC": {
+        "Belmopan": {
+          "ips": [
+            [
+              "153.67.142.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "153.67.143.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:4b00::/40",
+              ""
             ]
           ]
         }
@@ -8920,7 +8960,7 @@
             ],
             [
               "116.91.219.0/24",
-              "customer.chrhnzl1.pop.starlinkisp.net."
+              "customer.chrhnzl1.isp.starlink.com."
             ],
             [
               "150.228.190.0/24",
@@ -8994,11 +9034,11 @@
             ],
             [
               "116.91.215.0/25",
-              "customer.acklnzl1.pop.starlinkisp.net."
+              "customer.acklnzl1.isp.starlink.com."
             ],
             [
               "116.91.215.128/25",
-              "customer.acklnzl1.pop.starlinkisp.net."
+              "customer.acklnzl1.isp.starlink.com."
             ],
             [
               "2406:2d40:1400::/38",
@@ -16262,11 +16302,11 @@
     ],
     [
       "customer.acklnzl1.isp.starlink.com.",
-      15
+      17
     ],
     [
       "customer.acklnzl1.pop.starlinkisp.net.",
-      13
+      11
     ],
     [
       "customer.almykaz1.isp.starlink.com.",
@@ -16306,11 +16346,7 @@
     ],
     [
       "customer.chrhnzl1.isp.starlink.com.",
-      3
-    ],
-    [
-      "customer.chrhnzl1.pop.starlinkisp.net.",
-      1
+      4
     ],
     [
       "customer.clgycan1.isp.starlink.com.",
@@ -16346,7 +16382,7 @@
     ],
     [
       "customer.isp.starlink.com.",
-      241
+      245
     ],
     [
       "customer.jhngzaf1.isp.starlink.com.",
@@ -16394,11 +16430,11 @@
     ],
     [
       "customer.mlbeaus1.isp.starlink.com.",
-      14
+      19
     ],
     [
       "customer.mlbeaus1.pop.starlinkisp.net.",
-      6
+      1
     ],
     [
       "customer.mlnnita1.isp.starlink.com.",
@@ -16446,11 +16482,7 @@
     ],
     [
       "customer.prthaus1.isp.starlink.com.",
-      14
-    ],
-    [
-      "customer.prthaus1.pop.starlinkisp.net.",
-      2
+      16
     ],
     [
       "customer.qrtomex1.isp.starlink.com.",
@@ -16510,11 +16542,11 @@
     ],
     [
       "customer.sydyaus1.isp.starlink.com.",
-      55
+      56
     ],
     [
       "customer.sydyaus1.pop.starlinkisp.net.",
-      2
+      1
     ],
     [
       "customer.tkyojpn1.isp.starlink.com.",
