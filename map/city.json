@@ -1168,7 +1168,7 @@
             "properties": {
                 "title": "Libreville",
                 "name": "GA, GA-1, Libreville",
-                "description": "<i>GA,GA-1,Libreville</i><br>Subnet: 153.67.152.0/24: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 153.67.153.0/24: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 2605:59c0:6b00::/40: PoP: <br>(PTR: )<br>"
+                "description": "<i>GA,GA-1,Libreville</i><br>Subnet: 153.67.152.0/24: PoP: lgosnga1<br>(PTR: customer.isp.starlink.com.)<br>Subnet: 153.67.153.0/24: PoP: lgosnga1<br>(PTR: customer.isp.starlink.com.)<br>Subnet: 2605:59c0:6b00::/40: PoP: lgosnga1<br>(PTR: )<br>"
             }
         },
         {
@@ -1318,7 +1318,7 @@
             "properties": {
                 "title": "Bata",
                 "name": "GQ, GQ-C, Bata",
-                "description": "<i>GQ,GQ-C,Bata</i><br>Subnet: 153.67.144.0/24: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 153.67.145.0/24: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 2605:59c0:5200::/40: PoP: <br>(PTR: )<br>"
+                "description": "<i>GQ,GQ-C,Bata</i><br>Subnet: 153.67.144.0/24: PoP: lgosnga1<br>(PTR: customer.isp.starlink.com.)<br>Subnet: 153.67.145.0/24: PoP: lgosnga1<br>(PTR: customer.isp.starlink.com.)<br>Subnet: 2605:59c0:5200::/40: PoP: lgosnga1<br>(PTR: )<br>"
             }
         },
         {
@@ -1679,6 +1679,21 @@
                 "title": "Tarawa",
                 "name": "KI, KI-G, Tarawa",
                 "description": "<i>KI,KI-G,Tarawa</i><br>Subnet: 150.228.216.0/24: PoP: sydyaus1<br>(PTR: )<br>Subnet: 150.228.217.0/24: PoP: sydyaus1<br>(PTR: )<br>Subnet: 2406:2d40:a800::/40: PoP: acklnzl1<br>(PTR: customer.acklnzl1.isp.starlink.com.)<br>Subnet: 2406:2d40:7500::/42: PoP: sydyaus1<br>(PTR: )<br>"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    43.2551892,
+                    -11.7037927
+                ]
+            },
+            "properties": {
+                "title": "Moroni",
+                "name": "KM, KM-G, Moroni",
+                "description": "<i>KM,KM-G,Moroni</i><br>Subnet: 153.67.154.0/24: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 153.67.155.0/24: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 2605:59c0:6c00::/40: PoP: <br>(PTR: )<br>"
             }
         },
         {
@@ -2113,7 +2128,7 @@
             "properties": {
                 "title": "Port Louis",
                 "name": "MU, MU-PL, Port Louis",
-                "description": "<i>MU,MU-PL,Port Louis</i><br>Subnet: 153.67.150.0/24: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 153.67.151.0/24: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 2605:59c0:6a00::/40: PoP: <br>(PTR: )<br>"
+                "description": "<i>MU,MU-PL,Port Louis</i><br>Subnet: 153.67.150.0/24: PoP: jhngzaf1<br>(PTR: customer.isp.starlink.com.)<br>Subnet: 153.67.151.0/24: PoP: jhngzaf1<br>(PTR: customer.isp.starlink.com.)<br>Subnet: 2605:59c0:6a00::/40: PoP: jhngzaf1<br>(PTR: )<br>"
             }
         },
         {
@@ -2278,7 +2293,7 @@
             "properties": {
                 "title": "Kathmandu",
                 "name": "NP, NP-3, Kathmandu",
-                "description": "<i>NP,NP-3,Kathmandu</i><br>Subnet: 150.228.194.0/24: PoP: <br>(PTR: )<br>Subnet: 150.228.195.0/24: PoP: <br>(PTR: )<br>Subnet: 2406:2d40:2100::/40: PoP: <br>(PTR: )<br>"
+                "description": "<i>NP,NP-3,Kathmandu</i><br>Subnet: 150.228.194.0/24: PoP: sngesgp1<br>(PTR: )<br>Subnet: 150.228.195.0/24: PoP: sngesgp1<br>(PTR: )<br>Subnet: 2406:2d40:2100::/40: PoP: sngesgp1<br>(PTR: )<br>"
             }
         },
         {
@@ -3058,7 +3073,7 @@
             "properties": {
                 "title": "Kampala",
                 "name": "UG, UG-102, Kampala",
-                "description": "<i>UG,UG-102,Kampala</i><br>Subnet: 153.67.146.0/24: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 153.67.147.0/24: PoP: <br>(PTR: customer.isp.starlink.com.)<br>Subnet: 2605:59c0:5100::/40: PoP: <br>(PTR: )<br>"
+                "description": "<i>UG,UG-102,Kampala</i><br>Subnet: 153.67.146.0/24: PoP: nrbiken1<br>(PTR: customer.isp.starlink.com.)<br>Subnet: 153.67.147.0/24: PoP: nrbiken1<br>(PTR: customer.isp.starlink.com.)<br>Subnet: 2605:59c0:5100::/40: PoP: nrbiken1<br>(PTR: )<br>"
             }
         },
         {
