@@ -699,6 +699,32 @@
       }
     },
     "AU": {
+      "AU-NT": {
+        "Darwin": {
+          "ips": [
+            [
+              "14.1.68.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "14.1.69.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "14.1.70.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "14.1.71.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2406:2d40:b000::/38",
+              "customer.isp.starlink.com."
+            ]
+          ]
+        }
+      },
       "AU-VIC": {
         "Melbourne": {
           "ips": [
@@ -1205,32 +1231,6 @@
             [
               "2406:2d40:3900::/40",
               "customer.brseaus1.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "AU-NT": {
-        "Darwin": {
-          "ips": [
-            [
-              "14.1.68.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "14.1.69.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "14.1.70.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "14.1.71.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "2406:2d40:b000::/38",
-              "customer.isp.starlink.com."
             ]
           ]
         }
