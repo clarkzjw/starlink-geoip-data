@@ -1797,6 +1797,14 @@
               "customer.bgtacol1.isp.starlink.com."
             ],
             [
+              "98.97.130.0/24",
+              "customer.bnssarg1.isp.starlink.com."
+            ],
+            [
+              "98.97.131.0/24",
+              "customer.bnssarg1.isp.starlink.com."
+            ],
+            [
               "98.97.156.0/24",
               "customer.bgtacol1.isp.starlink.com."
             ],
@@ -1979,22 +1987,6 @@
             [
               "216.234.209.0/24",
               "customer.splobra1.isp.starlink.com."
-            ],
-            [
-              "98.97.130.0/25",
-              "customer.bnssarg1.isp.starlink.com."
-            ],
-            [
-              "98.97.130.128/25",
-              "customer.bnssarg1.isp.starlink.com."
-            ],
-            [
-              "98.97.131.0/25",
-              "customer.bnssarg1.isp.starlink.com."
-            ],
-            [
-              "98.97.131.128/25",
-              "customer.bnssarg1.isp.starlink.com."
             ],
             [
               "138.84.43.0/25",
@@ -2321,8 +2313,8 @@
       }
     },
     "BS": {
-      "BS-BS": {
-        "": {
+      "BS-NP": {
+        "Nassau": {
           "ips": [
             [
               "153.67.100.0/24",
@@ -2331,13 +2323,7 @@
             [
               "153.67.101.0/24",
               "customer.mmmiflx1.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "BS-NP": {
-        "Nassau": {
-          "ips": [
+            ],
             [
               "153.67.178.0/24",
               "customer.isp.starlink.com."
@@ -8099,6 +8085,14 @@
               "customer.isp.starlink.com."
             ],
             [
+              "153.67.18.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "153.67.19.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "153.67.116.0/24",
               "customer.lsancax1.isp.starlink.com."
             ],
@@ -8265,14 +8259,6 @@
             [
               "2803:9810:a200::/40",
               "customer.mmmiflx1.isp.starlink.com."
-            ],
-            [
-              "153.67.18.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "153.67.19.0/24",
-              "customer.isp.starlink.com."
             ]
           ]
         }
@@ -15899,30 +15885,6 @@
               "customer.nrbiken1.isp.starlink.com."
             ],
             [
-              "212.105.137.64/26",
-              "customer.nrbiken1.isp.starlink.com."
-            ],
-            [
-              "212.105.137.128/26",
-              "customer.nrbiken1.isp.starlink.com."
-            ],
-            [
-              "212.105.137.0/27",
-              "customer.nrbiken1.isp.starlink.com."
-            ],
-            [
-              "212.105.137.32/27",
-              "customer.nrbiken1.isp.starlink.com."
-            ],
-            [
-              "212.105.137.192/27",
-              "customer.nrbiken1.isp.starlink.com."
-            ],
-            [
-              "212.105.137.224/27",
-              "customer.nrbiken1.isp.starlink.com."
-            ],
-            [
               "2605:59c0:3c00::/40",
               "customer.nrbiken1.isp.starlink.com."
             ],
@@ -16118,7 +16080,7 @@
     ],
     [
       "customer.bnssarg1.isp.starlink.com.",
-      54
+      52
     ],
     [
       "customer.brckcan1.pop.starlinkisp.net.",
@@ -16266,7 +16228,7 @@
     ],
     [
       "customer.nrbiken1.isp.starlink.com.",
-      80
+      74
     ],
     [
       "customer.nwyynyx1.isp.starlink.com.",
