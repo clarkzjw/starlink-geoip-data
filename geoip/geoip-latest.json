@@ -2321,8 +2321,8 @@
       }
     },
     "BS": {
-      "BS-NP": {
-        "Nassau": {
+      "BS-BS": {
+        "": {
           "ips": [
             [
               "153.67.100.0/24",
@@ -2331,7 +2331,13 @@
             [
               "153.67.101.0/24",
               "customer.mmmiflx1.isp.starlink.com."
-            ],
+            ]
+          ]
+        }
+      },
+      "BS-NP": {
+        "Nassau": {
+          "ips": [
             [
               "153.67.178.0/24",
               "customer.isp.starlink.com."
@@ -4460,14 +4466,6 @@
             ],
             [
               "217.142.27.0/24",
-              "customer.wrswpol1.isp.starlink.com."
-            ],
-            [
-              "87.251.27.0/25",
-              "customer.wrswpol1.isp.starlink.com."
-            ],
-            [
-              "87.251.27.128/25",
               "customer.wrswpol1.isp.starlink.com."
             ],
             [
@@ -16348,7 +16346,7 @@
     ],
     [
       "customer.wrswpol1.isp.starlink.com.",
-      73
+      71
     ],
     [
       "host.starlinkisp.net.",
