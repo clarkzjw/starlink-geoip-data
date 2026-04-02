@@ -67,10 +67,10 @@
             "info_multicast": false,
             "info_ipv6": true,
             "info_never_via_route_servers": false,
-            "ix_count": 71,
+            "ix_count": 72,
             "fac_count": 49,
             "notes": "",
-            "netixlan_updated": "2026-02-02T19:05:58Z",
+            "netixlan_updated": "2026-04-01T19:39:04Z",
             "netfac_updated": "2025-10-21T01:48:26Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
@@ -125,7 +125,7 @@
                 },
                 {
                     "id": 52733,
-                    "name": "Digital Realty Frankfurt FRA1-16",
+                    "name": "Digital Realty Frankfurt FRA1-27",
                     "city": "Frankfurt",
                     "country": "DE",
                     "fac_id": 58,
@@ -640,6 +640,25 @@
                     "status": "ok"
                 },
                 {
+                    "id": 12909,
+                    "ix_id": 24,
+                    "name": "TorIX",
+                    "ixlan_id": 24,
+                    "notes": "Ip address None was claimed by other netixlan",
+                    "speed": 200000,
+                    "asn": 14593,
+                    "ipaddr4": "206.108.34.88",
+                    "ipaddr6": "2001:504:1a::34:88",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2012-12-07T00:00:00Z",
+                    "updated": "2026-04-01T19:39:04Z",
+                    "status": "ok"
+                },
+                {
                     "id": 18813,
                     "ix_id": 18,
                     "name": "LINX LON1: Main",
@@ -748,9 +767,9 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 7377,
                     "created": "2018-02-20T09:01:56Z",
-                    "updated": "2025-07-15T17:10:07Z",
+                    "updated": "2026-03-26T17:27:07Z",
                     "status": "ok"
                 },
                 {
@@ -843,9 +862,9 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 850,
                     "created": "2019-03-25T09:49:38Z",
-                    "updated": "2025-02-11T19:02:04Z",
+                    "updated": "2026-03-26T16:35:37Z",
                     "status": "ok"
                 },
                 {
@@ -1204,9 +1223,9 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 1660,
                     "created": "2022-03-22T19:30:26Z",
-                    "updated": "2023-02-06T18:55:53Z",
+                    "updated": "2026-03-26T18:10:22Z",
                     "status": "ok"
                 },
                 {
@@ -1223,9 +1242,9 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 1660,
                     "created": "2022-03-22T19:30:54Z",
-                    "updated": "2023-02-06T18:55:53Z",
+                    "updated": "2026-03-26T18:10:22Z",
                     "status": "ok"
                 },
                 {
@@ -1489,9 +1508,9 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 4809,
                     "created": "2023-05-08T20:39:31Z",
-                    "updated": "2023-05-08T20:39:31Z",
+                    "updated": "2026-03-26T17:50:56Z",
                     "status": "ok"
                 },
                 {
@@ -1622,9 +1641,9 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 803,
                     "created": "2024-02-14T20:18:29Z",
-                    "updated": "2024-02-14T20:18:29Z",
+                    "updated": "2026-03-26T16:20:06Z",
                     "status": "ok"
                 },
                 {
@@ -1641,9 +1660,9 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 11694,
                     "created": "2024-02-14T20:20:49Z",
-                    "updated": "2024-02-14T20:20:49Z",
+                    "updated": "2026-03-26T16:20:06Z",
                     "status": "ok"
                 },
                 {
@@ -1793,9 +1812,9 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 2077,
                     "created": "2024-06-21T17:28:02Z",
-                    "updated": "2024-06-21T17:30:41Z",
+                    "updated": "2026-03-26T16:55:57Z",
                     "status": "ok"
                 },
                 {
@@ -1812,9 +1831,9 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 2077,
                     "created": "2024-06-21T17:28:32Z",
-                    "updated": "2024-06-21T17:30:41Z",
+                    "updated": "2026-03-26T16:55:57Z",
                     "status": "ok"
                 },
                 {
@@ -1926,9 +1945,9 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 663,
                     "created": "2024-08-23T22:05:04Z",
-                    "updated": "2026-02-02T19:05:58Z",
+                    "updated": "2026-03-26T16:10:05Z",
                     "status": "ok"
                 },
                 {
@@ -2097,9 +2116,9 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 850,
                     "created": "2025-03-03T18:40:32Z",
-                    "updated": "2025-03-03T18:40:32Z",
+                    "updated": "2026-03-26T15:39:43Z",
                     "status": "ok"
                 },
                 {
@@ -2192,9 +2211,9 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 4688,
                     "created": "2025-05-19T18:15:57Z",
-                    "updated": "2025-05-19T18:15:58Z",
+                    "updated": "2026-03-26T18:08:46Z",
                     "status": "ok"
                 },
                 {
@@ -2230,9 +2249,9 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 5094,
                     "created": "2025-07-07T17:29:01Z",
-                    "updated": "2025-07-07T17:29:02Z",
+                    "updated": "2026-03-26T17:52:52Z",
                     "status": "ok"
                 },
                 {
@@ -2249,9 +2268,9 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 1944,
                     "created": "2025-07-12T00:14:50Z",
-                    "updated": "2025-11-13T18:13:29Z",
+                    "updated": "2026-03-26T16:08:29Z",
                     "status": "ok"
                 },
                 {
@@ -2268,9 +2287,9 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 1944,
                     "created": "2025-07-12T00:15:13Z",
-                    "updated": "2025-07-13T18:00:41Z",
+                    "updated": "2026-03-26T16:08:29Z",
                     "status": "ok"
                 },
                 {
@@ -2363,9 +2382,9 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 1940,
                     "created": "2025-10-06T17:59:31Z",
-                    "updated": "2025-10-06T17:59:31Z",
+                    "updated": "2026-03-26T18:04:33Z",
                     "status": "ok"
                 },
                 {
@@ -2477,9 +2496,28 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 3630,
                     "created": "2026-01-31T00:44:56Z",
-                    "updated": "2026-01-31T00:44:56Z",
+                    "updated": "2026-03-26T19:56:28Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 108510,
+                    "ix_id": 24,
+                    "name": "TorIX",
+                    "ixlan_id": 24,
+                    "notes": "",
+                    "speed": 200000,
+                    "asn": 14593,
+                    "ipaddr4": "206.108.34.87",
+                    "ipaddr6": "2001:504:1a::34:87",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2026-04-01T19:38:40Z",
+                    "updated": "2026-04-01T19:38:40Z",
                     "status": "ok"
                 }
             ],
