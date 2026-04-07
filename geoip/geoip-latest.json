@@ -1473,14 +1473,6 @@
               "customer.sfiabgr1.isp.starlink.com."
             ],
             [
-              "145.224.109.0/25",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
-              "145.224.109.128/25",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
               "209.198.131.0/25",
               "customer.sfiabgr1.isp.starlink.com."
             ],
@@ -1498,6 +1490,20 @@
             ],
             [
               "2a0d:3344:3100::/40",
+              "customer.sfiabgr1.isp.starlink.com."
+            ]
+          ]
+        }
+      },
+      "BG-23": {
+        "Sofia": {
+          "ips": [
+            [
+              "145.224.109.0/25",
+              "customer.sfiabgr1.isp.starlink.com."
+            ],
+            [
+              "145.224.109.128/25",
               "customer.sfiabgr1.isp.starlink.com."
             ]
           ]
@@ -3883,6 +3889,14 @@
         "Praia": {
           "ips": [
             [
+              "179.64.20.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "179.64.21.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "98.97.72.64/26",
               "customer.mdrdesp1.isp.starlink.com."
             ],
@@ -4575,30 +4589,6 @@
             [
               "150.228.127.0/24",
               ""
-            ],
-            [
-              "87.251.30.64/26",
-              "customer.frntdeu1.isp.starlink.com."
-            ],
-            [
-              "87.251.30.128/26",
-              "customer.frntdeu1.isp.starlink.com."
-            ],
-            [
-              "87.251.30.0/27",
-              "customer.frntdeu1.isp.starlink.com."
-            ],
-            [
-              "87.251.30.32/27",
-              "customer.frntdeu1.isp.starlink.com."
-            ],
-            [
-              "87.251.30.192/27",
-              "customer.frntdeu1.isp.starlink.com."
-            ],
-            [
-              "87.251.30.224/27",
-              "customer.frntdeu1.isp.starlink.com."
             ],
             [
               "2a0d:3341:e700::/40",
@@ -9829,6 +9819,14 @@
         "Stockholm": {
           "ips": [
             [
+              "87.251.30.0/25",
+              "customer.frntdeu1.isp.starlink.com."
+            ],
+            [
+              "87.251.30.128/25",
+              "customer.frntdeu1.isp.starlink.com."
+            ],
+            [
               "145.224.98.0/25",
               "customer.frntdeu1.isp.starlink.com."
             ],
@@ -12883,6 +12881,14 @@
               "customer.sttlwax1.isp.starlink.com."
             ],
             [
+              "179.64.16.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "179.64.17.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "2605:59c0:2c00::/40",
               "customer.sttlwax1.isp.starlink.com."
             ],
@@ -14823,6 +14829,14 @@
               "customer.chcoilx1.isp.starlink.com."
             ],
             [
+              "179.64.14.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "179.64.15.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "2605:59ca:2d00::/40",
               "customer.ashnvax2.isp.starlink.com."
             ],
@@ -15527,6 +15541,14 @@
               "customer.chcoilx1.isp.starlink.com."
             ],
             [
+              "179.64.18.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "179.64.19.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "2605:59c8:1600::/40",
               "customer.chcoilx1.isp.starlink.com."
             ],
@@ -16164,7 +16186,7 @@
     ],
     [
       "customer.frntdeu1.isp.starlink.com.",
-      134
+      130
     ],
     [
       "customer.frtabra1.isp.starlink.com.",
@@ -16176,7 +16198,7 @@
     ],
     [
       "customer.isp.starlink.com.",
-      111
+      119
     ],
     [
       "customer.jhngzaf1.isp.starlink.com.",
