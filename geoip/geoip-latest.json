@@ -1477,12 +1477,24 @@
         "Ouagadougou": {
           "ips": [
             [
+              "74.244.89.0/24",
+              ""
+            ],
+            [
               "143.105.32.0/24",
               "customer.mdrdesp1.isp.starlink.com."
             ],
             [
               "143.105.33.0/24",
               "customer.mdrdesp1.isp.starlink.com."
+            ],
+            [
+              "153.67.34.0/24",
+              "customer.lgosnga1.isp.starlink.com."
+            ],
+            [
+              "153.67.35.0/24",
+              "customer.lgosnga1.isp.starlink.com."
             ],
             [
               "153.67.176.0/24",
@@ -1493,19 +1505,19 @@
               "customer.mdrdesp1.isp.starlink.com."
             ],
             [
+              "74.244.88.0/25",
+              ""
+            ],
+            [
+              "74.244.88.128/25",
+              ""
+            ],
+            [
               "2605:59c0:2d00::/40",
               "customer.mdrdesp1.isp.starlink.com."
             ],
             [
-              "74.244.89.0/24",
-              ""
-            ],
-            [
-              "153.67.34.0/24",
-              "customer.lgosnga1.isp.starlink.com."
-            ],
-            [
-              "153.67.35.0/24",
+              "2605:59c8:5600::/40",
               "customer.lgosnga1.isp.starlink.com."
             ],
             [
@@ -1525,20 +1537,8 @@
               "customer.isp.starlink.com."
             ],
             [
-              "74.244.88.0/25",
-              ""
-            ],
-            [
-              "74.244.88.128/25",
-              ""
-            ],
-            [
               "2605:59c0:7e00::/40",
               ""
-            ],
-            [
-              "2605:59c8:5600::/40",
-              "customer.lgosnga1.isp.starlink.com."
             ]
           ]
         }
@@ -1683,16 +1683,16 @@
               "customer.lgosnga1.isp.starlink.com."
             ],
             [
+              "2605:59c0:1c00::/40",
+              "customer.lgosnga1.isp.starlink.com."
+            ],
+            [
               "198.54.100.50/32",
               "pop.anycast.starlinkisp.net."
             ],
             [
               "198.54.100.51/32",
               "pop.anycast.starlinkisp.net."
-            ],
-            [
-              "2605:59c0:1c00::/40",
-              "customer.lgosnga1.isp.starlink.com."
             ],
             [
               "2620:134:b054:100::50/128",
@@ -3361,16 +3361,16 @@
               "customer.nrbiken1.isp.starlink.com."
             ],
             [
-              "2605:59c0:5a00::/40",
-              "customer.nrbiken1.isp.starlink.com."
-            ],
-            [
               "153.67.58.0/24",
               "customer.lgosnga1.isp.starlink.com."
             ],
             [
               "153.67.59.0/24",
               "customer.lgosnga1.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:5a00::/40",
+              "customer.nrbiken1.isp.starlink.com."
             ],
             [
               "2605:59c0:5b00::/40",
@@ -3441,16 +3441,16 @@
               "customer.lgosnga1.isp.starlink.com."
             ],
             [
+              "2605:59c0:1d00::/40",
+              "customer.lgosnga1.isp.starlink.com."
+            ],
+            [
               "179.64.84.0/24",
               "customer.isp.starlink.com."
             ],
             [
               "179.64.85.0/24",
               "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:1d00::/40",
-              "customer.lgosnga1.isp.starlink.com."
             ],
             [
               "2605:59c0:7d00::/40",
@@ -5475,16 +5475,16 @@
               "customer.isp.starlink.com."
             ],
             [
+              "2605:59c0:1f00::/40",
+              "customer.lgosnga1.isp.starlink.com."
+            ],
+            [
               "179.64.82.0/24",
               "customer.isp.starlink.com."
             ],
             [
               "179.64.83.0/24",
               "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:1f00::/40",
-              "customer.lgosnga1.isp.starlink.com."
             ],
             [
               "2605:59c0:7c00::/40",
@@ -7183,16 +7183,16 @@
               "customer.lgosnga1.isp.starlink.com."
             ],
             [
+              "2605:59c0:1900::/40",
+              "customer.lgosnga1.isp.starlink.com."
+            ],
+            [
               "179.64.86.0/24",
               "customer.isp.starlink.com."
             ],
             [
               "179.64.87.0/24",
               "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:1900::/40",
-              "customer.lgosnga1.isp.starlink.com."
             ],
             [
               "2605:59c0:7f00::/40",
@@ -8719,20 +8719,20 @@
               "customer.lgosnga1.isp.starlink.com."
             ],
             [
-              "198.54.100.28/32",
-              "pop.anycast.starlinkisp.net."
-            ],
-            [
-              "198.54.100.29/32",
-              "pop.anycast.starlinkisp.net."
-            ],
-            [
               "2605:59c1:1800::/38",
               "customer.lgosnga1.isp.starlink.com."
             ],
             [
               "2605:59c0:e00::/40",
               "customer.lgosnga1.isp.starlink.com."
+            ],
+            [
+              "198.54.100.28/32",
+              "pop.anycast.starlinkisp.net."
+            ],
+            [
+              "198.54.100.29/32",
+              "pop.anycast.starlinkisp.net."
             ],
             [
               "2620:134:b054:100::28/128",
@@ -10419,16 +10419,16 @@
               "customer.lgosnga1.isp.starlink.com."
             ],
             [
+              "2605:59c0:1800::/40",
+              "customer.lgosnga1.isp.starlink.com."
+            ],
+            [
               "179.64.88.0/24",
               "customer.isp.starlink.com."
             ],
             [
               "179.64.89.0/24",
               "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:1800::/40",
-              "customer.lgosnga1.isp.starlink.com."
             ],
             [
               "2605:59c0:8000::/40",
@@ -10727,18 +10727,6 @@
               ""
             ],
             [
-              "143.105.162.0/24",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
-              "143.105.163.0/24",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:a00::/40",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
               "143.105.160.0/24",
               "customer.lgosnga1.isp.starlink.com."
             ],
@@ -10747,12 +10735,24 @@
               "customer.lgosnga1.isp.starlink.com."
             ],
             [
+              "143.105.162.0/24",
+              "customer.sfiabgr1.isp.starlink.com."
+            ],
+            [
+              "143.105.163.0/24",
+              "customer.sfiabgr1.isp.starlink.com."
+            ],
+            [
               "179.64.64.0/24",
               "customer.isp.starlink.com."
             ],
             [
               "179.64.65.0/24",
               "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:a00::/40",
+              "customer.sfiabgr1.isp.starlink.com."
             ],
             [
               "2a0d:3341:fe00::/40",
