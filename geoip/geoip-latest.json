@@ -2949,6 +2949,14 @@
               "customer.mntlcan1.isp.starlink.com."
             ],
             [
+              "153.67.0.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "153.67.1.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "143.105.7.0/25",
               "customer.mntlcan1.isp.starlink.com."
             ],
@@ -2963,6 +2971,10 @@
             [
               "143.105.121.128/25",
               "customer.chcoilx1.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:4400::/38",
+              ""
             ],
             [
               "2605:59c0:700::/40",
@@ -3007,14 +3019,6 @@
             [
               "2605:59ca:1400::/40",
               "customer.mplsmnx1.isp.starlink.com."
-            ],
-            [
-              "153.67.0.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "153.67.1.0/24",
-              "customer.isp.starlink.com."
             ],
             [
               "153.67.2.0/24",
@@ -3063,10 +3067,6 @@
             [
               "153.67.53.0/24",
               "customer.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:4400::/38",
-              ""
             ]
           ]
         }
