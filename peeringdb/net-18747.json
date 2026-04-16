@@ -68,10 +68,10 @@
             "info_ipv6": true,
             "info_never_via_route_servers": false,
             "ix_count": 72,
-            "fac_count": 49,
+            "fac_count": 51,
             "notes": "",
-            "netixlan_updated": "2026-04-01T19:39:04Z",
-            "netfac_updated": "2025-10-21T01:48:26Z",
+            "netixlan_updated": "2026-04-15T00:03:35Z",
+            "netfac_updated": "2026-04-13T16:29:53Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
             "policy_general": "Open",
@@ -231,6 +231,17 @@
                     "local_asn": 14593,
                     "created": "2024-10-02T19:30:31Z",
                     "updated": "2024-10-02T19:30:31Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 87300,
+                    "name": "QTS Atlanta-Metro (ATL1)",
+                    "city": "Atlanta",
+                    "country": "US",
+                    "fac_id": 581,
+                    "local_asn": 14593,
+                    "created": "2026-04-13T16:29:53Z",
+                    "updated": "2026-04-13T16:29:53Z",
                     "status": "ok"
                 },
                 {
@@ -605,6 +616,17 @@
                     "local_asn": 14593,
                     "created": "2025-10-21T01:48:27Z",
                     "updated": "2025-10-21T01:48:27Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 87299,
+                    "name": "NEXTDC D1",
+                    "city": "Darwin",
+                    "country": "AU",
+                    "fac_id": 14550,
+                    "local_asn": 14593,
+                    "created": "2026-04-13T15:54:24Z",
+                    "updated": "2026-04-13T15:54:24Z",
                     "status": "ok"
                 },
                 {
@@ -2515,9 +2537,9 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 7011,
                     "created": "2026-04-01T19:38:40Z",
-                    "updated": "2026-04-01T19:38:40Z",
+                    "updated": "2026-04-15T00:03:35Z",
                     "status": "ok"
                 }
             ],
@@ -2541,7 +2563,7 @@
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "logo": null,
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2026-01-31T00:45:09Z",
+            "updated": "2026-04-13T16:29:56Z",
             "status": "ok"
         }
     ],
