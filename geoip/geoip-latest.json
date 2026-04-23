@@ -1581,6 +1581,22 @@
               "customer.sfiabgr1.isp.starlink.com."
             ],
             [
+              "216.147.120.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "216.147.121.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "216.147.122.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "216.147.123.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
               "145.224.108.0/25",
               "customer.sfiabgr1.isp.starlink.com."
             ],
@@ -1599,6 +1615,14 @@
             [
               "2a0d:3344:4c00::/38",
               "customer.sfiabgr1.isp.starlink.com."
+            ],
+            [
+              "2406:2d40:5900::/40",
+              "customer.almykaz1.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:8c00::/40",
+              ""
             ],
             [
               "2a0d:3344:3000::/40",
@@ -4033,30 +4057,6 @@
               "customer.mdrdesp1.isp.starlink.com."
             ],
             [
-              "98.97.72.64/26",
-              "customer.mdrdesp1.isp.starlink.com."
-            ],
-            [
-              "98.97.72.128/26",
-              "customer.mdrdesp1.isp.starlink.com."
-            ],
-            [
-              "98.97.72.0/27",
-              "customer.mdrdesp1.isp.starlink.com."
-            ],
-            [
-              "98.97.72.32/27",
-              "customer.mdrdesp1.isp.starlink.com."
-            ],
-            [
-              "98.97.72.192/27",
-              "customer.mdrdesp1.isp.starlink.com."
-            ],
-            [
-              "98.97.72.224/27",
-              "customer.mdrdesp1.isp.starlink.com."
-            ],
-            [
               "2a0d:3341:fc00::/40",
               "customer.mdrdesp1.isp.starlink.com."
             ],
@@ -4665,6 +4665,10 @@
               "customer.mdrdesp1.isp.starlink.com."
             ],
             [
+              "74.245.163.0/24",
+              ""
+            ],
+            [
               "153.67.232.0/24",
               "customer.isp.starlink.com."
             ],
@@ -4682,6 +4686,10 @@
             ],
             [
               "2605:59ca:8064::/46",
+              ""
+            ],
+            [
+              "2605:59c7:f802::/48",
               ""
             ]
           ]
@@ -5594,6 +5602,14 @@
       "GR-I": {
         "Athens": {
           "ips": [
+            [
+              "129.222.56.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "129.222.57.0/24",
+              "customer.isp.starlink.com."
+            ],
             [
               "145.224.118.0/24",
               "customer.sfiabgr1.isp.starlink.com."
@@ -11152,18 +11168,6 @@
         }
       }
     },
-    "TM": {
-      "TM-S": {
-        "Ashgabat": {
-          "ips": [
-            [
-              "2406:2d40:5900::/40",
-              "customer.almykaz1.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
     "TO": {
       "TO-04": {
         "Nuku'alofa": {
@@ -14027,6 +14031,14 @@
               "customer.mmmiflx1.isp.starlink.com."
             ],
             [
+              "216.147.124.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "216.147.125.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
               "135.129.119.0/25",
               "customer.mmmiflx1.isp.starlink.com."
             ],
@@ -14049,6 +14061,10 @@
             [
               "2605:59c0:1700::/40",
               "customer.mmmiflx1.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:8d00::/40",
+              ""
             ],
             [
               "2605:59ca:4c00::/40",
@@ -16992,7 +17008,7 @@
     ],
     [
       "customer.dnvrcox1.isp.starlink.com.",
-      37
+      43
     ],
     [
       "customer.dohaqat1.isp.starlink.com.",
@@ -17016,7 +17032,7 @@
     ],
     [
       "customer.isp.starlink.com.",
-      97
+      99
     ],
     [
       "customer.jhngzaf1.isp.starlink.com.",
@@ -17064,7 +17080,7 @@
     ],
     [
       "customer.mdrdesp1.isp.starlink.com.",
-      70
+      64
     ],
     [
       "customer.mlbeaus1.isp.starlink.com.",
