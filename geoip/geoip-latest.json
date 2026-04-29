@@ -11285,6 +11285,22 @@
         "Kyiv": {
           "ips": [
             [
+              "66.9.180.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "66.9.181.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "66.9.182.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "66.9.183.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
               "74.244.70.0/24",
               ""
             ],
@@ -11653,96 +11669,6 @@
       }
     },
     "US": {
-      "US-UT": {
-        "Salt Lake City": {
-          "ips": [
-            [
-              "66.9.180.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "66.9.181.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "66.9.182.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "66.9.183.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "74.244.76.0/24",
-              ""
-            ],
-            [
-              "74.244.77.0/24",
-              ""
-            ],
-            [
-              "129.222.100.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "129.222.101.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "129.222.102.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "129.222.103.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "129.222.130.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "129.222.131.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "143.105.104.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "143.105.105.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "143.105.230.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "143.105.231.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "2605:59c1:2800::/38",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:3000::/40",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:3100::/40",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:3200::/40",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "2605:59c8:4d00::/40",
-              "customer.sltyutx1.isp.starlink.com."
-            ]
-          ]
-        }
-      },
       "US-CA": {
         "Los Angeles": {
           "ips": [
@@ -13701,6 +13627,80 @@
             [
               "2605:59c7:f001::/48",
               ""
+            ]
+          ]
+        }
+      },
+      "US-UT": {
+        "Salt Lake City": {
+          "ips": [
+            [
+              "74.244.76.0/24",
+              ""
+            ],
+            [
+              "74.244.77.0/24",
+              ""
+            ],
+            [
+              "129.222.100.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "129.222.101.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "129.222.102.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "129.222.103.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "129.222.130.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "129.222.131.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "143.105.104.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "143.105.105.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "143.105.230.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "143.105.231.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "2605:59c1:2800::/38",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:3000::/40",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:3100::/40",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:3200::/40",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "2605:59c8:4d00::/40",
+              "customer.sltyutx1.isp.starlink.com."
             ]
           ]
         }
