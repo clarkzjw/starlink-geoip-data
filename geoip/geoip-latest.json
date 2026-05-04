@@ -1147,6 +1147,14 @@
               "customer.prthaus1.isp.starlink.com."
             ],
             [
+              "179.65.146.0/24",
+              ""
+            ],
+            [
+              "179.65.147.0/24",
+              ""
+            ],
+            [
               "116.91.217.0/25",
               "customer.prthaus1.isp.starlink.com."
             ],
@@ -1164,6 +1172,10 @@
             ],
             [
               "2406:2d40:2200::/40",
+              "customer.prthaus1.isp.starlink.com."
+            ],
+            [
+              "2406:2d40:2300::/40",
               "customer.prthaus1.isp.starlink.com."
             ]
           ]
@@ -3319,26 +3331,6 @@
             [
               "2605:59c0:2a00::/40",
               "customer.mntlcan1.isp.starlink.com."
-            ]
-          ]
-        }
-      }
-    },
-    "CC": {
-      "": {
-        "West Island": {
-          "ips": [
-            [
-              "179.65.146.0/24",
-              ""
-            ],
-            [
-              "179.65.147.0/24",
-              ""
-            ],
-            [
-              "2406:2d40:2300::/40",
-              "customer.prthaus1.isp.starlink.com."
             ]
           ]
         }
@@ -6226,7 +6218,7 @@
             ],
             [
               "203.17.80.0/24",
-              "customer.sngesgp1.pop.starlinkisp.net."
+              ""
             ],
             [
               "203.17.81.0/24",
@@ -17036,7 +17028,7 @@
     ],
     [
       "customer.sngesgp1.pop.starlinkisp.net.",
-      2
+      1
     ],
     [
       "customer.snjecax1.isp.starlink.com.",
