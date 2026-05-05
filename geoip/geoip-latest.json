@@ -4311,6 +4311,18 @@
             [
               "2a0d:3341:f700::/40",
               "customer.frntdeu1.isp.starlink.com."
+            ],
+            [
+              "212.105.134.0/24",
+              "customer.sfiabgr1.isp.starlink.com."
+            ],
+            [
+              "212.105.135.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2a0d:3341:a900::/40",
+              "customer.isp.starlink.com."
             ]
           ]
         }
@@ -4689,6 +4701,22 @@
             [
               "2a0d:3341:e700::/40",
               "customer.frntdeu1.isp.starlink.com."
+            ],
+            [
+              "216.128.6.0/24",
+              "customer.wrswpol1.isp.starlink.com."
+            ],
+            [
+              "216.128.7.0/24",
+              "customer.wrswpol1.isp.starlink.com."
+            ]
+          ]
+        },
+        "Stockholm": {
+          "ips": [
+            [
+              "2a0d:3341:a800::/40",
+              "customer.isp.starlink.com."
             ]
           ]
         }
@@ -6489,80 +6517,6 @@
           ]
         }
       },
-      "IN-WB": {
-        "Kolkata": {
-          "ips": [
-            [
-              "179.65.16.0/24",
-              ""
-            ],
-            [
-              "179.65.17.0/24",
-              ""
-            ],
-            [
-              "179.65.18.0/24",
-              ""
-            ],
-            [
-              "179.65.19.0/24",
-              ""
-            ],
-            [
-              "179.65.20.0/24",
-              ""
-            ],
-            [
-              "179.65.21.0/24",
-              ""
-            ],
-            [
-              "179.65.22.0/24",
-              ""
-            ],
-            [
-              "179.65.23.0/24",
-              ""
-            ],
-            [
-              "179.65.24.0/24",
-              ""
-            ],
-            [
-              "179.65.25.0/24",
-              ""
-            ],
-            [
-              "179.65.26.0/24",
-              ""
-            ],
-            [
-              "179.65.27.0/24",
-              ""
-            ],
-            [
-              "179.65.28.0/24",
-              ""
-            ],
-            [
-              "179.65.29.0/24",
-              ""
-            ],
-            [
-              "179.65.30.0/24",
-              ""
-            ],
-            [
-              "179.65.31.0/24",
-              ""
-            ],
-            [
-              "2406:2d40:c400::/38",
-              ""
-            ]
-          ]
-        }
-      },
       "IN-DL": {
         "Delhi": {
           "ips": [
@@ -6632,6 +6586,80 @@
             ],
             [
               "2406:2d40:cc00::/38",
+              ""
+            ]
+          ]
+        }
+      },
+      "IN-WB": {
+        "Kolkata": {
+          "ips": [
+            [
+              "179.65.16.0/24",
+              ""
+            ],
+            [
+              "179.65.17.0/24",
+              ""
+            ],
+            [
+              "179.65.18.0/24",
+              ""
+            ],
+            [
+              "179.65.19.0/24",
+              ""
+            ],
+            [
+              "179.65.20.0/24",
+              ""
+            ],
+            [
+              "179.65.21.0/24",
+              ""
+            ],
+            [
+              "179.65.22.0/24",
+              ""
+            ],
+            [
+              "179.65.23.0/24",
+              ""
+            ],
+            [
+              "179.65.24.0/24",
+              ""
+            ],
+            [
+              "179.65.25.0/24",
+              ""
+            ],
+            [
+              "179.65.26.0/24",
+              ""
+            ],
+            [
+              "179.65.27.0/24",
+              ""
+            ],
+            [
+              "179.65.28.0/24",
+              ""
+            ],
+            [
+              "179.65.29.0/24",
+              ""
+            ],
+            [
+              "179.65.30.0/24",
+              ""
+            ],
+            [
+              "179.65.31.0/24",
+              ""
+            ],
+            [
+              "2406:2d40:c400::/38",
               ""
             ]
           ]
@@ -6910,30 +6938,6 @@
             ],
             [
               "212.105.133.0/24",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
-              "212.105.134.64/26",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
-              "212.105.134.128/26",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
-              "212.105.134.0/27",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
-              "212.105.134.32/27",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
-              "212.105.134.192/27",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
-              "212.105.134.224/27",
               "customer.sfiabgr1.isp.starlink.com."
             ],
             [
@@ -8777,14 +8781,6 @@
               "customer.lgosnga1.isp.starlink.com."
             ],
             [
-              "162.43.192.0/24",
-              "customer.lgosnga1.isp.starlink.com."
-            ],
-            [
-              "162.43.193.0/24",
-              "customer.lgosnga1.isp.starlink.com."
-            ],
-            [
               "216.234.218.0/24",
               "customer.lgosnga1.isp.starlink.com."
             ],
@@ -9001,12 +8997,24 @@
               "customer.frntdeu1.isp.starlink.com."
             ],
             [
+              "162.43.192.0/24",
+              "customer.lgosnga1.isp.starlink.com."
+            ],
+            [
+              "162.43.193.0/24",
+              "customer.lgosnga1.isp.starlink.com."
+            ],
+            [
               "198.54.100.48/32",
               "pop.anycast.starlinkisp.net."
             ],
             [
               "198.54.100.49/32",
               "pop.anycast.starlinkisp.net."
+            ],
+            [
+              "2a0d:3341:aa00::/40",
+              "customer.isp.starlink.com."
             ],
             [
               "2620:134:b054:100::48/128",
@@ -10289,6 +10297,14 @@
               "customer.frntdeu1.isp.starlink.com."
             ],
             [
+              "150.228.0.0/24",
+              ""
+            ],
+            [
+              "150.228.1.0/24",
+              ""
+            ],
+            [
               "153.67.254.0/24",
               "customer.isp.starlink.com."
             ],
@@ -10303,6 +10319,10 @@
             [
               "212.105.145.0/24",
               "customer.lndngbr1.isp.starlink.com."
+            ],
+            [
+              "2a0d:3341:a000::/38",
+              "customer.isp.starlink.com."
             ],
             [
               "2605:59ca:801e::/47",
@@ -11201,14 +11221,6 @@
               "customer.wrswpol1.isp.starlink.com."
             ],
             [
-              "150.228.0.0/24",
-              ""
-            ],
-            [
-              "150.228.1.0/24",
-              ""
-            ],
-            [
               "150.228.4.0/24",
               ""
             ],
@@ -11326,14 +11338,6 @@
             ],
             [
               "179.64.51.0/24",
-              "customer.wrswpol1.isp.starlink.com."
-            ],
-            [
-              "216.128.6.0/24",
-              "customer.wrswpol1.isp.starlink.com."
-            ],
-            [
-              "216.128.7.0/24",
               "customer.wrswpol1.isp.starlink.com."
             ],
             [
@@ -16900,7 +16904,7 @@
     ],
     [
       "customer.isp.starlink.com.",
-      104
+      109
     ],
     [
       "customer.jhngzaf1.isp.starlink.com.",
@@ -17012,7 +17016,7 @@
     ],
     [
       "customer.sfiabgr1.isp.starlink.com.",
-      87
+      82
     ],
     [
       "customer.sfiabgr1.pop.starlinkisp.net.",
