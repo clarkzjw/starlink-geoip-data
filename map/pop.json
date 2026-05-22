@@ -1,25 +1,14 @@
 [
     {
-        "code": "",
-        "dns": "",
-        "city": "Salt Lake City",
-        "country": "USA",
-        "lat": 40.480032,
-        "lon": -111.904533,
-        "show": true,
-        "type": "netfac",
-        "note": "There are two Interconnection Facilities (netfac) in Salt Lake City as indicated by PeeringDB.<br>GeoIP records only have one `sltyutx1`. <br>DataBank Salt Lake City (SLC2)<br><a href=\"https://www.peeringdb.com/fac/4294\" href=\"_blank\">https://www.peeringdb.com/fac/4294</a><br>"
-    },
-    {
         "code": "aafbgux1",
         "dns": "customer.aafbgux1.pop.starlinkisp.net.",
         "city": "Andersen Air Force Base",
         "country": "Guam",
-        "lat": 13.5678396,
-        "lon": 144.9032476,
+        "lat": 13.616361,
+        "lon": 144.858722,
         "show": true,
-        "type": "pop",
-        "note": "To be verified"
+        "type": "community_gateway",
+        "note": "Katu Gato Community Gateway <a href=\"https://docs.fcc.gov/public/attachments/DOC-411304A1.pdf\" target=\"_blank\">[1]</a>,<a href=\"https: //www.andersen.af.mil/News/Article-Display/Article/3700412/a-new-way-to-train/\" target=\"_blank\">[2]</a>"
     },
     {
         "code": "acklnzl1",
@@ -95,8 +84,8 @@
         "lat": 56.465761,
         "lon": -130.186728,
         "show": true,
-        "type": "pop",
-        "note": "This is a community gateway at the Brucejack Mine.<br>"
+        "type": "community_gateway",
+        "note": "Brucejack Community gateway (Newcrest gold mine)<br>Authorization Number: 011068047-001, ISED Radio Frequence Search <a href=\"https://sms-sgs.ic.gc.ca/frequencySearch/searchByLicenceNumber\" target=\"_blank\">https://sms-sgs.ic.gc.ca/frequencySearch/searchByLicenceNumber</a>"
     },
     {
         "code": "brsabra1",
@@ -132,6 +121,17 @@
         "note": "CoreSite - Chicago (CH1)<br><a href=\"https://www.peeringdb.com/fac/440\" target=\"_blank\">https://www.peeringdb.com/fac/440</a><br>"
     },
     {
+        "code": "chniind1",
+        "dns": "customer.chniind1.pop.starlinkisp.net.",
+        "city": "Chennai",
+        "country": "India",
+        "lat": 12.819,
+        "lon": 80.2215,
+        "show": true,
+        "type": "netfac",
+        "note": "Facility location unknown yet.<br>"
+    },
+    {
         "code": "chrhnzl1",
         "dns": "customer.chrhnzl1.pop.starlinkisp.net.",
         "city": "Christchurch",
@@ -158,11 +158,11 @@
         "dns": "customer.cpclspx1.pop.starlinkisp.net.",
         "city": "Cape Canaveral",
         "country": "USA",
-        "lat": 28.46,
-        "lon": -80.53,
+        "lat": 28.543417,
+        "lon": -80.666639,
         "show": true,
-        "type": "pop",
-        "note": "Not confirmed, this is <b>probably</b> a community gateway reversed for internal use. See <a href=\"https://x.com/GregScott_photo/status/1862483470817140902\" target=\"_blank\">https://x.com/GregScott_photo/status/1862483470817140902</a>.<br>"
+        "type": "community_gateway",
+        "note": "Presumably a community gateway for internal use. See <a href=\"https://x.com/GregScott_photo/status/1862483470817140902\" target=\"_blank\">https://x.com/GregScott_photo/status/1862483470817140902</a>.<br>"
     },
     {
         "code": "dhkabgd1",
@@ -174,6 +174,17 @@
         "show": true,
         "type": "netfac",
         "note": "Felicity IDC - Kaliakoir<br><a href=\"https://www.peeringdb.com/fac/15297\" target=\"_blank\">https://www.peeringdb.com/fac/15297</a><br>"
+    },
+    {
+        "code": "dlhiind1",
+        "dns": "customer.dlhiind1.pop.starlinkisp.net.",
+        "city": "Delhi",
+        "country": "India",
+        "lat": 28.67559,
+        "lon": 77.2234,
+        "show": true,
+        "type": "netfac",
+        "note": "Facility location unknown yet.<br>"
     },
     {
         "code": "dllstxx1",
@@ -228,7 +239,7 @@
         "lon": -166.5375512,
         "show": true,
         "type": "community_gateway",
-        "note": "This is a <a href='https://www.starlinkinternet.info/community-gateway' target='_blank'>community gateway</a>. <br>"
+        "note": "This is a <a href='https://www.starlinkinternet.info/community-gateway' target='_blank'>community gateway</a> by OptimERA Networks. <br>"
     },
     {
         "code": "frntdeu1",
@@ -286,17 +297,6 @@
         "note": "Teraco Johannesburg Campus, South Africa<br><a href=\"https://www.peeringdb.com/fac/850\" target=\"_blank\">https://www.peeringdb.com/fac/850</a><br>"
     },
     {
-        "code": "jtnaidn1",
-        "dns": "customer.jtnaidn1.pop.starlinkisp.net.",
-        "city": "Jakarta",
-        "country": "Indonesia",
-        "lat": -6.237998,
-        "lon": 106.823452,
-        "show": true,
-        "type": "netfac",
-        "note": "NTT Jakarta 2 Data Center (JKT2)<br><a href=\"https://www.peeringdb.com/fac/5865\" target=\"_blank\">https://www.peeringdb.com/fac/5865</a><br>"
-    },
-    {
         "code": "jtnaidn2",
         "dns": "customer.jtnaidn2.pop.starlinkisp.net.",
         "city": "Jakarta",
@@ -316,7 +316,7 @@
         "lon": -122.2346573,
         "show": true,
         "type": "pop",
-        "note": "Not confirmed, this is <b>probably</b> a testing site for Starlink.<br>"
+        "note": "This is <b>probably</b> a testing site for Starlink.<br>"
     },
     {
         "code": "kjjqcan1",
@@ -326,8 +326,19 @@
         "lat": 58.10322210359546,
         "lon": -68.40237197628633,
         "show": true,
-        "type": "pop",
+        "type": "community_gateway",
         "note": "This is a <a href=\"https://krg.ca/en-CA/KRG-deploying-Starlink-gateway-terminals-to-bring-high-speed-internet-access-to-Ungava-Bay\" target=\"_blank\">community gateway</a>.<br>"
+    },
+    {
+        "code": "klkaind1",
+        "dns": "customer.klkaind1.pop.starlinkisp.net.",
+        "city": "Kolkata",
+        "country": "India",
+        "lat": 22.55936,
+        "lon": 88.35902,
+        "show": true,
+        "type": "netfac",
+        "note": "Facility location unknown yet.<br>"
     },
     {
         "code": "knsymox1",
@@ -370,8 +381,8 @@
         "lat": -6.0871128,
         "lon": 142.7457585,
         "show": true,
-        "type": "pop",
-        "note": "This is a <a href='https://www.starlinkinternet.info/community-gateway' target='_blank'>community gateway</a> at the Lihir gold mine?"
+        "type": "community_gateway",
+        "note": "This is a <a href='https://www.starlinkinternet.info/community-gateway' target='_blank'>community gateway</a> at the Lihir gold mine"
     },
     {
         "code": "limaper1",
@@ -539,17 +550,6 @@
         "note": "NEXTDC P1<br><a href=\"https://www.peeringdb.com/fac/1940\" target=\"_blank\">https://www.peeringdb.com/fac/1940</a><br>"
     },
     {
-        "code": "pthpakx",
-        "dns": "customer.pthpakx.pop.starlinkisp.net.",
-        "city": "Point Hope",
-        "country": "USA",
-        "lat": 68.3545431,
-        "lon": -166.7767095,
-        "show": true,
-        "type": "pop",
-        "note": "Not confirmed, this is <b>probably</b> a <a href='https://www.starlinkinternet.info/community-gateway' target='_blank'>community gateway</a>. <br>"
-    },
-    {
         "code": "qrtomex1",
         "dns": "customer.qrtomex1.pop.starlinkisp.net.",
         "city": "Quer\u00e9taro",
@@ -561,66 +561,13 @@
         "note": "KIO Quer\u00e9taro 1 (QRO1)<br><a href=\"https://www.peeringdb.com/fac/1778\" target=\"_blank\">https://www.peeringdb.com/fac/1778</a><br>"
     },
     {
-        "code": "rcxship1",
-        "dns": "customer.rcxship1.pop.starlinkisp.net.",
-        "city": "Unknown",
-        "country": "Unknown",
-        "lat": 0,
-        "lon": 0,
-        "show": false,
-        "note": "This is <b>probably</b> a community gateway installed on cruise ships."
-    },
-    {
-        "code": "rcxship2",
-        "dns": "customer.rcxship2.pop.starlinkisp.net.",
-        "city": "Unknown",
-        "country": "Unknown",
-        "lat": 0,
-        "lon": 0,
-        "show": false,
-        "note": "This is <b>probably</b> a community gateway installed on cruise ships."
-    },
-    {
-        "code": "rcxship3",
-        "dns": "customer.rcxship3.pop.starlinkisp.net.",
-        "city": "Unknown",
-        "country": "Unknown",
-        "lat": 0,
-        "lon": 0,
-        "show": false,
-        "note": "This is <b>probably</b> a community gateway installed on cruise ships."
-    },
-    {
-        "code": "rdmdwax3",
-        "dns": "customer.rdmdwax3.pop.starlinkisp.net.",
-        "city": "Staging",
-        "country": "USA",
-        "lat": 47.6739881,
-        "lon": -122.121512,
-        "show": false,
-        "type": "pop",
-        "note": "This is a staging placeholder for new subnet entries."
-    },
-    {
-        "code": "rdmdwax3rk3",
-        "dns": "customer.rdmdwax3rk3.pop.starlinkisp.net.",
-        "city": "Redmond",
-        "country": "USA",
-        "lat": 47.6739881,
-        "lon": -122.121512,
-        "show": false,
-        "type": "pop",
-        "note": "This is a staging placeholder for new subnet entries."
-    },
-    {
         "code": "sea",
         "dns": "customer.sea.pop.starlinkisp.net.",
-        "city": "Unknown",
-        "country": "Unknown",
+        "city": "",
+        "country": "",
         "lat": 0,
         "lon": 0,
-        "show": false,
-        "note": "Unknown"
+        "show": false
     },
     {
         "code": "sfiabgr1",
@@ -689,16 +636,6 @@
         "note": "Equinix SP4 - S\u00e3o Paulo<br><a href=\"https://www.peeringdb.com/fac/165\" target=\"_blank\">https://www.peeringdb.com/fac/165</a><br>"
     },
     {
-        "code": "spxship1",
-        "dns": "customer.spxship1.pop.starlinkisp.net.",
-        "city": "Unknown",
-        "country": "Unknown",
-        "lat": 0,
-        "lon": 0,
-        "show": false,
-        "note": "Not confirmed, this is <b>probably</b> a community gateway installed on SpaceX recovery drone ships \"A Shortfall of Gravitas\". See <a href=\"https://space-offshore.com/a-shortfall-of-gravitas/\" target=\"_blank\">A Shortfall of Gravitas</a>."
-    },
-    {
         "code": "srbaidn2",
         "dns": "customer.srbaidn2.pop.starlinkisp.net.",
         "city": "Surabaya",
@@ -710,29 +647,8 @@
         "note": "Omadata Data Center<br><a href=\"https://www.peeringdb.com/fac/5642\" target=\"_blank\">https://www.peeringdb.com/fac/5642</a><br>"
     },
     {
-        "code": "strespx2",
-        "dns": "customer.strespx2.pop.starlinkisp.net.",
-        "city": "Unknown",
-        "country": "Unknown",
-        "lat": 0,
-        "lon": 0,
-        "show": false,
-        "note": "Unknown"
-    },
-    {
         "code": "sttlwax1",
         "dns": "customer.sttlwax1.pop.starlinkisp.net.",
-        "city": "Seattle",
-        "country": "USA",
-        "lat": 47.614347,
-        "lon": -122.338883,
-        "show": true,
-        "type": "netfac",
-        "note": "Digital Realty Seattle SEA10<br><a href=\"https://www.peeringdb.com/fac/71\" target=\"_blank\">https://www.peeringdb.com/fac/71</a><br>"
-    },
-    {
-        "code": "sttlwax9",
-        "dns": "customer.sttlwax9.pop.starlinkisp.net.",
         "city": "Seattle",
         "country": "USA",
         "lat": 47.614347,

@@ -6,7 +6,6 @@ import ipaddress
 
 import pycountry
 import numpy as np
-import pandas as pd
 
 from pprint import pprint
 from pathlib import Path
@@ -15,6 +14,7 @@ from collections import defaultdict
 
 from brokenaxes import brokenaxes
 from matplotlib import pyplot as plt
+
 
 GEOIP_FEED_DIR = "../feed"
 GEOIP_DIR = "../geoip"
@@ -212,26 +212,35 @@ def plot_country_city_count():
 
 def plot_pop_density():
     print("Plotting PoP Serving Subnet Count")
+    with open(Path(GEOIP_DIR).joinpath("geoip-latest.json"), "r") as f:
+        data = json.load(f)
+        pop_subnet_count = data["pop_subnet_count"]
+        pop_density = {}
+        for pop, count in pop_subnet_count:
+            if re.match(r"customer\.[a-z0-9]+\.pop\.starlinkisp\.net\.", pop):
+                pop_code = pop.split(".")[1]
+                pop_density[pop_code] = count
 
-    df = pd.read_csv(Path(GEOIP_DIR).joinpath("geoip-pops-ptr-latest.csv"))
-    pop_density = df.groupby("pop").size().to_dict()
+        fig = plt.figure(figsize=(12, 8))
+        ax = fig.add_subplot(111)
 
-    fig = plt.figure(figsize=(14, 8))
-    ax = fig.add_subplot(111)
+        pop_density = dict(
+            sorted(pop_density.items(), key=lambda x: x[1], reverse=True)
+        )
 
-    pop_density = dict(sorted(pop_density.items(), key=lambda x: x[1], reverse=True))
-
-    x = np.arange(len(pop_density))
-    ax.bar(x, pop_density.values())
-    ax.set_xticks(x)
-    ax.set_xticklabels(pop_density.keys(), rotation=45, ha="right")
-    ax.set_xlabel("PoP")
-    ax.set_ylabel("Subnet Count")
-    plt.title("No. of Subnets Served per PoP as Planned in Starlink GeoIP Feed")
-    plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment="right")
-    plt.tight_layout()
-    plt.savefig("figures/geoip-pop-density.png")
-    plt.close()
+        x = np.arange(len(pop_density))
+        ax.bar(x, pop_density.values())
+        ax.set_xticks(x)
+        ax.set_xticklabels(pop_density.keys(), rotation=45, ha="right")
+        ax.set_xlabel("PoP")
+        ax.set_ylabel("Subnet Count")
+        plt.title("No. of Subnets Served per PoP as Planned in Starlink GeoIP Feed")
+        plt.figtext(
+            0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment="right"
+        )
+        plt.tight_layout()
+        plt.savefig("figures/geoip-pop-density.png")
+        plt.close()
 
 
 def plot_active_atlas_probes():
