@@ -9,9 +9,10 @@ package-mode = false
 [tool.poetry.dependencies]
 python = "^3.11"
 matplotlib = "^3.9.2"
-pycountry = "^24.6.1"
+pycountry = "^26.2.16"
 numpy = "^2.1.2"
 brokenaxes = "^0.6.2"
+pandas = "^3.0.3"
 
 
 [build-system]
