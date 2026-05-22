@@ -1,6 +1,6 @@
 # Starlink GeoIP Dataset
 
-📝 See the list of our related research work at https://oac.uvic.ca/starlink.
+📝 See the list of our related research work at https://oac.uvic.ca/starlink and https://oac.uvic.ca/leonet.
 
 📍 Check out the GeoIP visualization map at https://pan.uvic.ca/~clarkzjw/starlink.
 
@@ -39,6 +39,8 @@ Example:
 2a0d:3340:f400::/38,DE,DE-BE,Berlin,
 ```
 
+The GeoIP feed is represented in the format as defined in [RFC 8805](https://datatracker.ietf.org/doc/html/rfc8805).
+
 Each line in the GeoIP feed represents a subnet allocated to a region of Starlink users, with the following fields:
 
 `<IPv4 or IPv6 subnet CIDR>,<ISO 3166-2 Alpha 2 Country Code>,<Region or State Code>,<City>,`
@@ -47,7 +49,26 @@ Note that the `city` concept in the GeoIP feed does not necessarily correspond t
 
 Historical GeoIP feeds earlier than `2024` were retrieved from the [Wayback Machine](https://web.archive.org/web/*/https://geoip.starlinkisp.net/feed.csv).
 
+### [PoP Assignment](./pop/)
+
+Starlink publishes the list of Points of Presence (PoPs) assignment for each GeoFeed entry at https://geoip.starlinkisp.net/pops.csv since October 2025.
+
+```
+14.1.64.0/24,mnlaphl1,mnl
+2406:2d40::/38,mnlaphl1,mnl
+```
+
+Each line represents the PoP assignment for a GeoIP feed entry, with the following fields:
+
+`<IPv4 or IPv6 subnet CIDR>,<PoP code>,<IATA airport code>`
+
+Note that not all GeoIP feed entries have a corresponding PoP assignment. See [geoip-pops-ptr-latest.csv](./geoip/geoip-pops-ptr-latest.csv) for the joined data of GeoIP feed, PoP assignment, and DNS PTR records.
+
 ### [DNS PTR Records](./geoip/)
+
+**Note**: Starlink used to rely on the DNS PTR records to reflect the PoP association of each GeoIP feed entry before October 2025. However, it has been widely observed that Starlink's DNS provider does not consistently maintain accurate PTR records in a timely manner, leading to geolocation inaccuracies and issues like incorrect CDN and content localization. See [https://datatracker.ietf.org/doc/slides-ipgeows-paper-geofeed-in-the-wild-a-case-study-on-starlinkispnet/](https://datatracker.ietf.org/doc/slides-ipgeows-paper-geofeed-in-the-wild-a-case-study-on-starlinkispnet/). The following content are kept for historical reference.
+
+---
 
 This directory contains the corresponding DNS PTR records for the raw GeoIP feed.
 
@@ -131,11 +152,11 @@ This directory contains snapshots of raw JSON metrics for https://www.starlink.c
 * https://api.starlink.com/public-files/metrics_residential.json
 * https://api.starlink.com/public-files/metrics_maritime.json
 
-## [Data for GeoIP Map](./map/)
+### [Data for GeoIP Map](./map/)
 
 The [`map`](./map) directory contains the data used to render the GeoIP map available at [https://pan.uvic.ca/~clarkzjw/starlink/](https://pan.uvic.ca/~clarkzjw/starlink/).
 
-## [RIPE Atlas Probe List](./atlas/)
+### [RIPE Atlas Probe List](./atlas/)
 
 The [`atlas`](./atlas/) directory contains the list of [RIPE Atlas probes](https://atlas.ripe.net/probes/public) connected to Starlink networks.
 
@@ -144,23 +165,23 @@ The [`atlas`](./atlas/) directory contains the list of [RIPE Atlas probes](https
 [`active_probes.csv`](./atlas/active_probes.csv) contains the list of active probes with the status of `Connected` at the time of checking.
 For active probes, the corresponding DNS PTR records of the public IPs are checked with `dig -x <ip> +short` to get the corresponding PoP location.
 
-## [PeeringDB](./peeringdb/)
+### [PeeringDB](./peeringdb/)
 
 The [`peeringdb`](./peeringdb/) directory contains the information about Starlink networks ([18747/ASN 14593](https://www.peeringdb.com/net/18747), [36005/ASN 45700](https://www.peeringdb.com/net/36005)) available from https://www.peeringdb.com.
 
 It mainly contains the lists of Public Peering Exchange Points (`netixlan`) and Interconnection Facilities (`netfac`).
 
-## [BGP](./bgp/)
+### [BGP](./bgp/)
 
 The [`bgp`](./bgp/) directory contains the BGP announcements from Starlink ASN 14593/45700. Some subnets planned in GeoIP feed might not appear in BGP announcement yet.
 
 The BGP data is retrieved from [BGP.tools](https://bgp.tools/kb/api).
 
-## [Availability](./availability/)
+### [Availability](./availability/)
 
 See the [README](./availability/README.md) file in the [`availability`](./availability/) directory for more information.
 
-## [Plot](./plot/)
+### [Plot](./plot/)
 
 This directory contains the script to generate the figures in this README file as shown above. The figures are available in the [`figures`](https://github.com/clarkzjw/starlink-geoip-data/tree/figures) branch of this repository.
 
@@ -172,7 +193,6 @@ The repository is automatically updated by GitHub Actions at https://github.com/
 
 1. The GeoIP feed only represents the planned naming and addressing scheme of the Starlink ISP. It may not reflect the actual deployment status of Starlink ground stations or the availability of Starlink service in a given region.
 2. Some subnets listed in the GeoIP feed **may** not have been announced by BGP.
-3. Some subnets **might** be associated with outdated or inaccurate DNS PTR records, which do not reflect the actual PoP association.
 
 ## Disclaimer
 
