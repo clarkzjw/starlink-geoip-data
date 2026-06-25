@@ -741,6 +741,18 @@
             [
               "2a0d:3344:6400::/40",
               "customer.mlnnita1.isp.starlink.com."
+            ],
+            [
+              "153.67.227.0/25",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "153.67.227.128/25",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59ca:8071::/48",
+              ""
             ]
           ]
         }
@@ -3587,6 +3599,18 @@
             [
               "2a0d:3344:6000::/40",
               "customer.mlnnita1.isp.starlink.com."
+            ],
+            [
+              "153.67.226.0/25",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "153.67.226.128/25",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59ca:8070::/48",
+              ""
             ]
           ]
         }
@@ -4521,12 +4545,32 @@
               "customer.frntdeu1.isp.starlink.com."
             ],
             [
+              "153.67.228.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "153.67.229.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "153.67.230.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "153.67.231.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "198.54.100.64/32",
               "pop.anycast.starlinkisp.net."
             ],
             [
               "198.54.100.65/32",
               "pop.anycast.starlinkisp.net."
+            ],
+            [
+              "2605:59ca:8074::/46",
+              ""
             ],
             [
               "2620:134:b054:100::64/128",
@@ -16929,30 +16973,6 @@
               "customer.isp.starlink.com."
             ],
             [
-              "153.67.226.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "153.67.227.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "153.67.228.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "153.67.229.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "153.67.230.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "153.67.231.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
               "2605:59ca:8068::/45",
               ""
             ]
@@ -18046,7 +18066,7 @@
     ],
     [
       "customer.isp.starlink.com.",
-      216
+      218
     ],
     [
       "customer.jhngzaf1.isp.starlink.com.",
