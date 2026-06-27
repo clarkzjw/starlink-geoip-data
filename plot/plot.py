@@ -240,11 +240,23 @@ def plot_active_atlas_probes():
         data = json.load(f)
         probe_count = defaultdict(int)
         for probe in data:
+            if probe["country_code"] is None:
+                print("Probe ID: {} has no country code".format(probe["id"]))
+                continue
             if probe["status"]["name"] == "Connected":
-                country_name = pycountry.countries.get(
-                    alpha_2=probe["country_code"]
-                ).name
-                probe_count[country_name] += 1
+                try:
+                    country_name = pycountry.countries.get(
+                        alpha_2=probe["country_code"]
+                    ).name
+                    probe_count[country_name] += 1
+                except LookupError:
+                    print(
+                        "Country code {} not found in pycountry".format(
+                            probe["country_code"]
+                        )
+                    )
+                    print("Probe ID: {}".format(probe["id"]))
+                    exit(1)
 
         fig = plt.figure(figsize=(10, 6))
         ax = fig.add_subplot(111)
@@ -311,8 +323,8 @@ def plot_active_atlas_probe_per_pops():
 
 
 if __name__ == "__main__":
-    plot_subnet_count()
-    plot_country_city_count()
-    plot_pop_density()
+    # plot_subnet_count()
+    # plot_country_city_count()
+    # plot_pop_density()
     plot_active_atlas_probes()
     plot_active_atlas_probe_per_pops()
