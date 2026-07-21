@@ -194,6 +194,10 @@ The repository is automatically updated by GitHub Actions at https://github.com/
 1. The GeoIP feed only represents the planned naming and addressing scheme of the Starlink ISP. It may not reflect the actual deployment status of Starlink ground stations or the availability of Starlink service in a given region.
 2. Some subnets listed in the GeoIP feed **may** not have been announced by BGP.
 
+## License
+
+This repository is licensed under [CC-BY-SA 4.0](./LICENSE).
+
 ## Disclaimer
 
 This repository is not affiliated with, endorsed by, or in any way connected to Starlink, SpaceX Inc., or any of their subsidiaries. All content provided here is either independently developed or obtained from publicly available sources on the Internet and is for educational and informational purposes only.
