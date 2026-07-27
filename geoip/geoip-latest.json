@@ -13282,14 +13282,6 @@
             ]
           ]
         },
-        "San Diego": {
-          "ips": [
-            [
-              "2605:59c0:9500::/40",
-              "customer.tmpeazx1.isp.starlink.com."
-            ]
-          ]
-        },
         "Vandenburg": {
           "ips": [
             [
@@ -18317,12 +18309,36 @@
               "customer.nrbiken1.isp.starlink.com."
             ],
             [
+              "145.224.98.0/24",
+              "customer.frntdeu1.isp.starlink.com."
+            ],
+            [
+              "145.224.99.0/24",
+              "customer.frntdeu1.isp.starlink.com."
+            ],
+            [
+              "145.224.126.0/24",
+              "customer.nrbiken1.isp.starlink.com."
+            ],
+            [
+              "145.224.127.0/24",
+              "customer.nrbiken1.isp.starlink.com."
+            ],
+            [
               "150.228.10.0/24",
               "customer.frntdeu1.isp.starlink.com."
             ],
             [
               "150.228.11.0/24",
               "customer.frntdeu1.isp.starlink.com."
+            ],
+            [
+              "209.198.150.0/24",
+              "customer.nrbiken1.isp.starlink.com."
+            ],
+            [
+              "209.198.151.0/24",
+              "customer.nrbiken1.isp.starlink.com."
             ],
             [
               "87.251.25.0/25",
@@ -18333,43 +18349,11 @@
               "customer.nrbiken1.isp.starlink.com."
             ],
             [
-              "145.224.98.0/25",
-              "customer.frntdeu1.isp.starlink.com."
-            ],
-            [
-              "145.224.98.128/25",
-              "customer.frntdeu1.isp.starlink.com."
-            ],
-            [
-              "145.224.99.0/25",
-              "customer.frntdeu1.isp.starlink.com."
-            ],
-            [
-              "145.224.99.128/25",
-              "customer.frntdeu1.isp.starlink.com."
-            ],
-            [
               "145.224.125.0/25",
               "customer.nrbiken1.isp.starlink.com."
             ],
             [
               "145.224.125.128/25",
-              "customer.nrbiken1.isp.starlink.com."
-            ],
-            [
-              "145.224.126.0/25",
-              "customer.nrbiken1.isp.starlink.com."
-            ],
-            [
-              "145.224.126.128/25",
-              "customer.nrbiken1.isp.starlink.com."
-            ],
-            [
-              "145.224.127.0/25",
-              "customer.nrbiken1.isp.starlink.com."
-            ],
-            [
-              "145.224.127.128/25",
               "customer.nrbiken1.isp.starlink.com."
             ],
             [
@@ -18379,22 +18363,6 @@
             [
               "209.198.132.128/25",
               "customer.frntdeu1.isp.starlink.com."
-            ],
-            [
-              "209.198.150.0/25",
-              "customer.nrbiken1.isp.starlink.com."
-            ],
-            [
-              "209.198.150.128/25",
-              "customer.nrbiken1.isp.starlink.com."
-            ],
-            [
-              "209.198.151.0/25",
-              "customer.nrbiken1.isp.starlink.com."
-            ],
-            [
-              "209.198.151.128/25",
-              "customer.nrbiken1.isp.starlink.com."
             ],
             [
               "2a0d:3341:bc00::/40",
@@ -18732,7 +18700,7 @@
     ],
     [
       "customer.frntdeu1.isp.starlink.com.",
-      166
+      164
     ],
     [
       "customer.frtabra1.isp.starlink.com.",
@@ -18836,7 +18804,7 @@
     ],
     [
       "customer.nrbiken1.isp.starlink.com.",
-      101
+      97
     ],
     [
       "customer.nwyynyx1.isp.starlink.com.",
@@ -18912,7 +18880,7 @@
     ],
     [
       "customer.tmpeazx1.isp.starlink.com.",
-      63
+      62
     ],
     [
       "customer.trnocan1.isp.starlink.com.",
