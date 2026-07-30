@@ -1441,6 +1441,22 @@
               "customer.sfiabgr1.isp.starlink.com."
             ],
             [
+              "216.147.122.0/24",
+              "customer.sfiabgr1.isp.starlink.com."
+            ],
+            [
+              "216.147.123.0/24",
+              "customer.sfiabgr1.isp.starlink.com."
+            ],
+            [
+              "2406:2d40:5900::/40",
+              "customer.almykaz1.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:8e00::/40",
+              "customer.sfiabgr1.isp.starlink.com."
+            ],
+            [
               "2a0d:3344:7200::/40",
               "customer.sfiabgr1.isp.starlink.com."
             ],
@@ -1685,6 +1701,14 @@
               "customer.sfiabgr1.isp.starlink.com."
             ],
             [
+              "9.246.146.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.246.147.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "150.228.110.0/24",
               "customer.sfiabgr1.isp.starlink.com."
             ],
@@ -1717,22 +1741,6 @@
               "customer.sfiabgr1.isp.starlink.com."
             ],
             [
-              "216.147.120.0/24",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
-              "216.147.121.0/24",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
-              "216.147.122.0/24",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
-              "216.147.123.0/24",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
               "145.224.108.0/25",
               "customer.sfiabgr1.isp.starlink.com."
             ],
@@ -1758,18 +1766,6 @@
             ],
             [
               "2a0d:3344:4c00::/38",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
-              "2406:2d40:5900::/40",
-              "customer.almykaz1.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:8c00::/40",
-              "customer.sfiabgr1.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:8e00::/40",
               "customer.sfiabgr1.isp.starlink.com."
             ],
             [
@@ -3019,6 +3015,14 @@
               "customer.sttlwax1.isp.starlink.com."
             ],
             [
+              "9.170.84.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.170.85.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "74.244.32.0/24",
               "customer.sttlwax1.isp.starlink.com."
             ],
@@ -3105,6 +3109,80 @@
             [
               "2605:59c7:f006::/48",
               ""
+            ]
+          ]
+        }
+      },
+      "CA-SK": {
+        "Regina": {
+          "ips": [
+            [
+              "9.170.82.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.170.83.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "129.222.96.0/24",
+              "customer.clgycan1.isp.starlink.com."
+            ],
+            [
+              "129.222.97.0/24",
+              "customer.clgycan1.isp.starlink.com."
+            ],
+            [
+              "129.222.153.0/24",
+              "customer.mplsmnx1.isp.starlink.com."
+            ],
+            [
+              "129.222.156.0/24",
+              "customer.mplsmnx1.isp.starlink.com."
+            ],
+            [
+              "129.222.157.0/24",
+              "customer.mplsmnx1.isp.starlink.com."
+            ],
+            [
+              "129.222.158.0/24",
+              "customer.mplsmnx1.isp.starlink.com."
+            ],
+            [
+              "143.105.58.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "143.105.59.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "179.64.114.0/24",
+              "customer.clgycan1.isp.starlink.com."
+            ],
+            [
+              "179.64.115.0/24",
+              "customer.clgycan1.isp.starlink.com."
+            ],
+            [
+              "216.234.192.0/24",
+              "customer.clgycan1.isp.starlink.com."
+            ],
+            [
+              "216.234.193.0/24",
+              "customer.clgycan1.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:5600::/40",
+              "customer.clgycan1.isp.starlink.com."
+            ],
+            [
+              "2605:59c1:1d00::/40",
+              "customer.clgycan1.isp.starlink.com."
+            ],
+            [
+              "2605:59ca:1100::/40",
+              "customer.mplsmnx1.isp.starlink.com."
             ]
           ]
         }
@@ -3453,72 +3531,6 @@
           ]
         }
       },
-      "CA-SK": {
-        "Regina": {
-          "ips": [
-            [
-              "129.222.96.0/24",
-              "customer.clgycan1.isp.starlink.com."
-            ],
-            [
-              "129.222.97.0/24",
-              "customer.clgycan1.isp.starlink.com."
-            ],
-            [
-              "129.222.153.0/24",
-              "customer.mplsmnx1.isp.starlink.com."
-            ],
-            [
-              "129.222.156.0/24",
-              "customer.mplsmnx1.isp.starlink.com."
-            ],
-            [
-              "129.222.157.0/24",
-              "customer.mplsmnx1.isp.starlink.com."
-            ],
-            [
-              "129.222.158.0/24",
-              "customer.mplsmnx1.isp.starlink.com."
-            ],
-            [
-              "143.105.58.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "143.105.59.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "179.64.114.0/24",
-              "customer.clgycan1.isp.starlink.com."
-            ],
-            [
-              "179.64.115.0/24",
-              "customer.clgycan1.isp.starlink.com."
-            ],
-            [
-              "216.234.192.0/24",
-              "customer.clgycan1.isp.starlink.com."
-            ],
-            [
-              "216.234.193.0/24",
-              "customer.clgycan1.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:5600::/40",
-              "customer.clgycan1.isp.starlink.com."
-            ],
-            [
-              "2605:59c1:1d00::/40",
-              "customer.clgycan1.isp.starlink.com."
-            ],
-            [
-              "2605:59ca:1100::/40",
-              "customer.mplsmnx1.isp.starlink.com."
-            ]
-          ]
-        }
-      },
       "CA-NS": {
         "Halifax": {
           "ips": [
@@ -3747,11 +3759,19 @@
               "customer.mlnnita1.isp.starlink.com."
             ],
             [
+              "9.161.147.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "153.67.226.0/24",
               "customer.isp.starlink.com."
             ],
             [
               "2605:59ca:8070::/48",
+              ""
+            ],
+            [
+              "2605:59ca:8084::/48",
               ""
             ]
           ]
@@ -4067,12 +4087,24 @@
               "customer.limaper1.isp.starlink.com."
             ],
             [
+              "9.161.142.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.143.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "198.54.100.18/32",
               "pop.anycast.starlinkisp.net."
             ],
             [
               "198.54.100.19/32",
               "pop.anycast.starlinkisp.net."
+            ],
+            [
+              "2605:59ca:8086::/47",
+              ""
             ],
             [
               "2620:134:b054:100::18/128",
@@ -6694,6 +6726,22 @@
             ],
             [
               "2a0d:3344:3600::/42",
+              ""
+            ],
+            [
+              "9.161.136.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.148.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.149.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59ca:8078::/46",
               ""
             ]
           ]
@@ -9577,14 +9625,6 @@
               "customer.qrtomex1.isp.starlink.com."
             ],
             [
-              "216.234.204.0/24",
-              "customer.qrtomex1.isp.starlink.com."
-            ],
-            [
-              "216.234.205.0/24",
-              "customer.qrtomex1.isp.starlink.com."
-            ],
-            [
               "129.222.65.0/25",
               "customer.qrtomex1.isp.starlink.com."
             ],
@@ -9651,6 +9691,22 @@
             [
               "2803:9810:a200::/40",
               "customer.mmmiflx1.isp.starlink.com."
+            ],
+            [
+              "9.161.144.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.145.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.146.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59ca:8080::/46",
+              ""
             ]
           ]
         }
@@ -10627,6 +10683,14 @@
         "Papeete": {
           "ips": [
             [
+              "65.181.28.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "65.181.29.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "179.65.158.0/24",
               ""
             ],
@@ -10637,6 +10701,10 @@
             [
               "2406:2d40:3400::/40",
               "customer.sydyaus1.isp.starlink.com."
+            ],
+            [
+              "2406:2d40:3500::/40",
+              ""
             ]
           ]
         }
@@ -10841,12 +10909,24 @@
               "customer.mnlaphl1.isp.starlink.com."
             ],
             [
+              "9.161.140.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.141.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "198.54.100.12/32",
               "pop.anycast.starlinkisp.net."
             ],
             [
               "198.54.100.13/32",
               "pop.anycast.starlinkisp.net."
+            ],
+            [
+              "2605:59ca:8072::/47",
+              ""
             ],
             [
               "2620:134:b054:100::12/128",
@@ -11037,6 +11117,14 @@
               "customer.mmmiflx1.isp.starlink.com."
             ],
             [
+              "216.147.124.0/24",
+              "customer.mmmiflx1.isp.starlink.com."
+            ],
+            [
+              "216.147.125.0/24",
+              "customer.mmmiflx1.isp.starlink.com."
+            ],
+            [
               "66.9.165.0/25",
               "customer.mmmiflx1.isp.starlink.com."
             ],
@@ -11046,6 +11134,10 @@
             ],
             [
               "2605:59c0:1300::/40",
+              "customer.mmmiflx1.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:8d00::/40",
               "customer.mmmiflx1.isp.starlink.com."
             ]
           ]
@@ -12253,11 +12345,23 @@
               "customer.almykaz1.isp.starlink.com."
             ],
             [
+              "216.147.120.0/24",
+              "customer.sfiabgr1.isp.starlink.com."
+            ],
+            [
+              "216.147.121.0/24",
+              "customer.sfiabgr1.isp.starlink.com."
+            ],
+            [
               "2406:2d40:3f00::/40",
               "customer.almykaz1.isp.starlink.com."
             ],
             [
               "2406:2d40:4a00::/40",
+              "customer.sfiabgr1.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:8c00::/40",
               "customer.sfiabgr1.isp.starlink.com."
             ]
           ]
@@ -13177,6 +13281,22 @@
               "customer.snjecax1.isp.starlink.com."
             ],
             [
+              "9.170.76.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.170.77.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.170.78.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.170.79.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "74.244.50.0/24",
               "customer.snjecax1.isp.starlink.com."
             ],
@@ -13286,22 +13406,6 @@
             ],
             [
               "153.67.203.0/24",
-              "customer.snjecax1.isp.starlink.com."
-            ],
-            [
-              "216.234.198.0/24",
-              "customer.snjecax1.isp.starlink.com."
-            ],
-            [
-              "216.234.199.0/24",
-              "customer.snjecax1.isp.starlink.com."
-            ],
-            [
-              "216.234.200.0/24",
-              "customer.snjecax1.isp.starlink.com."
-            ],
-            [
-              "216.234.201.0/24",
               "customer.snjecax1.isp.starlink.com."
             ],
             [
@@ -14297,6 +14401,102 @@
               "customer.dnvrcox1.isp.starlink.com."
             ],
             [
+              "9.161.128.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.129.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.130.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.131.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.132.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.133.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.134.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.135.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.160.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.161.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.162.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.163.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.164.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.165.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.166.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.167.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.168.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.169.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.170.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.171.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.172.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.173.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.174.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.175.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "74.244.244.0/24",
               "customer.isp.starlink.com."
             ],
@@ -14470,6 +14670,10 @@
             ],
             [
               "2605:59c0:7000::/45",
+              ""
+            ],
+            [
+              "2605:59ca:8088::/45",
               ""
             ],
             [
@@ -15295,6 +15499,64 @@
           ]
         }
       },
+      "US-WY": {
+        "Cheyenne": {
+          "ips": [
+            [
+              "9.170.80.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.170.81.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "74.244.10.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "74.244.11.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "98.97.54.0/24",
+              "customer.mmmiflx1.isp.starlink.com."
+            ],
+            [
+              "98.97.55.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "153.66.48.0/24",
+              "customer.dnvrcox1.isp.starlink.com."
+            ],
+            [
+              "170.203.222.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "170.203.223.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "216.234.202.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "216.234.203.0/24",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "2605:59ca:2300::/40",
+              "customer.sltyutx1.isp.starlink.com."
+            ],
+            [
+              "2605:59ca:5f00::/40",
+              "customer.dnvrcox1.isp.starlink.com."
+            ]
+          ]
+        }
+      },
       "US-CO": {
         "Denver": {
           "ips": [
@@ -15409,56 +15671,22 @@
             [
               "2605:59ca:2200::/40",
               "customer.sltyutx1.isp.starlink.com."
-            ]
-          ]
-        }
-      },
-      "US-WY": {
-        "Cheyenne": {
-          "ips": [
-            [
-              "74.244.10.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
             ],
             [
-              "74.244.11.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
-            ],
-            [
-              "98.97.54.0/24",
-              "customer.mmmiflx1.isp.starlink.com."
-            ],
-            [
-              "98.97.55.0/24",
+              "9.161.137.0/24",
               "customer.isp.starlink.com."
             ],
             [
-              "153.66.48.0/24",
-              "customer.dnvrcox1.isp.starlink.com."
+              "9.161.138.0/24",
+              "customer.isp.starlink.com."
             ],
             [
-              "170.203.222.0/24",
-              "customer.sltyutx1.isp.starlink.com."
+              "9.161.139.0/24",
+              "customer.isp.starlink.com."
             ],
             [
-              "170.203.223.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "216.234.202.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "216.234.203.0/24",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "2605:59ca:2300::/40",
-              "customer.sltyutx1.isp.starlink.com."
-            ],
-            [
-              "2605:59ca:5f00::/40",
-              "customer.dnvrcox1.isp.starlink.com."
+              "2605:59ca:807c::/46",
+              ""
             ]
           ]
         }
@@ -16056,14 +16284,6 @@
             ],
             [
               "216.234.197.0/24",
-              "customer.ashnvax2.isp.starlink.com."
-            ],
-            [
-              "216.234.206.0/24",
-              "customer.ashnvax2.isp.starlink.com."
-            ],
-            [
-              "216.234.207.0/24",
               "customer.ashnvax2.isp.starlink.com."
             ],
             [
@@ -16695,14 +16915,6 @@
               "customer.mmmiflx1.isp.starlink.com."
             ],
             [
-              "216.147.124.0/24",
-              "customer.mmmiflx1.isp.starlink.com."
-            ],
-            [
-              "216.147.125.0/24",
-              "customer.mmmiflx1.isp.starlink.com."
-            ],
-            [
               "135.129.119.0/25",
               "customer.mmmiflx1.isp.starlink.com."
             ],
@@ -16724,10 +16936,6 @@
             ],
             [
               "2605:59c0:1700::/40",
-              "customer.mmmiflx1.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:8d00::/40",
               "customer.mmmiflx1.isp.starlink.com."
             ],
             [
@@ -17837,6 +18045,22 @@
               "customer.ashnvax2.isp.starlink.com."
             ],
             [
+              "9.161.150.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.151.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.152.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.161.153.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "153.67.224.0/24",
               "customer.isp.starlink.com."
             ],
@@ -18628,7 +18852,7 @@
     ],
     [
       "customer.ashnvax2.isp.starlink.com.",
-      116
+      114
     ],
     [
       "customer.atlagax1.isp.starlink.com.",
@@ -18712,7 +18936,7 @@
     ],
     [
       "customer.isp.starlink.com.",
-      124
+      180
     ],
     [
       "customer.jhngzaf1.isp.starlink.com.",
@@ -18816,7 +19040,7 @@
     ],
     [
       "customer.qrtomex1.isp.starlink.com.",
-      99
+      97
     ],
     [
       "customer.sea.pop.starlinkisp.net.",
@@ -18844,7 +19068,7 @@
     ],
     [
       "customer.snjecax1.isp.starlink.com.",
-      59
+      55
     ],
     [
       "customer.sntochl1.isp.starlink.com.",
