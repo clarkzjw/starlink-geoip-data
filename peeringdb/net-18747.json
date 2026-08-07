@@ -67,11 +67,11 @@
             "info_multicast": false,
             "info_ipv6": true,
             "info_never_via_route_servers": false,
-            "ix_count": 72,
-            "fac_count": 55,
+            "ix_count": 73,
+            "fac_count": 59,
             "notes": "",
-            "netixlan_updated": "2026-06-03T00:03:16Z",
-            "netfac_updated": "2026-06-22T18:18:51Z",
+            "netixlan_updated": "2026-08-05T00:02:20Z",
+            "netfac_updated": "2026-07-23T20:31:49Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
             "policy_general": "Open",
@@ -619,6 +619,17 @@
                     "status": "ok"
                 },
                 {
+                    "id": 89388,
+                    "name": "QTS Hillsboro (HIL1)",
+                    "city": "Hillsboro",
+                    "country": "US",
+                    "fac_id": 7872,
+                    "local_asn": 14593,
+                    "created": "2026-07-23T20:31:20Z",
+                    "updated": "2026-07-23T20:31:20Z",
+                    "status": "ok"
+                },
+                {
                     "id": 80352,
                     "name": "Meeza Data Center - MV2",
                     "city": "Doha",
@@ -674,6 +685,17 @@
                     "status": "ok"
                 },
                 {
+                    "id": 89387,
+                    "name": "OMNIDC BATAM",
+                    "city": "Batam City",
+                    "country": "ID",
+                    "fac_id": 15033,
+                    "local_asn": 14593,
+                    "created": "2026-07-23T20:31:04Z",
+                    "updated": "2026-07-23T20:31:04Z",
+                    "status": "ok"
+                },
+                {
                     "id": 82167,
                     "name": "Felicity IDC - Kaliakoir",
                     "city": "Gazipur",
@@ -682,6 +704,28 @@
                     "local_asn": 14593,
                     "created": "2025-10-01T18:10:03Z",
                     "updated": "2025-10-01T18:10:04Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 89389,
+                    "name": "FPT Fornix HCM 02",
+                    "city": "Ho Chi Minh City",
+                    "country": "VN",
+                    "fac_id": 16356,
+                    "local_asn": 14593,
+                    "created": "2026-07-23T20:31:39Z",
+                    "updated": "2026-07-23T20:31:40Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 89390,
+                    "name": "ONIX Senegal",
+                    "city": "Dakar",
+                    "country": "SN",
+                    "fac_id": 16913,
+                    "local_asn": 14593,
+                    "created": "2026-07-23T20:31:49Z",
+                    "updated": "2026-07-23T20:31:49Z",
                     "status": "ok"
                 }
             ],
@@ -760,6 +804,25 @@
                     "ix_side_id": null,
                     "created": "2016-06-08T17:24:44Z",
                     "updated": "2022-12-09T01:11:32Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 31006,
+                    "ix_id": 172,
+                    "name": "STHIX - Stockholm: STH Peering",
+                    "ixlan_id": 172,
+                    "notes": "",
+                    "speed": 100000,
+                    "asn": 14593,
+                    "ipaddr4": "192.121.80.61",
+                    "ipaddr6": "2001:7f8:3e:0:a500:1:4593:2",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2016-10-19T12:48:56Z",
+                    "updated": "2026-07-07T23:02:31Z",
                     "status": "ok"
                 },
                 {
@@ -1802,9 +1865,9 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": null,
+                    "ix_side_id": 6,
                     "created": "2024-05-03T17:46:40Z",
-                    "updated": "2024-05-03T17:46:40Z",
+                    "updated": "2026-07-29T03:00:19Z",
                     "status": "ok"
                 },
                 {
@@ -2562,9 +2625,28 @@
                     "bfd_support": false,
                     "operational": true,
                     "net_side_id": null,
-                    "ix_side_id": 7011,
+                    "ix_side_id": 392,
                     "created": "2026-04-01T19:38:40Z",
-                    "updated": "2026-04-15T00:03:35Z",
+                    "updated": "2026-08-05T00:02:20Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 111125,
+                    "ix_id": 172,
+                    "name": "STHIX - Stockholm: STH Peering",
+                    "ixlan_id": 172,
+                    "notes": "",
+                    "speed": 100000,
+                    "asn": 14593,
+                    "ipaddr4": "192.121.80.51",
+                    "ipaddr6": "2001:7f8:3e:0:a500:1:4593:1",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2026-07-07T23:02:54Z",
+                    "updated": "2026-07-07T23:02:54Z",
                     "status": "ok"
                 }
             ],
@@ -2589,7 +2671,7 @@
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "logo": null,
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2026-06-22T18:18:52Z",
+            "updated": "2026-07-23T20:31:51Z",
             "status": "ok"
         }
     ],
