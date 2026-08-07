@@ -1024,7 +1024,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-06T23:33:39Z"
+            "since": "2026-08-07T00:40:31Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mntlcan1"
@@ -1906,7 +1906,7 @@
     {
         "address_v4": "14.1.75.212",
         "address_v6": "2406:2d40:6977:ca10:1:58ff:fe28:e095",
-        "asn_v4": 14593,
+        "asn_v4": null,
         "asn_v6": 14593,
         "country_code": "AU",
         "description": "Starlink",
@@ -1922,15 +1922,14 @@
         "id": 54769,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "14.1.74.0/23",
+        "prefix_v4": null,
         "prefix_v6": "2406:2d40:6900::/40",
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-06T22:23:26Z"
+            "since": "2026-08-07T00:28:22Z"
         },
         "type": "Probe",
-        "ipv4_ptr": "mlbeaus1",
         "ipv6_ptr": "mlbeaus1"
     },
     {
@@ -2308,9 +2307,9 @@
         "prefix_v4": "143.105.210.0/23",
         "prefix_v6": null,
         "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-08-06T23:39:24Z"
+            "id": 2,
+            "name": "Disconnected",
+            "since": "2026-08-07T00:49:31Z"
         },
         "type": "Probe",
         "ipv4_ptr": "lgosnga1"
@@ -3491,7 +3490,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-06T22:56:33Z"
+            "since": "2026-08-07T00:55:52Z"
         },
         "type": "Probe",
         "ipv4_ptr": "sydyaus1"
@@ -3527,7 +3526,7 @@
         "ipv6_ptr": "sttlwax1"
     },
     {
-        "address_v4": "150.228.219.93",
+        "address_v4": "150.228.219.235",
         "address_v6": "2406:2d40:3e9c:c510:da58:d7ff:fe03:d23",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -4030,7 +4029,7 @@
     {
         "address_v4": null,
         "address_v6": null,
-        "asn_v4": 5650,
+        "asn_v4": 12083,
         "asn_v6": null,
         "country_code": "US",
         "description": "Pi4 probe labeled Brad (Mobile)",
@@ -4046,12 +4045,12 @@
         "id": 1003608,
         "is_anchor": false,
         "is_public": false,
-        "prefix_v4": "47.192.0.0/12",
+        "prefix_v4": "24.35.41.0/24",
         "prefix_v6": null,
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-06T23:43:30Z"
+            "since": "2026-08-07T01:00:03Z"
         },
         "type": "Probe"
     },
@@ -4899,7 +4898,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-06T22:38:06Z"
+            "since": "2026-08-06T23:47:12Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mplsmnx1"
@@ -5193,9 +5192,9 @@
         "prefix_v4": "148.222.204.0/23",
         "prefix_v6": null,
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2026-08-06T12:36:02Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-08-07T00:42:56Z"
         },
         "type": "Probe",
         "ipv4_ptr": "sntochl1"
@@ -5291,7 +5290,7 @@
     },
     {
         "address_v4": "150.228.217.34",
-        "address_v6": "2406:2d40:a8ae:8610:54f2:5b54:8ee5:6d52",
+        "address_v6": "2406:2d40:a865:b810:3eec:efff:fec9:5178",
         "asn_v4": 14593,
         "asn_v6": 14593,
         "country_code": "KI",
@@ -6059,7 +6058,7 @@
         "ipv6_ptr": "tkyojpn1"
     },
     {
-        "address_v4": "150.228.11.22",
+        "address_v4": "145.224.99.88",
         "address_v6": "2a0d:3341:ef3f:cc08:20c:29ff:fec4:18f3",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -6077,7 +6076,7 @@
         "id": 1010769,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "150.228.10.0/23",
+        "prefix_v4": "145.224.98.0/23",
         "prefix_v6": "2a0d:3341:ef00::/40",
         "status": {
             "id": 1,
@@ -6585,7 +6584,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-06T22:02:08Z"
+            "since": "2026-08-07T00:35:11Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mlnnita1"
