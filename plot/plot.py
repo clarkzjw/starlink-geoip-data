@@ -323,8 +323,8 @@ def plot_active_atlas_probe_per_pops():
 
 
 if __name__ == "__main__":
-    # plot_subnet_count()
-    # plot_country_city_count()
-    # plot_pop_density()
+    plot_subnet_count()
+    plot_country_city_count()
+    plot_pop_density()
     plot_active_atlas_probes()
     plot_active_atlas_probe_per_pops()
