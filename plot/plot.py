@@ -227,10 +227,76 @@ def plot_pop_density():
     ax.set_xticklabels(pop_density.keys(), rotation=45, ha="right")
     ax.set_xlabel("PoP")
     ax.set_ylabel("Subnet Count")
-    plt.title("No. of Subnets Served per PoP as Planned in Starlink GeoIP Feed")
+    plt.title("No. of Subnets Served per PoP in pops.csv")
     plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment="right")
     plt.tight_layout()
     plt.savefig("figures/geoip-pop-density.png")
+    plt.close()
+
+
+def plot_pop_address_count():
+    print("Plotting PoP Address Count")
+
+    df = pd.read_csv(Path(GEOIP_DIR).joinpath("geoip-pops-ptr-latest.csv"))
+
+    ipv4_ips = defaultdict(int)
+    ipv6_56_subnets = defaultdict(int)
+
+    for cidr, pop in zip(df["cidr"], df["pop"]):
+        if pd.isna(pop):
+            continue
+        try:
+            ipaddress.IPv6Network(cidr)
+            ipv6_56_subnets[pop] += count_ipv6_56_subnets(cidr)
+        except ipaddress.AddressValueError:
+            try:
+                ipv4_ips[pop] += ipaddress.IPv4Network(cidr).num_addresses
+            except:
+                continue
+
+    ipv4_ips = dict(
+        sorted(
+            {k: v / 1000 for k, v in ipv4_ips.items()}.items(),
+            key=lambda x: x[1],
+            reverse=True,
+        )
+    )
+    ipv6_56_subnets = dict(
+        sorted(
+            {k: v / 1000000 for k, v in ipv6_56_subnets.items()}.items(),
+            key=lambda x: x[1],
+            reverse=True,
+        )
+    )
+
+    fig = plt.figure(figsize=(14, 8))
+    ax = fig.add_subplot(111)
+
+    x = np.arange(len(ipv4_ips))
+    ax.bar(x, ipv4_ips.values())
+    ax.set_xticks(x)
+    ax.set_xticklabels(ipv4_ips.keys(), rotation=45, ha="right")
+    ax.set_xlabel("PoP")
+    ax.set_ylabel("Usable IP Address Count (Thousands)")
+    plt.title("No. of Usable IPv4 Addresses per PoP in pops.csv")
+    plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment="right")
+    plt.tight_layout()
+    plt.savefig("figures/geoip-pop-v4-ip-count.png")
+    plt.close()
+
+    fig = plt.figure(figsize=(14, 8))
+    ax = fig.add_subplot(111)
+
+    x = np.arange(len(ipv6_56_subnets))
+    ax.bar(x, ipv6_56_subnets.values())
+    ax.set_xticks(x)
+    ax.set_xticklabels(ipv6_56_subnets.keys(), rotation=45, ha="right")
+    ax.set_xlabel("PoP")
+    ax.set_ylabel("No. of /56 Subnets (Millions)")
+    plt.title("No. of IPv6 /56 Subnets per PoP in pops.csv")
+    plt.figtext(0.99, 0.01, "Date: {}".format(get_date()), horizontalalignment="right")
+    plt.tight_layout()
+    plt.savefig("figures/geoip-pop-v6_56_subnet-count.png")
     plt.close()
 
 
@@ -326,5 +392,6 @@ if __name__ == "__main__":
     plot_subnet_count()
     plot_country_city_count()
     plot_pop_density()
+    plot_pop_address_count()
     plot_active_atlas_probes()
     plot_active_atlas_probe_per_pops()
