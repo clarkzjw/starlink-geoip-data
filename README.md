@@ -20,6 +20,10 @@ The source code used to generate this repository is available at [clarkzjw/starl
 
 ![](https://raw.githubusercontent.com/clarkzjw/starlink-geoip-data/refs/heads/figures/geoip-pop-density.png)
 
+![](https://raw.githubusercontent.com/clarkzjw/starlink-geoip-data/refs/heads/figures/geoip-pop-v4-ip-count.png)
+
+![](https://raw.githubusercontent.com/clarkzjw/starlink-geoip-data/refs/heads/figures/geoip-pop-v6_56_subnet-count.png)
+
 ![](https://raw.githubusercontent.com/clarkzjw/starlink-geoip-data/refs/heads/figures/atlas-active-probes.png)
 
 ![](https://raw.githubusercontent.com/clarkzjw/starlink-geoip-data/refs/heads/figures/atlas-active-probes-per-pop.png)
