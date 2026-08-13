@@ -528,7 +528,7 @@
         "ipv4_ptr": "mlnnita1"
     },
     {
-        "address_v4": "143.105.152.134",
+        "address_v4": "143.105.152.30",
         "address_v6": null,
         "asn_v4": 14593,
         "asn_v6": null,
@@ -551,7 +551,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-13T10:34:37Z"
+            "since": "2026-08-13T13:38:03Z"
         },
         "type": "Probe",
         "ipv4_ptr": "lgosnga1"
@@ -2398,7 +2398,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-12T18:07:10Z"
+            "since": "2026-08-13T16:35:58Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mlbeaus1"
@@ -2788,7 +2788,7 @@
         "ipv6_ptr": "mntlcan1"
     },
     {
-        "address_v4": "153.66.69.45",
+        "address_v4": "153.66.69.6",
         "address_v6": "fd6d:8cb0:ae47:1b:da58:d7ff:fe03:17c",
         "asn_v4": 14593,
         "asn_v6": null,
@@ -2811,7 +2811,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-13T12:55:13Z"
+            "since": "2026-08-13T16:36:54Z"
         },
         "type": "Probe",
         "ipv4_ptr": "knsymox1"
@@ -2906,7 +2906,7 @@
         "ipv6_ptr": "gtmygtm1"
     },
     {
-        "address_v4": "153.66.189.16",
+        "address_v4": "153.66.187.100",
         "address_v6": "2605:59ca:6786:e300:da58:d7ff:fe03:4f0",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -2924,12 +2924,12 @@
         "id": 61899,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "153.66.188.0/23",
+        "prefix_v4": "153.66.186.0/23",
         "prefix_v6": "2605:59ca:6700::/40",
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-12T23:53:00Z"
+            "since": "2026-08-13T15:45:19Z"
         },
         "type": "Probe",
         "ipv4_ptr": "chcoilx1",
@@ -3526,7 +3526,7 @@
         "ipv4_ptr": "jhngzaf1"
     },
     {
-        "address_v4": "150.228.175.174",
+        "address_v4": "150.228.175.143",
         "address_v6": null,
         "asn_v4": 14593,
         "asn_v6": null,
@@ -3547,9 +3547,9 @@
         "prefix_v4": "150.228.174.0/23",
         "prefix_v6": null,
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2026-08-13T12:10:05Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-08-13T16:01:37Z"
         },
         "type": "Probe",
         "ipv4_ptr": "tkyojpn1"
@@ -5408,7 +5408,7 @@
         "ipv6_ptr": "sydyaus1"
     },
     {
-        "address_v4": "150.228.217.37",
+        "address_v4": "150.228.217.57",
         "address_v6": "2406:2d40:a865:b810:9e5c:ac9d:826d:2181",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -5431,7 +5431,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-12T15:44:57Z"
+            "since": "2026-08-13T15:18:20Z"
         },
         "type": "Probe",
         "ipv4_ptr": "sydyaus1",
@@ -5874,7 +5874,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-13T13:09:48Z"
+            "since": "2026-08-13T14:46:28Z"
         },
         "type": "Probe",
         "ipv4_ptr": "jhngzaf1"
@@ -6469,34 +6469,6 @@
         "type": "Probe",
         "ipv4_ptr": "frntdeu1",
         "ipv6_ptr": "frntdeu1"
-    },
-    {
-        "address_v4": "125.63.8.213",
-        "address_v6": null,
-        "asn_v4": 38195,
-        "asn_v6": null,
-        "country_code": "AU",
-        "description": null,
-        "firmware_version": 5110,
-        "first_connected": 1760085411,
-        "geometry": {
-            "type": "Point",
-            "coordinates": [
-                144.9705,
-                -37.8195
-            ]
-        },
-        "id": 1013066,
-        "is_anchor": false,
-        "is_public": true,
-        "prefix_v4": "125.63.0.0/19",
-        "prefix_v6": null,
-        "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-08-13T13:16:31Z"
-        },
-        "type": "Probe"
     },
     {
         "address_v4": "153.67.103.208",
