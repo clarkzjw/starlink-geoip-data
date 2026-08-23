@@ -60,6 +60,35 @@
         "ipv6_ptr": "frntdeu1"
     },
     {
+        "address_v4": "9.246.37.11",
+        "address_v6": null,
+        "asn_v4": 14593,
+        "asn_v6": null,
+        "country_code": "NL",
+        "description": "Censit Networks Harderwijk",
+        "firmware_version": 4790,
+        "first_connected": 1313073774,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                5.6495,
+                52.3605
+            ]
+        },
+        "id": 946,
+        "is_anchor": false,
+        "is_public": true,
+        "prefix_v4": "9.246.36.0/23",
+        "prefix_v6": null,
+        "status": {
+            "id": 2,
+            "name": "Disconnected",
+            "since": "2026-08-23T16:10:40Z"
+        },
+        "type": "Probe",
+        "ipv4_ptr": "frntdeu1"
+    },
+    {
         "address_v4": "145.224.104.74",
         "address_v6": "fdf2:52e:1470:2fc3:220:4aff:fec7:bb3a",
         "asn_v4": 14593,
@@ -590,9 +619,9 @@
     },
     {
         "address_v4": "98.97.41.139",
-        "address_v6": null,
+        "address_v6": "2605:59ca:3452:7c14:c24a:ff:fecc:716e",
         "asn_v4": 14593,
-        "asn_v6": null,
+        "asn_v6": 14593,
         "country_code": "US",
         "description": "",
         "firmware_version": 0,
@@ -608,14 +637,15 @@
         "is_anchor": false,
         "is_public": true,
         "prefix_v4": "98.97.40.0/23",
-        "prefix_v6": null,
+        "prefix_v6": "2605:59ca:3400::/40",
         "status": {
             "id": 3,
             "name": "Abandoned",
             "since": "2023-09-20T14:52:01Z"
         },
         "type": "Probe",
-        "ipv4_ptr": "sttlwax1"
+        "ipv4_ptr": "sttlwax1",
+        "ipv6_ptr": "sttlwax1"
     },
     {
         "address_v4": "145.224.73.190",
@@ -965,7 +995,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-23T12:36:24Z"
+            "since": "2026-08-23T15:59:57Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mntlcan1"
@@ -1635,7 +1665,7 @@
         "status": {
             "id": 2,
             "name": "Disconnected",
-            "since": "2026-08-23T12:28:56Z"
+            "since": "2026-08-23T16:19:51Z"
         },
         "type": "Probe",
         "ipv4_ptr": "frntdeu1",
@@ -2672,7 +2702,7 @@
         "ipv6_ptr": "sttlwax1"
     },
     {
-        "address_v4": "216.234.223.143",
+        "address_v4": "216.234.223.56",
         "address_v6": "2803:9810:5f45:1400:da58:d7ff:fe03:2e2",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -2693,9 +2723,9 @@
         "prefix_v4": "216.234.222.0/23",
         "prefix_v6": "2803:9810:5f00::/40",
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2026-08-23T08:06:34Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-08-23T14:05:10Z"
         },
         "type": "Probe",
         "ipv4_ptr": "gtmygtm1",
@@ -3316,13 +3346,13 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-23T12:32:45Z"
+            "since": "2026-08-23T13:36:09Z"
         },
         "type": "Probe",
         "ipv4_ptr": "jhngzaf1"
     },
     {
-        "address_v4": "150.228.175.173",
+        "address_v4": "150.228.175.144",
         "address_v6": null,
         "asn_v4": 14593,
         "asn_v6": null,
@@ -3343,9 +3373,9 @@
         "prefix_v4": "150.228.174.0/23",
         "prefix_v6": null,
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2026-08-23T12:10:48Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-08-23T16:02:14Z"
         },
         "type": "Probe",
         "ipv4_ptr": "tkyojpn1"
@@ -3587,6 +3617,35 @@
         "type": "Probe",
         "ipv4_ptr": "bgtacol1",
         "ipv6_ptr": "bgtacol1"
+    },
+    {
+        "address_v4": "87.251.31.235",
+        "address_v6": null,
+        "asn_v4": 14593,
+        "asn_v6": null,
+        "country_code": "SE",
+        "description": "Villa Hamnvik",
+        "firmware_version": 5080,
+        "first_connected": 1720734003,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                17.9475,
+                58.9005
+            ]
+        },
+        "id": 65507,
+        "is_anchor": false,
+        "is_public": true,
+        "prefix_v4": "87.251.30.0/23",
+        "prefix_v6": null,
+        "status": {
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-08-23T14:18:10Z"
+        },
+        "type": "Probe",
+        "ipv4_ptr": "frntdeu1"
     },
     {
         "address_v4": "153.66.163.207",
@@ -5757,7 +5816,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-23T11:00:16Z"
+            "since": "2026-08-23T13:21:45Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mdrdesp1"
@@ -6061,7 +6120,7 @@
         "ipv6_ptr": "clgycan1"
     },
     {
-        "address_v4": "188.92.253.76",
+        "address_v4": "169.155.235.75",
         "address_v6": "2a0d:3344:2827:5308:5aa4:da98:da7e:3cb3",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -6079,12 +6138,12 @@
         "id": 1011326,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "188.92.252.0/23",
+        "prefix_v4": "169.155.234.0/23",
         "prefix_v6": "2a0d:3344:2800::/40",
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2026-08-18T19:49:25Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-08-23T14:35:54Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mdrdesp1",
