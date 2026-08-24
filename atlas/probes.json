@@ -619,9 +619,9 @@
     },
     {
         "address_v4": "98.97.41.139",
-        "address_v6": "2605:59ca:3452:7c14:c24a:ff:fecc:716e",
+        "address_v6": null,
         "asn_v4": 14593,
-        "asn_v6": 14593,
+        "asn_v6": null,
         "country_code": "US",
         "description": "",
         "firmware_version": 0,
@@ -637,15 +637,14 @@
         "is_anchor": false,
         "is_public": true,
         "prefix_v4": "98.97.40.0/23",
-        "prefix_v6": "2605:59ca:3400::/40",
+        "prefix_v6": null,
         "status": {
             "id": 3,
             "name": "Abandoned",
             "since": "2023-09-20T14:52:01Z"
         },
         "type": "Probe",
-        "ipv4_ptr": "sttlwax1",
-        "ipv6_ptr": "sttlwax1"
+        "ipv4_ptr": "sttlwax1"
     },
     {
         "address_v4": "145.224.73.190",
@@ -914,7 +913,7 @@
         "ipv6_ptr": "atlagax1"
     },
     {
-        "address_v4": "150.228.217.99",
+        "address_v4": "150.228.217.124",
         "address_v6": null,
         "asn_v4": 14593,
         "asn_v6": null,
@@ -935,9 +934,9 @@
         "prefix_v4": "150.228.216.0/23",
         "prefix_v6": null,
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2026-08-22T22:20:02Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-08-24T04:15:29Z"
         },
         "type": "Probe",
         "ipv4_ptr": "sydyaus1"
@@ -995,7 +994,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-24T00:59:52Z"
+            "since": "2026-08-24T04:47:02Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mntlcan1"
@@ -1555,35 +1554,6 @@
         "ipv4_ptr": "mntlcan1"
     },
     {
-        "address_v4": "129.222.78.238",
-        "address_v6": "fda3:7475:e729:4a1e:1:4cff:fe99:f220",
-        "asn_v4": 14593,
-        "asn_v6": null,
-        "country_code": "US",
-        "description": "Probe from Rise broadband in Ladonia, Tx",
-        "firmware_version": 5080,
-        "first_connected": 1554576563,
-        "geometry": {
-            "type": "Point",
-            "coordinates": [
-                -95.9405,
-                33.3675
-            ]
-        },
-        "id": 50941,
-        "is_anchor": false,
-        "is_public": true,
-        "prefix_v4": "129.222.72.0/21",
-        "prefix_v6": null,
-        "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-08-23T21:47:05Z"
-        },
-        "type": "Probe",
-        "ipv4_ptr": "dllstxx1"
-    },
-    {
         "address_v4": "98.97.106.97",
         "address_v6": null,
         "asn_v4": 14593,
@@ -1665,7 +1635,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-23T18:01:13Z"
+            "since": "2026-08-24T04:42:34Z"
         },
         "type": "Probe",
         "ipv4_ptr": "lndngbr1"
@@ -1692,9 +1662,9 @@
         "prefix_v4": "217.142.16.0/22",
         "prefix_v6": "2a0d:3344:1500::/40",
         "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-08-24T01:22:14Z"
+            "id": 2,
+            "name": "Disconnected",
+            "since": "2026-08-24T04:43:54Z"
         },
         "type": "Probe",
         "ipv4_ptr": "frntdeu1",
@@ -2247,12 +2217,12 @@
         "id": 60812,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "143.105.211.0/24",
+        "prefix_v4": "143.105.210.0/23",
         "prefix_v6": null,
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-24T01:03:56Z"
+            "since": "2026-08-24T04:07:28Z"
         },
         "type": "Probe",
         "ipv4_ptr": "lgosnga1"
@@ -2784,7 +2754,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-23T03:24:41Z"
+            "since": "2026-08-24T04:11:48Z"
         },
         "type": "Probe",
         "ipv4_ptr": "chcoilx1",
@@ -3433,7 +3403,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-24T00:43:15Z"
+            "since": "2026-08-24T01:28:28Z"
         },
         "type": "Probe",
         "ipv4_ptr": "sydyaus1"
@@ -4022,7 +3992,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-23T03:05:17Z"
+            "since": "2026-08-24T03:33:21Z"
         },
         "type": "Probe",
         "ipv4_ptr": ""
