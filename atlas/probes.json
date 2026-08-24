@@ -177,6 +177,35 @@
         "ipv6_ptr": "lndngbr1"
     },
     {
+        "address_v4": null,
+        "address_v6": null,
+        "asn_v4": null,
+        "asn_v6": 14593,
+        "country_code": "BG",
+        "description": "bg.megalan.tplink",
+        "firmware_version": 0,
+        "first_connected": 1364487523,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                23.4015,
+                42.6885
+            ]
+        },
+        "id": 10092,
+        "is_anchor": false,
+        "is_public": false,
+        "prefix_v4": null,
+        "prefix_v6": "2a0d:3344:3000::/40",
+        "status": {
+            "id": 3,
+            "name": "Abandoned",
+            "since": "2026-03-29T10:55:52.271988Z"
+        },
+        "type": "Probe",
+        "ipv6_ptr": ""
+    },
+    {
         "address_v4": "129.222.126.58",
         "address_v6": null,
         "asn_v4": 14593,
@@ -579,9 +608,9 @@
         "prefix_v4": "143.105.152.0/23",
         "prefix_v6": null,
         "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-08-24T13:56:02Z"
+            "id": 2,
+            "name": "Disconnected",
+            "since": "2026-08-24T18:16:51Z"
         },
         "type": "Probe",
         "ipv4_ptr": "lgosnga1"
@@ -1023,7 +1052,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-24T16:16:21Z"
+            "since": "2026-08-24T20:28:23Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mntlcan1"
@@ -1693,7 +1722,7 @@
         "status": {
             "id": 2,
             "name": "Disconnected",
-            "since": "2026-08-24T16:39:17Z"
+            "since": "2026-08-24T20:23:26Z"
         },
         "type": "Probe",
         "ipv4_ptr": "frntdeu1",
@@ -2246,12 +2275,12 @@
         "id": 60812,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "143.105.210.0/23",
+        "prefix_v4": "143.105.211.0/24",
         "prefix_v6": null,
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-24T16:33:49Z"
+            "since": "2026-08-24T20:34:25Z"
         },
         "type": "Probe",
         "ipv4_ptr": "lgosnga1"
@@ -2642,9 +2671,9 @@
     },
     {
         "address_v4": "153.66.69.31",
-        "address_v6": "fd6d:8cb0:ae47:1b:da58:d7ff:fe03:17c",
+        "address_v6": "2605:59ca:70de:c11b:da58:d7ff:fe03:17c",
         "asn_v4": 14593,
-        "asn_v6": null,
+        "asn_v6": 14593,
         "country_code": "US",
         "description": null,
         "firmware_version": 5080,
@@ -2660,14 +2689,15 @@
         "is_anchor": false,
         "is_public": true,
         "prefix_v4": "153.66.68.0/23",
-        "prefix_v6": null,
+        "prefix_v6": "2605:59ca:7000::/40",
         "status": {
             "id": 1,
             "name": "Connected",
             "since": "2026-08-24T12:05:19Z"
         },
         "type": "Probe",
-        "ipv4_ptr": "knsymox1"
+        "ipv4_ptr": "knsymox1",
+        "ipv6_ptr": "knsymox1"
     },
     {
         "address_v4": "153.66.169.107",
@@ -2782,7 +2812,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-24T10:15:23Z"
+            "since": "2026-08-24T20:25:17Z"
         },
         "type": "Probe",
         "ipv4_ptr": "chcoilx1",
@@ -5665,9 +5695,9 @@
         "prefix_v4": "206.83.124.0/23",
         "prefix_v6": "2406:2d40:3000::/40",
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2026-08-24T16:21:39Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-08-24T16:47:40Z"
         },
         "type": "Probe",
         "ipv4_ptr": "tkyojpn1",
@@ -5843,7 +5873,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-24T16:39:31Z"
+            "since": "2026-08-24T20:36:15Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mdrdesp1"
@@ -6934,7 +6964,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-08-23T22:12:43Z"
+            "since": "2026-08-24T19:48:05Z"
         },
         "type": "Probe",
         "ipv4_ptr": "jtnaidn2",

@@ -10259,6 +10259,14 @@
               "customer.frntdeu1.isp.starlink.com."
             ],
             [
+              "162.43.192.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "162.43.193.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "209.198.156.0/24",
               "customer.frntdeu1.isp.starlink.com."
             ],
@@ -10289,14 +10297,6 @@
             [
               "2a0d:3341:bb00::/40",
               "customer.frntdeu1.isp.starlink.com."
-            ],
-            [
-              "162.43.192.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "162.43.193.0/24",
-              "customer.isp.starlink.com."
             ],
             [
               "198.54.100.48/32",
@@ -11815,6 +11815,14 @@
               "customer.frntdeu1.isp.starlink.com."
             ],
             [
+              "150.228.0.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "150.228.1.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "212.105.144.0/24",
               "customer.stcmswe1.isp.starlink.com."
             ],
@@ -11829,14 +11837,6 @@
             [
               "2a0d:3341:f600::/40",
               "customer.frntdeu1.isp.starlink.com."
-            ],
-            [
-              "150.228.0.0/24",
-              "customer.isp.starlink.com."
-            ],
-            [
-              "150.228.1.0/24",
-              "customer.isp.starlink.com."
             ],
             [
               "153.67.254.0/24",
@@ -12764,11 +12764,11 @@
             ],
             [
               "9.246.152.0/24",
-              "customer.isp.starlink.com."
+              "customer.wrswpol1.isp.starlink.com."
             ],
             [
               "9.246.153.0/24",
-              "customer.isp.starlink.com."
+              "customer.wrswpol1.isp.starlink.com."
             ],
             [
               "66.9.180.0/24",
@@ -12980,11 +12980,11 @@
             ],
             [
               "145.224.86.0/24",
-              "customer.isp.starlink.com."
+              "customer.wrswpol1.isp.starlink.com."
             ],
             [
               "145.224.87.0/24",
-              "customer.isp.starlink.com."
+              "customer.wrswpol1.isp.starlink.com."
             ],
             [
               "145.224.100.0/24",
@@ -13212,11 +13212,11 @@
             ],
             [
               "9.170.86.0/24",
-              "customer.nrbiken1.isp.starlink.com."
+              "customer.isp.starlink.com."
             ],
             [
               "9.170.87.0/24",
-              "customer.nrbiken1.isp.starlink.com."
+              "customer.isp.starlink.com."
             ],
             [
               "2605:59c8:8400::/38",
@@ -17524,11 +17524,11 @@
             ],
             [
               "153.67.207.0/25",
-              "customer.isp.starlink.com."
+              "customer.prtdorx3.isp.starlink.com."
             ],
             [
               "153.67.207.128/25",
-              "customer.isp.starlink.com."
+              "customer.prtdorx3.isp.starlink.com."
             ],
             [
               "2605:59c8:2f00::/40",
@@ -17536,7 +17536,7 @@
             ],
             [
               "2605:59c8:8200::/40",
-              ""
+              "customer.prtdorx3.isp.starlink.com."
             ],
             [
               "2605:59ca:2500::/40",
@@ -19170,7 +19170,7 @@
     ],
     [
       "customer.isp.starlink.com.",
-      162
+      158
     ],
     [
       "customer.jhngzaf1.isp.starlink.com.",
@@ -19258,11 +19258,15 @@
     ],
     [
       "customer.nrbiken1.isp.starlink.com.",
-      132
+      130
     ],
     [
       "customer.nwyynyx1.isp.starlink.com.",
       92
+    ],
+    [
+      "customer.prtdorx3.isp.starlink.com.",
+      3
     ],
     [
       "customer.prthaus1.isp.starlink.com.",
@@ -19342,7 +19346,7 @@
     ],
     [
       "customer.wrswpol1.isp.starlink.com.",
-      161
+      165
     ],
     [
       "host.starlinkisp.net.",
