@@ -67,10 +67,10 @@
             "info_multicast": false,
             "info_ipv6": true,
             "info_never_via_route_servers": false,
-            "ix_count": 75,
+            "ix_count": 76,
             "fac_count": 65,
             "notes": "",
-            "netixlan_updated": "2026-09-07T21:19:30Z",
+            "netixlan_updated": "2026-09-08T04:39:52Z",
             "netfac_updated": "2026-08-25T17:12:48Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
@@ -1398,10 +1398,10 @@
                     "is_rs_peer": true,
                     "bfd_support": false,
                     "operational": true,
-                    "net_side_id": null,
+                    "net_side_id": 1660,
                     "ix_side_id": 1660,
                     "created": "2022-03-22T19:30:26Z",
-                    "updated": "2026-03-26T18:10:22Z",
+                    "updated": "2026-09-08T04:39:54Z",
                     "status": "ok"
                 },
                 {
@@ -1417,10 +1417,10 @@
                     "is_rs_peer": true,
                     "bfd_support": false,
                     "operational": true,
-                    "net_side_id": null,
+                    "net_side_id": 1660,
                     "ix_side_id": 1660,
                     "created": "2022-03-22T19:30:54Z",
-                    "updated": "2026-03-26T18:10:22Z",
+                    "updated": "2026-09-08T04:39:54Z",
                     "status": "ok"
                 },
                 {
@@ -2386,10 +2386,10 @@
                     "is_rs_peer": true,
                     "bfd_support": false,
                     "operational": true,
-                    "net_side_id": null,
+                    "net_side_id": 4688,
                     "ix_side_id": 4688,
                     "created": "2025-05-19T18:15:57Z",
-                    "updated": "2026-03-26T18:08:46Z",
+                    "updated": "2026-09-08T04:39:54Z",
                     "status": "ok"
                 },
                 {
@@ -2557,10 +2557,10 @@
                     "is_rs_peer": true,
                     "bfd_support": false,
                     "operational": true,
-                    "net_side_id": null,
+                    "net_side_id": 1940,
                     "ix_side_id": 1940,
                     "created": "2025-10-06T17:59:31Z",
-                    "updated": "2026-03-26T18:04:33Z",
+                    "updated": "2026-09-08T04:39:54Z",
                     "status": "ok"
                 },
                 {
@@ -2771,6 +2771,44 @@
                     "created": "2026-08-26T15:55:21Z",
                     "updated": "2026-08-27T00:19:16Z",
                     "status": "ok"
+                },
+                {
+                    "id": 112904,
+                    "ix_id": 2563,
+                    "name": "EdgeIX - Darwin: Darwin",
+                    "ixlan_id": 2563,
+                    "notes": "",
+                    "speed": 100000,
+                    "asn": 14593,
+                    "ipaddr4": "103.136.100.8",
+                    "ipaddr6": "2001:df0:680::8",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": 14550,
+                    "ix_side_id": null,
+                    "created": "2026-09-08T04:03:33Z",
+                    "updated": "2026-09-08T04:39:54Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 112905,
+                    "ix_id": 2563,
+                    "name": "EdgeIX - Darwin: Darwin",
+                    "ixlan_id": 2563,
+                    "notes": "",
+                    "speed": 100000,
+                    "asn": 14593,
+                    "ipaddr4": "103.136.100.9",
+                    "ipaddr6": "2001:df0:680::9",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": 14550,
+                    "ix_side_id": null,
+                    "created": "2026-09-08T04:04:44Z",
+                    "updated": "2026-09-08T04:39:54Z",
+                    "status": "ok"
                 }
             ],
             "poc_set": [
@@ -2794,7 +2832,7 @@
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "logo": null,
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2026-09-07T21:19:30Z",
+            "updated": "2026-09-08T04:39:52Z",
             "status": "ok"
         }
     ],
