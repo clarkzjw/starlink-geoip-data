@@ -499,7 +499,7 @@
         "ipv6_ptr": "sntochl1"
     },
     {
-        "address_v4": "150.228.85.109",
+        "address_v4": "150.228.85.45",
         "address_v6": "2a0d:3344:5ff3:4814:6666:b3ff:feb0:aafa",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -1050,9 +1050,9 @@
         "prefix_v4": "143.105.202.0/23",
         "prefix_v6": null,
         "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-09-08T08:37:50Z"
+            "id": 2,
+            "name": "Disconnected",
+            "since": "2026-09-08T16:02:40Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mntlcan1"
@@ -1781,7 +1781,7 @@
         "status": {
             "id": 2,
             "name": "Disconnected",
-            "since": "2026-09-08T08:33:02Z"
+            "since": "2026-09-08T16:11:17Z"
         },
         "type": "Probe",
         "ipv4_ptr": "frntdeu1",
@@ -2049,6 +2049,35 @@
         },
         "type": "Probe",
         "ipv4_ptr": "sttlwax1"
+    },
+    {
+        "address_v4": "145.224.66.229",
+        "address_v6": null,
+        "asn_v4": 14593,
+        "asn_v6": null,
+        "country_code": "GB",
+        "description": "Probe",
+        "firmware_version": 5080,
+        "first_connected": 1603961850,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -2.6325,
+                53.6195
+            ]
+        },
+        "id": 54814,
+        "is_anchor": false,
+        "is_public": true,
+        "prefix_v4": "145.224.64.0/21",
+        "prefix_v6": null,
+        "status": {
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-09-08T11:44:20Z"
+        },
+        "type": "Probe",
+        "ipv4_ptr": "lndngbr1"
     },
     {
         "address_v4": "209.198.129.102",
@@ -2906,7 +2935,7 @@
         "ipv6_ptr": "sttlwax1"
     },
     {
-        "address_v4": "216.234.223.41",
+        "address_v4": "216.234.223.224",
         "address_v6": "2803:9810:5f51:e200:da58:d7ff:fe03:2e2",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -2927,9 +2956,9 @@
         "prefix_v4": "216.234.222.0/23",
         "prefix_v6": "2803:9810:5f00::/40",
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2026-09-08T08:16:46Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-09-08T12:04:37Z"
         },
         "type": "Probe",
         "ipv4_ptr": "gtmygtm1",
@@ -2959,7 +2988,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-08T04:04:35Z"
+            "since": "2026-09-08T15:17:39Z"
         },
         "type": "Probe",
         "ipv4_ptr": "chcoilx1",
@@ -3201,6 +3230,35 @@
         "type": "Probe",
         "ipv4_ptr": "sttlwax1",
         "ipv6_ptr": "sttlwax1"
+    },
+    {
+        "address_v4": "98.97.39.214",
+        "address_v6": null,
+        "asn_v4": 14593,
+        "asn_v6": null,
+        "country_code": "US",
+        "description": "Ren's Probe - ToledoTel FIber w/Starlink Failover",
+        "firmware_version": 5080,
+        "first_connected": 1671129990,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -122.9285,
+                46.5215
+            ]
+        },
+        "id": 62498,
+        "is_anchor": false,
+        "is_public": true,
+        "prefix_v4": "98.97.32.0/21",
+        "prefix_v6": null,
+        "status": {
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-09-08T10:53:39Z"
+        },
+        "type": "Probe",
+        "ipv4_ptr": "sttlwax1"
     },
     {
         "address_v4": "145.224.75.33",
@@ -3753,12 +3811,12 @@
         "id": 65337,
         "is_anchor": false,
         "is_public": false,
-        "prefix_v4": "150.228.138.0/23",
+        "prefix_v4": "150.228.212.0/23",
         "prefix_v6": null,
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2026-09-08T06:51:03Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-09-08T10:52:38Z"
         },
         "type": "Probe",
         "ipv4_ptr": ""
@@ -4168,7 +4226,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-08T08:37:40Z"
+            "since": "2026-09-08T16:00:29Z"
         },
         "type": "Probe",
         "ipv4_ptr": ""
@@ -6020,7 +6078,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-08T08:38:44Z"
+            "since": "2026-09-08T13:14:40Z"
         },
         "type": "Probe",
         "ipv4_ptr": "jhngzaf1"
@@ -6049,10 +6107,39 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-07T11:34:53Z"
+            "since": "2026-09-08T12:44:11Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mlnnita1"
+    },
+    {
+        "address_v4": "150.228.19.135",
+        "address_v6": null,
+        "asn_v4": 14593,
+        "asn_v6": null,
+        "country_code": "FR",
+        "description": "FFX_SPACEX-STARLINK",
+        "firmware_version": 5080,
+        "first_connected": 1735056286,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                3.6775,
+                45.7885
+            ]
+        },
+        "id": 1009803,
+        "is_anchor": false,
+        "is_public": true,
+        "prefix_v4": "150.228.18.0/23",
+        "prefix_v6": null,
+        "status": {
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-09-08T14:35:15Z"
+        },
+        "type": "Probe",
+        "ipv4_ptr": "mdrdesp1"
     },
     {
         "address_v4": "129.222.59.225",
@@ -7140,7 +7227,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-05T07:38:10Z"
+            "since": "2026-09-08T14:42:52Z"
         },
         "type": "Probe",
         "ipv4_ptr": "jtnaidn2",
