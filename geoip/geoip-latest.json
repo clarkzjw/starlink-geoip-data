@@ -2289,14 +2289,6 @@
               "customer.splobra1.isp.starlink.com."
             ],
             [
-              "179.238.24.0/24",
-              "customer.splobra1.isp.starlink.com."
-            ],
-            [
-              "179.238.25.0/24",
-              "customer.splobra1.isp.starlink.com."
-            ],
-            [
               "179.238.112.0/24",
               "customer.splobra1.isp.starlink.com."
             ],
@@ -2370,10 +2362,6 @@
             ],
             [
               "2803:9810:4600::/40",
-              "customer.splobra1.isp.starlink.com."
-            ],
-            [
-              "2803:9810:4800::/40",
               "customer.splobra1.isp.starlink.com."
             ],
             [
@@ -2520,19 +2508,19 @@
             ],
             [
               "179.238.88.0/24",
-              "customer.frtabra1.isp.starlink.com."
+              "customer.brsabra1.isp.starlink.com."
             ],
             [
               "179.238.89.0/24",
-              "customer.frtabra1.isp.starlink.com."
+              "customer.brsabra1.isp.starlink.com."
             ],
             [
               "179.238.90.0/24",
-              "customer.frtabra1.isp.starlink.com."
+              "customer.brsabra1.isp.starlink.com."
             ],
             [
               "179.238.91.0/24",
-              "customer.frtabra1.isp.starlink.com."
+              "customer.brsabra1.isp.starlink.com."
             ],
             [
               "179.238.122.0/24",
@@ -2771,6 +2759,14 @@
         "Porto Alegre": {
           "ips": [
             [
+              "179.238.24.0/24",
+              "customer.splobra1.isp.starlink.com."
+            ],
+            [
+              "179.238.25.0/24",
+              "customer.splobra1.isp.starlink.com."
+            ],
+            [
               "179.238.102.0/24",
               "customer.bnssarg1.isp.starlink.com."
             ],
@@ -2813,6 +2809,10 @@
             [
               "2803:9810:6c00::/38",
               "customer.bnssarg1.isp.starlink.com."
+            ],
+            [
+              "2803:9810:4800::/40",
+              "customer.splobra1.isp.starlink.com."
             ]
           ]
         }
@@ -3614,11 +3614,11 @@
             ],
             [
               "143.105.8.0/24",
-              "customer.sttlwax1.isp.starlink.com."
+              "customer.clgycan1.isp.starlink.com."
             ],
             [
               "143.105.9.0/24",
-              "customer.sttlwax1.isp.starlink.com."
+              "customer.clgycan1.isp.starlink.com."
             ],
             [
               "143.105.92.0/24",
@@ -3646,11 +3646,11 @@
             ],
             [
               "170.203.216.0/24",
-              "customer.sttlwax1.isp.starlink.com."
+              "customer.clgycan1.isp.starlink.com."
             ],
             [
               "170.203.217.0/24",
-              "customer.sttlwax1.isp.starlink.com."
+              "customer.clgycan1.isp.starlink.com."
             ],
             [
               "170.203.218.0/24",
@@ -19446,7 +19446,7 @@
     ],
     [
       "customer.brsabra1.isp.starlink.com.",
-      41
+      45
     ],
     [
       "customer.brseaus1.isp.starlink.com.",
@@ -19466,7 +19466,7 @@
     ],
     [
       "customer.clgycan1.isp.starlink.com.",
-      58
+      62
     ],
     [
       "customer.dhkabgd1.isp.starlink.com.",
@@ -19502,7 +19502,7 @@
     ],
     [
       "customer.frtabra1.isp.starlink.com.",
-      55
+      51
     ],
     [
       "customer.gtmygtm1.isp.starlink.com.",
@@ -19666,7 +19666,7 @@
     ],
     [
       "customer.sttlwax1.isp.starlink.com.",
-      95
+      91
     ],
     [
       "customer.sydyaus1.isp.starlink.com.",
