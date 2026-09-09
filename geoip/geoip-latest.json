@@ -3928,6 +3928,38 @@
         }
       }
     },
+    "CG": {
+      "CG-BZV": {
+        "Brazzaville": {
+          "ips": [
+            [
+              "9.170.144.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.170.145.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.170.146.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.170.147.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59ca:8300::/40",
+              "customer.jhngzaf1.isp.starlink.com."
+            ],
+            [
+              "2605:59ca:8500::/40",
+              ""
+            ]
+          ]
+        }
+      }
+    },
     "CH": {
       "CH-ZH": {
         "Zurich": {
@@ -7543,6 +7575,10 @@
               "customer.mmbiind1.isp.starlink.com."
             ],
             [
+              "2406:2d40:c000::/38",
+              ""
+            ],
+            [
               "2406:2d40:2800::/40",
               "customer.mmbiind1.isp.starlink.com."
             ],
@@ -7580,10 +7616,6 @@
             ],
             [
               "198.54.100.61/32",
-              ""
-            ],
-            [
-              "2406:2d40:c000::/38",
               ""
             ],
             [
@@ -8899,8 +8931,20 @@
               "customer.mdrdesp1.isp.starlink.com."
             ],
             [
+              "9.170.148.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.170.149.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "2605:59c0:9400::/40",
               "customer.mdrdesp1.isp.starlink.com."
+            ],
+            [
+              "2605:59ca:1800::/40",
+              ""
             ]
           ]
         }
@@ -11829,10 +11873,6 @@
             [
               "2605:59c0:700e::/48",
               ""
-            ],
-            [
-              "2605:59c0:700f::/48",
-              ""
             ]
           ]
         }
@@ -12898,6 +12938,26 @@
         }
       }
     },
+    "TN": {
+      "TN-11": {
+        "Tunis": {
+          "ips": [
+            [
+              "9.170.150.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.170.151.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "2605:59ca:1700::/40",
+              ""
+            ]
+          ]
+        }
+      }
+    },
     "TO": {
       "TO-04": {
         "Nuku'alofa": {
@@ -13010,38 +13070,6 @@
       "UA-30": {
         "Kyiv": {
           "ips": [
-            [
-              "9.170.248.0/24",
-              "customer.wrswpol1.isp.starlink.com."
-            ],
-            [
-              "9.170.249.0/24",
-              "customer.wrswpol1.isp.starlink.com."
-            ],
-            [
-              "9.170.250.0/24",
-              "customer.wrswpol1.isp.starlink.com."
-            ],
-            [
-              "9.170.251.0/24",
-              "customer.wrswpol1.isp.starlink.com."
-            ],
-            [
-              "9.170.252.0/24",
-              "customer.wrswpol1.isp.starlink.com."
-            ],
-            [
-              "9.170.253.0/24",
-              "customer.wrswpol1.isp.starlink.com."
-            ],
-            [
-              "9.170.254.0/24",
-              "customer.wrswpol1.isp.starlink.com."
-            ],
-            [
-              "9.170.255.0/24",
-              "customer.wrswpol1.isp.starlink.com."
-            ],
             [
               "9.246.94.0/24",
               "customer.sfiabgr1.isp.starlink.com."
@@ -14594,10 +14622,6 @@
             ],
             [
               "2605:59c0:9900::/40",
-              "customer.chcoilx1.isp.starlink.com."
-            ],
-            [
-              "2605:59c0:9b00::/40",
               "customer.chcoilx1.isp.starlink.com."
             ],
             [
@@ -18367,10 +18391,6 @@
               "customer.knsymox1.isp.starlink.com."
             ],
             [
-              "2605:59c0:9700::/40",
-              "customer.knsymox1.isp.starlink.com."
-            ],
-            [
               "2605:59ca:5700::/40",
               "customer.mplsmnx1.isp.starlink.com."
             ],
@@ -19506,7 +19526,7 @@
     ],
     [
       "customer.chcoilx1.isp.starlink.com.",
-      130
+      129
     ],
     [
       "customer.chniind1.isp.starlink.com.",
@@ -19562,11 +19582,11 @@
     ],
     [
       "customer.isp.starlink.com.",
-      144
+      152
     ],
     [
       "customer.jhngzaf1.isp.starlink.com.",
-      97
+      98
     ],
     [
       "customer.jtnaidn2.pop.starlinkisp.net.",
@@ -19590,7 +19610,7 @@
     ],
     [
       "customer.knsymox1.isp.starlink.com.",
-      60
+      59
     ],
     [
       "customer.lgosnga1.isp.starlink.com.",
@@ -19742,7 +19762,7 @@
     ],
     [
       "customer.wrswpol1.isp.starlink.com.",
-      165
+      157
     ],
     [
       "host.starlinkisp.net.",
