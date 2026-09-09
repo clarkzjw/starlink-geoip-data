@@ -8155,12 +8155,24 @@
         "Amman": {
           "ips": [
             [
+              "9.170.142.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
+              "9.170.143.0/24",
+              "customer.isp.starlink.com."
+            ],
+            [
               "212.105.132.0/24",
               "customer.sfiabgr1.isp.starlink.com."
             ],
             [
               "212.105.133.0/24",
               "customer.sfiabgr1.isp.starlink.com."
+            ],
+            [
+              "2605:59c0:9500::/40",
+              "customer.tmpeazx1.isp.starlink.com."
             ],
             [
               "2a0d:3341:dc00::/40",
@@ -8362,6 +8374,26 @@
         }
       }
     },
+    "KH": {
+      "KH-12": {
+        "Phnom Penh": {
+          "ips": [
+            [
+              "179.65.54.0/24",
+              ""
+            ],
+            [
+              "179.65.55.0/24",
+              ""
+            ],
+            [
+              "2406:2d40:6200::/40",
+              ""
+            ]
+          ]
+        }
+      }
+    },
     "KI": {
       "KI-G": {
         "Tarawa": {
@@ -8529,6 +8561,26 @@
             [
               "2406:2d40:3c00::/40",
               "customer.almykaz1.isp.starlink.com."
+            ]
+          ]
+        }
+      }
+    },
+    "LA": {
+      "LA-VT": {
+        "Vientiane": {
+          "ips": [
+            [
+              "179.65.52.0/24",
+              ""
+            ],
+            [
+              "179.65.53.0/24",
+              ""
+            ],
+            [
+              "2406:2d40:6500::/40",
+              ""
             ]
           ]
         }
@@ -19510,7 +19562,7 @@
     ],
     [
       "customer.isp.starlink.com.",
-      142
+      144
     ],
     [
       "customer.jhngzaf1.isp.starlink.com.",
@@ -19682,7 +19734,7 @@
     ],
     [
       "customer.tmpeazx1.isp.starlink.com.",
-      68
+      69
     ],
     [
       "customer.trnocan1.isp.starlink.com.",
