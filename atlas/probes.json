@@ -550,9 +550,9 @@
         "prefix_v4": "143.105.152.0/23",
         "prefix_v6": null,
         "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-09-11T12:59:36Z"
+            "id": 2,
+            "name": "Disconnected",
+            "since": "2026-09-11T16:32:55Z"
         },
         "type": "Probe",
         "ipv4_ptr": "lgosnga1"
@@ -736,7 +736,7 @@
         "ipv6_ptr": "mnlaphl1"
     },
     {
-        "address_v4": "216.234.213.84",
+        "address_v4": "216.234.213.23",
         "address_v6": null,
         "asn_v4": 14593,
         "asn_v6": null,
@@ -757,9 +757,9 @@
         "prefix_v4": "216.234.213.0/24",
         "prefix_v6": null,
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2026-09-11T13:36:31Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-09-11T17:18:58Z"
         },
         "type": "Probe",
         "ipv4_ptr": "jhngzaf1"
@@ -1723,7 +1723,7 @@
         "status": {
             "id": 2,
             "name": "Disconnected",
-            "since": "2026-09-11T15:58:46Z"
+            "since": "2026-09-11T18:59:30Z"
         },
         "type": "Probe",
         "ipv4_ptr": "frntdeu1",
@@ -1780,9 +1780,9 @@
         "prefix_v4": "145.224.100.0/22",
         "prefix_v6": null,
         "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-09-11T14:40:34Z"
+            "id": 2,
+            "name": "Disconnected",
+            "since": "2026-09-11T18:05:20Z"
         },
         "type": "Probe",
         "ipv4_ptr": "wrswpol1"
@@ -2364,12 +2364,12 @@
         "id": 60812,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "143.105.210.0/23",
+        "prefix_v4": "143.105.211.0/24",
         "prefix_v6": null,
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-11T15:58:59Z"
+            "since": "2026-09-11T19:07:57Z"
         },
         "type": "Probe",
         "ipv4_ptr": "lgosnga1"
@@ -2877,7 +2877,7 @@
         "ipv6_ptr": "sttlwax1"
     },
     {
-        "address_v4": "153.67.37.87",
+        "address_v4": "216.234.223.212",
         "address_v6": "2803:9810:5f29:1a00:da58:d7ff:fe03:2e2",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -2895,7 +2895,7 @@
         "id": 61860,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "153.67.36.0/23",
+        "prefix_v4": "216.234.222.0/23",
         "prefix_v6": "2803:9810:5f00::/40",
         "status": {
             "id": 1,
@@ -3812,7 +3812,7 @@
         "id": 65402,
         "is_anchor": false,
         "is_public": false,
-        "prefix_v4": "216.147.120.0/23",
+        "prefix_v4": "216.147.121.0/24",
         "prefix_v6": null,
         "status": {
             "id": 2,
@@ -4143,35 +4143,6 @@
         "type": "Probe",
         "ipv4_ptr": "frntdeu1",
         "ipv6_ptr": ""
-    },
-    {
-        "address_v4": null,
-        "address_v6": null,
-        "asn_v4": 14593,
-        "asn_v6": null,
-        "country_code": "US",
-        "description": "Pi4 probe labeled Brad (Mobile)",
-        "firmware_version": 5040,
-        "first_connected": 1643050811,
-        "geometry": {
-            "type": "Point",
-            "coordinates": [
-                -82.7725,
-                28.0215
-            ]
-        },
-        "id": 1003608,
-        "is_anchor": false,
-        "is_public": false,
-        "prefix_v4": "129.222.0.0/23",
-        "prefix_v6": null,
-        "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-09-11T16:05:30Z"
-        },
-        "type": "Probe",
-        "ipv4_ptr": ""
     },
     {
         "address_v4": "98.97.36.48",
@@ -5114,7 +5085,7 @@
         "address_v4": "145.224.73.120",
         "address_v6": "2a0d:3344:15db:9e02:d8a8:c9ff:feac:5d79",
         "asn_v4": 14593,
-        "asn_v6": null,
+        "asn_v6": 14593,
         "country_code": "DE",
         "description": "GRMML-Probe-004",
         "firmware_version": 5130,
@@ -5130,14 +5101,15 @@
         "is_anchor": false,
         "is_public": true,
         "prefix_v4": "145.224.72.0/21",
-        "prefix_v6": null,
+        "prefix_v6": "2a0d:3344:1500::/40",
         "status": {
             "id": 1,
             "name": "Connected",
             "since": "2026-09-11T12:58:37Z"
         },
         "type": "Probe",
-        "ipv4_ptr": "frntdeu1"
+        "ipv4_ptr": "frntdeu1",
+        "ipv6_ptr": "frntdeu1"
     },
     {
         "address_v4": "135.129.113.59",
@@ -5308,9 +5280,9 @@
         "prefix_v4": "217.65.136.0/23",
         "prefix_v6": "2a0d:3344:2000::/40",
         "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-09-06T14:15:49Z"
+            "id": 2,
+            "name": "Disconnected",
+            "since": "2026-09-11T19:14:59Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mdrdesp1",
@@ -5548,7 +5520,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-11T09:05:49Z"
+            "since": "2026-09-11T19:03:31Z"
         },
         "type": "Probe",
         "ipv4_ptr": "chcoilx1"
@@ -6144,7 +6116,7 @@
     },
     {
         "address_v4": "150.228.183.54",
-        "address_v6": "2406:2d40:900b:8a10:67eb:b6d5:f850:a629",
+        "address_v6": "2406:2d40:900b:8a10:b588:c73b:3300:1e38",
         "asn_v4": 14593,
         "asn_v6": 14593,
         "country_code": "PH",
@@ -6166,7 +6138,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-11T07:59:53Z"
+            "since": "2026-09-11T19:09:11Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mnlaphl1",
@@ -7029,7 +7001,7 @@
         "ipv4_ptr": "lndngbr1"
     },
     {
-        "address_v4": "129.222.135.200",
+        "address_v4": "129.222.0.243",
         "address_v6": "2605:59c0:1121:f800:c55e:52dd:7ffc:13c2",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -7047,12 +7019,12 @@
         "id": 1017029,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "129.222.134.0/23",
+        "prefix_v4": "129.222.0.0/23",
         "prefix_v6": "2605:59c0:1100::/40",
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2026-09-07T22:24:50Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-09-11T17:52:20Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mmmiflx1",
