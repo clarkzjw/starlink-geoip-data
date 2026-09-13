@@ -619,9 +619,9 @@
     },
     {
         "address_v4": "98.97.41.130",
-        "address_v6": null,
+        "address_v6": "2605:59ca:3452:7c14:c24a:ff:fecc:716e",
         "asn_v4": 14593,
-        "asn_v6": null,
+        "asn_v6": 14593,
         "country_code": "US",
         "description": "",
         "firmware_version": 0,
@@ -637,14 +637,15 @@
         "is_anchor": false,
         "is_public": true,
         "prefix_v4": "98.97.40.0/23",
-        "prefix_v6": null,
+        "prefix_v6": "2605:59ca:3400::/40",
         "status": {
             "id": 3,
             "name": "Abandoned",
             "since": "2023-09-20T14:52:01Z"
         },
         "type": "Probe",
-        "ipv4_ptr": "sttlwax1"
+        "ipv4_ptr": "sttlwax1",
+        "ipv6_ptr": "sttlwax1"
     },
     {
         "address_v4": "145.224.73.188",
@@ -1723,7 +1724,7 @@
         "status": {
             "id": 2,
             "name": "Disconnected",
-            "since": "2026-09-13T18:39:27Z"
+            "since": "2026-09-13T22:10:48Z"
         },
         "type": "Probe",
         "ipv4_ptr": "frntdeu1",
@@ -1759,7 +1760,7 @@
         "ipv4_ptr": ""
     },
     {
-        "address_v4": "145.224.111.115",
+        "address_v4": "145.224.123.249",
         "address_v6": null,
         "asn_v4": 14593,
         "asn_v6": null,
@@ -1777,12 +1778,12 @@
         "id": 52812,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "145.224.110.0/23",
+        "prefix_v4": "145.224.122.0/23",
         "prefix_v6": null,
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2026-09-13T17:45:13Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-09-13T20:22:51Z"
         },
         "type": "Probe",
         "ipv4_ptr": "wrswpol1"
@@ -2367,9 +2368,9 @@
         "prefix_v4": "143.105.210.0/23",
         "prefix_v6": null,
         "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-09-13T18:41:25Z"
+            "id": 2,
+            "name": "Disconnected",
+            "since": "2026-09-13T22:05:27Z"
         },
         "type": "Probe",
         "ipv4_ptr": "lgosnga1"
@@ -3520,7 +3521,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-12T18:12:58Z"
+            "since": "2026-09-13T20:36:09Z"
         },
         "type": "Probe",
         "ipv4_ptr": "tkyojpn1"
@@ -4115,34 +4116,6 @@
         "ipv6_ptr": ""
     },
     {
-        "address_v4": null,
-        "address_v6": null,
-        "asn_v4": 701,
-        "asn_v6": null,
-        "country_code": "US",
-        "description": "Pi4 probe labeled Brad (Mobile)",
-        "firmware_version": 5040,
-        "first_connected": 1643050811,
-        "geometry": {
-            "type": "Point",
-            "coordinates": [
-                -82.7725,
-                28.0215
-            ]
-        },
-        "id": 1003608,
-        "is_anchor": false,
-        "is_public": false,
-        "prefix_v4": "108.21.0.0/16",
-        "prefix_v6": null,
-        "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-09-13T18:42:18Z"
-        },
-        "type": "Probe"
-    },
-    {
         "address_v4": "98.97.36.48",
         "address_v6": null,
         "asn_v4": 14593,
@@ -4437,7 +4410,7 @@
         "ipv4_ptr": "ashnvax2"
     },
     {
-        "address_v4": "74.244.23.189",
+        "address_v4": "74.244.115.34",
         "address_v6": "fd7a:115c:a1e0::142d:3f5f",
         "asn_v4": 14593,
         "asn_v6": null,
@@ -4455,12 +4428,12 @@
         "id": 1004494,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "74.244.22.0/23",
+        "prefix_v4": "74.244.114.0/23",
         "prefix_v6": null,
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-13T09:35:55Z"
+            "since": "2026-09-13T20:42:35Z"
         },
         "type": "Probe",
         "ipv4_ptr": "knsymox1"
@@ -6047,7 +6020,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-13T13:58:02Z"
+            "since": "2026-09-13T20:23:16Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mdrdesp1"
