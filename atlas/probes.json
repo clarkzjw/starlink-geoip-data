@@ -619,9 +619,9 @@
     },
     {
         "address_v4": "98.97.41.130",
-        "address_v6": "2605:59ca:3452:7c14:c24a:ff:fecc:716e",
+        "address_v6": null,
         "asn_v4": 14593,
-        "asn_v6": 14593,
+        "asn_v6": null,
         "country_code": "US",
         "description": "",
         "firmware_version": 0,
@@ -637,15 +637,14 @@
         "is_anchor": false,
         "is_public": true,
         "prefix_v4": "98.97.40.0/23",
-        "prefix_v6": "2605:59ca:3400::/40",
+        "prefix_v6": null,
         "status": {
             "id": 3,
             "name": "Abandoned",
             "since": "2023-09-20T14:52:01Z"
         },
         "type": "Probe",
-        "ipv4_ptr": "sttlwax1",
-        "ipv6_ptr": "sttlwax1"
+        "ipv4_ptr": "sttlwax1"
     },
     {
         "address_v4": "145.224.73.188",
@@ -755,12 +754,12 @@
         "id": 21336,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "216.234.213.0/24",
+        "prefix_v4": "216.234.212.0/23",
         "prefix_v6": null,
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-13T00:52:03Z"
+            "since": "2026-09-13T17:24:27Z"
         },
         "type": "Probe",
         "ipv4_ptr": "jhngzaf1"
@@ -1724,7 +1723,7 @@
         "status": {
             "id": 2,
             "name": "Disconnected",
-            "since": "2026-09-13T15:33:50Z"
+            "since": "2026-09-13T18:39:27Z"
         },
         "type": "Probe",
         "ipv4_ptr": "frntdeu1",
@@ -1781,9 +1780,9 @@
         "prefix_v4": "145.224.110.0/23",
         "prefix_v6": null,
         "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-09-13T14:17:10Z"
+            "id": 2,
+            "name": "Disconnected",
+            "since": "2026-09-13T17:45:13Z"
         },
         "type": "Probe",
         "ipv4_ptr": "wrswpol1"
@@ -2370,7 +2369,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-13T15:44:46Z"
+            "since": "2026-09-13T18:41:25Z"
         },
         "type": "Probe",
         "ipv4_ptr": "lgosnga1"
@@ -2789,10 +2788,10 @@
         "ipv6_ptr": "mntlcan1"
     },
     {
-        "address_v4": "153.66.69.37",
-        "address_v6": "2605:59ca:70de:c11b:da58:d7ff:fe03:17c",
+        "address_v4": "153.66.69.71",
+        "address_v6": "fd6d:8cb0:ae47:1b:da58:d7ff:fe03:17c",
         "asn_v4": 14593,
-        "asn_v6": 14593,
+        "asn_v6": null,
         "country_code": "US",
         "description": null,
         "firmware_version": 5080,
@@ -2808,15 +2807,14 @@
         "is_anchor": false,
         "is_public": true,
         "prefix_v4": "153.66.68.0/23",
-        "prefix_v6": "2605:59ca:7000::/40",
+        "prefix_v6": null,
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-11T08:50:23Z"
+            "since": "2026-09-13T16:04:58Z"
         },
         "type": "Probe",
-        "ipv4_ptr": "knsymox1",
-        "ipv6_ptr": "knsymox1"
+        "ipv4_ptr": "knsymox1"
     },
     {
         "address_v4": "153.66.169.226",
@@ -4115,6 +4113,34 @@
         "type": "Probe",
         "ipv4_ptr": "frntdeu1",
         "ipv6_ptr": ""
+    },
+    {
+        "address_v4": null,
+        "address_v6": null,
+        "asn_v4": 701,
+        "asn_v6": null,
+        "country_code": "US",
+        "description": "Pi4 probe labeled Brad (Mobile)",
+        "firmware_version": 5040,
+        "first_connected": 1643050811,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -82.7725,
+                28.0215
+            ]
+        },
+        "id": 1003608,
+        "is_anchor": false,
+        "is_public": false,
+        "prefix_v4": "108.21.0.0/16",
+        "prefix_v6": null,
+        "status": {
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-09-13T18:42:18Z"
+        },
+        "type": "Probe"
     },
     {
         "address_v4": "98.97.36.48",
