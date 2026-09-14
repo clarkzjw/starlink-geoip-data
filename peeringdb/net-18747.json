@@ -67,10 +67,10 @@
             "info_multicast": false,
             "info_ipv6": true,
             "info_never_via_route_servers": false,
-            "ix_count": 76,
+            "ix_count": 77,
             "fac_count": 65,
             "notes": "",
-            "netixlan_updated": "2026-09-09T01:40:58Z",
+            "netixlan_updated": "2026-09-14T22:58:15Z",
             "netfac_updated": "2026-08-25T17:12:48Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
@@ -1519,6 +1519,25 @@
                     "status": "ok"
                 },
                 {
+                    "id": 75178,
+                    "ix_id": 173,
+                    "name": "IX.br (PTT.br) Porto Alegre: ATM/MPLA",
+                    "ixlan_id": 173,
+                    "notes": "",
+                    "speed": 200000,
+                    "asn": 14593,
+                    "ipaddr4": "177.52.39.81",
+                    "ipaddr6": "2001:12f8:0:6::39:81",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2022-06-01T13:39:19Z",
+                    "updated": "2026-09-14T22:58:16Z",
+                    "status": "ok"
+                },
+                {
                     "id": 75667,
                     "ix_id": 2289,
                     "name": "Equinix Bogota: Equinix IX - BG Metro",
@@ -2809,6 +2828,25 @@
                     "created": "2026-09-08T04:04:44Z",
                     "updated": "2026-09-09T01:40:58Z",
                     "status": "ok"
+                },
+                {
+                    "id": 113120,
+                    "ix_id": 173,
+                    "name": "IX.br (PTT.br) Porto Alegre: ATM/MPLA",
+                    "ixlan_id": 173,
+                    "notes": "",
+                    "speed": 200000,
+                    "asn": 14593,
+                    "ipaddr4": "177.52.39.75",
+                    "ipaddr6": "2001:12f8:0:6::39:75",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "created": "2026-09-14T22:57:49Z",
+                    "updated": "2026-09-14T22:57:49Z",
+                    "status": "ok"
                 }
             ],
             "poc_set": [
@@ -2832,7 +2870,7 @@
             "rir_status_updated": "2024-06-26T04:47:55Z",
             "logo": null,
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2026-09-08T04:39:52Z",
+            "updated": "2026-09-14T22:58:22Z",
             "status": "ok"
         }
     ],
