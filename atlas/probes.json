@@ -994,7 +994,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-19T03:31:11Z"
+            "since": "2026-09-19T04:04:36Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mntlcan1"
@@ -1723,7 +1723,7 @@
         "status": {
             "id": 2,
             "name": "Disconnected",
-            "since": "2026-09-19T03:28:57Z"
+            "since": "2026-09-19T04:02:50Z"
         },
         "type": "Probe",
         "ipv4_ptr": "frntdeu1",
@@ -1928,7 +1928,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-18T22:07:14Z"
+            "since": "2026-09-19T03:47:42Z"
         },
         "type": "Probe",
         "ipv4_ptr": "ashnvax2"
@@ -2398,7 +2398,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-19T03:32:37Z"
+            "since": "2026-09-19T04:03:00Z"
         },
         "type": "Probe",
         "ipv4_ptr": "lgosnga1"
@@ -4172,6 +4172,35 @@
         "type": "Probe",
         "ipv4_ptr": "frntdeu1",
         "ipv6_ptr": ""
+    },
+    {
+        "address_v4": null,
+        "address_v6": null,
+        "asn_v4": 14593,
+        "asn_v6": null,
+        "country_code": "US",
+        "description": "Pi4 probe labeled Brad (Mobile)",
+        "firmware_version": 5040,
+        "first_connected": 1643050811,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -82.7725,
+                28.0215
+            ]
+        },
+        "id": 1003608,
+        "is_anchor": false,
+        "is_public": false,
+        "prefix_v4": "143.105.20.0/22",
+        "prefix_v6": null,
+        "status": {
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-09-19T04:07:51Z"
+        },
+        "type": "Probe",
+        "ipv4_ptr": ""
     },
     {
         "address_v4": "98.97.36.48",
