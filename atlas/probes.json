@@ -619,9 +619,9 @@
     },
     {
         "address_v4": "153.66.247.15",
-        "address_v6": "2605:59ca:3452:7c14:c24a:ff:fecc:716e",
+        "address_v6": null,
         "asn_v4": 14593,
-        "asn_v6": 14593,
+        "asn_v6": null,
         "country_code": "US",
         "description": "",
         "firmware_version": 0,
@@ -637,15 +637,14 @@
         "is_anchor": false,
         "is_public": true,
         "prefix_v4": "153.66.246.0/23",
-        "prefix_v6": "2605:59ca:3400::/40",
+        "prefix_v6": null,
         "status": {
             "id": 3,
             "name": "Abandoned",
             "since": "2023-09-20T14:52:01Z"
         },
         "type": "Probe",
-        "ipv4_ptr": "sttlwax1",
-        "ipv6_ptr": "sttlwax1"
+        "ipv4_ptr": "sttlwax1"
     },
     {
         "address_v4": "145.224.74.120",
@@ -995,7 +994,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-21T03:46:24Z"
+            "since": "2026-09-21T04:16:51Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mntlcan1"
@@ -1724,7 +1723,7 @@
         "status": {
             "id": 2,
             "name": "Disconnected",
-            "since": "2026-09-21T03:29:09Z"
+            "since": "2026-09-21T04:11:02Z"
         },
         "type": "Probe",
         "ipv6_ptr": "frntdeu1"
@@ -2369,7 +2368,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-21T03:46:35Z"
+            "since": "2026-09-21T04:14:01Z"
         },
         "type": "Probe",
         "ipv4_ptr": "lgosnga1"
@@ -4147,7 +4146,7 @@
     {
         "address_v4": null,
         "address_v6": null,
-        "asn_v4": 14593,
+        "asn_v4": 33363,
         "asn_v6": null,
         "country_code": "US",
         "description": "Pi4 probe labeled Brad (Mobile)",
@@ -4163,15 +4162,14 @@
         "id": 1003608,
         "is_anchor": false,
         "is_public": false,
-        "prefix_v4": "143.105.20.0/22",
+        "prefix_v4": "108.188.0.0/14",
         "prefix_v6": null,
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-21T03:50:18Z"
+            "since": "2026-09-21T04:20:03Z"
         },
-        "type": "Probe",
-        "ipv4_ptr": ""
+        "type": "Probe"
     },
     {
         "address_v4": "98.97.36.48",
@@ -6608,9 +6606,9 @@
         "prefix_v4": "153.67.102.0/23",
         "prefix_v6": "2803:9810:b200::/40",
         "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-09-19T21:23:27Z"
+            "id": 2,
+            "name": "Disconnected",
+            "since": "2026-09-21T04:00:03Z"
         },
         "type": "Probe",
         "ipv4_ptr": "bnssarg1",
