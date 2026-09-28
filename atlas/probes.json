@@ -994,7 +994,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-27T22:54:47Z"
+            "since": "2026-09-28T04:07:42Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mntlcan1"
@@ -1724,7 +1724,7 @@
         "status": {
             "id": 2,
             "name": "Disconnected",
-            "since": "2026-09-27T22:49:53Z"
+            "since": "2026-09-28T04:07:03Z"
         },
         "type": "Probe",
         "ipv4_ptr": "frntdeu1",
@@ -3233,6 +3233,35 @@
         "ipv6_ptr": "sttlwax1"
     },
     {
+        "address_v4": "98.97.37.217",
+        "address_v6": null,
+        "asn_v4": 14593,
+        "asn_v6": null,
+        "country_code": "US",
+        "description": "Ren's Probe - ToledoTel FIber w/Starlink Failover",
+        "firmware_version": 5080,
+        "first_connected": 1671129990,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -122.9285,
+                46.5215
+            ]
+        },
+        "id": 62498,
+        "is_anchor": false,
+        "is_public": true,
+        "prefix_v4": "98.97.32.0/21",
+        "prefix_v6": null,
+        "status": {
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-09-28T00:44:49Z"
+        },
+        "type": "Probe",
+        "ipv4_ptr": "sttlwax1"
+    },
+    {
         "address_v4": "217.142.18.148",
         "address_v6": null,
         "asn_v4": 14593,
@@ -3439,7 +3468,7 @@
         "ipv6_ptr": "sttlwax1"
     },
     {
-        "address_v4": "153.66.201.130",
+        "address_v4": "153.66.201.227",
         "address_v6": "2605:59ca:654d:bf08:da58:d7ff:fe03:7bb",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -3580,7 +3609,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-27T20:11:51Z"
+            "since": "2026-09-27T23:42:15Z"
         },
         "type": "Probe",
         "ipv4_ptr": "tkyojpn1"
@@ -4175,6 +4204,35 @@
         "ipv6_ptr": ""
     },
     {
+        "address_v4": null,
+        "address_v6": null,
+        "asn_v4": 14593,
+        "asn_v6": null,
+        "country_code": "US",
+        "description": "Pi4 probe labeled Brad (Mobile)",
+        "firmware_version": 5040,
+        "first_connected": 1643050811,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -82.7725,
+                28.0215
+            ]
+        },
+        "id": 1003608,
+        "is_anchor": false,
+        "is_public": false,
+        "prefix_v4": "129.222.134.0/23",
+        "prefix_v6": null,
+        "status": {
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-09-28T04:10:08Z"
+        },
+        "type": "Probe",
+        "ipv4_ptr": ""
+    },
+    {
         "address_v4": "98.97.36.48",
         "address_v6": null,
         "asn_v4": 14593,
@@ -4609,7 +4667,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-09-27T01:07:09Z"
+            "since": "2026-09-28T01:16:26Z"
         },
         "type": "Probe",
         "ipv6_ptr": "frntdeu1"
@@ -5409,7 +5467,7 @@
     },
     {
         "address_v4": "150.228.217.198",
-        "address_v6": "2406:2d40:a8ae:8610:54f2:5b54:8ee5:6d52",
+        "address_v6": "2406:2d40:a824:9110:3eec:efff:fec9:5178",
         "asn_v4": 14593,
         "asn_v6": 14593,
         "country_code": "KI",
