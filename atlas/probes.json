@@ -619,9 +619,9 @@
     },
     {
         "address_v4": "98.97.41.83",
-        "address_v6": null,
+        "address_v6": "2605:59ca:3452:7c14:c24a:ff:fecc:716e",
         "asn_v4": 14593,
-        "asn_v6": null,
+        "asn_v6": 14593,
         "country_code": "US",
         "description": "",
         "firmware_version": 0,
@@ -637,14 +637,15 @@
         "is_anchor": false,
         "is_public": true,
         "prefix_v4": "98.97.40.0/23",
-        "prefix_v6": null,
+        "prefix_v6": "2605:59ca:3400::/40",
         "status": {
             "id": 3,
             "name": "Abandoned",
             "since": "2023-09-20T14:52:01Z"
         },
         "type": "Probe",
-        "ipv4_ptr": "sttlwax1"
+        "ipv4_ptr": "sttlwax1",
+        "ipv6_ptr": "sttlwax1"
     },
     {
         "address_v4": "9.246.41.137",
@@ -795,7 +796,7 @@
         "ipv6_ptr": "lndngbr1"
     },
     {
-        "address_v4": "150.228.229.119",
+        "address_v4": "206.83.102.58",
         "address_v6": "2406:2d40:72ee:1900:ea94:f6ff:fe48:beaa",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -813,7 +814,7 @@
         "id": 22645,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "150.228.228.0/23",
+        "prefix_v4": "206.83.96.0/21",
         "prefix_v6": "2406:2d40:7280::/41",
         "status": {
             "id": 1,
@@ -994,7 +995,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-10-08T15:05:22Z"
+            "since": "2026-10-08T21:06:38Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mntlcan1"
@@ -1753,7 +1754,7 @@
         "status": {
             "id": 2,
             "name": "Disconnected",
-            "since": "2026-10-08T15:19:26Z"
+            "since": "2026-10-08T21:02:01Z"
         },
         "type": "Probe",
         "ipv4_ptr": "frntdeu1",
@@ -1993,7 +1994,7 @@
         "ipv4_ptr": "brseaus1"
     },
     {
-        "address_v4": "14.1.75.93",
+        "address_v4": "150.228.227.144",
         "address_v6": "2406:2d40:9b26:7210:1:58ff:fe28:e095",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -2011,7 +2012,7 @@
         "id": 54769,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "14.1.74.0/23",
+        "prefix_v4": "150.228.226.0/23",
         "prefix_v6": "2406:2d40:9b00::/40",
         "status": {
             "id": 1,
@@ -2248,9 +2249,9 @@
         "prefix_v4": "98.97.0.0/23",
         "prefix_v6": "2605:59c8:5200::/40",
         "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-10-07T09:57:40Z"
+            "id": 2,
+            "name": "Disconnected",
+            "since": "2026-10-08T20:29:41Z"
         },
         "type": "Probe",
         "ipv4_ptr": "dnvrcox1",
@@ -2434,7 +2435,7 @@
         "ipv4_ptr": "lgosnga1"
     },
     {
-        "address_v4": "116.91.221.65",
+        "address_v4": "150.228.163.11",
         "address_v6": null,
         "asn_v4": 14593,
         "asn_v6": null,
@@ -2452,12 +2453,12 @@
         "id": 60892,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "116.91.220.0/22",
+        "prefix_v4": "150.228.162.0/23",
         "prefix_v6": null,
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-10-06T12:46:02Z"
+            "since": "2026-10-08T15:43:56Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mlbeaus1"
@@ -2811,7 +2812,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-10-08T10:44:34Z"
+            "since": "2026-10-08T15:30:01Z"
         },
         "type": "Probe",
         "ipv4_ptr": "snjecax1"
@@ -2989,7 +2990,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-10-08T14:16:20Z"
+            "since": "2026-10-08T17:34:43Z"
         },
         "type": "Probe",
         "ipv4_ptr": "chcoilx1",
@@ -4175,35 +4176,6 @@
         "ipv6_ptr": ""
     },
     {
-        "address_v4": null,
-        "address_v6": null,
-        "asn_v4": 14593,
-        "asn_v6": null,
-        "country_code": "US",
-        "description": "Pi4 probe labeled Brad (Mobile)",
-        "firmware_version": 5040,
-        "first_connected": 1643050811,
-        "geometry": {
-            "type": "Point",
-            "coordinates": [
-                -82.7725,
-                28.0215
-            ]
-        },
-        "id": 1003608,
-        "is_anchor": false,
-        "is_public": false,
-        "prefix_v4": "179.64.40.0/23",
-        "prefix_v6": null,
-        "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-10-08T09:54:48Z"
-        },
-        "type": "Probe",
-        "ipv4_ptr": ""
-    },
-    {
         "address_v4": "98.97.36.48",
         "address_v6": null,
         "asn_v4": 14593,
@@ -5346,6 +5318,35 @@
         "ipv4_ptr": "mdrdesp1"
     },
     {
+        "address_v4": "148.222.205.7",
+        "address_v6": null,
+        "asn_v4": 14593,
+        "asn_v6": null,
+        "country_code": "CL",
+        "description": "NIC Chile / Starlink Probe",
+        "firmware_version": 5080,
+        "first_connected": 1708968114,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -70.6505,
+                -33.4505
+            ]
+        },
+        "id": 1007645,
+        "is_anchor": false,
+        "is_public": true,
+        "prefix_v4": "148.222.205.0/24",
+        "prefix_v6": null,
+        "status": {
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-10-08T15:59:53Z"
+        },
+        "type": "Probe",
+        "ipv4_ptr": "sntochl1"
+    },
+    {
         "address_v4": "129.222.240.55",
         "address_v6": "fd00:a1a3::2",
         "asn_v4": 14593,
@@ -5435,7 +5436,7 @@
         "ipv6_ptr": "sfiabgr1"
     },
     {
-        "address_v4": "150.228.217.37",
+        "address_v4": "150.228.217.241",
         "address_v6": "2406:2d40:a824:9110:3eec:efff:fec9:5178",
         "asn_v4": 14593,
         "asn_v6": 14593,
@@ -5458,7 +5459,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-10-07T15:40:53Z"
+            "since": "2026-10-08T15:42:41Z"
         },
         "type": "Probe",
         "ipv4_ptr": "sydyaus1",
@@ -6410,7 +6411,7 @@
         "ipv4_ptr": "frntdeu1"
     },
     {
-        "address_v4": "206.83.103.224",
+        "address_v4": "206.83.102.73",
         "address_v6": "2406:2d40:76a5:3302:be24:11ff:fe1d:ad1c",
         "asn_v4": 14593,
         "asn_v6": 14593,
