@@ -229,7 +229,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-10-10T01:41:50Z"
+            "since": "2026-10-11T21:46:43Z"
         },
         "type": "Probe",
         "ipv4_ptr": ""
@@ -1023,7 +1023,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-10-11T19:45:05Z"
+            "since": "2026-10-11T23:35:28Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mntlcan1"
@@ -1779,9 +1779,9 @@
         "prefix_v4": "9.246.40.0/23",
         "prefix_v6": "2a0d:3344:1500::/40",
         "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-10-11T20:00:44Z"
+            "id": 2,
+            "name": "Disconnected",
+            "since": "2026-10-11T23:34:52Z"
         },
         "type": "Probe",
         "ipv4_ptr": "frntdeu1",
@@ -2139,7 +2139,7 @@
         "ipv6_ptr": "mdrdesp1"
     },
     {
-        "address_v4": "98.97.3.240",
+        "address_v4": "98.97.1.246",
         "address_v6": "fd9a:8993:fbce:464e:da58:d7ff:fe03:39c",
         "asn_v4": 14593,
         "asn_v6": null,
@@ -2157,12 +2157,12 @@
         "id": 60234,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "98.97.2.0/23",
+        "prefix_v4": "98.97.0.0/23",
         "prefix_v6": null,
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2026-10-02T09:58:01Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-10-11T22:21:45Z"
         },
         "type": "Probe",
         "ipv4_ptr": "dnvrcox1"
@@ -4144,6 +4144,35 @@
         "ipv6_ptr": ""
     },
     {
+        "address_v4": null,
+        "address_v6": null,
+        "asn_v4": 14593,
+        "asn_v6": null,
+        "country_code": "US",
+        "description": "Pi4 probe labeled Brad (Mobile)",
+        "firmware_version": 5040,
+        "first_connected": 1643050811,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -82.7725,
+                28.0215
+            ]
+        },
+        "id": 1003608,
+        "is_anchor": false,
+        "is_public": false,
+        "prefix_v4": "179.64.38.0/23",
+        "prefix_v6": null,
+        "status": {
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-10-11T23:38:17Z"
+        },
+        "type": "Probe",
+        "ipv4_ptr": ""
+    },
+    {
         "address_v4": "98.97.36.48",
         "address_v6": null,
         "asn_v4": 14593,
@@ -5286,9 +5315,9 @@
         "ipv4_ptr": "mdrdesp1"
     },
     {
-        "address_v4": "190.215.244.166",
+        "address_v4": "148.227.97.91",
         "address_v6": null,
-        "asn_v4": 18822,
+        "asn_v4": 14593,
         "asn_v6": null,
         "country_code": "CL",
         "description": "NIC Chile / Starlink Probe",
@@ -5304,14 +5333,15 @@
         "id": 1007645,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "190.215.244.0/23",
+        "prefix_v4": "148.227.97.0/24",
         "prefix_v6": null,
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2026-10-11T19:55:37Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-10-11T20:10:11Z"
         },
-        "type": "Probe"
+        "type": "Probe",
+        "ipv4_ptr": "sntochl1"
     },
     {
         "address_v4": "129.222.243.153",
@@ -5956,7 +5986,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-10-10T06:14:55Z"
+            "since": "2026-10-11T22:31:17Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mdrdesp1"
@@ -6577,7 +6607,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-10-08T07:34:53Z"
+            "since": "2026-10-11T23:09:18Z"
         },
         "type": "Probe",
         "ipv4_ptr": "ashnvax2"
