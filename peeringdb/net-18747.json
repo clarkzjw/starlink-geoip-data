@@ -70,7 +70,7 @@
             "ix_count": 78,
             "fac_count": 65,
             "notes": "",
-            "netixlan_updated": "2026-09-30T22:41:15Z",
+            "netixlan_updated": "2026-10-13T23:31:34Z",
             "netfac_updated": "2026-08-25T17:12:48Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
@@ -814,6 +814,26 @@
                     "meta": {},
                     "created": "2011-01-06T00:00:00Z",
                     "updated": "2025-10-14T18:08:24Z",
+                    "status": "ok"
+                },
+                {
+                    "id": 12909,
+                    "ix_id": 24,
+                    "name": "TorIX",
+                    "ixlan_id": 24,
+                    "notes": "Ip address None was claimed by other netixlan",
+                    "speed": 200000,
+                    "asn": 14593,
+                    "ipaddr4": "206.108.34.88",
+                    "ipaddr6": "2001:504:1a::34:88",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "meta": {},
+                    "created": "2012-12-07T00:00:00Z",
+                    "updated": "2026-10-13T23:31:34Z",
                     "status": "ok"
                 },
                 {
@@ -3019,7 +3039,7 @@
             "logo": null,
             "meta": {},
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2026-09-30T22:41:18Z",
+            "updated": "2026-10-13T23:31:40Z",
             "status": "ok"
         }
     ],
