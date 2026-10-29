@@ -68,10 +68,10 @@
             "info_ipv6": true,
             "info_never_via_route_servers": false,
             "ix_count": 4,
-            "fac_count": 2,
+            "fac_count": 3,
             "notes": "",
-            "netixlan_updated": "2026-06-03T07:28:16Z",
-            "netfac_updated": "2026-01-02T23:17:11Z",
+            "netixlan_updated": "2026-10-29T13:44:15Z",
+            "netfac_updated": "2026-10-29T13:44:44Z",
             "poc_updated": "2024-04-27T19:08:01Z",
             "policy_url": "http://www.spacex.com",
             "policy_general": "Open",
@@ -100,6 +100,17 @@
                     "created": "2024-04-27T19:09:55Z",
                     "updated": "2024-04-27T19:09:55Z",
                     "status": "ok"
+                },
+                {
+                    "id": 91944,
+                    "name": "OMNIDC BATAM",
+                    "city": "Batam City",
+                    "country": "ID",
+                    "fac_id": 15033,
+                    "local_asn": 45700,
+                    "created": "2026-10-29T13:44:45Z",
+                    "updated": "2026-10-29T13:44:45Z",
+                    "status": "ok"
                 }
             ],
             "netixlan_set": [
@@ -116,11 +127,11 @@
                     "is_rs_peer": true,
                     "bfd_support": false,
                     "operational": true,
-                    "net_side_id": null,
+                    "net_side_id": 5865,
                     "ix_side_id": null,
                     "meta": {},
                     "created": "2024-04-19T02:41:00Z",
-                    "updated": "2025-01-21T18:26:59Z",
+                    "updated": "2026-10-29T13:44:17Z",
                     "status": "ok"
                 },
                 {
@@ -140,7 +151,7 @@
                     "ix_side_id": null,
                     "meta": {},
                     "created": "2025-03-13T19:59:39Z",
-                    "updated": "2025-10-09T05:42:51Z",
+                    "updated": "2026-10-29T13:44:17Z",
                     "status": "ok"
                 },
                 {
@@ -151,16 +162,16 @@
                     "notes": "",
                     "speed": 100000,
                     "asn": 45700,
-                    "ipaddr4": "218.100.74.198",
-                    "ipaddr6": "2403:1a00::c",
+                    "ipaddr4": "103.28.80.198",
+                    "ipaddr6": "2403:1a00:55:659:a:4:5700:1",
                     "is_rs_peer": true,
                     "bfd_support": false,
                     "operational": true,
-                    "net_side_id": null,
+                    "net_side_id": 5642,
                     "ix_side_id": null,
                     "meta": {},
                     "created": "2025-10-27T20:25:51Z",
-                    "updated": "2025-10-31T05:55:58Z",
+                    "updated": "2026-10-29T13:44:17Z",
                     "status": "ok"
                 },
                 {
@@ -176,11 +187,11 @@
                     "is_rs_peer": true,
                     "bfd_support": false,
                     "operational": true,
-                    "net_side_id": null,
+                    "net_side_id": 5642,
                     "ix_side_id": null,
                     "meta": {},
                     "created": "2026-06-03T07:28:17Z",
-                    "updated": "2026-06-03T07:28:17Z",
+                    "updated": "2026-10-29T13:44:17Z",
                     "status": "ok"
                 }
             ],
@@ -193,7 +204,7 @@
             "logo": null,
             "meta": {},
             "created": "2024-04-19T17:42:53Z",
-            "updated": "2026-01-03T01:37:02Z",
+            "updated": "2026-10-29T13:44:16Z",
             "status": "ok"
         }
     ],
