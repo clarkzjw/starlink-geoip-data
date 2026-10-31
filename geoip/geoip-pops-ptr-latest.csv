@@ -3281,8 +3281,6 @@ cidr,country,region,city,pop,code,dns_ptr,pop_dns_ptr_match
 153.66.243.128/25,US,US-MS,Jackson,dllstxx1,dfw,customer.dllstxx1.isp.starlink.com.,True
 153.67.206.0/25,US,US-GA,Atlanta,atlagax3,atl2,customer.isp.starlink.com.,False
 153.67.206.128/25,US,US-GA,Atlanta,atlagax3,atl2,customer.isp.starlink.com.,False
-153.67.207.0/25,US,US-OR,Portland,prtdorx3,pdx2,customer.prtdorx3.isp.starlink.com.,True
-153.67.207.128/25,US,US-OR,Portland,prtdorx3,pdx2,customer.prtdorx3.isp.starlink.com.,True
 169.155.232.0/25,IT,IT-25,Milan,mlnnita1,mxp,customer.mlnnita1.isp.starlink.com.,True
 169.155.232.128/25,IT,IT-25,Milan,mlnnita1,mxp,customer.mlnnita1.isp.starlink.com.,True
 169.155.233.0/25,ES,ES-MD,Madrid,mdrdesp1,mad,customer.mdrdesp1.isp.starlink.com.,True
@@ -3762,7 +3760,6 @@ cidr,country,region,city,pop,code,dns_ptr,pop_dns_ptr_match
 2605:59c8:7400::/40,MX,MX-CMX,Mexico City,qrtomex1,qro,customer.qrtomex1.isp.starlink.com.,True
 2605:59c8:7600::/40,MX,MX-CMX,Mexico City,qrtomex1,qro,customer.qrtomex1.isp.starlink.com.,True
 2605:59c8:8100::/40,TG,TG-M,Lome,lgosnga1,los,customer.lgosnga1.isp.starlink.com.,True
-2605:59c8:8200::/40,US,US-OR,Portland,prtdorx3,pdx2,customer.prtdorx3.isp.starlink.com.,True
 2605:59c8:8300::/40,US,US-GA,Atlanta,atlagax3,atl2,,False
 2605:59ca:1000::/40,CA,CA-MB,Winnipeg,mplsmnx1,msp,customer.mplsmnx1.isp.starlink.com.,True
 2605:59ca:1100::/40,CA,CA-SK,Regina,mplsmnx1,msp,customer.mplsmnx1.isp.starlink.com.,True
@@ -4293,6 +4290,8 @@ cidr,country,region,city,pop,code,dns_ptr,pop_dns_ptr_match
 143.105.220.128/25,FR,FR-IDF,Paris,,,customer.isp.starlink.com.,False
 143.105.221.0/25,QA,QA-DA,Doha,,,customer.isp.starlink.com.,False
 143.105.221.128/25,QA,QA-DA,Doha,,,customer.isp.starlink.com.,False
+153.67.207.0/25,US,US-OR,Portland,,,customer.prtdorx3.isp.starlink.com.,False
+153.67.207.128/25,US,US-OR,Portland,,,customer.prtdorx3.isp.starlink.com.,False
 98.97.184.0/26,US,US-WA,Seattle,,,customer.isp.starlink.com.,False
 198.54.100.12/32,PH,PH-00,Manila,,,,False
 198.54.100.13/32,PH,PH-00,Manila,,,,False
@@ -4384,6 +4383,7 @@ cidr,country,region,city,pop,code,dns_ptr,pop_dns_ptr_match
 2406:2d40:2f00::/40,BD,BD-E,Dhaka,,,customer.dhkabgd1.isp.starlink.com.,False
 2605:59c0:9d00::/40,US,US-TN,Memphis,,,,False
 2605:59c1:1e00::/40,US,US-WA,Seattle,,,customer.lgosnga1.isp.starlink.com.,False
+2605:59c8:8200::/40,US,US-OR,Portland,,,customer.prtdorx3.isp.starlink.com.,False
 2605:59c9::/40,US,US-WA,Seattle,,,customer.isp.starlink.com.,False
 2605:59c9:400::/40,US,US-WA,Seattle,,,customer.isp.starlink.com.,False
 2605:59ca:7500::/40,US,US-KY,Louisville,,,,False
