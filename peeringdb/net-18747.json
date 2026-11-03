@@ -53,7 +53,7 @@
             "asn": 14593,
             "looking_glass": "",
             "route_server": "",
-            "irr_as_set": "AS14593:AS-SX-STARLINK",
+            "irr_as_set": "RADB::AS14593:AS-SX-STARLINK",
             "info_type": "Cable/DSL/ISP",
             "info_types": [
                 "Cable/DSL/ISP"
@@ -67,10 +67,10 @@
             "info_multicast": false,
             "info_ipv6": true,
             "info_never_via_route_servers": false,
-            "ix_count": 79,
+            "ix_count": 80,
             "fac_count": 65,
             "notes": "",
-            "netixlan_updated": "2026-10-29T20:01:39Z",
+            "netixlan_updated": "2026-11-03T10:17:01Z",
             "netfac_updated": "2026-08-25T17:12:48Z",
             "poc_updated": "2021-11-11T17:04:55Z",
             "policy_url": "",
@@ -3055,6 +3055,26 @@
                     "created": "2026-10-29T20:01:40Z",
                     "updated": "2026-10-29T20:01:40Z",
                     "status": "ok"
+                },
+                {
+                    "id": 114399,
+                    "ix_id": 250,
+                    "name": "MyIX",
+                    "ixlan_id": 250,
+                    "notes": "",
+                    "speed": 200000,
+                    "asn": 14593,
+                    "ipaddr4": "218.100.44.236",
+                    "ipaddr6": "2001:de8:10::126",
+                    "is_rs_peer": true,
+                    "bfd_support": false,
+                    "operational": true,
+                    "net_side_id": null,
+                    "ix_side_id": null,
+                    "meta": {},
+                    "created": "2026-11-03T10:17:01Z",
+                    "updated": "2026-11-03T10:17:01Z",
+                    "status": "ok"
                 }
             ],
             "poc_set": [
@@ -3079,7 +3099,7 @@
             "logo": null,
             "meta": {},
             "created": "2019-01-08T00:50:56Z",
-            "updated": "2026-10-29T20:02:48Z",
+            "updated": "2026-11-03T04:29:27Z",
             "status": "ok"
         }
     ],
