@@ -1024,7 +1024,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-11-04T19:23:05Z"
+            "since": "2026-11-04T19:56:28Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mntlcan1"
@@ -1813,7 +1813,7 @@
         "status": {
             "id": 2,
             "name": "Disconnected",
-            "since": "2026-11-04T19:25:56Z"
+            "since": "2026-11-04T19:55:47Z"
         },
         "type": "Probe",
         "ipv4_ptr": "frntdeu1",
@@ -3848,7 +3848,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-11-02T22:46:03Z"
+            "since": "2026-11-04T19:58:25Z"
         },
         "type": "Probe",
         "ipv4_ptr": ""
@@ -7056,6 +7056,35 @@
         },
         "type": "Probe",
         "ipv4_ptr": "ashnvax2"
+    },
+    {
+        "address_v4": "153.67.15.26",
+        "address_v6": null,
+        "asn_v4": 14593,
+        "asn_v6": null,
+        "country_code": "AR",
+        "description": "Sonda - Las Higueras - Cordoba - Argentina",
+        "firmware_version": 5130,
+        "first_connected": 1789663044,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -64.2925,
+                -33.0805
+            ]
+        },
+        "id": 1017704,
+        "is_anchor": false,
+        "is_public": true,
+        "prefix_v4": "153.67.14.0/23",
+        "prefix_v6": null,
+        "status": {
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-11-04T19:41:15Z"
+        },
+        "type": "Probe",
+        "ipv4_ptr": "bnssarg1"
     },
     {
         "address_v4": "179.64.125.26",
