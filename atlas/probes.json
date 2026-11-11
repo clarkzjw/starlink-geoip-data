@@ -736,7 +736,7 @@
         "ipv6_ptr": "mnlaphl1"
     },
     {
-        "address_v4": "216.234.213.215",
+        "address_v4": "216.234.213.84",
         "address_v6": null,
         "asn_v4": 14593,
         "asn_v6": null,
@@ -759,7 +759,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-11-11T15:04:51Z"
+            "since": "2026-11-11T17:29:41Z"
         },
         "type": "Probe",
         "ipv4_ptr": "jhngzaf1"
@@ -994,7 +994,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-11-11T15:48:23Z"
+            "since": "2026-11-11T22:13:05Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mntlcan1"
@@ -1314,7 +1314,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-11-11T02:50:55Z"
+            "since": "2026-11-11T21:06:02Z"
         },
         "type": "Probe",
         "ipv4_ptr": "frntdeu1"
@@ -1430,7 +1430,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-11-10T07:02:37Z"
+            "since": "2026-11-11T18:08:54Z"
         },
         "type": "Probe",
         "ipv4_ptr": ""
@@ -1783,7 +1783,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-11-11T03:42:09Z"
+            "since": "2026-11-11T18:30:24Z"
         },
         "type": "Probe",
         "ipv4_ptr": "lndngbr1"
@@ -1792,7 +1792,7 @@
         "address_v4": "209.198.153.66",
         "address_v6": "2a0d:3344:1500:3dd1:1:62ff:fe0e:7435",
         "asn_v4": 14593,
-        "asn_v6": 14593,
+        "asn_v6": null,
         "country_code": "DE",
         "description": "CS Starlink Germany",
         "firmware_version": 5080,
@@ -1808,15 +1808,14 @@
         "is_anchor": false,
         "is_public": true,
         "prefix_v4": "209.198.152.0/23",
-        "prefix_v6": "2a0d:3344:1500::/40",
+        "prefix_v6": null,
         "status": {
             "id": 2,
             "name": "Disconnected",
-            "since": "2026-11-11T15:47:39Z"
+            "since": "2026-11-11T22:34:01Z"
         },
         "type": "Probe",
-        "ipv4_ptr": "frntdeu1",
-        "ipv6_ptr": "frntdeu1"
+        "ipv4_ptr": "frntdeu1"
     },
     {
         "address_v4": null,
@@ -3019,7 +3018,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-11-11T13:46:47Z"
+            "since": "2026-11-11T21:38:51Z"
         },
         "type": "Probe",
         "ipv4_ptr": "chcoilx1",
@@ -3226,7 +3225,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-10-28T06:55:54Z"
+            "since": "2026-11-11T21:09:00Z"
         },
         "type": "Probe",
         "ipv4_ptr": "chcoilx1",
@@ -3639,39 +3638,10 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-11-10T23:29:05Z"
+            "since": "2026-11-11T20:06:59Z"
         },
         "type": "Probe",
         "ipv4_ptr": "tkyojpn1"
-    },
-    {
-        "address_v4": "14.1.76.105",
-        "address_v6": null,
-        "asn_v4": 14593,
-        "asn_v6": null,
-        "country_code": "NU",
-        "description": "Telecom Niue LTD",
-        "firmware_version": 5080,
-        "first_connected": 1777595694,
-        "geometry": {
-            "type": "Point",
-            "coordinates": [
-                -169.8485,
-                -19.0725
-            ]
-        },
-        "id": 64391,
-        "is_anchor": false,
-        "is_public": true,
-        "prefix_v4": "14.1.76.0/23",
-        "prefix_v6": null,
-        "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-11-11T14:35:02Z"
-        },
-        "type": "Probe",
-        "ipv4_ptr": "sydyaus1"
     },
     {
         "address_v4": "98.97.39.162",
@@ -3734,7 +3704,7 @@
         "ipv6_ptr": "almykaz1"
     },
     {
-        "address_v4": "153.67.57.11",
+        "address_v4": "153.67.57.218",
         "address_v6": null,
         "asn_v4": 14593,
         "asn_v6": null,
@@ -3752,12 +3722,12 @@
         "id": 64683,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "153.67.57.0/24",
+        "prefix_v4": "153.67.56.0/23",
         "prefix_v6": null,
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2026-11-11T10:20:41Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-11-11T21:58:14Z"
         },
         "type": "Probe",
         "ipv4_ptr": "nrbiken1"
@@ -7167,9 +7137,9 @@
         "prefix_v4": "143.105.136.0/23",
         "prefix_v6": null,
         "status": {
-            "id": 1,
-            "name": "Connected",
-            "since": "2026-11-11T14:52:54Z"
+            "id": 2,
+            "name": "Disconnected",
+            "since": "2026-11-11T19:30:11Z"
         },
         "type": "Probe",
         "ipv4_ptr": "bnssarg1"
