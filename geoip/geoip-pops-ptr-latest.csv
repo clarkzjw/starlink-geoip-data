@@ -155,8 +155,6 @@ cidr,country,region,city,pop,code,dns_ptr,pop_dns_ptr_match
 9.170.153.0/24,US,US-MI,Detroit,chcoilx1,ord,customer.isp.starlink.com.,False
 9.170.154.0/24,GH,GH-AA,Accra,lgosnga1,los,customer.isp.starlink.com.,False
 9.170.155.0/24,GH,GH-AA,Accra,lgosnga1,los,customer.isp.starlink.com.,False
-9.170.156.0/24,PR,,San Juan,mmmiflx1,mia,customer.isp.starlink.com.,False
-9.170.157.0/24,PR,,San Juan,mmmiflx1,mia,customer.isp.starlink.com.,False
 9.170.158.0/24,PR,,San Juan,mmmiflx1,mia,customer.isp.starlink.com.,False
 9.170.159.0/24,PR,,San Juan,mmmiflx1,mia,customer.isp.starlink.com.,False
 9.170.160.0/24,PR,,San Juan,mmmiflx1,mia,customer.isp.starlink.com.,False
@@ -1052,6 +1050,10 @@ cidr,country,region,city,pop,code,dns_ptr,pop_dns_ptr_match
 129.222.77.0/24,US,US-TX,Dallas,dllstxx1,dfw,customer.dllstxx1.isp.starlink.com.,True
 129.222.78.0/24,US,US-TX,Dallas,dllstxx1,dfw,customer.dllstxx1.isp.starlink.com.,True
 129.222.79.0/24,US,US-TX,Dallas,dllstxx1,dfw,customer.dllstxx1.isp.starlink.com.,True
+129.222.80.0/24,US,US-OK,Oklahoma City,knsymox1,mci,customer.isp.starlink.com.,False
+129.222.81.0/24,US,US-OK,Oklahoma City,knsymox1,mci,customer.isp.starlink.com.,False
+129.222.82.0/24,US,US-NH,Manchester,nwyynyx1,lga,customer.isp.starlink.com.,False
+129.222.83.0/24,US,US-NH,Manchester,nwyynyx1,lga,customer.isp.starlink.com.,False
 129.222.88.0/24,US,US-FL,Miami,mmmiflx1,mia,customer.mmmiflx1.isp.starlink.com.,True
 129.222.89.0/24,US,US-FL,Miami,mmmiflx1,mia,customer.mmmiflx1.isp.starlink.com.,True
 129.222.90.0/24,MX,MX-CMX,Mexico City,qrtomex1,qro,customer.qrtomex1.isp.starlink.com.,True
@@ -2698,6 +2700,18 @@ cidr,country,region,city,pop,code,dns_ptr,pop_dns_ptr_match
 179.65.61.0/24,SB,SB-CT,Honiara,sydyaus1,syd,,False
 179.65.62.0/24,NZ,NZ-CAN,Christchurch,chrhnzl1,chc,,False
 179.65.63.0/24,NZ,NZ-CAN,Christchurch,chrhnzl1,chc,,False
+179.65.64.0/24,AU,AU-QLD,Brisbane,brseaus1,bne,,False
+179.65.65.0/24,AU,AU-QLD,Brisbane,brseaus1,bne,,False
+179.65.66.0/24,AU,AU-QLD,Brisbane,brseaus1,bne,,False
+179.65.67.0/24,AU,AU-QLD,Brisbane,brseaus1,bne,,False
+179.65.68.0/24,AU,AU-VIC,Melbourne,mlbeaus1,mel,,False
+179.65.69.0/24,AU,AU-VIC,Melbourne,mlbeaus1,mel,,False
+179.65.70.0/24,AU,AU-VIC,Melbourne,mlbeaus1,mel,,False
+179.65.71.0/24,AU,AU-VIC,Melbourne,mlbeaus1,mel,,False
+179.65.72.0/24,AU,AU-NSW,Sydney,sydyaus1,syd,,False
+179.65.73.0/24,AU,AU-NSW,Sydney,sydyaus1,syd,,False
+179.65.74.0/24,AU,AU-NSW,Sydney,sydyaus1,syd,,False
+179.65.75.0/24,AU,AU-NSW,Sydney,sydyaus1,syd,,False
 179.65.104.0/24,PG,PG-NCD,Port Moresby,sydyaus1,syd,,False
 179.65.105.0/24,PG,PG-NCD,Port Moresby,sydyaus1,syd,,False
 179.65.108.0/24,MY,MY-14,Kuala Lumpur,sngesgp1,sin,,False
@@ -2998,6 +3012,12 @@ cidr,country,region,city,pop,code,dns_ptr,pop_dns_ptr_match
 179.238.177.0/24,BR,BR-DF,Brasilia,brsabra1,bsb,customer.isp.starlink.com.,False
 179.238.178.0/24,BR,BR-DF,Brasilia,brsabra1,bsb,customer.isp.starlink.com.,False
 179.238.179.0/24,BR,BR-DF,Brasilia,brsabra1,bsb,customer.isp.starlink.com.,False
+179.238.180.0/24,MX,MX-CMX,Mexico City,tmpeazx1,phx,customer.isp.starlink.com.,False
+179.238.181.0/24,MX,MX-CMX,Mexico City,tmpeazx1,phx,customer.isp.starlink.com.,False
+179.238.182.0/24,SV,SV-SS,San Salvador,gtmygtm1,gua,customer.isp.starlink.com.,False
+179.238.183.0/24,SV,SV-SS,San Salvador,gtmygtm1,gua,customer.isp.starlink.com.,False
+179.238.184.0/24,AR,AR-C,Buenos Aires,prtebra1,poa,customer.isp.starlink.com.,False
+179.238.185.0/24,AR,AR-C,Buenos Aires,prtebra1,poa,customer.isp.starlink.com.,False
 188.92.248.0/24,FR,FR-IDF,Paris,mdrdesp1,mad,customer.mdrdesp1.isp.starlink.com.,True
 188.92.249.0/24,FR,FR-IDF,Paris,mdrdesp1,mad,customer.mdrdesp1.isp.starlink.com.,True
 188.92.252.0/24,ES,ES-MD,Madrid,mdrdesp1,mad,customer.mdrdesp1.isp.starlink.com.,True
@@ -3372,7 +3392,6 @@ cidr,country,region,city,pop,code,dns_ptr,pop_dns_ptr_match
 2605:59c0:5c00::/38,SN,SN-DK,Dakar,dkrrsen1,dss,customer.dkrrsen1.isp.starlink.com.,True
 2605:59c0:a000::/38,LB,LB-BA,Beirut,dohaqat1,doh,customer.sntochl1.isp.starlink.com.,False
 2605:59c0:a800::/38,US,US-TX,Dallas,mclntxx1,mfe,customer.mclntxx1.isp.starlink.com.,True
-2605:59c0:b800::/38,PR,,San Juan,mmmiflx1,mia,,False
 2605:59c1::/38,US,US-WA,Seattle,sttlwax1,sea,customer.sttlwax1.isp.starlink.com.,True
 2605:59c1:400::/38,US,US-CA,Los Angeles,lsancax1,lax,customer.lsancax1.isp.starlink.com.,True
 2605:59c1:800::/38,US,US-IL,Chicago,chcoilx1,ord,customer.chcoilx1.isp.starlink.com.,True
@@ -3393,6 +3412,7 @@ cidr,country,region,city,pop,code,dns_ptr,pop_dns_ptr_match
 2605:59c1:4800::/38,US,US-MN,Minneapolis,mplsmnx1,msp,customer.mplsmnx1.isp.starlink.com.,True
 2605:59c1:4c00::/38,US,US-VA,Ashburn,ashnvax2,iad,customer.ashnvax2.isp.starlink.com.,True
 2605:59c8:5800::/38,DJ,DJ-DJ,Djibouti,nrbiken1,nbo,customer.nrbiken1.isp.starlink.com.,True
+2605:59c8:5c00::/38,US,US-MO,Kansas City,knsymox1,mci,,False
 2605:59c8:8400::/38,UG,UG-102,Kampala,nrbiken1,nbo,customer.nrbiken1.isp.starlink.com.,True
 2803:9810::/38,MX,MX-CMX,Mexico City,qrtomex1,qro,customer.qrtomex1.isp.starlink.com.,True
 2803:9810:400::/38,GT,GT-01,Guatemala City,gtmygtm1,gua,customer.gtmygtm1.isp.starlink.com.,True
@@ -3746,11 +3766,15 @@ cidr,country,region,city,pop,code,dns_ptr,pop_dns_ptr_match
 2605:59c8:5400::/40,SN,SN-DK,Dakar,mdrdesp1,mad,customer.mdrdesp1.isp.starlink.com.,True
 2605:59c8:5500::/40,ML,ML-BKO,Bamako,mdrdesp1,mad,customer.mdrdesp1.isp.starlink.com.,True
 2605:59c8:5600::/40,BF,BF-03,Ouagadougou,lgosnga1,los,customer.lgosnga1.isp.starlink.com.,True
+2605:59c8:5700::/40,US,US-OK,Oklahoma City,knsymox1,mci,,False
 2605:59c8:6000::/40,US,US-GA,Atlanta,atlagax1,atl,customer.atlagax1.isp.starlink.com.,True
 2605:59c8:6100::/40,US,US-GA,Atlanta,atlagax1,atl,customer.atlagax1.isp.starlink.com.,True
 2605:59c8:6200::/40,US,US-GA,Atlanta,atlagax1,atl,customer.atlagax1.isp.starlink.com.,True
 2605:59c8:6300::/40,US,US-GA,Atlanta,atlagax1,atl,customer.atlagax1.isp.starlink.com.,True
+2605:59c8:6400::/40,US,US-MS,Jackson,atlagax1,atl,,False
 2605:59c8:6500::/40,VE,VE-A,Caracas,frtabra1,for,customer.frtabra1.isp.starlink.com.,True
+2605:59c8:6600::/40,US,US-TX,El Paso,tmpeazx1,phx,,False
+2605:59c8:6700::/40,ZM,ZM-09,Lusaka,jhngzaf1,jnb,,False
 2605:59c8:6800::/40,GF,,Cayenne,frtabra1,for,customer.frtabra1.isp.starlink.com.,True
 2605:59c8:6900::/40,BR,BR-CE,Fortaleza,frtabra1,for,customer.frtabra1.isp.starlink.com.,True
 2605:59c8:6a00::/40,SR,SR-PM,Paramaribo,frtabra1,for,customer.frtabra1.isp.starlink.com.,True
@@ -3758,11 +3782,17 @@ cidr,country,region,city,pop,code,dns_ptr,pop_dns_ptr_match
 2605:59c8:6c00::/40,ZM,ZM-09,Lusaka,jhngzaf1,jnb,customer.jhngzaf1.isp.starlink.com.,True
 2605:59c8:6d00::/40,SS,SS-EC,Juba,nrbiken1,nbo,customer.nrbiken1.isp.starlink.com.,True
 2605:59c8:6e00::/40,KY,,George Town,mmmiflx1,mia,customer.mmmiflx1.isp.starlink.com.,True
+2605:59c8:6f00::/40,US,US-MO,Kansas City,chcoilx1,ord,,False
 2605:59c8:7000::/40,MX,MX-CMX,Mexico City,mclntxx1,mfe,customer.qrtomex1.isp.starlink.com.,False
 2605:59c8:7100::/40,MX,MX-CMX,Mexico City,qrtomex1,qro,customer.qrtomex1.isp.starlink.com.,True
+2605:59c8:7200::/40,US,US-SC,Charleston,atlagax1,atl,,False
 2605:59c8:7300::/40,MX,MX-CMX,Mexico City,qrtomex1,qro,customer.qrtomex1.isp.starlink.com.,True
 2605:59c8:7400::/40,MX,MX-CMX,Mexico City,qrtomex1,qro,customer.qrtomex1.isp.starlink.com.,True
+2605:59c8:7500::/40,US,US-MI,Detroit,chcoilx1,ord,,False
 2605:59c8:7600::/40,MX,MX-CMX,Mexico City,qrtomex1,qro,customer.qrtomex1.isp.starlink.com.,True
+2605:59c8:7700::/40,US,US-NM,Albuquerque,tmpeazx1,phx,,False
+2605:59c8:7800::/40,US,US-PA,Philadelphia,nwyynyx1,lga,,False
+2605:59c8:7900::/40,US,US-IN,Indianapolis,chcoilx1,ord,,False
 2605:59c8:8100::/40,TG,TG-M,Lome,lgosnga1,los,customer.lgosnga1.isp.starlink.com.,True
 2605:59c8:8200::/40,US,US-OR,Portland,prtdorx3,pdx2,customer.prtdorx3.isp.starlink.com.,True
 2605:59c8:8300::/40,US,US-GA,Atlanta,atlagax3,atl2,,False
@@ -4148,6 +4178,8 @@ cidr,country,region,city,pop,code,dns_ptr,pop_dns_ptr_match
 9.161.181.0/24,US,US-WA,Seattle,,,customer.isp.starlink.com.,False
 9.161.188.0/24,GB,GB-LND,London,,,customer.isp.starlink.com.,False
 9.161.189.0/24,GB,GB-LND,London,,,customer.isp.starlink.com.,False
+9.170.156.0/24,PR,,San Juan,,,customer.isp.starlink.com.,False
+9.170.157.0/24,PR,,San Juan,,,customer.isp.starlink.com.,False
 9.170.238.0/24,US,US-TX,Dallas,,,customer.isp.starlink.com.,False
 9.170.239.0/24,US,US-TX,Dallas,,,customer.isp.starlink.com.,False
 9.170.240.0/24,US,US-TX,Dallas,,,customer.isp.starlink.com.,False
@@ -4382,6 +4414,7 @@ cidr,country,region,city,pop,code,dns_ptr,pop_dns_ptr_match
 198.54.100.97/32,VN,VN-SG,Saigon,,,,False
 2605:59c0:a400::/38,US,US-TX,Dallas,,,customer.limaper1.isp.starlink.com.,False
 2605:59c0:ac00::/38,US,US-TX,Dallas,,,,False
+2605:59c0:b800::/38,PR,,San Juan,,,,False
 2406:2d40:2c00::/40,BD,BD-E,Dhaka,,,customer.dhkabgd1.isp.starlink.com.,False
 2406:2d40:2f00::/40,BD,BD-E,Dhaka,,,customer.dhkabgd1.isp.starlink.com.,False
 2605:59c0:9d00::/40,US,US-TN,Memphis,,,,False
