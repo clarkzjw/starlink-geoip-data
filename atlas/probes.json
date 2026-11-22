@@ -23,7 +23,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-11-20T19:23:47Z"
+            "since": "2026-11-21T19:46:35Z"
         },
         "type": "Probe",
         "ipv4_ptr": "",
@@ -529,7 +529,7 @@
         "ipv4_ptr": "mlnnita1"
     },
     {
-        "address_v4": "143.105.152.124",
+        "address_v4": "143.105.152.106",
         "address_v6": null,
         "asn_v4": 14593,
         "asn_v6": null,
@@ -550,9 +550,9 @@
         "prefix_v4": "143.105.152.0/24",
         "prefix_v6": null,
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2026-11-21T18:02:54Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-11-21T22:15:41Z"
         },
         "type": "Probe",
         "ipv4_ptr": "lgosnga1"
@@ -993,9 +993,9 @@
         "prefix_v4": "143.105.202.0/23",
         "prefix_v6": null,
         "status": {
-            "id": 2,
-            "name": "Disconnected",
-            "since": "2026-11-21T18:16:48Z"
+            "id": 1,
+            "name": "Connected",
+            "since": "2026-11-22T00:26:02Z"
         },
         "type": "Probe",
         "ipv4_ptr": "mntlcan1"
@@ -1295,7 +1295,7 @@
         "address_v4": null,
         "address_v6": "2406:2d40:44ec:2f00:1ad6:c7ff:fe22:5ba8",
         "asn_v4": null,
-        "asn_v6": 14593,
+        "asn_v6": null,
         "country_code": "AU",
         "description": "TL-MR3020",
         "firmware_version": 0,
@@ -1311,14 +1311,13 @@
         "is_anchor": false,
         "is_public": true,
         "prefix_v4": null,
-        "prefix_v6": "2406:2d40:4400::/40",
+        "prefix_v6": null,
         "status": {
             "id": 3,
             "name": "Abandoned",
             "since": "2023-05-31T23:34:39Z"
         },
-        "type": "Probe",
-        "ipv6_ptr": "sydyaus1"
+        "type": "Probe"
     },
     {
         "address_v4": null,
@@ -1490,7 +1489,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-11-13T09:20:43Z"
+            "since": "2026-11-21T22:34:33Z"
         },
         "type": "Probe",
         "ipv4_ptr": "gtmygtm1",
@@ -1812,11 +1811,39 @@
         "status": {
             "id": 2,
             "name": "Disconnected",
-            "since": "2026-11-21T18:22:44Z"
+            "since": "2026-11-22T00:23:38Z"
         },
         "type": "Probe",
         "ipv4_ptr": "frntdeu1",
         "ipv6_ptr": "frntdeu1"
+    },
+    {
+        "address_v4": "150.228.21.187",
+        "address_v6": "fdd3:54df:3a45:7246:1:41ff:fea5:f43e",
+        "asn_v4": null,
+        "asn_v6": null,
+        "country_code": "IE",
+        "description": "home as204994",
+        "firmware_version": 5080,
+        "first_connected": 1578603842,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -6.3385,
+                53.2875
+            ]
+        },
+        "id": 52280,
+        "is_anchor": false,
+        "is_public": true,
+        "prefix_v4": null,
+        "prefix_v6": null,
+        "status": {
+            "id": 2,
+            "name": "Disconnected",
+            "since": "2026-11-21T22:11:30Z"
+        },
+        "type": "Probe"
     },
     {
         "address_v4": null,
@@ -5465,7 +5492,7 @@
     },
     {
         "address_v4": "150.228.217.118",
-        "address_v6": "2406:2d40:a824:9110:3eec:efff:fec9:5178",
+        "address_v6": "2406:2d40:a809:2e10:ef97:83a5:1fa5:d47",
         "asn_v4": 14593,
         "asn_v6": 14593,
         "country_code": "KI",
@@ -6433,7 +6460,7 @@
         "status": {
             "id": 1,
             "name": "Connected",
-            "since": "2026-11-07T21:16:16Z"
+            "since": "2026-11-21T21:24:27Z"
         },
         "type": "Probe",
         "ipv4_ptr": "acklnzl1",
@@ -7293,7 +7320,7 @@
         "ipv6_ptr": "jtnaidn2"
     },
     {
-        "address_v4": "202.65.238.201",
+        "address_v4": "203.17.85.245",
         "address_v6": "2401:e320:7fd:4401:da58:d7ff:fe03:11d4",
         "asn_v4": 45700,
         "asn_v6": 45700,
@@ -7311,7 +7338,7 @@
         "id": 65451,
         "is_anchor": false,
         "is_public": true,
-        "prefix_v4": "202.65.238.0/23",
+        "prefix_v4": "203.17.84.0/23",
         "prefix_v6": "2401:e320:400::/38",
         "status": {
             "id": 1,
