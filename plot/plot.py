@@ -358,6 +358,8 @@ def plot_active_atlas_probe_per_pops():
                 line = line.replace("Iran, Islamic Republic of\n", "Iran\n")
             elif line.endswith("Micronesia, Federated States of\n"):
                 line = line.replace("Micronesia, Federated States of\n", "Micronesia\n")
+            elif line.endswith("Korea, Republic of\n"):
+                line = line.replace("Korea, Republic of\n", "Korea\n")
 
             _, pop_code, _, _ = line.split(",")
             if len(pop_code) > 0:
